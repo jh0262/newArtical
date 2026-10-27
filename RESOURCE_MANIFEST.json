@@ -1,0 +1,184 @@
+[
+  {
+    "path": "project/matlab_code/README_使用说明.md",
+    "bytes": 2904,
+    "sha256": "95fb5d0b8104846ee8da97ccbabbc8e30e4b6bcd0dbef442d82c4e96c4627eb1",
+    "source": "02_草稿待验证_P04_电动缸及关联草稿/matlab_code/README_使用说明.md"
+  },
+  {
+    "path": "project/matlab_code/electric_cylinder_samples_template.csv",
+    "bytes": 98,
+    "sha256": "0213df17c199c49ac43f030ac4044dde65fd68b47a10925e9b1ff56700e4bacd",
+    "source": "02_草稿待验证_P04_电动缸及关联草稿/matlab_code/electric_cylinder_samples_template.csv"
+  },
+  {
+    "path": "project/matlab_code/electric_cylinder_surrogate_optimization.m",
+    "bytes": 24237,
+    "sha256": "4309988aafed0ba7d5bc897098830b38db903270800fd1f652f53820f157bca1",
+    "source": "02_草稿待验证_P04_电动缸及关联草稿/matlab_code/electric_cylinder_surrogate_optimization.m"
+  },
+  {
+    "path": "project/matlab_code/figures/before_after_comparison.csv",
+    "bytes": 418,
+    "sha256": "e8d4acf560e942320aff7debe4d47ea7faaa87bd4c09ad670bca094c0dfe2261",
+    "source": "02_草稿待验证_P04_电动缸及关联草稿/matlab_code/figures/before_after_comparison.csv"
+  },
+  {
+    "path": "project/matlab_code/figures/electric_cylinder_surrogate_optimization_results.mat",
+    "bytes": 3042127,
+    "sha256": "953fa3e9f56768c281514b4ea8d32a4bd08a4cd3ef2f15c2a424b662099520eb",
+    "source": "02_草稿待验证_P04_电动缸及关联草稿/matlab_code/figures/electric_cylinder_surrogate_optimization_results.mat",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/matlab_code/figures/fig_before_after.png",
+    "bytes": 278701,
+    "sha256": "fe2854a95a34751345ba9b9ad37eda564c2b195eedb6f3745c9e911298c48ab5",
+    "source": "02_草稿待验证_P04_电动缸及关联草稿/matlab_code/figures/fig_before_after.png",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/matlab_code/figures/fig_de_convergence.png",
+    "bytes": 283412,
+    "sha256": "e8a67c620a2badcc7dcde21851c8e613340a921982ac0f390dad384bbabc4119",
+    "source": "02_草稿待验证_P04_电动缸及关联草稿/matlab_code/figures/fig_de_convergence.png",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/matlab_code/figures/fig_metric_MAE.png",
+    "bytes": 206348,
+    "sha256": "daaed58edca4eba2de46131b652e92a863044943f6c8d64096ef7a0d602b3248",
+    "source": "02_草稿待验证_P04_电动缸及关联草稿/matlab_code/figures/fig_metric_MAE.png",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/matlab_code/figures/fig_metric_MAPE.png",
+    "bytes": 192921,
+    "sha256": "57b8bcba2d0a618f516bb1af89102d0c1a267ae985e148dd5f1516756478ca1e",
+    "source": "02_草稿待验证_P04_电动缸及关联草稿/matlab_code/figures/fig_metric_MAPE.png",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/matlab_code/figures/fig_metric_R2.png",
+    "bytes": 201030,
+    "sha256": "7db026f4c78ac42c1069ed56e46d73cd09f63613ee0b925f157e2ac9c5628152",
+    "source": "02_草稿待验证_P04_电动缸及关联草稿/matlab_code/figures/fig_metric_R2.png",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/matlab_code/figures/fig_metric_RMSE.png",
+    "bytes": 215859,
+    "sha256": "347ff7b3fad8f082b1ecf76bcc1a776bcbe0e9c83108bc83d174b33125139e94",
+    "source": "02_草稿待验证_P04_电动缸及关联草稿/matlab_code/figures/fig_metric_RMSE.png",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/matlab_code/figures/fig_pareto_3d.png",
+    "bytes": 565785,
+    "sha256": "8e1dfa951decdc09da1b45a714d134790fe8e60142d29a87f52537d6addfca7d",
+    "source": "02_草稿待验证_P04_电动缸及关联草稿/matlab_code/figures/fig_pareto_3d.png",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/matlab_code/figures/fig_pareto_mass_delta.png",
+    "bytes": 336282,
+    "sha256": "9178a27d3c08558f923e70cc4faf747286e9dc1240aa1c652c9a54f34c8fe91b",
+    "source": "02_草稿待验证_P04_电动缸及关联草稿/matlab_code/figures/fig_pareto_mass_delta.png",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/matlab_code/figures/fig_pred_true_delta.png",
+    "bytes": 276205,
+    "sha256": "846608efde85ddbfbdc60e2f899e6a6d72e0b985a60bbe29b3111e738e88a92f",
+    "source": "02_草稿待验证_P04_电动缸及关联草稿/matlab_code/figures/fig_pred_true_delta.png",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/matlab_code/figures/fig_pred_true_eta.png",
+    "bytes": 403102,
+    "sha256": "653938b6b7fc987d2e39550016684cfb2faeb6a17957e4072aa040eb6001b7bd",
+    "source": "02_草稿待验证_P04_电动缸及关联草稿/matlab_code/figures/fig_pred_true_eta.png",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/matlab_code/figures/fig_pred_true_k_total.png",
+    "bytes": 336840,
+    "sha256": "9eab804f860b903714285533c00afddd30d9901b9cc8e6ae9a32a9b0421574c2",
+    "source": "02_草稿待验证_P04_电动缸及关联草稿/matlab_code/figures/fig_pred_true_k_total.png",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/matlab_code/figures/fig_pred_true_life_h.png",
+    "bytes": 272176,
+    "sha256": "1b9761593a10fa764067d99ce427807d1fc3809fae1f81f21f990baff0c5203c",
+    "source": "02_草稿待验证_P04_电动缸及关联草稿/matlab_code/figures/fig_pred_true_life_h.png",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/matlab_code/figures/fig_pred_true_mass.png",
+    "bytes": 320165,
+    "sha256": "f70f36bcc84c9c80876ad8784e4424615f87c065e2076bc0473a88c98d890fb5",
+    "source": "02_草稿待验证_P04_电动缸及关联草稿/matlab_code/figures/fig_pred_true_mass.png",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/matlab_code/figures/fig_pred_true_sigma.png",
+    "bytes": 327867,
+    "sha256": "f47341dbe42b8bcf0b505698321e518db59b1ba40ffd457dac4de53998c5f177",
+    "source": "02_草稿待验证_P04_电动缸及关联草稿/matlab_code/figures/fig_pred_true_sigma.png",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/matlab_code/figures/fig_residual_box.png",
+    "bytes": 383664,
+    "sha256": "f990a8626b63b0dd212561b114a5948fdabf77dd36bb069010334aabcc7e7f27",
+    "source": "02_草稿待验证_P04_电动缸及关联草稿/matlab_code/figures/fig_residual_box.png",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/matlab_code/figures/fig_response_surface_delta.png",
+    "bytes": 686648,
+    "sha256": "e012d40445bbc5bc1493216444d54373c663095f4950a605a6b38552ede4a6a3",
+    "source": "02_草稿待验证_P04_电动缸及关联草稿/matlab_code/figures/fig_response_surface_delta.png",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/matlab_code/figures/fig_response_surface_k_total.png",
+    "bytes": 795402,
+    "sha256": "aceedff3e032b3977eb7f3abdf0c8c8c4dc880097dda2276e1edf179321e1d61",
+    "source": "02_草稿待验证_P04_电动缸及关联草稿/matlab_code/figures/fig_response_surface_k_total.png",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/matlab_code/figures/fig_response_surface_mass.png",
+    "bytes": 642910,
+    "sha256": "320ed772971f0764490f2daf10f230c8f5768201569090702ce05eee144c503f",
+    "source": "02_草稿待验证_P04_电动缸及关联草稿/matlab_code/figures/fig_response_surface_mass.png",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/matlab_code/figures/fig_response_surface_sigma.png",
+    "bytes": 661196,
+    "sha256": "78d18a559eb7717ed3f35de165c75c087416a610a10ac8a62051599784eb755a",
+    "source": "02_草稿待验证_P04_电动缸及关联草稿/matlab_code/figures/fig_response_surface_sigma.png",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/matlab_code/figures/pareto_solutions.csv",
+    "bytes": 12489,
+    "sha256": "b47fcb6f8f2fa76d9cc6c42d0d7a663cb589f88b632a1035794df3abff066e11",
+    "source": "02_草稿待验证_P04_电动缸及关联草稿/matlab_code/figures/pareto_solutions.csv"
+  },
+  {
+    "path": "project/matlab_code/figures/surrogate_model_metrics.csv",
+    "bytes": 1528,
+    "sha256": "c964393a8c103cab3111ae39e0f73fb6d91b2f70918687d5f29ec09264664006",
+    "source": "02_草稿待验证_P04_电动缸及关联草稿/matlab_code/figures/surrogate_model_metrics.csv"
+  },
+  {
+    "path": "project/m.py",
+    "bytes": 3649,
+    "sha256": "017db3e0cacb32d8b12162fe4a2255436e8d0b494119ad752eeee4e95c15ba7f",
+    "source": "02_草稿待验证_P04_电动缸及关联草稿/m.py"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "key": "P04",
+  "root": "02_草稿待验证_P04_电动缸及关联草稿",
+  "title": "基于代理模型与差分进化算法的电动缸结构参数多目标优化研究",
+  "branch": "基于代理模型与差分进化算法的电动缸结构参数多目标优化研究",
+  "include": [
+    "matlab_code",
+    "m.py"
+  ],
+  "status": "Analytical-model prototype and saved model outputs. The samples are not finite-element or physical measurements.",
+  "entry": "Read project/matlab_code/README_使用说明.md before running the MATLAB entry point.",
+  "exclude": [],
+  "data": [
+    "matlab_code/results"
+  ],
+  "snapshot_date": "2026-10-28",
+  "resource_files": 27,
+  "original_bytes": 10473963,
+  "bundles": 1,
+  "omitted_large_files": [],
+  "secret_pattern_findings": [],
+  "source_files_modified": false,
+  "experiments_run_for_publication": false
+}

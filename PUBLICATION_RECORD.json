@@ -35,5 +35,8 @@
   "secret_pattern_findings": [],
   "source_files_modified": false,
   "experiments_run_for_publication": false,
-  "release_resource_completion_files": 545
+  "release_resource_completion_files": 545,
+  "publication_transport": "Git branch for code; associated GitHub Release for resource archives",
+  "release_url": "https://github.com/jh0262/newArtical/releases/tag/resources-P08-20261028",
+  "remote_archive_sha256_verified": true
 }

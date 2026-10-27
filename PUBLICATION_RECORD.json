@@ -36,5 +36,8 @@
   "omitted_large_files": [],
   "secret_pattern_findings": [],
   "source_files_modified": false,
-  "experiments_run_for_publication": false
+  "experiments_run_for_publication": false,
+  "publication_transport": "Git branch for code; associated GitHub Release for resource archives",
+  "release_url": "https://github.com/jh0262/newArtical/releases/tag/resources-P03-20261028",
+  "remote_archive_sha256_verified": true
 }

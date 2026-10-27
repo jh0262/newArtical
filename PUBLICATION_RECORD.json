@@ -1,0 +1,26 @@
+{
+  "key": "PADE",
+  "root": "新论文",
+  "title": "A Differential Evolution Algorithm with Principal-Axis Manifold Projection and Configuration-Entropy Double-Locking and Its Application to Mechanical Design Optimization",
+  "branch": "A-Differential-Evolution-Algorithm-with-Principal-Axis-Manifold-Projection-and-Configuration-Entropy-Double-Locking-and-Its-Application-to-Mechanical-Design-Optimization",
+  "include": [
+    "Benchmark_23_Functions.m",
+    "PADE_Algorithm_Framework.m",
+    "PADE_Benchmark_Suite.m",
+    "论文修订_20261015/analysis"
+  ],
+  "status": "Original supplied PADE MATLAB files and extracted original result tables are preserved. These supplied demo scripts do not by themselves reproduce every reported 23-function/30-run result. PADE-FE v4 is a separate implementation and is published in a separate branch.",
+  "entry": "The three original .m files are the available implementation. Inspect their actual settings before running. Tables under 论文修订_20261015/analysis are preserved original-paper records, not regenerated experimental results.",
+  "exclude": [],
+  "data": [
+    "论文修订_20261015/analysis"
+  ],
+  "snapshot_date": "2026-10-28",
+  "resource_files": 43,
+  "original_bytes": 1166370,
+  "bundles": 1,
+  "omitted_large_files": [],
+  "secret_pattern_findings": [],
+  "source_files_modified": false,
+  "experiments_run_for_publication": false
+}

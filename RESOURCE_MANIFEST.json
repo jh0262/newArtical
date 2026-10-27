@@ -1,0 +1,295 @@
+[
+  {
+    "path": "project/Benchmark_23_Functions.m",
+    "bytes": 29288,
+    "sha256": "6300b241b6a3a6569296a9cba8db3d157670b45a64dc742d8a4e4a1773708275",
+    "source": "新论文/Benchmark_23_Functions.m"
+  },
+  {
+    "path": "project/PADE_Algorithm_Framework.m",
+    "bytes": 26669,
+    "sha256": "e142f1a79fa9ad64df064a55142dcb236cffe0aeabae3623298b5c81728227f0",
+    "source": "新论文/PADE_Algorithm_Framework.m"
+  },
+  {
+    "path": "project/PADE_Benchmark_Suite.m",
+    "bytes": 26275,
+    "sha256": "33a2af79bca1f374777fdf505fd849ac26e17b06ec1edacc67f26525e32ff6d2",
+    "source": "新论文/PADE_Benchmark_Suite.m"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/author_batch_000.json",
+    "bytes": 33457,
+    "sha256": "285d4b433537856964ca4657bb5c9bbf97444e8a3358405469ceb1109041d93a",
+    "source": "新论文/论文修订_20261015/analysis/author_batch_000.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/author_batch_003.json",
+    "bytes": 548,
+    "sha256": "af2965e307a6b83a5cc1d51473b7fd8776f7794fd8ef1783957c3b57aeaac854",
+    "source": "新论文/论文修订_20261015/analysis/author_batch_003.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/author_batch_006.json",
+    "bytes": 1645,
+    "sha256": "23e8c71b3607a8a63568b5d61bc4869a4d55e1ee67784f03f3d67ff11d82a581",
+    "source": "新论文/论文修订_20261015/analysis/author_batch_006.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/author_batch_008.json",
+    "bytes": 1581,
+    "sha256": "54fb67b1cb92351cc428a2c021066548e1c93e0878216e9b967fdce65fac295f",
+    "source": "新论文/论文修订_20261015/analysis/author_batch_008.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/author_batch_010.json",
+    "bytes": 1102,
+    "sha256": "6e6ea26eb032aac84a0f058f33212a17cea8be4b34bc90ba88f6ef2c1c3dec01",
+    "source": "新论文/论文修订_20261015/analysis/author_batch_010.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/author_batch_012.json",
+    "bytes": 1686,
+    "sha256": "09945cf723b49e47541203fb705c4404d5e01fca5f65ae0e0103389f61828501",
+    "source": "新论文/论文修订_20261015/analysis/author_batch_012.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/author_batch_015.json",
+    "bytes": 685,
+    "sha256": "44bcfe64e36306215d6fd85879d7117b5f81172bc269895651172588a9b6faf3",
+    "source": "新论文/论文修订_20261015/analysis/author_batch_015.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/author_batch_017.json",
+    "bytes": 3070,
+    "sha256": "00a99cae63049772c65b5465a1d13d3dc62f4a76a84ff12fd3a35356963d8d61",
+    "source": "新论文/论文修订_20261015/analysis/author_batch_017.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/author_batch_019.json",
+    "bytes": 3516,
+    "sha256": "5eae5eec68ca0c2829ed9eda965393e249f7e8e1f05d715752d500e18bef6bef",
+    "source": "新论文/论文修订_20261015/analysis/author_batch_019.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/author_batch_021.json",
+    "bytes": 121177,
+    "sha256": "bd889fe2991bd51b0ce067ff8f0ebcaed48fbbd096e6e517b04106f0da1cfe67",
+    "source": "新论文/论文修订_20261015/analysis/author_batch_021.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/author_batch_023.json",
+    "bytes": 454,
+    "sha256": "5d3b3ab6802b8ee42fb63c5f5e71c08c1b59dc8da6e472c4f85ba1186a31d106",
+    "source": "新论文/论文修订_20261015/analysis/author_batch_023.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/author_batch_025.json",
+    "bytes": 454,
+    "sha256": "5d3b3ab6802b8ee42fb63c5f5e71c08c1b59dc8da6e472c4f85ba1186a31d106",
+    "source": "新论文/论文修订_20261015/analysis/author_batch_025.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/author_batch_031.json",
+    "bytes": 17593,
+    "sha256": "6d635631cfed4b044098181d6200e632984eed92aec6b6e450a8c30ce7646dfe",
+    "source": "新论文/论文修订_20261015/analysis/author_batch_031.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/author_batch_033.json",
+    "bytes": 17593,
+    "sha256": "6d635631cfed4b044098181d6200e632984eed92aec6b6e450a8c30ce7646dfe",
+    "source": "新论文/论文修订_20261015/analysis/author_batch_033.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/author_batch_034.json",
+    "bytes": 13821,
+    "sha256": "66404d01d0bd3b8edaa2277eb666741dff051379c6a0d5add94c99e13bb0d16b",
+    "source": "新论文/论文修订_20261015/analysis/author_batch_034.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/author_batch_036.json",
+    "bytes": 13821,
+    "sha256": "66404d01d0bd3b8edaa2277eb666741dff051379c6a0d5add94c99e13bb0d16b",
+    "source": "新论文/论文修订_20261015/analysis/author_batch_036.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/author_batch_040.json",
+    "bytes": 43754,
+    "sha256": "83662312aa560493f513139f8422e76da2be3b5b806f4881804c432db327590d",
+    "source": "新论文/论文修订_20261015/analysis/author_batch_040.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/author_batch_042.json",
+    "bytes": 43654,
+    "sha256": "3e0d740a73b9303ba104d1e5415f458141d7db84453641d9f42a0ed9e401a388",
+    "source": "新论文/论文修订_20261015/analysis/author_batch_042.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/build_manuscript.py",
+    "bytes": 37675,
+    "sha256": "9d39aed001d241d51362487f6623ae3b5d6b5e80962b0bd8a78e05923b952e95",
+    "source": "新论文/论文修订_20261015/analysis/build_manuscript.py"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/build_terminal_figures.py",
+    "bytes": 9581,
+    "sha256": "4472472b329fd49bb25b235296dfc8f7835fa2478b28efb5e2abb15df9cf0f1c",
+    "source": "新论文/论文修订_20261015/analysis/build_terminal_figures.py"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/final_format.json",
+    "bytes": 1241,
+    "sha256": "229c25c7c0d4eaa37f3270dc3eb516fd1d8f76e1d4e00b937998507e8d022e88",
+    "source": "新论文/论文修订_20261015/analysis/final_format.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/finalize_and_check.py",
+    "bytes": 5778,
+    "sha256": "9f1a63d68e0abafd46c358fdc165c7eebdd89aedea6894de0425e3074ee94a42",
+    "source": "新论文/论文修订_20261015/analysis/finalize_and_check.py"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/manuscript_text.txt",
+    "bytes": 55037,
+    "sha256": "a385dae138052010fb3d375373c715ce46c4da056e543e2173025bd262a93268",
+    "source": "新论文/论文修订_20261015/analysis/manuscript_text.txt",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/render_qa.py",
+    "bytes": 1040,
+    "sha256": "8a3b898241419862128a0d0d82fe84120ea3470e7bfbbff01cce096b1b099a52",
+    "source": "新论文/论文修订_20261015/analysis/render_qa.py"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/source_table_1.csv",
+    "bytes": 3453,
+    "sha256": "779ff814606df878f322653a3fe3a4b14e359c4a40009dd942cf688c6fe3455a",
+    "source": "新论文/论文修订_20261015/analysis/source_table_1.csv",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/source_table_1.xml",
+    "bytes": 324659,
+    "sha256": "a2efbf2ead8f4071ed5f57bf6763bf26ca33ea5c73b59207057f87f71c51caf9",
+    "source": "新论文/论文修订_20261015/analysis/source_table_1.xml",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/source_table_2.csv",
+    "bytes": 906,
+    "sha256": "eed3a8e01f7a686bb927bcef53b80a2eb969b6f88d62881557851ccb6edc9aaf",
+    "source": "新论文/论文修订_20261015/analysis/source_table_2.csv",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/source_table_2.xml",
+    "bytes": 88841,
+    "sha256": "77f88f434339ea245872026b58107681541f4928d4e8c5e7edde22796403c3aa",
+    "source": "新论文/论文修订_20261015/analysis/source_table_2.xml",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/source_table_3.csv",
+    "bytes": 773,
+    "sha256": "114bc3ed8006d668650db3c5bdc8834aace9f70fb14ee4d499579c6849e48f4e",
+    "source": "新论文/论文修订_20261015/analysis/source_table_3.csv",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/source_table_3.xml",
+    "bytes": 62572,
+    "sha256": "ab2713d81d0e941c972de2416e7d4c552ea1e472aaf4a6bf50febfd8f910a774",
+    "source": "新论文/论文修订_20261015/analysis/source_table_3.xml",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/source_table_4.csv",
+    "bytes": 603,
+    "sha256": "ff99fd3d2d1bd4d32143ba1a2916210c1dd5c4478da72f0226f41fca669e9f48",
+    "source": "新论文/论文修订_20261015/analysis/source_table_4.csv",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/source_table_4.xml",
+    "bytes": 56159,
+    "sha256": "d4e01533a676b08330f0576de756d6c2778b022f1498266c2cbcdb676314172b",
+    "source": "新论文/论文修订_20261015/analysis/source_table_4.xml",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/source_table_5.csv",
+    "bytes": 726,
+    "sha256": "c63fdbd47c0d74084ea984329f38cf7c054029e516923f220f899f3b5ad7915e",
+    "source": "新论文/论文修订_20261015/analysis/source_table_5.csv",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/source_table_5.xml",
+    "bytes": 45013,
+    "sha256": "89abb0d8233bf332e1fa7fc6e1e32967fde43d3f88b784edf7c57fdcba83e94a",
+    "source": "新论文/论文修订_20261015/analysis/source_table_5.xml",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/source_tables.json",
+    "bytes": 15994,
+    "sha256": "592b827cf4d102f3091e96381ce658d2b6850214dba165e4a6d4f524e56d1f74",
+    "source": "新论文/论文修订_20261015/analysis/source_tables.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/terminal_figures_audit.json",
+    "bytes": 7508,
+    "sha256": "4ad8b6acf077d91eb66a18b0f2bebce11ea4fee6db3b4f7ec3181748a9c82c71",
+    "source": "新论文/论文修订_20261015/analysis/terminal_figures_audit.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/update_report.py",
+    "bytes": 3486,
+    "sha256": "68a614153557ccbd184671c2c8a0fd422e8537887042f73b6ea426dbcc35f59f",
+    "source": "新论文/论文修订_20261015/analysis/update_report.py"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/实验与工程结果修订.md",
+    "bytes": 14151,
+    "sha256": "6ebef0b2e9e2801fc29c68866e86a0032ed2323ecd04d6c2f98670f5856dc26e",
+    "source": "新论文/论文修订_20261015/analysis/实验与工程结果修订.md",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/引言摘要结论修订.md",
+    "bytes": 19927,
+    "sha256": "d9f53fba042a5b0c7f8b9ff0d08405c5b5eec82deca3e16db8a296fed91e4e8b",
+    "source": "新论文/论文修订_20261015/analysis/引言摘要结论修订.md",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/论文修订_20261015/analysis/理论修订建议.md",
+    "bytes": 9404,
+    "sha256": "801fbb88b0fcb8e50f63bf95e0f191c5d7b71944623f5a21e758ed1f7212799f",
+    "source": "新论文/论文修订_20261015/analysis/理论修订建议.md",
+    "bundle": "resources/part-001.zip"
+  }
+]

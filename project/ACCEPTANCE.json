@@ -1,0 +1,39 @@
+{
+  "status": "COMPLETE_WITH_RESEARCH_LIMITATIONS",
+  "requirements": {
+    "matlab_implementation": true,
+    "three_mechanisms": true,
+    "complete_2_power_3_ablation": 1280,
+    "basic_and_classical_comparisons": true,
+    "minimum_500_generations_all_runs": 2080,
+    "adaptive_parameters_observed": [
+      160,
+      160,
+      160
+    ],
+    "all_2080_runs_independently_audited": true,
+    "statistics_crosschecked": true,
+    "report_and_six_png_pdf_figures": true,
+    "independent_500_generation_reproduction": true
+  },
+  "limitations": [
+    "candidate has not outperformed classical algorithms",
+    "8-problem exact-Wilcoxon Holm resolution cannot reach 0.05 for declared families",
+    "external novelty unestablished",
+    "analytic biobjective unconstrained benchmarks only"
+  ],
+  "environment": {
+    "python": "3.14.7",
+    "numpy": "2.5.2",
+    "scipy": "1.18.0",
+    "MATLAB": "R2025b"
+  },
+  "artifacts": {
+    "report": "RESULTS_zh.md",
+    "guide": "RUN_GUIDE_zh.md",
+    "numerical_audit": "analysis/results/numerical_audit.json",
+    "statistics": "analysis/results/statistical_crosscheck.json",
+    "reproduction": "provenance/reproduction500.json"
+  },
+  "verified_at": "2026-09-05T09:38:44.678720+00:00"
+}

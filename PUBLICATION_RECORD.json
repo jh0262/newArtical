@@ -1,0 +1,39 @@
+{
+  "key": "P05",
+  "root": "03_实验后待重构_P05_EarClip_MODE",
+  "title": "EarClip MODE多机制与消融研究",
+  "branch": "EarClip-MODE多机制与消融研究",
+  "include": [
+    "src",
+    "vendor",
+    "tests",
+    "scripts",
+    "analysis",
+    "runs/formal_v1",
+    "verification",
+    "provenance",
+    "*.m",
+    "*.ps1",
+    "README.md",
+    "RESULTS_zh.md",
+    "RUN_GUIDE_zh.md",
+    "ACCEPTANCE.json"
+  ],
+  "status": "The 2080 completed runs and negative comparisons are preserved. RESULTS_zh.md and ACCEPTANCE.json supersede the older README status.",
+  "entry": "MATLAB: ec_setup; addpath(\"analysis\"); ec_analyze. Python audit scripts and reproduce_results.ps1 are included. The legacy PowerShell wrapper uses a machine-specific MATLAB path.",
+  "exclude": [],
+  "data": [
+    "runs",
+    "verification",
+    "provenance",
+    "analysis/results"
+  ],
+  "snapshot_date": "2026-10-28",
+  "resource_files": 18603,
+  "original_bytes": 1097214353,
+  "bundles": 22,
+  "omitted_large_files": [],
+  "secret_pattern_findings": [],
+  "source_files_modified": false,
+  "experiments_run_for_publication": false
+}

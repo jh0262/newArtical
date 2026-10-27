@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "date": "2026-10-11",
+  "runs": 120,
+  "FE": 3847680,
+  "batch_wall_seconds": 242.614,
+  "log_records_checked": 120,
+  "independently_enumerated_tests": 10,
+  "max_p_difference": 0.0,
+  "identity_rows_checked": 60000,
+  "max_identity_error": 9.99417562597138e-16,
+  "new_posthoc_model_evaluations": 0,
+  "source_sha256": "778dd9b0895d18fe1b9e0a87fbc28f3fc04cf8b73733f3caefc024bb8ca8e90e",
+  "scope": "Ledger, saved-selection replay, sign-enumeration and arithmetic consistency. No physical validation, equivalence proof or novelty assessment."
+}

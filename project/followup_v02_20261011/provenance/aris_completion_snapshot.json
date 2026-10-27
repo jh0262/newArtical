@@ -1,0 +1,150 @@
+{
+  "run_id": "ball-screw-earclip-dynamics-20260921",
+  "parent_run_id": "ball-screw-algorithm-model-sci-20260830",
+  "executor": "Codex",
+  "updated": "2026-10-11",
+  "workspace": "10_dynamic_mode",
+  "status": "provisional",
+  "user_decisions": {
+    "research_scope": "MODE mechanisms combined with ball-screw numerical application and manuscript development",
+    "journal_partition": "Chinese Academy of Sciences",
+    "non_oa_allowed_zones": [
+      3,
+      4
+    ],
+    "oa_allowed_zones": [
+      2,
+      3
+    ],
+    "validation_route": "reproducible numerical study; conclusions limited to model predictions",
+    "formal_budget": "Authorized by user: 继续实验, responding to the proposed 420-run, 13466880-FE, single MATLAB process, 1800-second plan."
+  },
+  "phases": [
+    {
+      "phase": "intake-and-reframing",
+      "status": "provisional",
+      "artifact": "10_dynamic_mode/MODEL_CONTRACT.md",
+      "note": "Original static problem exactly reducible; dynamic extension isolated."
+    },
+    {
+      "phase": "literature",
+      "status": "provisional",
+      "artifact": "10_dynamic_mode/literature/EVIDENCE_MATRIX.md",
+      "note": "Closest-work full-text gaps remain."
+    },
+    {
+      "phase": "numerical-verification",
+      "status": "checked",
+      "artifact": "10_dynamic_mode/verification_v02/independent_ode_report.json",
+      "review": "Deterministic numerical verification; not physical validation."
+    },
+    {
+      "phase": "implementation-preflight",
+      "status": "checked",
+      "artifact": "10_dynamic_mode/verification_v02/algorithm_preflight.json",
+      "review": "Finite-set properties, constraints and deterministic replay."
+    },
+    {
+      "phase": "exploratory-runs",
+      "status": "checked",
+      "artifact": "10_dynamic_mode/verification_v02/package_audit.json",
+      "runs": 7,
+      "design_evaluations": 45248,
+      "note": "Current retained short runs only; excludes superseded development trials."
+    },
+    {
+      "phase": "formal-comparison",
+      "status": "checked",
+      "artifact": "10_dynamic_mode/analysis_formal/delivery_audit.json",
+      "runs_completed": 420,
+      "budget_authorized": true,
+      "design_evaluations": 13466880,
+      "wall_seconds": 374.5,
+      "review": "Complete raw records, frozen inputs, objective and CV reevaluation, independent HV and statistical crosschecks; no physical validation or superiority claim."
+    },
+    {
+      "phase": "paper-writing",
+      "status": "provisional",
+      "artifact": "10_dynamic_mode/manuscript/manuscript_en_followup_v03.md",
+      "submission_candidate": false,
+      "note": "Two separately analyzed completed batches; no supported EAR superiority. Literature/model limits remain."
+    },
+    {
+      "phase": "venue-screening",
+      "status": "provisional",
+      "artifact": "10_dynamic_mode/JOURNAL_SCREENING.md",
+      "note": "Current official CAS partition records not obtained."
+    },
+    {
+      "phase": "followup-trace-diagnosis",
+      "status": "checked",
+      "artifact": "10_dynamic_mode/diagnostics_20261011/trace_audit.json",
+      "new_objective_evaluations": 0,
+      "evidence_scope": "Raw hash checks and posthoc trace arithmetic; not a new performance trial or causal decomposition."
+    },
+    {
+      "phase": "followup-protocol",
+      "status": "checked",
+      "artifact": "10_dynamic_mode/followup_v02_20261011/analysis/delivery_audit.json",
+      "implementation_started": true,
+      "runs_completed": 120,
+      "budget_authorized": true,
+      "proposed_runs": 120,
+      "proposed_FE": 3847680,
+      "proposed_workers": 1,
+      "proposed_wall_seconds": 1200,
+      "actual_FE": 3847680,
+      "wall_seconds": 242.614
+    }
+  ],
+  "active_evidence_boundaries": [
+    "No physical or FEM validation",
+    "No established algorithmic superiority or global novelty",
+    "No journal acceptance or quartile guarantee"
+  ],
+  "next_action": "Retain both null comparisons and investigate catalogue-wise feasible-region and trajectory-response structure before proposing any new optimizer trial. No new batch running; current authorized batch complete.",
+  "formal_authorization": {
+    "user_message": "继续实验",
+    "recorded_utc": "2026-09-21T04:28:00Z",
+    "runs": 420,
+    "max_design_evaluations": 13466880,
+    "wall_time_cap_seconds": 1800,
+    "workers": 1
+  },
+  "formal_results": {
+    "candidate_vs_baseline_holm_p": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "significant_factorial_effects": 0,
+    "model_reevaluation_designs": 26880,
+    "selected_design_checks": 8,
+    "new_posthoc_optimizer_FE": 0,
+    "saved_set_compression": "Ear truncation improves one-pass CD, but approximates iterative CD in HV and has larger covering radii; posthoc only."
+  },
+  "followup_diagnosis": {
+    "max_MODE_trace_peak_minus_final": 8.178979049056068e-05,
+    "new_objective_evaluations": 0,
+    "literature_status": "Kukkonen-Deb report section 3 and GDE3 experiment passage checked; global novelty unresolved."
+  },
+  "followup_authorization": {
+    "date": "2026-10-11",
+    "authorized": true,
+    "user_message": "可以，按上述方案和预算继续实验。",
+    "runs": 120,
+    "max_FE": 3847680,
+    "workers": 1,
+    "max_seconds": 1200,
+    "scope": "Implementation, zero-FE checks, freeze, 120-run protocol, saved-result analysis; no added optimization batch."
+  },
+  "followup_results": {
+    "runs": 120,
+    "FE": 3847680,
+    "wall_seconds": 242.614,
+    "adjusted_significant_contrasts": 0,
+    "new_posthoc_model_evaluations": 0,
+    "max_history_HV_minus_final": 0.0005666554848930971,
+    "scope": "Focused diagnostic; prioritizes search coverage, without causal exclusion of selection feedback."
+  }
+}

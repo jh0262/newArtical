@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-11",
+  "authorized": true,
+  "user_message": "可以，按上述方案和预算继续实验。",
+  "runs": 120,
+  "max_FE": 3847680,
+  "workers": 1,
+  "max_seconds": 1200,
+  "scope": "Implementation, zero-FE checks, freeze, 120-run protocol, saved-result analysis; no added optimization batch."
+}

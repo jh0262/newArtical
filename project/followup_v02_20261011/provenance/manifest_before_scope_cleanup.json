@@ -1,0 +1,55 @@
+{
+  "version": "followup-v02",
+  "date": "2026-10-11",
+  "source_formal_manifest_sha256": "1502b75f3e22f6d4e6a6c08ab18319c393955fc6c493f808a442b810fab13bdf",
+  "files": [
+    {
+      "path": "APPROVED_PROTOCOL.md",
+      "sha256": "0c815d536c68739ebbe126eb0512417fdd24fa148d1a3e12f6552226636a14ee"
+    },
+    {
+      "path": "IMPLEMENTATION_NOTES.md",
+      "sha256": "c021db207418cae4cc12c7585f8b60accabe20fb59ecb3f29f66feae734ad452"
+    },
+    {
+      "path": "matlab/v2_archive.m",
+      "sha256": "71cd8f7320fed4a24fc465d41e0b092e59f89a05ba34fdf7666ee8e284e46e64"
+    },
+    {
+      "path": "matlab/v2_children.m",
+      "sha256": "2e122c60c6db9022fb5f82af112739ecefebc9eee322ed8dd8ec648eb08357a2"
+    },
+    {
+      "path": "matlab/v2_pcd.m",
+      "sha256": "882b522cf2f776a7d301cdf2a688db97649d1cb98b8f93eeba21ffbecb111b53"
+    },
+    {
+      "path": "matlab/v2_preflight.m",
+      "sha256": "8a97b9e39e0b68b88f1dbe0469247a1f44c2fb49b1a6a2adf58ea43759186f37"
+    },
+    {
+      "path": "matlab/v2_run.m",
+      "sha256": "43979075b6d2da26be9681c0a2fa7ac5e327fe6cceaa3c572197b87fecd63fcd"
+    },
+    {
+      "path": "matlab/v2_select.m",
+      "sha256": "ea16702d74e5537c8aaa1832c2f47b421772df15567dd6e8ad87809aa345ea9d"
+    },
+    {
+      "path": "matlab/v2_study.m",
+      "sha256": "e6be49127116ad44ea235d7e05b276ecc1128bae5bc815cd9f7eb7392b0db103"
+    },
+    {
+      "path": "prepare.py",
+      "sha256": "8582332907c65bf70c3951d83b6e7dfa1a6985b58cba4bac30d8050499776775"
+    },
+    {
+      "path": "provenance/authorization.json",
+      "sha256": "bf21b176fb0d80fafb14114e1ddb3cbcd62047f2fa2cea809a05d128a3c90aed"
+    },
+    {
+      "path": "provenance/preflight.json",
+      "sha256": "b2ac2c76e48db605b0174452584107956cc20ac24f2b49d479c82437de16898f"
+    }
+  ]
+}

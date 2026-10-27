@@ -1,0 +1,35 @@
+{
+  "purpose": "post-hoc model/solver sanity check, not an equal-budget baseline",
+  "logic": "Increasing cycle_limit_s changes only G_cycle and enlarges the feasible set; the exact attainable HV cannot decrease.",
+  "optimization_evaluations_added": 0,
+  "reference_is_exact_Pareto_front": false,
+  "summaries": [
+    {
+      "target_cycle_limit_s": 2.5,
+      "pooled_feasible_candidates": 8959,
+      "pooled_nondominated_points": 530,
+      "retained_points": 64,
+      "pooled_HV": 0.961181154496427,
+      "compressed_reference_HV": 0.9600720839663148,
+      "source_cycle_limits": "2.5"
+    },
+    {
+      "target_cycle_limit_s": 3.0,
+      "pooled_feasible_candidates": 17919,
+      "pooled_nondominated_points": 936,
+      "retained_points": 64,
+      "pooled_HV": 0.9825459233780933,
+      "compressed_reference_HV": 0.9764851534433692,
+      "source_cycle_limits": "2.5;3.0"
+    },
+    {
+      "target_cycle_limit_s": 3.5,
+      "pooled_feasible_candidates": 26879,
+      "pooled_nondominated_points": 1254,
+      "retained_points": 64,
+      "pooled_HV": 0.986160570771661,
+      "compressed_reference_HV": 0.951215307370949,
+      "source_cycle_limits": "2.5;3.0;3.5"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "key": "P03",
+  "root": "01_待投稿_P01_丝杠解析筛选/10_dynamic_mode",
+  "title": "Catalogue-constrained cycle-time and residual-vibration co-design of ball-screw actuators evaluating coverage-bounded differential evolution",
+  "branch": "Catalogue-constrained-cycle-time-and-residual-vibration-co-design-of-ball-screw-actuators-evaluating-coverage-bounded-differential-evolution",
+  "include": [
+    "matlab",
+    "analysis_formal",
+    "followup_v02_20261011",
+    "formal_v01",
+    "verification",
+    "verification_v02",
+    "diagnostics_20261011",
+    "config.json",
+    "README.md",
+    "STATUS.md",
+    "RUN_GUIDE_zh.md",
+    "MODEL_CONTRACT.md",
+    "ALGORITHM_PROTOCOL.md",
+    "freeze_manifest.py"
+  ],
+  "status": "The 420-run study and the separate 120-run follow-up are retained; the ear-clipping increment was not established. This is a numerical research draft.",
+  "entry": "MATLAB source: matlab/. Saved-result analysis and instructions: analysis_formal/, followup_v02_20261011/README.md and RUN_GUIDE_zh.md.",
+  "exclude": [],
+  "data": [
+    "formal_v01",
+    "followup_v02_20261011/raw",
+    "verification",
+    "verification_v02",
+    "diagnostics_20261011"
+  ],
+  "snapshot_date": "2026-10-28",
+  "resource_files": 2012,
+  "original_bytes": 575277324,
+  "bundles": 12,
+  "omitted_large_files": [],
+  "secret_pattern_findings": [],
+  "source_files_modified": false,
+  "experiments_run_for_publication": false
+}

@@ -1,0 +1,67 @@
+{
+  "v2_archive": [],
+  "v2_children": [],
+  "v2_pcd": [
+    {
+      "id": "FXUP",
+      "message": "外层循环索引  'j' 设置在嵌套函数内部。",
+      "fix": 0,
+      "line": 14,
+      "column": [
+        9,
+        9
+      ]
+    },
+    {
+      "id": "FXUP",
+      "message": "外层循环索引  'j' 设置在嵌套函数内部。",
+      "fix": 0,
+      "line": 22,
+      "column": [
+        13,
+        13
+      ]
+    },
+    {
+      "id": "ALIGN",
+      "message": "此关键字可能未与其在第 33 行上的匹配 END 对齐。",
+      "fix": 0,
+      "line": 31,
+      "column": [
+        9,
+        10
+      ]
+    }
+  ],
+  "v2_preflight": {
+    "id": "MSNU",
+    "message": "此处之前隐藏了一条代码分析器消息，但该消息不再产生。",
+    "fix": 1,
+    "line": 56,
+    "column": [
+      97,
+      107
+    ]
+  },
+  "v2_run": [],
+  "v2_select": {
+    "id": "ALIGN",
+    "message": "此关键字可能未与其在第 18 行上的匹配 END 对齐。",
+    "fix": 0,
+    "line": 13,
+    "column": [
+      5,
+      6
+    ]
+  },
+  "v2_study": {
+    "id": "MSNU",
+    "message": "此处之前隐藏了一条代码分析器消息，但该消息不再产生。",
+    "fix": 1,
+    "line": 13,
+    "column": [
+      142,
+      152
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "design": [
+    10,
+    0.89240603913077976,
+    0.27890056698392052,
+    0.33667483944522447
+  ],
+  "scenario_index": 2,
+  "mass_with_nut_kg": 101.83,
+  "stiffness_N_m": 5.5765229633769751E+7,
+  "damping_ratio": 0.02,
+  "case": "best found among formal 3.0 s case, residual threshold 0.1 um",
+  "columns": [
+    "time_s",
+    "command_position_m",
+    "command_acceleration_m_s2",
+    "relative_displacement_um",
+    "axial_load_N"
+  ]
+}

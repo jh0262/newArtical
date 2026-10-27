@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "runs": 420,
+  "reevaluated_designs": 26880,
+  "scenario_evaluations": 241920,
+  "max_objective_difference": 0,
+  "max_CV_difference": 0,
+  "largest_raw_G_among_feasible_designs": -3.1974423109204508E-14,
+  "relative_constraint_tolerance": 1E-10,
+  "reference_excluded_total": 0,
+  "evidence": "Saved optimizer outputs reevaluated; not new optimization or physical validation"
+}

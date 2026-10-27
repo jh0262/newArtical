@@ -1,0 +1,4 @@
+﻿target_cycle_limit_s,pooled_feasible_candidates,pooled_nondominated_points,retained_points,pooled_HV,compressed_reference_HV,source_cycle_limits
+2.5,8959,530,64,0.961181154496427,0.9600720839663148,2.5
+3.0,17919,936,64,0.9825459233780933,0.9764851534433692,2.5;3.0
+3.5,26879,1254,64,0.986160570771661,0.951215307370949,2.5;3.0;3.5

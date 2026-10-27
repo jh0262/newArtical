@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "date": "2026-10-11",
+  "MATLAB": "25.2.0.2998904 (R2025b)",
+  "fixture_fronts": 47,
+  "PCD_reference_comparisons": 282,
+  "new_objective_evaluations": 0,
+  "checks": [
+    "PCD vs full recomputation",
+    "selection size and canonical order",
+    "feasible first",
+    "coverage bound",
+    "RNG unchanged by selection/archive",
+    "DE repeatability and domain",
+    "budget arithmetic"
+  ],
+  "scope": "Deterministic geometric/code checks; not physical validation or optimizer performance."
+}

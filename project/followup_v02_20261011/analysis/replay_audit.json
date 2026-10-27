@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "runs": 120,
+  "generations_replayed": 60000,
+  "selectors_replayed": 180000,
+  "archives_replayed": 60000,
+  "maximum_HV_trace_error": 0,
+  "new_objective_evaluations": 0,
+  "RNG_unchanged": true,
+  "seconds": 105.6223328,
+  "scope": "Offline selection and archive replay on recorded objectives; no feedback into original search."
+}

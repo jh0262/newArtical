@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "runs": 420,
+  "total_FE": 13466880,
+  "final_designs": 26880,
+  "matlab_python_HV_max_error": 9.992007221626409e-16,
+  "initial_HV_max_difference": 0.0,
+  "reference_excluded_total": 0,
+  "max_coverage_excess": 0.0,
+  "final_feasible_fraction_min": 0.984375,
+  "inferential_checks": "exact signed-rank DP checked against brute force and SciPy; Holm fixture passed",
+  "manifest_inputs_verified": 28,
+  "script_sha256": "c8f4cfe042b696dba089a739975a7623a4985d6a38c172b6abef212300a367b9",
+  "scope": "Completeness, fixed FE, hashes, raw/CSV agreement, independent HV and statistical arithmetic. No physical validation."
+}

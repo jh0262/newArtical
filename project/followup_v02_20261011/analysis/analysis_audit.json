@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "runs": 120,
+  "optimization_FE": 3847680,
+  "history_rows": 3847680,
+  "population_states_checked": 60120,
+  "original_frozen_inputs": 28,
+  "followup_frozen_inputs": 12,
+  "paired_initializations_checked": 120,
+  "independent_HV_max_error": 9.992007221626409e-16,
+  "raw_constraint_CV_max_error": 0.0,
+  "reference_excluded": 0,
+  "new_analysis_FE": 0,
+  "script_sha256": "35d37e46e30be7dd0b98fca4fc1d61a6a2bb2f6867e046c0d07688ed30907ac1",
+  "scope": "Raw-ledger, budget, subset history, fixed-HV and statistical verification; no new model evaluation or physical validation."
+}

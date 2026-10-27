@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "runs": 180,
+  "new_search_FE": 4.518E+6,
+  "new_final_FE": 18000,
+  "audit_objective_FE": 540,
+  "paired_initial_groups": 60
+}

@@ -1,0 +1,3 @@
+# 原生MATLAB绘图
+
+本机Python运行时缺少Matplotlib，故把全部正式图形改由ERFigures.m生成，reproduce_derived包含统计和图形。最初Python绘图草案保存在unused_figures_matplotlib.py，仅供代码溯源，不属于执行入口。数值指标、统计公式和候选规则未改变。

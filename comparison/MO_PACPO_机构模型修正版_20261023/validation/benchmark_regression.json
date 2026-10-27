@@ -1,0 +1,62 @@
+[
+  {
+    "problem": "ZDT1",
+    "algorithm": "PACPO",
+    "equal": true
+  },
+  {
+    "problem": "ZDT1",
+    "algorithm": "NSGAII",
+    "equal": true
+  },
+  {
+    "problem": "ZDT1",
+    "algorithm": "MOEAD",
+    "equal": true
+  },
+  {
+    "problem": "ZDT1",
+    "algorithm": "MOPSO",
+    "equal": true
+  },
+  {
+    "problem": "ZDT3",
+    "algorithm": "PACPO",
+    "equal": true
+  },
+  {
+    "problem": "ZDT3",
+    "algorithm": "NSGAII",
+    "equal": true
+  },
+  {
+    "problem": "ZDT3",
+    "algorithm": "MOEAD",
+    "equal": true
+  },
+  {
+    "problem": "ZDT3",
+    "algorithm": "MOPSO",
+    "equal": true
+  },
+  {
+    "problem": "DTLZ2",
+    "algorithm": "PACPO",
+    "equal": true
+  },
+  {
+    "problem": "DTLZ2",
+    "algorithm": "NSGAII",
+    "equal": true
+  },
+  {
+    "problem": "DTLZ2",
+    "algorithm": "MOEAD",
+    "equal": true
+  },
+  {
+    "problem": "DTLZ2",
+    "algorithm": "MOPSO",
+    "equal": true
+  }
+]

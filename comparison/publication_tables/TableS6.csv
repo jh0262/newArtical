@@ -1,0 +1,10 @@
+﻿Integration / control,Mean HV difference,Relative difference / %,Holm p,95% bootstrap interval for mean difference
+262 144 points / NSGA-II,+0.0001975,+0.230,0.0010767,"[+5.091e-05, +3.543e-04]"
+262 144 points / noLock,+0.0001715,+0.199,0.017459,"[+5.195e-05, +3.166e-04]"
+262 144 points / GDE3 adapted,+0.0000446,+0.052,0.017459,"[-6.274e-05, +1.229e-04]"
+1 048 576 points / NSGA-II,+0.0001980,+0.230,0.0013601,"[+5.088e-05, +3.541e-04]"
+1 048 576 points / noLock,+0.0001698,+0.197,0.014201,"[+5.051e-05, +3.143e-04]"
+1 048 576 points / GDE3 adapted,+0.0000447,+0.052,0.014201,"[-6.219e-05, +1.232e-04]"
+Mean of 8 shifts/NSGA-II,+0.0001998,+0.232,0.0010767,"[+5.287e-05, +3.558e-04]"
+Mean of 8 shifts/noLock,+0.0001702,+0.198,0.015149,"[+5.097e-05, +3.148e-04]"
+Mean of 8 shifts/GDE3 adapted,+0.0000421,+0.049,0.015149,"[-6.511e-05, +1.204e-04]"

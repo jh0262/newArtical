@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "completed_screen_runs": 416,
+  "completed_confirm_runs": 180,
+  "total_new_runs": 596,
+  "formal_failed_runs": 0,
+  "evaluation_budget_per_search": 25100,
+  "new_search_evaluations": 14959600,
+  "final_archive_reevaluations": 59600,
+  "audit_objective_evaluations": 1788,
+  "tests_passed": 13,
+  "independent_verification": "pass",
+  "clean_reproduction": "pass",
+  "retained_setting": "B",
+  "engineering_primary": true,
+  "DTLZ3_role": "auxiliary multimodal convergence; never used for candidate selection",
+  "preserved_original_files": 3656,
+  "originals_preserved": true,
+  "algorithm_mechanisms_changed": false,
+  "model_changed": false,
+  "manuscript_modified": false,
+  "additional_experiments_required_by_protocol": false
+}

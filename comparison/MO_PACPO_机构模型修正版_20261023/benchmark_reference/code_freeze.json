@@ -1,0 +1,21 @@
+{
+  "frozenAt": "2026-10-23T09:24:59.550765",
+  "testsPassed": true,
+  "testCount": 56,
+  "originals": {
+    "C:\\Users\\hp\\Desktop\\Matlab新算法程序\\guanzhu\\MO_PACPO_Benchmark_Suite.m": "c8fb713db144c56b263377b50421a50286872c192af4a6ba3eb5c94ebf288e09",
+    "C:\\Users\\hp\\Desktop\\Matlab新算法程序\\guanzhu\\MO_PACPO_2PPaPaR_Optimization.m": "6651e55d9f57ac2619c45b0730a2ef446ba64b261b58167f5b9a1e2c2b16e172",
+    "C:\\Users\\hp\\Desktop\\Matlab新算法程序\\guanzhu\\MO_PACPO_Mechanical_Optimization_WangLianguo_Style (9).docx": "096d9b92d6b4c3baf07a2739af8cfa849cd423c46e34491d58be8278640b4064"
+  },
+  "files": {
+    "MO_PACPO_2PPaPaR_Optimization_Revised.m": "cf3c112f03a4fa5b074f1cfc58eece165f5796925dc48175d93b126d834a9979",
+    "MO_PACPO_Benchmark_Suite_Revised.m": "c632180d77eb616660c0155036f4c22a4b1f054f797d68cd86f38c0288d71568",
+    "PACPO.m": "6638b1ff4830bf1ba58dcfeb98180280388ca5eb07f7e2d61ea7d993354dd0b4",
+    "PACPOExperiment.m": "602d51c965e41d7872fa658fa27b8b109c0c4bbeb927805b6b98e4588c285ad7",
+    "polish_saved_figures.m": "55c8bfd96f52f2360ede40b7535851468e28f62229a6c9c5af85946f0b483a45",
+    "run_complete_experiments.m": "92ffbdece8040789b5ea921a9ab0ad660cbd12aa205fe56c5ced0c1ed9a72e57",
+    "summarize_results.m": "4ea7ac8a7a83942f91a385a8c1e2b1bcb35a5bd1dbe3da1c30f6cdc820033a5d",
+    "TestPACPO.m": "72749af3943ffcbde6317be6ff21f0a787b5e2981a7a38b4252171645587434b"
+  },
+  "protocolSHA256": "3ae831f7ce8114f583b0329ca38249fae109f6665c7b39eeba80eacb3b196da1"
+}

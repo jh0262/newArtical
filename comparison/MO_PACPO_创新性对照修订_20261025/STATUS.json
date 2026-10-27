@@ -1,0 +1,19 @@
+{
+  "phase": "complete",
+  "new_searches_planned": 1350,
+  "new_searches_completed": 1350,
+  "factorial_completed": 810,
+  "mocpo_completed": 540,
+  "full_replays_completed": 270,
+  "failed": 0,
+  "tests_passed": 9,
+  "tests_failed": 0,
+  "original_scope_preserved": true,
+  "manuscript_status": "completed_and_visually_verified",
+  "updated": "2026-10-25T07:29:03.593561+08:00",
+  "analysis_status": "independently_verified",
+  "anti_defensive_review": "completed",
+  "native_pages": 24,
+  "output_docx": "MO_PACPO_创新性对照修订稿_单栏.docx",
+  "new_search_FE": 33885000
+}

@@ -1,0 +1,9 @@
+﻿Generations,"Masked
+guidance","Masked
+difference","Masked
+routine noise","Polynomial
+mutation","Noise / combined
+RMS / %"
+1–50,7.869e-02,2.411e-01,1.239e-02,5.477e-02,4.930
+51–150,6.644e-02,2.499e-01,2.174e-03,5.454e-02,0.840
+151–250,6.668e-02,2.517e-01,3.587e-04,5.445e-02,0.137

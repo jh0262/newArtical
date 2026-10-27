@@ -1,0 +1,11 @@
+{
+  "newSearches": 90,
+  "reusedExactReplays": 270,
+  "newSearchFE": 2.259E+6,
+  "allBudgetsExact": true,
+  "allInitializationsPaired": true,
+  "compactArchiveChecks": true,
+  "fullSourcesStoredOnce": true,
+  "runRows": 480,
+  "contrastRows": 60
+}

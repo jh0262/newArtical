@@ -1,0 +1,5 @@
+﻿Mechanism,Method basis and implemented rule,Evidence
+Archive-scaled neighborhood differential search,"Covariance sampling [13–19] with differential updates and crossover [17]; objective-neighborhood guides, fixed F=0.5 and CR=0.2, actual archive scales, and noise ηₙσ before masking.","Paired Full/Diagonal/noNoise controls, eight-problem ablations, development CR comparisons, and masked/unmasked displacement logs."
+Success-rate feedback,"Success-rate control [13,14]; strict parent–offspring improvement regulates σ for routine noise and pulses.",Fixed benchmark ablations and component magnitudes.
+Low-variance projected pulses,HV and progress monitoring [26–29]; add low-variance subspace pulses to 10% of offspring when both gates hold.,Full/noLock compares the full pulse module; Diagonal/noNoise retain it. Section S7 separates direction and trigger.
+Two-objective local-area pruning,"Geometric retention and sequential pruning [23,24]; preserve endpoints, recompute neighbors, and resolve area ties by span.",Collinear test and oldArea/noEC comparisons. Three-objective archives use crowding distance.

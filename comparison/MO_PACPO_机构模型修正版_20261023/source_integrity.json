@@ -1,0 +1,72 @@
+{
+  "inputs": {
+    "original_manuscript": {
+      "path": "C:\\Users\\hp\\Desktop\\Matlab新算法程序\\guanzhu\\MO_PACPO_Mechanical_Optimization_WangLianguo_Style (9).docx",
+      "sha256": "096d9b92d6b4c3baf07a2739af8cfa849cd423c46e34491d58be8278640b4064",
+      "unchanged": true
+    },
+    "original_engineering": {
+      "path": "C:\\Users\\hp\\Desktop\\Matlab新算法程序\\guanzhu\\MO_PACPO_2PPaPaR_Optimization.m",
+      "sha256": "6651e55d9f57ac2619c45b0730a2ef446ba64b261b58167f5b9a1e2c2b16e172",
+      "unchanged": true
+    },
+    "original_benchmark": {
+      "path": "C:\\Users\\hp\\Desktop\\Matlab新算法程序\\guanzhu\\MO_PACPO_Benchmark_Suite.m",
+      "sha256": "c8fb713db144c56b263377b50421a50286872c192af4a6ba3eb5c94ebf288e09",
+      "unchanged": true
+    },
+    "scope_manuscript": {
+      "path": "F:\\暑假原始资料\\论文总项目_20261013\\MO_PACPO_原研究边界纠正版_20261023\\MO_PACPO_机械工程学报_保留原研究边界纠正版.docx",
+      "sha256": "a378d4a7918c20443b3babf68ac75df18eab1190c2daee184b9f8f06f80bde85",
+      "unchanged": true
+    }
+  },
+  "verifiedSource": {
+    "path": "F:\\暑假原始资料\\论文总项目_20261013\\MO_PACPO_机构模型修正版_20261023\\sources\\Pu2023_2PPaPaR.pdf",
+    "sha256": "61e0642e823bd4de4b9d0b0a3f9450fa590ed75133da6661e70c28299e5ae1cf",
+    "publisherURL": "https://www.cmemo.org.cn/CN/10.3969/j.issn.1004-132X.2023.19.004"
+  },
+  "coreMethodsUnchanged": [
+    "config",
+    "simplex",
+    "repair",
+    "normalize",
+    "dominance",
+    "ranks",
+    "crowding",
+    "select",
+    "areaPrune",
+    "archive",
+    "hv",
+    "metrics",
+    "principal",
+    "variation",
+    "mutate",
+    "tournament",
+    "weights",
+    "gridLeaders",
+    "solve",
+    "topsis",
+    "holm"
+  ],
+  "coreMethodsChanged": [
+    "problem",
+    "evaluate"
+  ],
+  "historicalEngineeringBranch": "retained only for regression; new experiments use PPAR",
+  "retainedBenchmarkRunCount": 810,
+  "newCodeSHA256": {
+    "freeze_and_run.m": "996e1cd57959a8a627b007ab63b02f063ef83e6ab9fb6f674767a8ffa13b774a",
+    "make_physical_figures.m": "eb0104ca96838800144859dd03daba9fb8ad8c369b2cb30266e13b0cc67ba550",
+    "MO_PACPO_2PPaPaR_Optimization_Physical.m": "433e93a6f120bb24e8b8e2826f58558db45bba90f5965a339fc207c43982284b",
+    "MO_PACPO_Benchmark_Suite_Physical.m": "b2f2c5663e84f79bcea8871e278761e791b79fb136d586bccaf488d64f2ba976",
+    "PACPOPhysical.m": "1222b00eee80051cb69fa8ea675149ff070ee68da17d05e58e624d918b8601ec",
+    "PhysicalExperiment.m": "2eab25c855c12f44d6e4f718999124cd1bf8a946798126254170e46fd2e28f76",
+    "PPaPaRModel.m": "f0b8f7abd2a140752203e7e25272ad8602aa9afa748ff6d5f41d34f4c8061cb0",
+    "summarize_physical.m": "ec7145b73f53dee6fc3d04e75436a288613a82d6ce36d929bee01c7d262403df",
+    "TestPACPOPhysical.m": "fa83c2bde5b14d0556c125622f3c8a1619ca2ea970c6b26aa162bddecc7d156f",
+    "TestPhysicalSolver.m": "2f7d540d210eedc7ef5c9df72c30e557f4ef24f17350447d22918c4a6d93d5f8",
+    "TestPPaPaRModel.m": "631cfb3385f108a9445f76cbacb344df13489412dae3ae64b9c06e4e2ddb32f4",
+    "validate_model.m": "bcfa49f522a87ff63d957131e5f1d65c91c1217295ccef38fa503b5efe3068a5"
+  }
+}

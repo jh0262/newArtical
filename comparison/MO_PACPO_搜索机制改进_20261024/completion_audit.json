@@ -1,0 +1,27 @@
+{
+  "completed_runs": 3030,
+  "runs_by_phase": {
+    "dev01": 175,
+    "dev02": 200,
+    "dev03": 225,
+    "confirmation": 750,
+    "external": 450,
+    "ablation": 750,
+    "external_ablation": 450,
+    "physical": 30
+  },
+  "saved_experiment_FE": 76053000,
+  "tests_passed": 72,
+  "primary_criteria_passed": true,
+  "reference_files_match": true,
+  "sha256": {
+    "PACPOSearch.m": "7044fb4bb179195ee3c03a8a92769b265794959eb584e946070fa4eb9c9455eb",
+    "SearchMechanism.m": "2a1010a30a9051e4221d549828964089639553684a57fbc1f5d7ce28ed3a925f",
+    "SearchVariants.m": "a307f8d4eff56d47af2d028a293bbf23dfde7d73a9dd7c229e4bccf51816e42e",
+    "SearchExperiment.m": "fec565fc4aaa3cb64bcea5c69898b1f4fd12d34ee4764844ad63d5725d5d0a3a",
+    "reference/PACPOPhysical.m": "1222b00eee80051cb69fa8ea675149ff070ee68da17d05e58e624d918b8601ec",
+    "reference/PPaPaRModel.m": "f0b8f7abd2a140752203e7e25272ad8602aa9afa748ff6d5f41d34f4c8061cb0",
+    "freeze.mat": "243e91d6b9ece36c6ac4e40040faf3e9adac3e07924f86802af89e5bff9e175e",
+    "PROTOCOL.md": "e1e1181904109ff94bf64488d86bca185d36173e8c00d3fd0430dc4857036988"
+  }
+}

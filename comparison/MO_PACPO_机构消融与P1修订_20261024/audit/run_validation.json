@@ -1,0 +1,8 @@
+{
+  "fullReplays": 30,
+  "newRuns": 60,
+  "evaluationBudget": 25100,
+  "pairedInitialization": true,
+  "compactArchiveChecks": true,
+  "modelIdentical": true
+}

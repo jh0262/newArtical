@@ -1,0 +1,12 @@
+[
+  {
+    "source": "MO_PACPO_Machines_今晚投稿包_20261027/01_Upload/MO_PACPO_Compact_Reproduction.zip",
+    "sha256": "08dafc5c32f4cf2b7e0727c37c31f77338175ed1ded6392be4fbe584da31c469",
+    "destination": "comparison"
+  },
+  {
+    "source": "MO_PACPO_Machines_今晚投稿包_20261027/01_Upload/MO_PACPO_Parameter_Study_Reproduction.zip",
+    "sha256": "ca96dbbc830da46a62e4d6cbf10a9da4e4eede56857b8c8abbda535f1ee13ca6",
+    "destination": "parameter-study"
+  }
+]

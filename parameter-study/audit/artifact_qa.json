@@ -1,0 +1,76 @@
+{
+  "status": "pass",
+  "figure_pairs": [
+    {
+      "figure": "01_engineering_noise_grid",
+      "png_pixels": [
+        1924,
+        558
+      ],
+      "pdf_pages": 1,
+      "pdf_text_characters": 596,
+      "png_sha256": "759176f1def23c0a408cde6cac7b01beb8a1c7e37d69c8e12d96e1ab27c1e756"
+    },
+    {
+      "figure": "02_engineering_gate_effects",
+      "png_pixels": [
+        1868,
+        610
+      ],
+      "pdf_pages": 1,
+      "pdf_text_characters": 351,
+      "png_sha256": "5ff2620d963e365a6793e4b6900f6c1118557cadac38adeba5c6f8860de553a0"
+    },
+    {
+      "figure": "03_confirmation_convergence",
+      "png_pixels": [
+        1725,
+        681
+      ],
+      "pdf_pages": 1,
+      "pdf_text_characters": 299,
+      "png_sha256": "d412578343f25935851dcaf1885af4fa0b17c55f6ee992f5a1ab60d84b84a4db"
+    },
+    {
+      "figure": "04_confirmation_quality_stability",
+      "png_pixels": [
+        1827,
+        681
+      ],
+      "pdf_pages": 1,
+      "pdf_text_characters": 223,
+      "png_sha256": "123a4d06eace2596f8781bc0a4176a3b0b2739cf31002f1319d31b78b56a66d0"
+    },
+    {
+      "figure": "05_mechanism_activation",
+      "png_pixels": [
+        1873,
+        687
+      ],
+      "pdf_pages": 1,
+      "pdf_text_characters": 367,
+      "png_sha256": "aac97e7376fcd71993e9c7e4ff7bd1ac1c867f7e6f39b751522add37dbf1de9f"
+    },
+    {
+      "figure": "06_dtlz3_auxiliary",
+      "png_pixels": [
+        1574,
+        687
+      ],
+      "pdf_pages": 1,
+      "pdf_text_characters": 290,
+      "png_sha256": "dda2dedab284b312d77c1a762c9790135e0b4b6142723dd7a68535821900400e"
+    },
+    {
+      "figure": "07_integration_sensitivity",
+      "png_pixels": [
+        1732,
+        681
+      ],
+      "pdf_pages": 1,
+      "pdf_text_characters": 362,
+      "png_sha256": "118c232dd2e67b8d2da7cabdcdc1323555cb0e28958d3c01b04cfcd815ac0f20"
+    }
+  ],
+  "visual_check": "contact sheet and selected full-resolution figures require manual inspection"
+}

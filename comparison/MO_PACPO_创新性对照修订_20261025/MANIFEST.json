@@ -1,0 +1,321 @@
+{
+  "created": "2026-10-25T07:29:03.764487+08:00",
+  "scope": "Delivery, code, configuration, processed data, figures and final audit files. Raw runs/validation retained separately with embedded source/config provenance. Internal page renders are indexed in audit/visual_review.json.",
+  "files": [
+    {
+      "path": "analyze_innovation.m",
+      "bytes": 7076,
+      "sha256": "2a53f26505e429a88f4aafb92641d7a8ccd0cc9e04e6fc85195de30b12589ef9"
+    },
+    {
+      "path": "article_edit_plan.md",
+      "bytes": 2289,
+      "sha256": "73263c89871b82686cfb902dd1df5e205bccb6ae96afe1eda3112885b9e17384"
+    },
+    {
+      "path": "artifact.md",
+      "bytes": 876,
+      "sha256": "3197b46809d4a00b74eb45844e03b6b97be768ceb5b99e545d487c7f604bbe8c"
+    },
+    {
+      "path": "audit/analysis_validation.json",
+      "bytes": 223,
+      "sha256": "ed300abb2f2a58f1da161cdb979040f653e696a25d810beb5245687c38981679"
+    },
+    {
+      "path": "audit/anti_defensive_review.md",
+      "bytes": 2206,
+      "sha256": "79b329ecb83a52541b52f7779cf9843d2ea2812f9d060b233e926334202e33ac"
+    },
+    {
+      "path": "audit/document_preservation.json",
+      "bytes": 870,
+      "sha256": "9142068dd8d323661c613dc66ac1725cfe0cc335e146e82095aa8d8b63aec441"
+    },
+    {
+      "path": "audit/final_check.json",
+      "bytes": 642,
+      "sha256": "3eef0e6f03f2d3d5a387e2f65665aabcab14e0f072ff16cecc92e55ca9e5ca29"
+    },
+    {
+      "path": "audit/independent_verification.json",
+      "bytes": 397,
+      "sha256": "6ffa83dd8bffb7d847fc9f8b723b8f301bc35c1a2664a4a0fc5d8f5f81e248d0"
+    },
+    {
+      "path": "audit/native_render.json",
+      "bytes": 409,
+      "sha256": "0f59c2a22701ea056d41f8b650409f643ba4f642c6f930cabc55d397d565f254"
+    },
+    {
+      "path": "audit/original_hashes.json",
+      "bytes": 1534,
+      "sha256": "84a11c07500125f15cb2874194dda51a0bb84a2ce1510955b62729c524549ad7"
+    },
+    {
+      "path": "audit/test_mocpo.json",
+      "bytes": 125,
+      "sha256": "5afdb8cee373e0f4f6140bc72a05c4c62758f48ca560e61f13b10e3e56fc4014"
+    },
+    {
+      "path": "audit/test_pulse.json",
+      "bytes": 125,
+      "sha256": "7fc3d85a3eaa3f77c313e97c8398fc06442995e72860357847ef8140b04dc608"
+    },
+    {
+      "path": "audit/visual_review.json",
+      "bytes": 2650,
+      "sha256": "b2b5da2cd4f9589770a020fe0330b2bb878607bff5f28fc9163b25aaaa5e6101"
+    },
+    {
+      "path": "baseline_freeze.mat",
+      "bytes": 26676,
+      "sha256": "fa225fa2453e849958f86be6aff0013cc82509976449595fc7669fb80ed2cae9"
+    },
+    {
+      "path": "BASELINE_PROTOCOL.md",
+      "bytes": 3845,
+      "sha256": "3441ae73ce591dd16fb48f6b4196fcb5b132058dc7ef859bd926ba25e0f450e9"
+    },
+    {
+      "path": "build_revision.py",
+      "bytes": 10476,
+      "sha256": "c09862db240a2a92d555bfeead65b53923e6d69ed11c1d71d1e06b0857816d74"
+    },
+    {
+      "path": "check_progress.py",
+      "bytes": 1108,
+      "sha256": "888ae4836204357c2f5b5124fb5673582b9014d3726448f401b5f7a57593e338"
+    },
+    {
+      "path": "code/MOCPO2025.m",
+      "bytes": 3906,
+      "sha256": "e2566a2a0eb8bd31ce35b153adbaa04f02345f0d813a354c50448c81c9808a47"
+    },
+    {
+      "path": "code/MOCPOExperiment.m",
+      "bytes": 2684,
+      "sha256": "8bf880311be46525806dd5544a24b26d931a716e9f89929f33eb25297d145a67"
+    },
+    {
+      "path": "code/P4Core.m",
+      "bytes": 26463,
+      "sha256": "d65d5277028f3b75d1c7694291278f656375c0af468fbe3bb9f92bb405a06ebf"
+    },
+    {
+      "path": "code/P4Experiment.m",
+      "bytes": 3618,
+      "sha256": "a99c5c1205db7b19b65f2f350e74b0ec0b3eb62f64b3fdbd6cdd7bb094ddc910"
+    },
+    {
+      "path": "code/P4Mechanism.m",
+      "bytes": 2961,
+      "sha256": "e3e8e0562cab40768ae0aea45cd83067c9f82fde25b5f89fe8877a840b54e27d"
+    },
+    {
+      "path": "code/P4Pulse.m",
+      "bytes": 1705,
+      "sha256": "8ef302ec5ece6674b0bf004ce4f9363761262dcf71210891d45f2426b27e5ce6"
+    },
+    {
+      "path": "code/P4ReplayDL.m",
+      "bytes": 2494,
+      "sha256": "313f470c62c0dcac79fb462eb124fa3e8cf79cea5936524ba184e94f5af3bf00"
+    },
+    {
+      "path": "code/P4Stats.m",
+      "bytes": 3308,
+      "sha256": "4033b7dd7ee447e5307afa17a9e3edd4a232e1a60b650dcc7b3433d8c39dc887"
+    },
+    {
+      "path": "code/P4Tape.m",
+      "bytes": 969,
+      "sha256": "24212feb5d4233f944aeace49c41dcb3cbf2e3c3046df09ed4b235ca0b12e3ef"
+    },
+    {
+      "path": "code/P4Variants.m",
+      "bytes": 512,
+      "sha256": "cb6a11a95648b0e2e678a092b418127b562d12b43bc949921291cfca22024495"
+    },
+    {
+      "path": "code/reference/PPaPaRModel.m",
+      "bytes": 8293,
+      "sha256": "f0b8f7abd2a140752203e7e25272ad8602aa9afa748ff6d5f41d34f4c8061cb0"
+    },
+    {
+      "path": "data/analysis.mat",
+      "bytes": 450799,
+      "sha256": "8edb694e0706e886a917183feccddc4e825225dfc00758a05f963be7e204fe41"
+    },
+    {
+      "path": "data/bootstrap_indices.csv",
+      "bytes": 1620273,
+      "sha256": "7a3b051746be4e2e36f13037f128e71bd872510ab7b5263faf1c1323b9d43a35"
+    },
+    {
+      "path": "data/curves.csv",
+      "bytes": 12972782,
+      "sha256": "e29e3424460fc72b9e2bf85dc39587b701875627b3374de3d0f7d0a1cc394f82"
+    },
+    {
+      "path": "data/factorial_statistics.csv",
+      "bytes": 11555,
+      "sha256": "58596663e922af7e5a0f69d19b237a3df1a15b9129587cdfc9ba0e8100e40d26"
+    },
+    {
+      "path": "data/gate_trace.csv",
+      "bytes": 9443241,
+      "sha256": "01863c9f7b0f5dfd6154fee55ad2a77bff78e0c54513b659b629cec22810a8c4"
+    },
+    {
+      "path": "data/mocpo_statistics.csv",
+      "bytes": 9624,
+      "sha256": "3ac893c079ed9910c009eede602894b204ad0720678cdccd00d18a321eb308c3"
+    },
+    {
+      "path": "data/runs.csv",
+      "bytes": 210155,
+      "sha256": "d74f5bc417df697ff37a2aff41f6532360ef75c38436919fbff1dad9967774fb"
+    },
+    {
+      "path": "data/signedrank_exact_sensitivity.csv",
+      "bytes": 16232,
+      "sha256": "4201839214fab767054fd2891d39623a869f3e19bce8275ed80fcd4c81d0123d"
+    },
+    {
+      "path": "data/summary.csv",
+      "bytes": 14415,
+      "sha256": "39a1f43cc91929a88077c75a1f08d7d4cc7b63108a9d6f1e1e3365794f7094fe"
+    },
+    {
+      "path": "data/trajectory_pairs.csv",
+      "bytes": 13754,
+      "sha256": "826a35cda537e681449d0640a5fc6ef1bf3d6f4fdad4b7ea49d7d9ce1a992d10"
+    },
+    {
+      "path": "editorial.json",
+      "bytes": 10644,
+      "sha256": "3ebf57b7aa0933102d0533ae8ac31d5684712f72d9e8d92bab948b4bda9c1d9e"
+    },
+    {
+      "path": "editorial_draft.json",
+      "bytes": 5421,
+      "sha256": "74c938da0c8061263583bbf31c013f58e5ea0957e06f9be17452908b33bf1299"
+    },
+    {
+      "path": "figures/mocpo_comparison.fig",
+      "bytes": 162937,
+      "sha256": "a8de7259478ea767ff0162aad207274a691bbc973821828468b6f81302d3de45"
+    },
+    {
+      "path": "figures/mocpo_comparison.pdf",
+      "bytes": 78605,
+      "sha256": "d9de26b0955d75f9fb644f9318b1e8a07e09d33a281949bf3ba8444a4cfe5709"
+    },
+    {
+      "path": "figures/mocpo_comparison.png",
+      "bytes": 301651,
+      "sha256": "6cd2c9e6fef100a45999470a240ee859255688779201351f28749e1caf8a5585"
+    },
+    {
+      "path": "figures/pulse_factorial.fig",
+      "bytes": 44223,
+      "sha256": "94ebe8ded53cee99404ba72112df488f00f11e6c741eafa31246c645b6bb2997"
+    },
+    {
+      "path": "figures/pulse_factorial.pdf",
+      "bytes": 44632,
+      "sha256": "a826b2c817a70f7ee91d66e4c28888cb73cbd5cd70478090725db3db6896f5a6"
+    },
+    {
+      "path": "figures/pulse_factorial.png",
+      "bytes": 250436,
+      "sha256": "85f01b3d2e988405f5e571c20300451dce2c8db48572040080093b982acbd4c8"
+    },
+    {
+      "path": "final_check.py",
+      "bytes": 4125,
+      "sha256": "754372a34a6b277e5b51edeb905d8c3ae0444a09291e9208aa5225766d3c862e"
+    },
+    {
+      "path": "freeze.mat",
+      "bytes": 20978,
+      "sha256": "7f858e21829f976cadbf0d415fd04b15d7933fe9331ab3c7260f941b0fa9054d"
+    },
+    {
+      "path": "make_innovation_figures.m",
+      "bytes": 4340,
+      "sha256": "e574907387f424fe277e274848f051b998d4fc4986ed056f8c057000fd72c00d"
+    },
+    {
+      "path": "make_supplement.py",
+      "bytes": 8124,
+      "sha256": "8d12134a0bea1f6a1e01c7e597bba3692934a2b10470299460ccc8e1bce33f5f"
+    },
+    {
+      "path": "MO_PACPO_创新性对照修订稿_单栏.docx",
+      "bytes": 3249000,
+      "sha256": "fd29ea6daf85ec60d0ef2ec78331efa9f0cbaf4a3a808f18eafa90350455b239"
+    },
+    {
+      "path": "PROTOCOL.md",
+      "bytes": 3737,
+      "sha256": "23d26a3198da0c6d1c17a8bd97c1ee1bd9d9d3980ebf1c4a97bf0bccf4ef2ec1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3496,
+      "sha256": "34c1e16dbe2e17e1bdbe180d5901cc83e3fa55de51d1a7428f949cdc28925c48"
+    },
+    {
+      "path": "render_pages.py",
+      "bytes": 469,
+      "sha256": "372da367ee6e9fbfc0363781274c10d9d39c747845c6bd9e163fc39a5ae3fa5e"
+    },
+    {
+      "path": "render_word.ps1",
+      "bytes": 1223,
+      "sha256": "49574535c54bb13244f2cf644e7cb652d793e69902175ed8e7b2eda55bbfa723"
+    },
+    {
+      "path": "reproduce_innovation.m",
+      "bytes": 883,
+      "sha256": "821dcd1586fc33ff3319aac4920104361fa9e1938db9ae8efd51299739207e35"
+    },
+    {
+      "path": "setup_experiment.py",
+      "bytes": 1877,
+      "sha256": "21e70c572999726e755b2e6a6dfa2336149958232f1177591b015403cad4d3bc"
+    },
+    {
+      "path": "STATUS.json",
+      "bytes": 602,
+      "sha256": "b01dd882c2fdab8b180be55daec0b2b85296be1c8c4b74a5d9727d0357d36b90"
+    },
+    {
+      "path": "tests/test_mocpo.m",
+      "bytes": 2134,
+      "sha256": "8df1ef2563ae5109107492f0de349e26e5632d329ab97bf5fd09f426f37722cf"
+    },
+    {
+      "path": "tests/test_pulse.m",
+      "bytes": 2952,
+      "sha256": "15daaa13bb2b8616418d3a06ae7b6607ead000c5ea6bc20889067d7e3e849988"
+    },
+    {
+      "path": "verify_analysis.py",
+      "bytes": 9811,
+      "sha256": "dfbc603c908fa0959650e62c2ba4cd6d58009bf1819e864a6c0503b3c81689a8"
+    },
+    {
+      "path": "修改说明.md",
+      "bytes": 4194,
+      "sha256": "5ec176f73c41c1ea54575ec7b2c7228b4cd15f79ff588d9ab36f19d8335b829c"
+    },
+    {
+      "path": "补充材料S7_机制对照与MOCPO复现.md",
+      "bytes": 22677,
+      "sha256": "9a234de066cf491b77625c4b454ce325b252b28e8cd5dc0b86bd7613e26ab1d5"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+﻿Item,Implemented setting and interpretation
+Feedback fitness,"F: mean fixed-normalized objectives, floored at 10⁻¹². R: nondomination rank in the union of intermediate candidates and sampled feedback parents. Both interpretations are reported."
+Branch probabilities,"Exploration/exploitation each have probability 1/2, with probability 1/2 within each branch. The paper describes random switching without numerical probabilities."
+"α, β, δ","Each is 0.5, a common half-step scale for published equations (6), (7), and (9), which do not specify parameter values."
+γ and Brownian motion,"γ=0.01 and independent standard Gaussian components in normalized [0,1]ᴰ decisions."
+Global guide G,Uniform selection from the first feasibility-prioritized nondominated front.
+Neighborhood guide B,"Ten nearest current parents in fixed-normalized objective space, including self; select by constraint/rank, whole-parent-population crowding distance, then index."
+Population reduction,Fixed N=100 following Algorithm 1; set Nmin=N in the population-reduction equation for this common-size comparison.
+Bounds and constraints,"Clip to [0,1]; feasibility first, then violation, nondomination rank, and crowding."
+Post-feedback operations,"No additional MO-PACPO differences, principal-axis noise, pulses, or polynomial mutation."
+Final output,"Feasible nondominated subset of the final population, objective-deduplicated, at most 100 points; no cross-generation external archive."

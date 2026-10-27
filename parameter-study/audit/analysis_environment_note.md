@@ -1,0 +1,3 @@
+# 分析执行环境补充
+
+在筛查完成及候选选择之前，collect与reproduce_derived入口明确设为单计算线程；collect清空评价带。此设置与每条搜索记录的单线程执行环境一致。参数、实验记录、统计公式、候选规则和源算法均未变。之前脚本校验保存在analysis_scripts_before_selection.json。

@@ -1,0 +1,15 @@
+{
+  "retain": "B",
+  "principalGain": 0.05,
+  "sigmaMin": 0.02,
+  "window": 5,
+  "pulseCap": 0.2,
+  "basis": "PPAR independent confirmation: 30 new paired seeds per setting",
+  "candidates": [
+    "N31",
+    "N32"
+  ],
+  "repeatable_improvement_established": false,
+  "scope": "fixed original mechanism and engineering model; 25100 objective evaluations; studied parameter range",
+  "DTLZ3_role": "auxiliary multimodal convergence; never used for candidate selection"
+}

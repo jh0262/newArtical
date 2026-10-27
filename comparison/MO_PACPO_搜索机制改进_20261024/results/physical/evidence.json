@@ -1,0 +1,149 @@
+{
+  "newRuns": 30,
+  "newFE": 753000,
+  "reusedRuns": 120,
+  "model": "unchanged PPaPaRModel",
+  "searchIntegrationPoints": 32768,
+  "finalIntegrationPoints": 262144,
+  "summary": [
+    {
+      "Variant": "MOEAD",
+      "GroupCount": 30,
+      "mean_FineHV": 0.086194038879744014,
+      "std_FineHV": 0.00032185425430884931,
+      "median_FineHV": 0.0862991161414465,
+      "mean_FineSpacing": 0.00841439388265686,
+      "std_FineSpacing": 0.00091733498382091559,
+      "median_FineSpacing": 0.0082271481150263774,
+      "mean_Pulses": 0,
+      "std_Pulses": 0,
+      "median_Pulses": 0
+    },
+    {
+      "Variant": "MOPSO",
+      "GroupCount": 30,
+      "mean_FineHV": 0.084083775678357384,
+      "std_FineHV": 0.000375616079332653,
+      "median_FineHV": 0.084123031508165136,
+      "mean_FineSpacing": 0.00632696917168766,
+      "std_FineSpacing": 0.0012088657106373172,
+      "median_FineSpacing": 0.0060867197772298438,
+      "mean_Pulses": 0,
+      "std_Pulses": 0,
+      "median_Pulses": 0
+    },
+    {
+      "Variant": "NSGAII",
+      "GroupCount": 30,
+      "mean_FineHV": 0.086064064555063338,
+      "std_FineHV": 0.00033607176741052354,
+      "median_FineHV": 0.086178879003413256,
+      "mean_FineSpacing": 0.0083128227662938748,
+      "std_FineSpacing": 0.00096473328462094493,
+      "median_FineSpacing": 0.0083853185122333175,
+      "mean_Pulses": 0,
+      "std_Pulses": 0,
+      "median_Pulses": 0
+    },
+    {
+      "Variant": "candidate",
+      "GroupCount": 30,
+      "mean_FineHV": 0.086261605024889887,
+      "std_FineHV": 0.0002364019503080994,
+      "median_FineHV": 0.086293687580248329,
+      "mean_FineSpacing": 0.0086903549966855041,
+      "std_FineSpacing": 0.00090381736994057688,
+      "median_FineSpacing": 0.0087513275664389441,
+      "mean_Pulses": 3.0666666666666669,
+      "std_Pulses": 1.3879613761229797,
+      "median_Pulses": 3
+    },
+    {
+      "Variant": "legacy",
+      "GroupCount": 30,
+      "mean_FineHV": 0.084715217672687221,
+      "std_FineHV": 0.00033662613848840534,
+      "median_FineHV": 0.084598583585873355,
+      "mean_FineSpacing": 0.00759139817289543,
+      "std_FineSpacing": 0.0013351123811212032,
+      "median_FineSpacing": 0.0076962463854513032,
+      "mean_Pulses": 41.666666666666664,
+      "std_Pulses": 1.953482007601552,
+      "median_Pulses": 42
+    }
+  ],
+  "statistics": [
+    {
+      "Comparator": "legacy",
+      "Metric": "FineHV",
+      "MeanDifference": 0.0015463873522026952,
+      "CandidateEffect": 1,
+      "RawP": 1.7343976283205826E-6,
+      "HolmP": 6.9375905132823306E-6,
+      "Outcome": "candidate_better"
+    },
+    {
+      "Comparator": "legacy",
+      "Metric": "FineSpacing",
+      "MeanDifference": 0.0010989568237900792,
+      "CandidateEffect": -0.64301075268817209,
+      "RawP": 0.0021052603409003651,
+      "HolmP": 0.0063157810227010957,
+      "Outcome": "candidate_worse"
+    },
+    {
+      "Comparator": "NSGAII",
+      "Metric": "FineHV",
+      "MeanDifference": 0.0001975404698265501,
+      "CandidateEffect": 0.74623655913978493,
+      "RawP": 0.00035888445044696116,
+      "HolmP": 0.00071776890089392232,
+      "Outcome": "candidate_better"
+    },
+    {
+      "Comparator": "NSGAII",
+      "Metric": "FineSpacing",
+      "MeanDifference": 0.00037753223039163321,
+      "CandidateEffect": -0.26451612903225807,
+      "RawP": 0.20588822305607396,
+      "HolmP": 0.27181557099282327,
+      "Outcome": "not_significant"
+    },
+    {
+      "Comparator": "MOEAD",
+      "Metric": "FineHV",
+      "MeanDifference": 6.7566145145823064E-5,
+      "CandidateEffect": 0.1010752688172043,
+      "RawP": 0.62884300205410726,
+      "HolmP": 0.62884300205410726,
+      "Outcome": "not_significant"
+    },
+    {
+      "Comparator": "MOEAD",
+      "Metric": "FineSpacing",
+      "MeanDifference": 0.00027596111402864777,
+      "CandidateEffect": -0.31182795698924731,
+      "RawP": 0.13590778549641164,
+      "HolmP": 0.27181557099282327,
+      "Outcome": "not_significant"
+    },
+    {
+      "Comparator": "MOPSO",
+      "Metric": "FineHV",
+      "MeanDifference": 0.0021778293465325028,
+      "CandidateEffect": 1,
+      "RawP": 1.7343976283205826E-6,
+      "HolmP": 6.9375905132823306E-6,
+      "Outcome": "candidate_better"
+    },
+    {
+      "Comparator": "MOPSO",
+      "Metric": "FineSpacing",
+      "MeanDifference": 0.0023633858249978491,
+      "CandidateEffect": -0.9096774193548387,
+      "RawP": 1.3601107967991009E-5,
+      "HolmP": 5.4404431871964036E-5,
+      "Outcome": "candidate_worse"
+    }
+  ]
+}

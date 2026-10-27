@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "preservedOriginals": true,
+  "scopePreserved": true,
+  "testsPassed": 78,
+  "newPhysicalRuns": 120,
+  "newSearchFE": 3012000,
+  "retainedBenchmarkRuns": 810,
+  "activeTotalRuns": 930,
+  "activeSearchFE": 23343000,
+  "docxSHA256": "298bac3e2d40f4d8deb9c300d0f4953bb972943ef47657b83d8762c042248afc",
+  "pageCount": 13,
+  "references": 27,
+  "figures": 6,
+  "tables": 7,
+  "errorInputs": "assumed, adjustable; literature geometry and limits",
+  "verification": "closed-loop analytical, finite-difference, nonlinear propagation and integration checks"
+}

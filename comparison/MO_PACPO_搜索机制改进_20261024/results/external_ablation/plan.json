@@ -1,0 +1,2702 @@
+[
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811001,
+    "id": "ZDT4_candidateDiagonal_811001"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811001,
+    "id": "ZDT4_candidateNoNoise_811001"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811001,
+    "id": "ZDT4_candidateNoLock_811001"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811001,
+    "id": "ZDT4_candidateNoEC_811001"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811001,
+    "id": "ZDT4_candidateFixed_811001"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811002,
+    "id": "ZDT4_candidateDiagonal_811002"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811002,
+    "id": "ZDT4_candidateNoNoise_811002"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811002,
+    "id": "ZDT4_candidateNoLock_811002"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811002,
+    "id": "ZDT4_candidateNoEC_811002"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811002,
+    "id": "ZDT4_candidateFixed_811002"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811003,
+    "id": "ZDT4_candidateDiagonal_811003"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811003,
+    "id": "ZDT4_candidateNoNoise_811003"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811003,
+    "id": "ZDT4_candidateNoLock_811003"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811003,
+    "id": "ZDT4_candidateNoEC_811003"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811003,
+    "id": "ZDT4_candidateFixed_811003"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811004,
+    "id": "ZDT4_candidateDiagonal_811004"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811004,
+    "id": "ZDT4_candidateNoNoise_811004"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811004,
+    "id": "ZDT4_candidateNoLock_811004"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811004,
+    "id": "ZDT4_candidateNoEC_811004"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811004,
+    "id": "ZDT4_candidateFixed_811004"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811005,
+    "id": "ZDT4_candidateDiagonal_811005"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811005,
+    "id": "ZDT4_candidateNoNoise_811005"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811005,
+    "id": "ZDT4_candidateNoLock_811005"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811005,
+    "id": "ZDT4_candidateNoEC_811005"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811005,
+    "id": "ZDT4_candidateFixed_811005"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811006,
+    "id": "ZDT4_candidateDiagonal_811006"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811006,
+    "id": "ZDT4_candidateNoNoise_811006"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811006,
+    "id": "ZDT4_candidateNoLock_811006"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811006,
+    "id": "ZDT4_candidateNoEC_811006"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811006,
+    "id": "ZDT4_candidateFixed_811006"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811007,
+    "id": "ZDT4_candidateDiagonal_811007"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811007,
+    "id": "ZDT4_candidateNoNoise_811007"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811007,
+    "id": "ZDT4_candidateNoLock_811007"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811007,
+    "id": "ZDT4_candidateNoEC_811007"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811007,
+    "id": "ZDT4_candidateFixed_811007"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811008,
+    "id": "ZDT4_candidateDiagonal_811008"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811008,
+    "id": "ZDT4_candidateNoNoise_811008"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811008,
+    "id": "ZDT4_candidateNoLock_811008"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811008,
+    "id": "ZDT4_candidateNoEC_811008"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811008,
+    "id": "ZDT4_candidateFixed_811008"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811009,
+    "id": "ZDT4_candidateDiagonal_811009"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811009,
+    "id": "ZDT4_candidateNoNoise_811009"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811009,
+    "id": "ZDT4_candidateNoLock_811009"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811009,
+    "id": "ZDT4_candidateNoEC_811009"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811009,
+    "id": "ZDT4_candidateFixed_811009"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811010,
+    "id": "ZDT4_candidateDiagonal_811010"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811010,
+    "id": "ZDT4_candidateNoNoise_811010"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811010,
+    "id": "ZDT4_candidateNoLock_811010"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811010,
+    "id": "ZDT4_candidateNoEC_811010"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811010,
+    "id": "ZDT4_candidateFixed_811010"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811011,
+    "id": "ZDT4_candidateDiagonal_811011"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811011,
+    "id": "ZDT4_candidateNoNoise_811011"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811011,
+    "id": "ZDT4_candidateNoLock_811011"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811011,
+    "id": "ZDT4_candidateNoEC_811011"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811011,
+    "id": "ZDT4_candidateFixed_811011"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811012,
+    "id": "ZDT4_candidateDiagonal_811012"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811012,
+    "id": "ZDT4_candidateNoNoise_811012"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811012,
+    "id": "ZDT4_candidateNoLock_811012"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811012,
+    "id": "ZDT4_candidateNoEC_811012"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811012,
+    "id": "ZDT4_candidateFixed_811012"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811013,
+    "id": "ZDT4_candidateDiagonal_811013"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811013,
+    "id": "ZDT4_candidateNoNoise_811013"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811013,
+    "id": "ZDT4_candidateNoLock_811013"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811013,
+    "id": "ZDT4_candidateNoEC_811013"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811013,
+    "id": "ZDT4_candidateFixed_811013"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811014,
+    "id": "ZDT4_candidateDiagonal_811014"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811014,
+    "id": "ZDT4_candidateNoNoise_811014"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811014,
+    "id": "ZDT4_candidateNoLock_811014"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811014,
+    "id": "ZDT4_candidateNoEC_811014"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811014,
+    "id": "ZDT4_candidateFixed_811014"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811015,
+    "id": "ZDT4_candidateDiagonal_811015"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811015,
+    "id": "ZDT4_candidateNoNoise_811015"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811015,
+    "id": "ZDT4_candidateNoLock_811015"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811015,
+    "id": "ZDT4_candidateNoEC_811015"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811015,
+    "id": "ZDT4_candidateFixed_811015"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811016,
+    "id": "ZDT4_candidateDiagonal_811016"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811016,
+    "id": "ZDT4_candidateNoNoise_811016"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811016,
+    "id": "ZDT4_candidateNoLock_811016"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811016,
+    "id": "ZDT4_candidateNoEC_811016"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811016,
+    "id": "ZDT4_candidateFixed_811016"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811017,
+    "id": "ZDT4_candidateDiagonal_811017"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811017,
+    "id": "ZDT4_candidateNoNoise_811017"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811017,
+    "id": "ZDT4_candidateNoLock_811017"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811017,
+    "id": "ZDT4_candidateNoEC_811017"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811017,
+    "id": "ZDT4_candidateFixed_811017"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811018,
+    "id": "ZDT4_candidateDiagonal_811018"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811018,
+    "id": "ZDT4_candidateNoNoise_811018"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811018,
+    "id": "ZDT4_candidateNoLock_811018"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811018,
+    "id": "ZDT4_candidateNoEC_811018"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811018,
+    "id": "ZDT4_candidateFixed_811018"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811019,
+    "id": "ZDT4_candidateDiagonal_811019"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811019,
+    "id": "ZDT4_candidateNoNoise_811019"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811019,
+    "id": "ZDT4_candidateNoLock_811019"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811019,
+    "id": "ZDT4_candidateNoEC_811019"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811019,
+    "id": "ZDT4_candidateFixed_811019"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811020,
+    "id": "ZDT4_candidateDiagonal_811020"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811020,
+    "id": "ZDT4_candidateNoNoise_811020"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811020,
+    "id": "ZDT4_candidateNoLock_811020"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811020,
+    "id": "ZDT4_candidateNoEC_811020"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811020,
+    "id": "ZDT4_candidateFixed_811020"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811021,
+    "id": "ZDT4_candidateDiagonal_811021"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811021,
+    "id": "ZDT4_candidateNoNoise_811021"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811021,
+    "id": "ZDT4_candidateNoLock_811021"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811021,
+    "id": "ZDT4_candidateNoEC_811021"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811021,
+    "id": "ZDT4_candidateFixed_811021"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811022,
+    "id": "ZDT4_candidateDiagonal_811022"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811022,
+    "id": "ZDT4_candidateNoNoise_811022"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811022,
+    "id": "ZDT4_candidateNoLock_811022"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811022,
+    "id": "ZDT4_candidateNoEC_811022"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811022,
+    "id": "ZDT4_candidateFixed_811022"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811023,
+    "id": "ZDT4_candidateDiagonal_811023"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811023,
+    "id": "ZDT4_candidateNoNoise_811023"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811023,
+    "id": "ZDT4_candidateNoLock_811023"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811023,
+    "id": "ZDT4_candidateNoEC_811023"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811023,
+    "id": "ZDT4_candidateFixed_811023"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811024,
+    "id": "ZDT4_candidateDiagonal_811024"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811024,
+    "id": "ZDT4_candidateNoNoise_811024"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811024,
+    "id": "ZDT4_candidateNoLock_811024"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811024,
+    "id": "ZDT4_candidateNoEC_811024"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811024,
+    "id": "ZDT4_candidateFixed_811024"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811025,
+    "id": "ZDT4_candidateDiagonal_811025"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811025,
+    "id": "ZDT4_candidateNoNoise_811025"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811025,
+    "id": "ZDT4_candidateNoLock_811025"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811025,
+    "id": "ZDT4_candidateNoEC_811025"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811025,
+    "id": "ZDT4_candidateFixed_811025"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811026,
+    "id": "ZDT4_candidateDiagonal_811026"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811026,
+    "id": "ZDT4_candidateNoNoise_811026"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811026,
+    "id": "ZDT4_candidateNoLock_811026"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811026,
+    "id": "ZDT4_candidateNoEC_811026"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811026,
+    "id": "ZDT4_candidateFixed_811026"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811027,
+    "id": "ZDT4_candidateDiagonal_811027"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811027,
+    "id": "ZDT4_candidateNoNoise_811027"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811027,
+    "id": "ZDT4_candidateNoLock_811027"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811027,
+    "id": "ZDT4_candidateNoEC_811027"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811027,
+    "id": "ZDT4_candidateFixed_811027"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811028,
+    "id": "ZDT4_candidateDiagonal_811028"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811028,
+    "id": "ZDT4_candidateNoNoise_811028"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811028,
+    "id": "ZDT4_candidateNoLock_811028"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811028,
+    "id": "ZDT4_candidateNoEC_811028"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811028,
+    "id": "ZDT4_candidateFixed_811028"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811029,
+    "id": "ZDT4_candidateDiagonal_811029"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811029,
+    "id": "ZDT4_candidateNoNoise_811029"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811029,
+    "id": "ZDT4_candidateNoLock_811029"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811029,
+    "id": "ZDT4_candidateNoEC_811029"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811029,
+    "id": "ZDT4_candidateFixed_811029"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateDiagonal",
+    "seed": 811030,
+    "id": "ZDT4_candidateDiagonal_811030"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoNoise",
+    "seed": 811030,
+    "id": "ZDT4_candidateNoNoise_811030"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoLock",
+    "seed": 811030,
+    "id": "ZDT4_candidateNoLock_811030"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateNoEC",
+    "seed": 811030,
+    "id": "ZDT4_candidateNoEC_811030"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "candidateFixed",
+    "seed": 811030,
+    "id": "ZDT4_candidateFixed_811030"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812001,
+    "id": "ZDT6_candidateDiagonal_812001"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812001,
+    "id": "ZDT6_candidateNoNoise_812001"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812001,
+    "id": "ZDT6_candidateNoLock_812001"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812001,
+    "id": "ZDT6_candidateNoEC_812001"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812001,
+    "id": "ZDT6_candidateFixed_812001"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812002,
+    "id": "ZDT6_candidateDiagonal_812002"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812002,
+    "id": "ZDT6_candidateNoNoise_812002"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812002,
+    "id": "ZDT6_candidateNoLock_812002"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812002,
+    "id": "ZDT6_candidateNoEC_812002"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812002,
+    "id": "ZDT6_candidateFixed_812002"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812003,
+    "id": "ZDT6_candidateDiagonal_812003"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812003,
+    "id": "ZDT6_candidateNoNoise_812003"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812003,
+    "id": "ZDT6_candidateNoLock_812003"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812003,
+    "id": "ZDT6_candidateNoEC_812003"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812003,
+    "id": "ZDT6_candidateFixed_812003"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812004,
+    "id": "ZDT6_candidateDiagonal_812004"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812004,
+    "id": "ZDT6_candidateNoNoise_812004"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812004,
+    "id": "ZDT6_candidateNoLock_812004"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812004,
+    "id": "ZDT6_candidateNoEC_812004"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812004,
+    "id": "ZDT6_candidateFixed_812004"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812005,
+    "id": "ZDT6_candidateDiagonal_812005"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812005,
+    "id": "ZDT6_candidateNoNoise_812005"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812005,
+    "id": "ZDT6_candidateNoLock_812005"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812005,
+    "id": "ZDT6_candidateNoEC_812005"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812005,
+    "id": "ZDT6_candidateFixed_812005"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812006,
+    "id": "ZDT6_candidateDiagonal_812006"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812006,
+    "id": "ZDT6_candidateNoNoise_812006"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812006,
+    "id": "ZDT6_candidateNoLock_812006"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812006,
+    "id": "ZDT6_candidateNoEC_812006"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812006,
+    "id": "ZDT6_candidateFixed_812006"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812007,
+    "id": "ZDT6_candidateDiagonal_812007"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812007,
+    "id": "ZDT6_candidateNoNoise_812007"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812007,
+    "id": "ZDT6_candidateNoLock_812007"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812007,
+    "id": "ZDT6_candidateNoEC_812007"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812007,
+    "id": "ZDT6_candidateFixed_812007"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812008,
+    "id": "ZDT6_candidateDiagonal_812008"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812008,
+    "id": "ZDT6_candidateNoNoise_812008"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812008,
+    "id": "ZDT6_candidateNoLock_812008"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812008,
+    "id": "ZDT6_candidateNoEC_812008"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812008,
+    "id": "ZDT6_candidateFixed_812008"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812009,
+    "id": "ZDT6_candidateDiagonal_812009"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812009,
+    "id": "ZDT6_candidateNoNoise_812009"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812009,
+    "id": "ZDT6_candidateNoLock_812009"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812009,
+    "id": "ZDT6_candidateNoEC_812009"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812009,
+    "id": "ZDT6_candidateFixed_812009"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812010,
+    "id": "ZDT6_candidateDiagonal_812010"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812010,
+    "id": "ZDT6_candidateNoNoise_812010"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812010,
+    "id": "ZDT6_candidateNoLock_812010"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812010,
+    "id": "ZDT6_candidateNoEC_812010"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812010,
+    "id": "ZDT6_candidateFixed_812010"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812011,
+    "id": "ZDT6_candidateDiagonal_812011"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812011,
+    "id": "ZDT6_candidateNoNoise_812011"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812011,
+    "id": "ZDT6_candidateNoLock_812011"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812011,
+    "id": "ZDT6_candidateNoEC_812011"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812011,
+    "id": "ZDT6_candidateFixed_812011"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812012,
+    "id": "ZDT6_candidateDiagonal_812012"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812012,
+    "id": "ZDT6_candidateNoNoise_812012"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812012,
+    "id": "ZDT6_candidateNoLock_812012"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812012,
+    "id": "ZDT6_candidateNoEC_812012"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812012,
+    "id": "ZDT6_candidateFixed_812012"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812013,
+    "id": "ZDT6_candidateDiagonal_812013"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812013,
+    "id": "ZDT6_candidateNoNoise_812013"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812013,
+    "id": "ZDT6_candidateNoLock_812013"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812013,
+    "id": "ZDT6_candidateNoEC_812013"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812013,
+    "id": "ZDT6_candidateFixed_812013"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812014,
+    "id": "ZDT6_candidateDiagonal_812014"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812014,
+    "id": "ZDT6_candidateNoNoise_812014"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812014,
+    "id": "ZDT6_candidateNoLock_812014"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812014,
+    "id": "ZDT6_candidateNoEC_812014"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812014,
+    "id": "ZDT6_candidateFixed_812014"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812015,
+    "id": "ZDT6_candidateDiagonal_812015"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812015,
+    "id": "ZDT6_candidateNoNoise_812015"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812015,
+    "id": "ZDT6_candidateNoLock_812015"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812015,
+    "id": "ZDT6_candidateNoEC_812015"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812015,
+    "id": "ZDT6_candidateFixed_812015"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812016,
+    "id": "ZDT6_candidateDiagonal_812016"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812016,
+    "id": "ZDT6_candidateNoNoise_812016"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812016,
+    "id": "ZDT6_candidateNoLock_812016"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812016,
+    "id": "ZDT6_candidateNoEC_812016"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812016,
+    "id": "ZDT6_candidateFixed_812016"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812017,
+    "id": "ZDT6_candidateDiagonal_812017"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812017,
+    "id": "ZDT6_candidateNoNoise_812017"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812017,
+    "id": "ZDT6_candidateNoLock_812017"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812017,
+    "id": "ZDT6_candidateNoEC_812017"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812017,
+    "id": "ZDT6_candidateFixed_812017"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812018,
+    "id": "ZDT6_candidateDiagonal_812018"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812018,
+    "id": "ZDT6_candidateNoNoise_812018"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812018,
+    "id": "ZDT6_candidateNoLock_812018"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812018,
+    "id": "ZDT6_candidateNoEC_812018"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812018,
+    "id": "ZDT6_candidateFixed_812018"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812019,
+    "id": "ZDT6_candidateDiagonal_812019"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812019,
+    "id": "ZDT6_candidateNoNoise_812019"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812019,
+    "id": "ZDT6_candidateNoLock_812019"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812019,
+    "id": "ZDT6_candidateNoEC_812019"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812019,
+    "id": "ZDT6_candidateFixed_812019"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812020,
+    "id": "ZDT6_candidateDiagonal_812020"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812020,
+    "id": "ZDT6_candidateNoNoise_812020"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812020,
+    "id": "ZDT6_candidateNoLock_812020"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812020,
+    "id": "ZDT6_candidateNoEC_812020"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812020,
+    "id": "ZDT6_candidateFixed_812020"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812021,
+    "id": "ZDT6_candidateDiagonal_812021"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812021,
+    "id": "ZDT6_candidateNoNoise_812021"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812021,
+    "id": "ZDT6_candidateNoLock_812021"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812021,
+    "id": "ZDT6_candidateNoEC_812021"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812021,
+    "id": "ZDT6_candidateFixed_812021"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812022,
+    "id": "ZDT6_candidateDiagonal_812022"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812022,
+    "id": "ZDT6_candidateNoNoise_812022"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812022,
+    "id": "ZDT6_candidateNoLock_812022"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812022,
+    "id": "ZDT6_candidateNoEC_812022"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812022,
+    "id": "ZDT6_candidateFixed_812022"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812023,
+    "id": "ZDT6_candidateDiagonal_812023"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812023,
+    "id": "ZDT6_candidateNoNoise_812023"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812023,
+    "id": "ZDT6_candidateNoLock_812023"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812023,
+    "id": "ZDT6_candidateNoEC_812023"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812023,
+    "id": "ZDT6_candidateFixed_812023"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812024,
+    "id": "ZDT6_candidateDiagonal_812024"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812024,
+    "id": "ZDT6_candidateNoNoise_812024"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812024,
+    "id": "ZDT6_candidateNoLock_812024"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812024,
+    "id": "ZDT6_candidateNoEC_812024"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812024,
+    "id": "ZDT6_candidateFixed_812024"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812025,
+    "id": "ZDT6_candidateDiagonal_812025"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812025,
+    "id": "ZDT6_candidateNoNoise_812025"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812025,
+    "id": "ZDT6_candidateNoLock_812025"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812025,
+    "id": "ZDT6_candidateNoEC_812025"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812025,
+    "id": "ZDT6_candidateFixed_812025"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812026,
+    "id": "ZDT6_candidateDiagonal_812026"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812026,
+    "id": "ZDT6_candidateNoNoise_812026"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812026,
+    "id": "ZDT6_candidateNoLock_812026"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812026,
+    "id": "ZDT6_candidateNoEC_812026"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812026,
+    "id": "ZDT6_candidateFixed_812026"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812027,
+    "id": "ZDT6_candidateDiagonal_812027"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812027,
+    "id": "ZDT6_candidateNoNoise_812027"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812027,
+    "id": "ZDT6_candidateNoLock_812027"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812027,
+    "id": "ZDT6_candidateNoEC_812027"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812027,
+    "id": "ZDT6_candidateFixed_812027"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812028,
+    "id": "ZDT6_candidateDiagonal_812028"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812028,
+    "id": "ZDT6_candidateNoNoise_812028"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812028,
+    "id": "ZDT6_candidateNoLock_812028"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812028,
+    "id": "ZDT6_candidateNoEC_812028"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812028,
+    "id": "ZDT6_candidateFixed_812028"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812029,
+    "id": "ZDT6_candidateDiagonal_812029"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812029,
+    "id": "ZDT6_candidateNoNoise_812029"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812029,
+    "id": "ZDT6_candidateNoLock_812029"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812029,
+    "id": "ZDT6_candidateNoEC_812029"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812029,
+    "id": "ZDT6_candidateFixed_812029"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateDiagonal",
+    "seed": 812030,
+    "id": "ZDT6_candidateDiagonal_812030"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoNoise",
+    "seed": 812030,
+    "id": "ZDT6_candidateNoNoise_812030"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoLock",
+    "seed": 812030,
+    "id": "ZDT6_candidateNoLock_812030"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateNoEC",
+    "seed": 812030,
+    "id": "ZDT6_candidateNoEC_812030"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "candidateFixed",
+    "seed": 812030,
+    "id": "ZDT6_candidateFixed_812030"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813001,
+    "id": "DTLZ3_candidateDiagonal_813001"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813001,
+    "id": "DTLZ3_candidateNoNoise_813001"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813001,
+    "id": "DTLZ3_candidateNoLock_813001"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813001,
+    "id": "DTLZ3_candidateNoEC_813001"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813001,
+    "id": "DTLZ3_candidateFixed_813001"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813002,
+    "id": "DTLZ3_candidateDiagonal_813002"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813002,
+    "id": "DTLZ3_candidateNoNoise_813002"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813002,
+    "id": "DTLZ3_candidateNoLock_813002"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813002,
+    "id": "DTLZ3_candidateNoEC_813002"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813002,
+    "id": "DTLZ3_candidateFixed_813002"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813003,
+    "id": "DTLZ3_candidateDiagonal_813003"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813003,
+    "id": "DTLZ3_candidateNoNoise_813003"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813003,
+    "id": "DTLZ3_candidateNoLock_813003"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813003,
+    "id": "DTLZ3_candidateNoEC_813003"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813003,
+    "id": "DTLZ3_candidateFixed_813003"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813004,
+    "id": "DTLZ3_candidateDiagonal_813004"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813004,
+    "id": "DTLZ3_candidateNoNoise_813004"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813004,
+    "id": "DTLZ3_candidateNoLock_813004"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813004,
+    "id": "DTLZ3_candidateNoEC_813004"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813004,
+    "id": "DTLZ3_candidateFixed_813004"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813005,
+    "id": "DTLZ3_candidateDiagonal_813005"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813005,
+    "id": "DTLZ3_candidateNoNoise_813005"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813005,
+    "id": "DTLZ3_candidateNoLock_813005"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813005,
+    "id": "DTLZ3_candidateNoEC_813005"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813005,
+    "id": "DTLZ3_candidateFixed_813005"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813006,
+    "id": "DTLZ3_candidateDiagonal_813006"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813006,
+    "id": "DTLZ3_candidateNoNoise_813006"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813006,
+    "id": "DTLZ3_candidateNoLock_813006"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813006,
+    "id": "DTLZ3_candidateNoEC_813006"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813006,
+    "id": "DTLZ3_candidateFixed_813006"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813007,
+    "id": "DTLZ3_candidateDiagonal_813007"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813007,
+    "id": "DTLZ3_candidateNoNoise_813007"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813007,
+    "id": "DTLZ3_candidateNoLock_813007"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813007,
+    "id": "DTLZ3_candidateNoEC_813007"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813007,
+    "id": "DTLZ3_candidateFixed_813007"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813008,
+    "id": "DTLZ3_candidateDiagonal_813008"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813008,
+    "id": "DTLZ3_candidateNoNoise_813008"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813008,
+    "id": "DTLZ3_candidateNoLock_813008"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813008,
+    "id": "DTLZ3_candidateNoEC_813008"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813008,
+    "id": "DTLZ3_candidateFixed_813008"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813009,
+    "id": "DTLZ3_candidateDiagonal_813009"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813009,
+    "id": "DTLZ3_candidateNoNoise_813009"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813009,
+    "id": "DTLZ3_candidateNoLock_813009"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813009,
+    "id": "DTLZ3_candidateNoEC_813009"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813009,
+    "id": "DTLZ3_candidateFixed_813009"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813010,
+    "id": "DTLZ3_candidateDiagonal_813010"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813010,
+    "id": "DTLZ3_candidateNoNoise_813010"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813010,
+    "id": "DTLZ3_candidateNoLock_813010"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813010,
+    "id": "DTLZ3_candidateNoEC_813010"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813010,
+    "id": "DTLZ3_candidateFixed_813010"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813011,
+    "id": "DTLZ3_candidateDiagonal_813011"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813011,
+    "id": "DTLZ3_candidateNoNoise_813011"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813011,
+    "id": "DTLZ3_candidateNoLock_813011"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813011,
+    "id": "DTLZ3_candidateNoEC_813011"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813011,
+    "id": "DTLZ3_candidateFixed_813011"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813012,
+    "id": "DTLZ3_candidateDiagonal_813012"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813012,
+    "id": "DTLZ3_candidateNoNoise_813012"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813012,
+    "id": "DTLZ3_candidateNoLock_813012"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813012,
+    "id": "DTLZ3_candidateNoEC_813012"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813012,
+    "id": "DTLZ3_candidateFixed_813012"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813013,
+    "id": "DTLZ3_candidateDiagonal_813013"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813013,
+    "id": "DTLZ3_candidateNoNoise_813013"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813013,
+    "id": "DTLZ3_candidateNoLock_813013"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813013,
+    "id": "DTLZ3_candidateNoEC_813013"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813013,
+    "id": "DTLZ3_candidateFixed_813013"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813014,
+    "id": "DTLZ3_candidateDiagonal_813014"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813014,
+    "id": "DTLZ3_candidateNoNoise_813014"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813014,
+    "id": "DTLZ3_candidateNoLock_813014"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813014,
+    "id": "DTLZ3_candidateNoEC_813014"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813014,
+    "id": "DTLZ3_candidateFixed_813014"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813015,
+    "id": "DTLZ3_candidateDiagonal_813015"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813015,
+    "id": "DTLZ3_candidateNoNoise_813015"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813015,
+    "id": "DTLZ3_candidateNoLock_813015"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813015,
+    "id": "DTLZ3_candidateNoEC_813015"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813015,
+    "id": "DTLZ3_candidateFixed_813015"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813016,
+    "id": "DTLZ3_candidateDiagonal_813016"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813016,
+    "id": "DTLZ3_candidateNoNoise_813016"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813016,
+    "id": "DTLZ3_candidateNoLock_813016"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813016,
+    "id": "DTLZ3_candidateNoEC_813016"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813016,
+    "id": "DTLZ3_candidateFixed_813016"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813017,
+    "id": "DTLZ3_candidateDiagonal_813017"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813017,
+    "id": "DTLZ3_candidateNoNoise_813017"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813017,
+    "id": "DTLZ3_candidateNoLock_813017"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813017,
+    "id": "DTLZ3_candidateNoEC_813017"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813017,
+    "id": "DTLZ3_candidateFixed_813017"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813018,
+    "id": "DTLZ3_candidateDiagonal_813018"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813018,
+    "id": "DTLZ3_candidateNoNoise_813018"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813018,
+    "id": "DTLZ3_candidateNoLock_813018"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813018,
+    "id": "DTLZ3_candidateNoEC_813018"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813018,
+    "id": "DTLZ3_candidateFixed_813018"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813019,
+    "id": "DTLZ3_candidateDiagonal_813019"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813019,
+    "id": "DTLZ3_candidateNoNoise_813019"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813019,
+    "id": "DTLZ3_candidateNoLock_813019"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813019,
+    "id": "DTLZ3_candidateNoEC_813019"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813019,
+    "id": "DTLZ3_candidateFixed_813019"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813020,
+    "id": "DTLZ3_candidateDiagonal_813020"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813020,
+    "id": "DTLZ3_candidateNoNoise_813020"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813020,
+    "id": "DTLZ3_candidateNoLock_813020"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813020,
+    "id": "DTLZ3_candidateNoEC_813020"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813020,
+    "id": "DTLZ3_candidateFixed_813020"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813021,
+    "id": "DTLZ3_candidateDiagonal_813021"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813021,
+    "id": "DTLZ3_candidateNoNoise_813021"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813021,
+    "id": "DTLZ3_candidateNoLock_813021"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813021,
+    "id": "DTLZ3_candidateNoEC_813021"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813021,
+    "id": "DTLZ3_candidateFixed_813021"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813022,
+    "id": "DTLZ3_candidateDiagonal_813022"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813022,
+    "id": "DTLZ3_candidateNoNoise_813022"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813022,
+    "id": "DTLZ3_candidateNoLock_813022"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813022,
+    "id": "DTLZ3_candidateNoEC_813022"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813022,
+    "id": "DTLZ3_candidateFixed_813022"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813023,
+    "id": "DTLZ3_candidateDiagonal_813023"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813023,
+    "id": "DTLZ3_candidateNoNoise_813023"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813023,
+    "id": "DTLZ3_candidateNoLock_813023"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813023,
+    "id": "DTLZ3_candidateNoEC_813023"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813023,
+    "id": "DTLZ3_candidateFixed_813023"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813024,
+    "id": "DTLZ3_candidateDiagonal_813024"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813024,
+    "id": "DTLZ3_candidateNoNoise_813024"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813024,
+    "id": "DTLZ3_candidateNoLock_813024"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813024,
+    "id": "DTLZ3_candidateNoEC_813024"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813024,
+    "id": "DTLZ3_candidateFixed_813024"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813025,
+    "id": "DTLZ3_candidateDiagonal_813025"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813025,
+    "id": "DTLZ3_candidateNoNoise_813025"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813025,
+    "id": "DTLZ3_candidateNoLock_813025"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813025,
+    "id": "DTLZ3_candidateNoEC_813025"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813025,
+    "id": "DTLZ3_candidateFixed_813025"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813026,
+    "id": "DTLZ3_candidateDiagonal_813026"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813026,
+    "id": "DTLZ3_candidateNoNoise_813026"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813026,
+    "id": "DTLZ3_candidateNoLock_813026"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813026,
+    "id": "DTLZ3_candidateNoEC_813026"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813026,
+    "id": "DTLZ3_candidateFixed_813026"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813027,
+    "id": "DTLZ3_candidateDiagonal_813027"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813027,
+    "id": "DTLZ3_candidateNoNoise_813027"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813027,
+    "id": "DTLZ3_candidateNoLock_813027"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813027,
+    "id": "DTLZ3_candidateNoEC_813027"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813027,
+    "id": "DTLZ3_candidateFixed_813027"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813028,
+    "id": "DTLZ3_candidateDiagonal_813028"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813028,
+    "id": "DTLZ3_candidateNoNoise_813028"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813028,
+    "id": "DTLZ3_candidateNoLock_813028"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813028,
+    "id": "DTLZ3_candidateNoEC_813028"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813028,
+    "id": "DTLZ3_candidateFixed_813028"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813029,
+    "id": "DTLZ3_candidateDiagonal_813029"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813029,
+    "id": "DTLZ3_candidateNoNoise_813029"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813029,
+    "id": "DTLZ3_candidateNoLock_813029"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813029,
+    "id": "DTLZ3_candidateNoEC_813029"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813029,
+    "id": "DTLZ3_candidateFixed_813029"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateDiagonal",
+    "seed": 813030,
+    "id": "DTLZ3_candidateDiagonal_813030"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoNoise",
+    "seed": 813030,
+    "id": "DTLZ3_candidateNoNoise_813030"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoLock",
+    "seed": 813030,
+    "id": "DTLZ3_candidateNoLock_813030"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateNoEC",
+    "seed": 813030,
+    "id": "DTLZ3_candidateNoEC_813030"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "candidateFixed",
+    "seed": 813030,
+    "id": "DTLZ3_candidateFixed_813030"
+  }
+]

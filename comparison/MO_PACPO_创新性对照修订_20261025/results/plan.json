@@ -1,0 +1,4862 @@
+[
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400001,
+    "id": "PPAR_DR_400001"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400001,
+    "id": "PPAR_SL_400001"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400001,
+    "id": "PPAR_SR_400001"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400002,
+    "id": "PPAR_DR_400002"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400002,
+    "id": "PPAR_SL_400002"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400002,
+    "id": "PPAR_SR_400002"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400003,
+    "id": "PPAR_DR_400003"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400003,
+    "id": "PPAR_SL_400003"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400003,
+    "id": "PPAR_SR_400003"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400004,
+    "id": "PPAR_DR_400004"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400004,
+    "id": "PPAR_SL_400004"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400004,
+    "id": "PPAR_SR_400004"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400005,
+    "id": "PPAR_DR_400005"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400005,
+    "id": "PPAR_SL_400005"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400005,
+    "id": "PPAR_SR_400005"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400006,
+    "id": "PPAR_DR_400006"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400006,
+    "id": "PPAR_SL_400006"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400006,
+    "id": "PPAR_SR_400006"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400007,
+    "id": "PPAR_DR_400007"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400007,
+    "id": "PPAR_SL_400007"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400007,
+    "id": "PPAR_SR_400007"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400008,
+    "id": "PPAR_DR_400008"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400008,
+    "id": "PPAR_SL_400008"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400008,
+    "id": "PPAR_SR_400008"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400009,
+    "id": "PPAR_DR_400009"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400009,
+    "id": "PPAR_SL_400009"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400009,
+    "id": "PPAR_SR_400009"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400010,
+    "id": "PPAR_DR_400010"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400010,
+    "id": "PPAR_SL_400010"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400010,
+    "id": "PPAR_SR_400010"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400011,
+    "id": "PPAR_DR_400011"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400011,
+    "id": "PPAR_SL_400011"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400011,
+    "id": "PPAR_SR_400011"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400012,
+    "id": "PPAR_DR_400012"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400012,
+    "id": "PPAR_SL_400012"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400012,
+    "id": "PPAR_SR_400012"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400013,
+    "id": "PPAR_DR_400013"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400013,
+    "id": "PPAR_SL_400013"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400013,
+    "id": "PPAR_SR_400013"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400014,
+    "id": "PPAR_DR_400014"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400014,
+    "id": "PPAR_SL_400014"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400014,
+    "id": "PPAR_SR_400014"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400015,
+    "id": "PPAR_DR_400015"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400015,
+    "id": "PPAR_SL_400015"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400015,
+    "id": "PPAR_SR_400015"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400016,
+    "id": "PPAR_DR_400016"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400016,
+    "id": "PPAR_SL_400016"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400016,
+    "id": "PPAR_SR_400016"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400017,
+    "id": "PPAR_DR_400017"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400017,
+    "id": "PPAR_SL_400017"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400017,
+    "id": "PPAR_SR_400017"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400018,
+    "id": "PPAR_DR_400018"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400018,
+    "id": "PPAR_SL_400018"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400018,
+    "id": "PPAR_SR_400018"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400019,
+    "id": "PPAR_DR_400019"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400019,
+    "id": "PPAR_SL_400019"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400019,
+    "id": "PPAR_SR_400019"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400020,
+    "id": "PPAR_DR_400020"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400020,
+    "id": "PPAR_SL_400020"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400020,
+    "id": "PPAR_SR_400020"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400021,
+    "id": "PPAR_DR_400021"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400021,
+    "id": "PPAR_SL_400021"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400021,
+    "id": "PPAR_SR_400021"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400022,
+    "id": "PPAR_DR_400022"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400022,
+    "id": "PPAR_SL_400022"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400022,
+    "id": "PPAR_SR_400022"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400023,
+    "id": "PPAR_DR_400023"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400023,
+    "id": "PPAR_SL_400023"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400023,
+    "id": "PPAR_SR_400023"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400024,
+    "id": "PPAR_DR_400024"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400024,
+    "id": "PPAR_SL_400024"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400024,
+    "id": "PPAR_SR_400024"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400025,
+    "id": "PPAR_DR_400025"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400025,
+    "id": "PPAR_SL_400025"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400025,
+    "id": "PPAR_SR_400025"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400026,
+    "id": "PPAR_DR_400026"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400026,
+    "id": "PPAR_SL_400026"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400026,
+    "id": "PPAR_SR_400026"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400027,
+    "id": "PPAR_DR_400027"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400027,
+    "id": "PPAR_SL_400027"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400027,
+    "id": "PPAR_SR_400027"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400028,
+    "id": "PPAR_DR_400028"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400028,
+    "id": "PPAR_SL_400028"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400028,
+    "id": "PPAR_SR_400028"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400029,
+    "id": "PPAR_DR_400029"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400029,
+    "id": "PPAR_SL_400029"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400029,
+    "id": "PPAR_SR_400029"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "DR",
+    "seed": 400030,
+    "id": "PPAR_DR_400030"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SL",
+    "seed": 400030,
+    "id": "PPAR_SL_400030"
+  },
+  {
+    "problem": "PPAR",
+    "mode": "SR",
+    "seed": 400030,
+    "id": "PPAR_SR_400030"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711001,
+    "id": "ZDT1_DR_711001"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711001,
+    "id": "ZDT1_SL_711001"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711001,
+    "id": "ZDT1_SR_711001"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711002,
+    "id": "ZDT1_DR_711002"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711002,
+    "id": "ZDT1_SL_711002"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711002,
+    "id": "ZDT1_SR_711002"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711003,
+    "id": "ZDT1_DR_711003"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711003,
+    "id": "ZDT1_SL_711003"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711003,
+    "id": "ZDT1_SR_711003"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711004,
+    "id": "ZDT1_DR_711004"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711004,
+    "id": "ZDT1_SL_711004"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711004,
+    "id": "ZDT1_SR_711004"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711005,
+    "id": "ZDT1_DR_711005"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711005,
+    "id": "ZDT1_SL_711005"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711005,
+    "id": "ZDT1_SR_711005"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711006,
+    "id": "ZDT1_DR_711006"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711006,
+    "id": "ZDT1_SL_711006"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711006,
+    "id": "ZDT1_SR_711006"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711007,
+    "id": "ZDT1_DR_711007"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711007,
+    "id": "ZDT1_SL_711007"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711007,
+    "id": "ZDT1_SR_711007"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711008,
+    "id": "ZDT1_DR_711008"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711008,
+    "id": "ZDT1_SL_711008"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711008,
+    "id": "ZDT1_SR_711008"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711009,
+    "id": "ZDT1_DR_711009"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711009,
+    "id": "ZDT1_SL_711009"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711009,
+    "id": "ZDT1_SR_711009"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711010,
+    "id": "ZDT1_DR_711010"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711010,
+    "id": "ZDT1_SL_711010"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711010,
+    "id": "ZDT1_SR_711010"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711011,
+    "id": "ZDT1_DR_711011"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711011,
+    "id": "ZDT1_SL_711011"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711011,
+    "id": "ZDT1_SR_711011"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711012,
+    "id": "ZDT1_DR_711012"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711012,
+    "id": "ZDT1_SL_711012"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711012,
+    "id": "ZDT1_SR_711012"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711013,
+    "id": "ZDT1_DR_711013"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711013,
+    "id": "ZDT1_SL_711013"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711013,
+    "id": "ZDT1_SR_711013"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711014,
+    "id": "ZDT1_DR_711014"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711014,
+    "id": "ZDT1_SL_711014"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711014,
+    "id": "ZDT1_SR_711014"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711015,
+    "id": "ZDT1_DR_711015"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711015,
+    "id": "ZDT1_SL_711015"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711015,
+    "id": "ZDT1_SR_711015"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711016,
+    "id": "ZDT1_DR_711016"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711016,
+    "id": "ZDT1_SL_711016"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711016,
+    "id": "ZDT1_SR_711016"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711017,
+    "id": "ZDT1_DR_711017"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711017,
+    "id": "ZDT1_SL_711017"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711017,
+    "id": "ZDT1_SR_711017"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711018,
+    "id": "ZDT1_DR_711018"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711018,
+    "id": "ZDT1_SL_711018"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711018,
+    "id": "ZDT1_SR_711018"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711019,
+    "id": "ZDT1_DR_711019"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711019,
+    "id": "ZDT1_SL_711019"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711019,
+    "id": "ZDT1_SR_711019"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711020,
+    "id": "ZDT1_DR_711020"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711020,
+    "id": "ZDT1_SL_711020"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711020,
+    "id": "ZDT1_SR_711020"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711021,
+    "id": "ZDT1_DR_711021"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711021,
+    "id": "ZDT1_SL_711021"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711021,
+    "id": "ZDT1_SR_711021"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711022,
+    "id": "ZDT1_DR_711022"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711022,
+    "id": "ZDT1_SL_711022"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711022,
+    "id": "ZDT1_SR_711022"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711023,
+    "id": "ZDT1_DR_711023"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711023,
+    "id": "ZDT1_SL_711023"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711023,
+    "id": "ZDT1_SR_711023"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711024,
+    "id": "ZDT1_DR_711024"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711024,
+    "id": "ZDT1_SL_711024"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711024,
+    "id": "ZDT1_SR_711024"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711025,
+    "id": "ZDT1_DR_711025"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711025,
+    "id": "ZDT1_SL_711025"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711025,
+    "id": "ZDT1_SR_711025"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711026,
+    "id": "ZDT1_DR_711026"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711026,
+    "id": "ZDT1_SL_711026"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711026,
+    "id": "ZDT1_SR_711026"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711027,
+    "id": "ZDT1_DR_711027"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711027,
+    "id": "ZDT1_SL_711027"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711027,
+    "id": "ZDT1_SR_711027"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711028,
+    "id": "ZDT1_DR_711028"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711028,
+    "id": "ZDT1_SL_711028"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711028,
+    "id": "ZDT1_SR_711028"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711029,
+    "id": "ZDT1_DR_711029"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711029,
+    "id": "ZDT1_SL_711029"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711029,
+    "id": "ZDT1_SR_711029"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "DR",
+    "seed": 711030,
+    "id": "ZDT1_DR_711030"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SL",
+    "seed": 711030,
+    "id": "ZDT1_SL_711030"
+  },
+  {
+    "problem": "ZDT1",
+    "mode": "SR",
+    "seed": 711030,
+    "id": "ZDT1_SR_711030"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712001,
+    "id": "ZDT2_DR_712001"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712001,
+    "id": "ZDT2_SL_712001"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712001,
+    "id": "ZDT2_SR_712001"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712002,
+    "id": "ZDT2_DR_712002"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712002,
+    "id": "ZDT2_SL_712002"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712002,
+    "id": "ZDT2_SR_712002"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712003,
+    "id": "ZDT2_DR_712003"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712003,
+    "id": "ZDT2_SL_712003"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712003,
+    "id": "ZDT2_SR_712003"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712004,
+    "id": "ZDT2_DR_712004"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712004,
+    "id": "ZDT2_SL_712004"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712004,
+    "id": "ZDT2_SR_712004"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712005,
+    "id": "ZDT2_DR_712005"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712005,
+    "id": "ZDT2_SL_712005"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712005,
+    "id": "ZDT2_SR_712005"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712006,
+    "id": "ZDT2_DR_712006"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712006,
+    "id": "ZDT2_SL_712006"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712006,
+    "id": "ZDT2_SR_712006"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712007,
+    "id": "ZDT2_DR_712007"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712007,
+    "id": "ZDT2_SL_712007"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712007,
+    "id": "ZDT2_SR_712007"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712008,
+    "id": "ZDT2_DR_712008"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712008,
+    "id": "ZDT2_SL_712008"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712008,
+    "id": "ZDT2_SR_712008"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712009,
+    "id": "ZDT2_DR_712009"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712009,
+    "id": "ZDT2_SL_712009"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712009,
+    "id": "ZDT2_SR_712009"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712010,
+    "id": "ZDT2_DR_712010"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712010,
+    "id": "ZDT2_SL_712010"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712010,
+    "id": "ZDT2_SR_712010"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712011,
+    "id": "ZDT2_DR_712011"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712011,
+    "id": "ZDT2_SL_712011"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712011,
+    "id": "ZDT2_SR_712011"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712012,
+    "id": "ZDT2_DR_712012"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712012,
+    "id": "ZDT2_SL_712012"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712012,
+    "id": "ZDT2_SR_712012"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712013,
+    "id": "ZDT2_DR_712013"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712013,
+    "id": "ZDT2_SL_712013"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712013,
+    "id": "ZDT2_SR_712013"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712014,
+    "id": "ZDT2_DR_712014"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712014,
+    "id": "ZDT2_SL_712014"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712014,
+    "id": "ZDT2_SR_712014"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712015,
+    "id": "ZDT2_DR_712015"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712015,
+    "id": "ZDT2_SL_712015"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712015,
+    "id": "ZDT2_SR_712015"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712016,
+    "id": "ZDT2_DR_712016"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712016,
+    "id": "ZDT2_SL_712016"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712016,
+    "id": "ZDT2_SR_712016"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712017,
+    "id": "ZDT2_DR_712017"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712017,
+    "id": "ZDT2_SL_712017"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712017,
+    "id": "ZDT2_SR_712017"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712018,
+    "id": "ZDT2_DR_712018"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712018,
+    "id": "ZDT2_SL_712018"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712018,
+    "id": "ZDT2_SR_712018"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712019,
+    "id": "ZDT2_DR_712019"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712019,
+    "id": "ZDT2_SL_712019"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712019,
+    "id": "ZDT2_SR_712019"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712020,
+    "id": "ZDT2_DR_712020"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712020,
+    "id": "ZDT2_SL_712020"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712020,
+    "id": "ZDT2_SR_712020"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712021,
+    "id": "ZDT2_DR_712021"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712021,
+    "id": "ZDT2_SL_712021"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712021,
+    "id": "ZDT2_SR_712021"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712022,
+    "id": "ZDT2_DR_712022"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712022,
+    "id": "ZDT2_SL_712022"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712022,
+    "id": "ZDT2_SR_712022"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712023,
+    "id": "ZDT2_DR_712023"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712023,
+    "id": "ZDT2_SL_712023"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712023,
+    "id": "ZDT2_SR_712023"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712024,
+    "id": "ZDT2_DR_712024"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712024,
+    "id": "ZDT2_SL_712024"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712024,
+    "id": "ZDT2_SR_712024"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712025,
+    "id": "ZDT2_DR_712025"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712025,
+    "id": "ZDT2_SL_712025"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712025,
+    "id": "ZDT2_SR_712025"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712026,
+    "id": "ZDT2_DR_712026"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712026,
+    "id": "ZDT2_SL_712026"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712026,
+    "id": "ZDT2_SR_712026"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712027,
+    "id": "ZDT2_DR_712027"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712027,
+    "id": "ZDT2_SL_712027"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712027,
+    "id": "ZDT2_SR_712027"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712028,
+    "id": "ZDT2_DR_712028"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712028,
+    "id": "ZDT2_SL_712028"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712028,
+    "id": "ZDT2_SR_712028"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712029,
+    "id": "ZDT2_DR_712029"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712029,
+    "id": "ZDT2_SL_712029"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712029,
+    "id": "ZDT2_SR_712029"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "DR",
+    "seed": 712030,
+    "id": "ZDT2_DR_712030"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SL",
+    "seed": 712030,
+    "id": "ZDT2_SL_712030"
+  },
+  {
+    "problem": "ZDT2",
+    "mode": "SR",
+    "seed": 712030,
+    "id": "ZDT2_SR_712030"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713001,
+    "id": "ZDT3_DR_713001"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713001,
+    "id": "ZDT3_SL_713001"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713001,
+    "id": "ZDT3_SR_713001"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713002,
+    "id": "ZDT3_DR_713002"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713002,
+    "id": "ZDT3_SL_713002"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713002,
+    "id": "ZDT3_SR_713002"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713003,
+    "id": "ZDT3_DR_713003"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713003,
+    "id": "ZDT3_SL_713003"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713003,
+    "id": "ZDT3_SR_713003"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713004,
+    "id": "ZDT3_DR_713004"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713004,
+    "id": "ZDT3_SL_713004"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713004,
+    "id": "ZDT3_SR_713004"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713005,
+    "id": "ZDT3_DR_713005"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713005,
+    "id": "ZDT3_SL_713005"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713005,
+    "id": "ZDT3_SR_713005"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713006,
+    "id": "ZDT3_DR_713006"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713006,
+    "id": "ZDT3_SL_713006"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713006,
+    "id": "ZDT3_SR_713006"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713007,
+    "id": "ZDT3_DR_713007"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713007,
+    "id": "ZDT3_SL_713007"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713007,
+    "id": "ZDT3_SR_713007"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713008,
+    "id": "ZDT3_DR_713008"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713008,
+    "id": "ZDT3_SL_713008"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713008,
+    "id": "ZDT3_SR_713008"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713009,
+    "id": "ZDT3_DR_713009"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713009,
+    "id": "ZDT3_SL_713009"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713009,
+    "id": "ZDT3_SR_713009"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713010,
+    "id": "ZDT3_DR_713010"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713010,
+    "id": "ZDT3_SL_713010"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713010,
+    "id": "ZDT3_SR_713010"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713011,
+    "id": "ZDT3_DR_713011"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713011,
+    "id": "ZDT3_SL_713011"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713011,
+    "id": "ZDT3_SR_713011"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713012,
+    "id": "ZDT3_DR_713012"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713012,
+    "id": "ZDT3_SL_713012"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713012,
+    "id": "ZDT3_SR_713012"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713013,
+    "id": "ZDT3_DR_713013"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713013,
+    "id": "ZDT3_SL_713013"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713013,
+    "id": "ZDT3_SR_713013"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713014,
+    "id": "ZDT3_DR_713014"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713014,
+    "id": "ZDT3_SL_713014"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713014,
+    "id": "ZDT3_SR_713014"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713015,
+    "id": "ZDT3_DR_713015"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713015,
+    "id": "ZDT3_SL_713015"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713015,
+    "id": "ZDT3_SR_713015"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713016,
+    "id": "ZDT3_DR_713016"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713016,
+    "id": "ZDT3_SL_713016"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713016,
+    "id": "ZDT3_SR_713016"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713017,
+    "id": "ZDT3_DR_713017"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713017,
+    "id": "ZDT3_SL_713017"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713017,
+    "id": "ZDT3_SR_713017"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713018,
+    "id": "ZDT3_DR_713018"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713018,
+    "id": "ZDT3_SL_713018"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713018,
+    "id": "ZDT3_SR_713018"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713019,
+    "id": "ZDT3_DR_713019"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713019,
+    "id": "ZDT3_SL_713019"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713019,
+    "id": "ZDT3_SR_713019"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713020,
+    "id": "ZDT3_DR_713020"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713020,
+    "id": "ZDT3_SL_713020"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713020,
+    "id": "ZDT3_SR_713020"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713021,
+    "id": "ZDT3_DR_713021"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713021,
+    "id": "ZDT3_SL_713021"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713021,
+    "id": "ZDT3_SR_713021"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713022,
+    "id": "ZDT3_DR_713022"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713022,
+    "id": "ZDT3_SL_713022"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713022,
+    "id": "ZDT3_SR_713022"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713023,
+    "id": "ZDT3_DR_713023"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713023,
+    "id": "ZDT3_SL_713023"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713023,
+    "id": "ZDT3_SR_713023"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713024,
+    "id": "ZDT3_DR_713024"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713024,
+    "id": "ZDT3_SL_713024"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713024,
+    "id": "ZDT3_SR_713024"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713025,
+    "id": "ZDT3_DR_713025"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713025,
+    "id": "ZDT3_SL_713025"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713025,
+    "id": "ZDT3_SR_713025"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713026,
+    "id": "ZDT3_DR_713026"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713026,
+    "id": "ZDT3_SL_713026"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713026,
+    "id": "ZDT3_SR_713026"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713027,
+    "id": "ZDT3_DR_713027"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713027,
+    "id": "ZDT3_SL_713027"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713027,
+    "id": "ZDT3_SR_713027"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713028,
+    "id": "ZDT3_DR_713028"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713028,
+    "id": "ZDT3_SL_713028"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713028,
+    "id": "ZDT3_SR_713028"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713029,
+    "id": "ZDT3_DR_713029"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713029,
+    "id": "ZDT3_SL_713029"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713029,
+    "id": "ZDT3_SR_713029"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "DR",
+    "seed": 713030,
+    "id": "ZDT3_DR_713030"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SL",
+    "seed": 713030,
+    "id": "ZDT3_SL_713030"
+  },
+  {
+    "problem": "ZDT3",
+    "mode": "SR",
+    "seed": 713030,
+    "id": "ZDT3_SR_713030"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714001,
+    "id": "DTLZ1_DR_714001"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714001,
+    "id": "DTLZ1_SL_714001"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714001,
+    "id": "DTLZ1_SR_714001"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714002,
+    "id": "DTLZ1_DR_714002"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714002,
+    "id": "DTLZ1_SL_714002"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714002,
+    "id": "DTLZ1_SR_714002"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714003,
+    "id": "DTLZ1_DR_714003"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714003,
+    "id": "DTLZ1_SL_714003"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714003,
+    "id": "DTLZ1_SR_714003"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714004,
+    "id": "DTLZ1_DR_714004"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714004,
+    "id": "DTLZ1_SL_714004"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714004,
+    "id": "DTLZ1_SR_714004"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714005,
+    "id": "DTLZ1_DR_714005"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714005,
+    "id": "DTLZ1_SL_714005"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714005,
+    "id": "DTLZ1_SR_714005"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714006,
+    "id": "DTLZ1_DR_714006"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714006,
+    "id": "DTLZ1_SL_714006"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714006,
+    "id": "DTLZ1_SR_714006"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714007,
+    "id": "DTLZ1_DR_714007"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714007,
+    "id": "DTLZ1_SL_714007"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714007,
+    "id": "DTLZ1_SR_714007"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714008,
+    "id": "DTLZ1_DR_714008"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714008,
+    "id": "DTLZ1_SL_714008"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714008,
+    "id": "DTLZ1_SR_714008"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714009,
+    "id": "DTLZ1_DR_714009"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714009,
+    "id": "DTLZ1_SL_714009"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714009,
+    "id": "DTLZ1_SR_714009"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714010,
+    "id": "DTLZ1_DR_714010"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714010,
+    "id": "DTLZ1_SL_714010"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714010,
+    "id": "DTLZ1_SR_714010"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714011,
+    "id": "DTLZ1_DR_714011"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714011,
+    "id": "DTLZ1_SL_714011"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714011,
+    "id": "DTLZ1_SR_714011"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714012,
+    "id": "DTLZ1_DR_714012"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714012,
+    "id": "DTLZ1_SL_714012"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714012,
+    "id": "DTLZ1_SR_714012"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714013,
+    "id": "DTLZ1_DR_714013"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714013,
+    "id": "DTLZ1_SL_714013"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714013,
+    "id": "DTLZ1_SR_714013"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714014,
+    "id": "DTLZ1_DR_714014"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714014,
+    "id": "DTLZ1_SL_714014"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714014,
+    "id": "DTLZ1_SR_714014"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714015,
+    "id": "DTLZ1_DR_714015"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714015,
+    "id": "DTLZ1_SL_714015"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714015,
+    "id": "DTLZ1_SR_714015"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714016,
+    "id": "DTLZ1_DR_714016"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714016,
+    "id": "DTLZ1_SL_714016"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714016,
+    "id": "DTLZ1_SR_714016"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714017,
+    "id": "DTLZ1_DR_714017"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714017,
+    "id": "DTLZ1_SL_714017"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714017,
+    "id": "DTLZ1_SR_714017"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714018,
+    "id": "DTLZ1_DR_714018"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714018,
+    "id": "DTLZ1_SL_714018"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714018,
+    "id": "DTLZ1_SR_714018"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714019,
+    "id": "DTLZ1_DR_714019"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714019,
+    "id": "DTLZ1_SL_714019"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714019,
+    "id": "DTLZ1_SR_714019"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714020,
+    "id": "DTLZ1_DR_714020"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714020,
+    "id": "DTLZ1_SL_714020"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714020,
+    "id": "DTLZ1_SR_714020"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714021,
+    "id": "DTLZ1_DR_714021"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714021,
+    "id": "DTLZ1_SL_714021"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714021,
+    "id": "DTLZ1_SR_714021"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714022,
+    "id": "DTLZ1_DR_714022"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714022,
+    "id": "DTLZ1_SL_714022"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714022,
+    "id": "DTLZ1_SR_714022"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714023,
+    "id": "DTLZ1_DR_714023"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714023,
+    "id": "DTLZ1_SL_714023"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714023,
+    "id": "DTLZ1_SR_714023"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714024,
+    "id": "DTLZ1_DR_714024"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714024,
+    "id": "DTLZ1_SL_714024"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714024,
+    "id": "DTLZ1_SR_714024"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714025,
+    "id": "DTLZ1_DR_714025"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714025,
+    "id": "DTLZ1_SL_714025"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714025,
+    "id": "DTLZ1_SR_714025"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714026,
+    "id": "DTLZ1_DR_714026"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714026,
+    "id": "DTLZ1_SL_714026"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714026,
+    "id": "DTLZ1_SR_714026"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714027,
+    "id": "DTLZ1_DR_714027"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714027,
+    "id": "DTLZ1_SL_714027"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714027,
+    "id": "DTLZ1_SR_714027"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714028,
+    "id": "DTLZ1_DR_714028"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714028,
+    "id": "DTLZ1_SL_714028"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714028,
+    "id": "DTLZ1_SR_714028"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714029,
+    "id": "DTLZ1_DR_714029"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714029,
+    "id": "DTLZ1_SL_714029"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714029,
+    "id": "DTLZ1_SR_714029"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "DR",
+    "seed": 714030,
+    "id": "DTLZ1_DR_714030"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SL",
+    "seed": 714030,
+    "id": "DTLZ1_SL_714030"
+  },
+  {
+    "problem": "DTLZ1",
+    "mode": "SR",
+    "seed": 714030,
+    "id": "DTLZ1_SR_714030"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715001,
+    "id": "DTLZ2_DR_715001"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715001,
+    "id": "DTLZ2_SL_715001"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715001,
+    "id": "DTLZ2_SR_715001"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715002,
+    "id": "DTLZ2_DR_715002"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715002,
+    "id": "DTLZ2_SL_715002"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715002,
+    "id": "DTLZ2_SR_715002"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715003,
+    "id": "DTLZ2_DR_715003"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715003,
+    "id": "DTLZ2_SL_715003"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715003,
+    "id": "DTLZ2_SR_715003"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715004,
+    "id": "DTLZ2_DR_715004"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715004,
+    "id": "DTLZ2_SL_715004"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715004,
+    "id": "DTLZ2_SR_715004"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715005,
+    "id": "DTLZ2_DR_715005"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715005,
+    "id": "DTLZ2_SL_715005"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715005,
+    "id": "DTLZ2_SR_715005"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715006,
+    "id": "DTLZ2_DR_715006"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715006,
+    "id": "DTLZ2_SL_715006"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715006,
+    "id": "DTLZ2_SR_715006"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715007,
+    "id": "DTLZ2_DR_715007"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715007,
+    "id": "DTLZ2_SL_715007"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715007,
+    "id": "DTLZ2_SR_715007"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715008,
+    "id": "DTLZ2_DR_715008"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715008,
+    "id": "DTLZ2_SL_715008"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715008,
+    "id": "DTLZ2_SR_715008"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715009,
+    "id": "DTLZ2_DR_715009"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715009,
+    "id": "DTLZ2_SL_715009"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715009,
+    "id": "DTLZ2_SR_715009"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715010,
+    "id": "DTLZ2_DR_715010"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715010,
+    "id": "DTLZ2_SL_715010"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715010,
+    "id": "DTLZ2_SR_715010"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715011,
+    "id": "DTLZ2_DR_715011"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715011,
+    "id": "DTLZ2_SL_715011"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715011,
+    "id": "DTLZ2_SR_715011"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715012,
+    "id": "DTLZ2_DR_715012"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715012,
+    "id": "DTLZ2_SL_715012"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715012,
+    "id": "DTLZ2_SR_715012"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715013,
+    "id": "DTLZ2_DR_715013"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715013,
+    "id": "DTLZ2_SL_715013"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715013,
+    "id": "DTLZ2_SR_715013"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715014,
+    "id": "DTLZ2_DR_715014"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715014,
+    "id": "DTLZ2_SL_715014"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715014,
+    "id": "DTLZ2_SR_715014"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715015,
+    "id": "DTLZ2_DR_715015"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715015,
+    "id": "DTLZ2_SL_715015"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715015,
+    "id": "DTLZ2_SR_715015"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715016,
+    "id": "DTLZ2_DR_715016"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715016,
+    "id": "DTLZ2_SL_715016"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715016,
+    "id": "DTLZ2_SR_715016"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715017,
+    "id": "DTLZ2_DR_715017"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715017,
+    "id": "DTLZ2_SL_715017"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715017,
+    "id": "DTLZ2_SR_715017"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715018,
+    "id": "DTLZ2_DR_715018"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715018,
+    "id": "DTLZ2_SL_715018"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715018,
+    "id": "DTLZ2_SR_715018"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715019,
+    "id": "DTLZ2_DR_715019"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715019,
+    "id": "DTLZ2_SL_715019"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715019,
+    "id": "DTLZ2_SR_715019"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715020,
+    "id": "DTLZ2_DR_715020"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715020,
+    "id": "DTLZ2_SL_715020"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715020,
+    "id": "DTLZ2_SR_715020"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715021,
+    "id": "DTLZ2_DR_715021"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715021,
+    "id": "DTLZ2_SL_715021"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715021,
+    "id": "DTLZ2_SR_715021"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715022,
+    "id": "DTLZ2_DR_715022"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715022,
+    "id": "DTLZ2_SL_715022"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715022,
+    "id": "DTLZ2_SR_715022"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715023,
+    "id": "DTLZ2_DR_715023"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715023,
+    "id": "DTLZ2_SL_715023"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715023,
+    "id": "DTLZ2_SR_715023"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715024,
+    "id": "DTLZ2_DR_715024"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715024,
+    "id": "DTLZ2_SL_715024"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715024,
+    "id": "DTLZ2_SR_715024"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715025,
+    "id": "DTLZ2_DR_715025"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715025,
+    "id": "DTLZ2_SL_715025"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715025,
+    "id": "DTLZ2_SR_715025"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715026,
+    "id": "DTLZ2_DR_715026"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715026,
+    "id": "DTLZ2_SL_715026"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715026,
+    "id": "DTLZ2_SR_715026"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715027,
+    "id": "DTLZ2_DR_715027"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715027,
+    "id": "DTLZ2_SL_715027"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715027,
+    "id": "DTLZ2_SR_715027"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715028,
+    "id": "DTLZ2_DR_715028"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715028,
+    "id": "DTLZ2_SL_715028"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715028,
+    "id": "DTLZ2_SR_715028"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715029,
+    "id": "DTLZ2_DR_715029"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715029,
+    "id": "DTLZ2_SL_715029"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715029,
+    "id": "DTLZ2_SR_715029"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "DR",
+    "seed": 715030,
+    "id": "DTLZ2_DR_715030"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SL",
+    "seed": 715030,
+    "id": "DTLZ2_SL_715030"
+  },
+  {
+    "problem": "DTLZ2",
+    "mode": "SR",
+    "seed": 715030,
+    "id": "DTLZ2_SR_715030"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811001,
+    "id": "ZDT4_DR_811001"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811001,
+    "id": "ZDT4_SL_811001"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811001,
+    "id": "ZDT4_SR_811001"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811002,
+    "id": "ZDT4_DR_811002"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811002,
+    "id": "ZDT4_SL_811002"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811002,
+    "id": "ZDT4_SR_811002"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811003,
+    "id": "ZDT4_DR_811003"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811003,
+    "id": "ZDT4_SL_811003"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811003,
+    "id": "ZDT4_SR_811003"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811004,
+    "id": "ZDT4_DR_811004"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811004,
+    "id": "ZDT4_SL_811004"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811004,
+    "id": "ZDT4_SR_811004"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811005,
+    "id": "ZDT4_DR_811005"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811005,
+    "id": "ZDT4_SL_811005"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811005,
+    "id": "ZDT4_SR_811005"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811006,
+    "id": "ZDT4_DR_811006"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811006,
+    "id": "ZDT4_SL_811006"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811006,
+    "id": "ZDT4_SR_811006"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811007,
+    "id": "ZDT4_DR_811007"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811007,
+    "id": "ZDT4_SL_811007"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811007,
+    "id": "ZDT4_SR_811007"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811008,
+    "id": "ZDT4_DR_811008"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811008,
+    "id": "ZDT4_SL_811008"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811008,
+    "id": "ZDT4_SR_811008"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811009,
+    "id": "ZDT4_DR_811009"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811009,
+    "id": "ZDT4_SL_811009"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811009,
+    "id": "ZDT4_SR_811009"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811010,
+    "id": "ZDT4_DR_811010"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811010,
+    "id": "ZDT4_SL_811010"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811010,
+    "id": "ZDT4_SR_811010"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811011,
+    "id": "ZDT4_DR_811011"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811011,
+    "id": "ZDT4_SL_811011"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811011,
+    "id": "ZDT4_SR_811011"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811012,
+    "id": "ZDT4_DR_811012"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811012,
+    "id": "ZDT4_SL_811012"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811012,
+    "id": "ZDT4_SR_811012"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811013,
+    "id": "ZDT4_DR_811013"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811013,
+    "id": "ZDT4_SL_811013"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811013,
+    "id": "ZDT4_SR_811013"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811014,
+    "id": "ZDT4_DR_811014"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811014,
+    "id": "ZDT4_SL_811014"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811014,
+    "id": "ZDT4_SR_811014"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811015,
+    "id": "ZDT4_DR_811015"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811015,
+    "id": "ZDT4_SL_811015"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811015,
+    "id": "ZDT4_SR_811015"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811016,
+    "id": "ZDT4_DR_811016"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811016,
+    "id": "ZDT4_SL_811016"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811016,
+    "id": "ZDT4_SR_811016"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811017,
+    "id": "ZDT4_DR_811017"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811017,
+    "id": "ZDT4_SL_811017"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811017,
+    "id": "ZDT4_SR_811017"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811018,
+    "id": "ZDT4_DR_811018"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811018,
+    "id": "ZDT4_SL_811018"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811018,
+    "id": "ZDT4_SR_811018"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811019,
+    "id": "ZDT4_DR_811019"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811019,
+    "id": "ZDT4_SL_811019"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811019,
+    "id": "ZDT4_SR_811019"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811020,
+    "id": "ZDT4_DR_811020"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811020,
+    "id": "ZDT4_SL_811020"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811020,
+    "id": "ZDT4_SR_811020"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811021,
+    "id": "ZDT4_DR_811021"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811021,
+    "id": "ZDT4_SL_811021"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811021,
+    "id": "ZDT4_SR_811021"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811022,
+    "id": "ZDT4_DR_811022"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811022,
+    "id": "ZDT4_SL_811022"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811022,
+    "id": "ZDT4_SR_811022"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811023,
+    "id": "ZDT4_DR_811023"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811023,
+    "id": "ZDT4_SL_811023"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811023,
+    "id": "ZDT4_SR_811023"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811024,
+    "id": "ZDT4_DR_811024"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811024,
+    "id": "ZDT4_SL_811024"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811024,
+    "id": "ZDT4_SR_811024"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811025,
+    "id": "ZDT4_DR_811025"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811025,
+    "id": "ZDT4_SL_811025"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811025,
+    "id": "ZDT4_SR_811025"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811026,
+    "id": "ZDT4_DR_811026"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811026,
+    "id": "ZDT4_SL_811026"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811026,
+    "id": "ZDT4_SR_811026"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811027,
+    "id": "ZDT4_DR_811027"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811027,
+    "id": "ZDT4_SL_811027"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811027,
+    "id": "ZDT4_SR_811027"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811028,
+    "id": "ZDT4_DR_811028"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811028,
+    "id": "ZDT4_SL_811028"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811028,
+    "id": "ZDT4_SR_811028"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811029,
+    "id": "ZDT4_DR_811029"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811029,
+    "id": "ZDT4_SL_811029"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811029,
+    "id": "ZDT4_SR_811029"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "DR",
+    "seed": 811030,
+    "id": "ZDT4_DR_811030"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SL",
+    "seed": 811030,
+    "id": "ZDT4_SL_811030"
+  },
+  {
+    "problem": "ZDT4",
+    "mode": "SR",
+    "seed": 811030,
+    "id": "ZDT4_SR_811030"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812001,
+    "id": "ZDT6_DR_812001"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812001,
+    "id": "ZDT6_SL_812001"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812001,
+    "id": "ZDT6_SR_812001"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812002,
+    "id": "ZDT6_DR_812002"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812002,
+    "id": "ZDT6_SL_812002"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812002,
+    "id": "ZDT6_SR_812002"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812003,
+    "id": "ZDT6_DR_812003"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812003,
+    "id": "ZDT6_SL_812003"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812003,
+    "id": "ZDT6_SR_812003"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812004,
+    "id": "ZDT6_DR_812004"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812004,
+    "id": "ZDT6_SL_812004"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812004,
+    "id": "ZDT6_SR_812004"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812005,
+    "id": "ZDT6_DR_812005"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812005,
+    "id": "ZDT6_SL_812005"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812005,
+    "id": "ZDT6_SR_812005"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812006,
+    "id": "ZDT6_DR_812006"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812006,
+    "id": "ZDT6_SL_812006"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812006,
+    "id": "ZDT6_SR_812006"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812007,
+    "id": "ZDT6_DR_812007"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812007,
+    "id": "ZDT6_SL_812007"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812007,
+    "id": "ZDT6_SR_812007"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812008,
+    "id": "ZDT6_DR_812008"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812008,
+    "id": "ZDT6_SL_812008"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812008,
+    "id": "ZDT6_SR_812008"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812009,
+    "id": "ZDT6_DR_812009"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812009,
+    "id": "ZDT6_SL_812009"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812009,
+    "id": "ZDT6_SR_812009"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812010,
+    "id": "ZDT6_DR_812010"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812010,
+    "id": "ZDT6_SL_812010"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812010,
+    "id": "ZDT6_SR_812010"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812011,
+    "id": "ZDT6_DR_812011"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812011,
+    "id": "ZDT6_SL_812011"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812011,
+    "id": "ZDT6_SR_812011"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812012,
+    "id": "ZDT6_DR_812012"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812012,
+    "id": "ZDT6_SL_812012"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812012,
+    "id": "ZDT6_SR_812012"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812013,
+    "id": "ZDT6_DR_812013"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812013,
+    "id": "ZDT6_SL_812013"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812013,
+    "id": "ZDT6_SR_812013"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812014,
+    "id": "ZDT6_DR_812014"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812014,
+    "id": "ZDT6_SL_812014"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812014,
+    "id": "ZDT6_SR_812014"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812015,
+    "id": "ZDT6_DR_812015"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812015,
+    "id": "ZDT6_SL_812015"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812015,
+    "id": "ZDT6_SR_812015"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812016,
+    "id": "ZDT6_DR_812016"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812016,
+    "id": "ZDT6_SL_812016"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812016,
+    "id": "ZDT6_SR_812016"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812017,
+    "id": "ZDT6_DR_812017"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812017,
+    "id": "ZDT6_SL_812017"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812017,
+    "id": "ZDT6_SR_812017"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812018,
+    "id": "ZDT6_DR_812018"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812018,
+    "id": "ZDT6_SL_812018"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812018,
+    "id": "ZDT6_SR_812018"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812019,
+    "id": "ZDT6_DR_812019"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812019,
+    "id": "ZDT6_SL_812019"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812019,
+    "id": "ZDT6_SR_812019"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812020,
+    "id": "ZDT6_DR_812020"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812020,
+    "id": "ZDT6_SL_812020"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812020,
+    "id": "ZDT6_SR_812020"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812021,
+    "id": "ZDT6_DR_812021"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812021,
+    "id": "ZDT6_SL_812021"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812021,
+    "id": "ZDT6_SR_812021"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812022,
+    "id": "ZDT6_DR_812022"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812022,
+    "id": "ZDT6_SL_812022"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812022,
+    "id": "ZDT6_SR_812022"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812023,
+    "id": "ZDT6_DR_812023"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812023,
+    "id": "ZDT6_SL_812023"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812023,
+    "id": "ZDT6_SR_812023"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812024,
+    "id": "ZDT6_DR_812024"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812024,
+    "id": "ZDT6_SL_812024"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812024,
+    "id": "ZDT6_SR_812024"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812025,
+    "id": "ZDT6_DR_812025"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812025,
+    "id": "ZDT6_SL_812025"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812025,
+    "id": "ZDT6_SR_812025"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812026,
+    "id": "ZDT6_DR_812026"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812026,
+    "id": "ZDT6_SL_812026"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812026,
+    "id": "ZDT6_SR_812026"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812027,
+    "id": "ZDT6_DR_812027"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812027,
+    "id": "ZDT6_SL_812027"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812027,
+    "id": "ZDT6_SR_812027"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812028,
+    "id": "ZDT6_DR_812028"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812028,
+    "id": "ZDT6_SL_812028"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812028,
+    "id": "ZDT6_SR_812028"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812029,
+    "id": "ZDT6_DR_812029"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812029,
+    "id": "ZDT6_SL_812029"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812029,
+    "id": "ZDT6_SR_812029"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "DR",
+    "seed": 812030,
+    "id": "ZDT6_DR_812030"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SL",
+    "seed": 812030,
+    "id": "ZDT6_SL_812030"
+  },
+  {
+    "problem": "ZDT6",
+    "mode": "SR",
+    "seed": 812030,
+    "id": "ZDT6_SR_812030"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813001,
+    "id": "DTLZ3_DR_813001"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813001,
+    "id": "DTLZ3_SL_813001"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813001,
+    "id": "DTLZ3_SR_813001"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813002,
+    "id": "DTLZ3_DR_813002"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813002,
+    "id": "DTLZ3_SL_813002"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813002,
+    "id": "DTLZ3_SR_813002"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813003,
+    "id": "DTLZ3_DR_813003"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813003,
+    "id": "DTLZ3_SL_813003"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813003,
+    "id": "DTLZ3_SR_813003"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813004,
+    "id": "DTLZ3_DR_813004"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813004,
+    "id": "DTLZ3_SL_813004"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813004,
+    "id": "DTLZ3_SR_813004"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813005,
+    "id": "DTLZ3_DR_813005"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813005,
+    "id": "DTLZ3_SL_813005"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813005,
+    "id": "DTLZ3_SR_813005"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813006,
+    "id": "DTLZ3_DR_813006"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813006,
+    "id": "DTLZ3_SL_813006"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813006,
+    "id": "DTLZ3_SR_813006"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813007,
+    "id": "DTLZ3_DR_813007"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813007,
+    "id": "DTLZ3_SL_813007"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813007,
+    "id": "DTLZ3_SR_813007"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813008,
+    "id": "DTLZ3_DR_813008"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813008,
+    "id": "DTLZ3_SL_813008"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813008,
+    "id": "DTLZ3_SR_813008"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813009,
+    "id": "DTLZ3_DR_813009"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813009,
+    "id": "DTLZ3_SL_813009"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813009,
+    "id": "DTLZ3_SR_813009"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813010,
+    "id": "DTLZ3_DR_813010"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813010,
+    "id": "DTLZ3_SL_813010"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813010,
+    "id": "DTLZ3_SR_813010"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813011,
+    "id": "DTLZ3_DR_813011"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813011,
+    "id": "DTLZ3_SL_813011"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813011,
+    "id": "DTLZ3_SR_813011"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813012,
+    "id": "DTLZ3_DR_813012"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813012,
+    "id": "DTLZ3_SL_813012"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813012,
+    "id": "DTLZ3_SR_813012"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813013,
+    "id": "DTLZ3_DR_813013"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813013,
+    "id": "DTLZ3_SL_813013"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813013,
+    "id": "DTLZ3_SR_813013"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813014,
+    "id": "DTLZ3_DR_813014"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813014,
+    "id": "DTLZ3_SL_813014"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813014,
+    "id": "DTLZ3_SR_813014"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813015,
+    "id": "DTLZ3_DR_813015"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813015,
+    "id": "DTLZ3_SL_813015"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813015,
+    "id": "DTLZ3_SR_813015"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813016,
+    "id": "DTLZ3_DR_813016"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813016,
+    "id": "DTLZ3_SL_813016"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813016,
+    "id": "DTLZ3_SR_813016"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813017,
+    "id": "DTLZ3_DR_813017"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813017,
+    "id": "DTLZ3_SL_813017"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813017,
+    "id": "DTLZ3_SR_813017"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813018,
+    "id": "DTLZ3_DR_813018"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813018,
+    "id": "DTLZ3_SL_813018"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813018,
+    "id": "DTLZ3_SR_813018"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813019,
+    "id": "DTLZ3_DR_813019"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813019,
+    "id": "DTLZ3_SL_813019"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813019,
+    "id": "DTLZ3_SR_813019"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813020,
+    "id": "DTLZ3_DR_813020"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813020,
+    "id": "DTLZ3_SL_813020"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813020,
+    "id": "DTLZ3_SR_813020"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813021,
+    "id": "DTLZ3_DR_813021"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813021,
+    "id": "DTLZ3_SL_813021"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813021,
+    "id": "DTLZ3_SR_813021"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813022,
+    "id": "DTLZ3_DR_813022"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813022,
+    "id": "DTLZ3_SL_813022"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813022,
+    "id": "DTLZ3_SR_813022"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813023,
+    "id": "DTLZ3_DR_813023"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813023,
+    "id": "DTLZ3_SL_813023"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813023,
+    "id": "DTLZ3_SR_813023"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813024,
+    "id": "DTLZ3_DR_813024"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813024,
+    "id": "DTLZ3_SL_813024"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813024,
+    "id": "DTLZ3_SR_813024"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813025,
+    "id": "DTLZ3_DR_813025"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813025,
+    "id": "DTLZ3_SL_813025"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813025,
+    "id": "DTLZ3_SR_813025"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813026,
+    "id": "DTLZ3_DR_813026"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813026,
+    "id": "DTLZ3_SL_813026"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813026,
+    "id": "DTLZ3_SR_813026"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813027,
+    "id": "DTLZ3_DR_813027"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813027,
+    "id": "DTLZ3_SL_813027"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813027,
+    "id": "DTLZ3_SR_813027"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813028,
+    "id": "DTLZ3_DR_813028"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813028,
+    "id": "DTLZ3_SL_813028"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813028,
+    "id": "DTLZ3_SR_813028"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813029,
+    "id": "DTLZ3_DR_813029"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813029,
+    "id": "DTLZ3_SL_813029"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813029,
+    "id": "DTLZ3_SR_813029"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "DR",
+    "seed": 813030,
+    "id": "DTLZ3_DR_813030"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SL",
+    "seed": 813030,
+    "id": "DTLZ3_SL_813030"
+  },
+  {
+    "problem": "DTLZ3",
+    "mode": "SR",
+    "seed": 813030,
+    "id": "DTLZ3_SR_813030"
+  }
+]

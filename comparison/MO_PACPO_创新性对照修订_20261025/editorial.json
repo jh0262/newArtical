@@ -1,0 +1,39 @@
+{
+  "replacements": {
+    "16": "针对上述问题，本文提出基于主轴投影与超体积双锁的多目标冠豪猪优化算法。利用非劣档案的实际协方差尺度构造常规主轴随机项，以目标邻域引导和稀疏差分完成个体更新；根据父子改进率调节扰动强度，在超体积停滞且存在低方差方向时施加投影脉冲；通过逐次面积重算及跨度并列处理维护双目标档案。按照相同评价预算和重复运行原则[28,29]，结合人工基准与工程问题的差异[30]，通过等范数方向对照、触发条件对照及MOCPO文献实现比较辨别各策略的作用，并将算法用于2PPaPaR机构四尺寸三目标优化，分析解集质量与机构性能之间的联系。",
+    "98": "通过同预算比较考察解集质量与收敛效率，再以消融和方向—触发条件对照分析各机制的作用。等范数随机方向用于判断投影方向的贡献，单条件触发用于判断低方差门的贡献，二者交互项检验方向收益是否随触发条件改变。",
+    "101": "前五个基本问题的维数依次为30、30、30、7、12，后三个问题的维数依次为10、10、12。除ZDT4第2—10维取[−5,5]外，变量范围均为[0,1]。既有比较的参数在开发运行后固定，新增方向、触发及MOCPO对照的规则和参数在正式运行前固定；每种配置独立运行30次。",
+    "102": "MO-PACPO及既有对照采用种群规模100、输出容量上限100和250代更新，初始化评价计入总预算。新增MOCPO比较按相同总评价数停止，具体双阶段计数方式见下文。每次预算为",
+    "196": "均值±标准差，30次运行。最终档案采用262 144点共同积分；MO-PACPO各配置每次250代，MOCPO-F/R每次125轮双阶段更新，均评价25 100次。",
+    "135": "关闭条件脉冲的noLock在八个问题的IGD和HV上均与Full未检出显著差异。进一步以方向与触发条件的2×2对照，检验投影方向和低方差门分别改变了哪些搜索行为。",
+    "3": "摘要：针对多目标冠豪猪优化中搜索步幅难以适应解集收缩、停滞扰动缺少方向信息及有限档案分布不均的问题，提出基于主轴投影与超体积双锁的多目标冠豪猪优化算法（MO-PACPO）。利用非劣档案的协方差主轴及实际谱尺度构造随机扰动，将目标邻域引导与稀疏差分结合，并根据父子改进率调节强度；以超体积停滞和低方差方向共同触发投影脉冲，采用逐次局部面积裁剪维护双目标档案。在8个标准问题及2PPaPaR机构尺寸优化中，每配置独立运行30次，每次评价25 100次。相对MOCPO两种论文复现配置，算法在8个问题上的IGD、7个问题上的HV显著较优。机构条件脉冲相对关闭时使平均HV提高0.199%，方向与触发分解对照未检出独立显著收益；面积维护相对拥挤度为1优4劣。按给定误差假设及等权TOPSIS规则，所得方案的平均姿态平移可达体积、一阶位置误差RMS和全域灵巧度分别为790 279 cm³、0.2325 mm和0.2774。",
+    "9": "Abstract: A multiobjective crested porcupine optimization algorithm with principal-axis projection and a hypervolume double lock (MO-PACPO) is proposed to address search-step scaling, directional perturbations under stagnation, and uneven finite archives. Regular perturbations use the principal axes and absolute covariance scale of the nondominated archive. Objective-neighborhood guidance and sparse differential updates are combined with success-rate feedback. Hypervolume stagnation and low-variance directions jointly trigger projected pulses, while iterative local-area pruning maintains two-objective archives. Eight benchmark problems and dimensional optimization of a 2PPaPaR parallel mechanism are evaluated using 30 runs per configuration and 25,100 evaluations per run. Compared with two paper-derived MOCPO implementations, MO-PACPO achieves significantly better IGD on all eight problems and HV on seven. For the mechanism problem, enabling the conditional pulse increases mean HV by 0.199%, while the direction and trigger decomposition detects no significant independent gains. Area pruning wins on one and loses on four two-objective problems against crowding distance. Under the specified error assumptions and equal-weight TOPSIS rule, the selected design achieves an orientation-averaged translational workspace volume of 790,279 cm³, a first-order position RMS error of 0.2325 mm, and a global dexterity index of 0.2774.",
+    "210": "上述noLock比较移除了整套条件脉冲，包含触发、方向及后续搜索路径的共同变化。方向与触发的独立作用进一步由以下2×2对照检验。",
+    "247": "（2）同预算下，MO-PACPO在五个基本问题的IGD和HV上均优于初始方案及MOPSO-CD；相对两种MOCPO论文复现配置，IGD在八个问题上、HV在七个问题上显著较优。与NSGA-II相比，优势集中于DTLZ1、DTLZ2，ZDT1—ZDT3的配对结果较劣；DTLZ3仍有收敛困难，完整算法的收益随问题结构改变。",
+    "248": "（3）成功率反馈改善了ZDT4和DTLZ3的前沿距离，机构条件脉冲相对关闭时获得小幅HV收益。方向、触发及交互效应的分解对照均未检出独立显著收益；常规主轴随机项相对Diagonal和noNoise的独立增益也未显著。",
+    "233": "MO-PACPO、NSGA-II和GDE3适配的最终档案在262 144点、1 048 576点及8组共同偏移下重评，MO-PACPO较NSGA-II的平均HV增益为0.226%～0.237%，均显著。较GDE3适配为0.044%～0.054%，符号秩检验显著而均值差95%区间跨零，表明效应较小且均值估计受运行差异影响，详见补充材料S6。"
+  },
+  "methods": [
+    "为分离脉冲方向与触发条件的作用，设置低方差方向/随机方向与双条件/单条件的2×2对照，依次记为DL、DR、SL和SR，DL即Full。单条件保留HV停滞判据，取消低方差方向集非空这一门限；低方差集为空时，SL沿最小特征值对应方向施加脉冲。四组均保留父子成功率清零停滞计数的规则，其余搜索、边界处理和档案规则相同。随机方向在各自当代状态内逐个匹配投影样本的欧氏范数，再赋予独立球面方向；辅助随机流保持主随机流的抽样顺序，范数匹配在边界处理前完成。",
+    "同类多目标CPO对照采用文献[11]的式(6)—(9)、信息反馈式(11)及Algorithm 1复现，记为MOCPO-F/R。原文未定义多目标反馈的标量适应度，F采用固定归一化目标均值，R采用中间候选与所抽父代合并后的非支配等级。两版均采用固定种群100，四分支等概率，α=β=δ=0.5、γ=0.01；全局引导取第一非支配层随机个体，邻域取目标距离最近10个父代。以上为本文预设的复现解释，参数及公式对应关系见补充材料S7。中间候选与反馈候选各评价一次，完成125轮后达到25 100次评价，最终输出种群的非支配集。",
+    "方向与触发分析预设DL−DR、SL−SR、DL−SL、DR−SR及两方向效应之差，共五项配对比较；每问题、指标和积分设置分别进行Holm校正。MOCPO比较按每指标8问题×2版本校正，机构按两版本校正。均报告配对均值差、95%重采样区间及秩二列效应；完整检验与触发记录见补充材料S7。 95%均值区间逐项计算且未作多重校正，显著性按Holm校正后的符号秩检验判定。针对较多零差值，另以精确条件符号秩检验进行敏感性核验。"
+  ],
+  "benchmark_lead": "表2进一步检验基于档案信息的搜索组织相对信息反馈型MOCPO的解集质量。MO-PACPO在八个问题上的IGD均显著低于MOCPO-F和MOCPO-R，HV在除DTLZ3外的七个问题上显著较高。两种反馈解释保持这一比较方向。",
+  "benchmark_findings": [
+    "两种MOCPO复现配置仅在DTLZ2上获得正的终值HV，其余七个问题的HV均为0，反映其解集尚未覆盖本文固定参考点内的正体积区域。DTLZ2上，MO-PACPO的平均HV为0.53334，MOCPO-F和MOCPO-R分别为0.27397和0.26203；图4显示前者的中位数曲线维持在较高水平，后两者在早期上升后逐渐下降。",
+    "DTLZ3的IGD差异与HV差异给出不同层面的信息：MO-PACPO的平均前沿距离较低，但HV的校正p为0.35943，三者HV中位数与四分位区间均为0。该问题中的完整算法比较仍体现出多峰距离函数带来的收敛困难。"
+  ],
+  "benchmark_factorial": [
+    "五个基本问题及ZDT4均未触发脉冲，四组结果相同。ZDT6和DTLZ3中，DL分别累计触发612代和12代；HV停滞条件成立时，低方差门也均已成立，同一方向下的单、双条件轨迹一致。两问题的低方差与随机方向在IGD、HV上均未显著，五项比较的校正p均为1。前六个问题的性能比较检验了常规搜索；机构问题进一步检验触发条件实际分离时的脉冲作用。"
+  ],
+  "engineering_mocpo": [
+    "MO-PACPO较MOCPO-F和MOCPO-R的机构平均HV分别提高19.56%和19.42%，两项校正p均为3.4688×10⁻⁶；百万点积分保持相同方向。对应SP由两种复现配置的0.006753、0.006465增至0.008690，差异也显著。三者加密积分后的平均档案规模分别为96.20、98.40和97.97，表明本配置获得较大目标覆盖，同时保留了较大的局部间距离散度。"
+  ],
+  "engineering_factorial_lead": [
+    "Full（DL）、DR、SL和SR共同加密积分后的平均HV分别为0.08626161、0.08615528、0.08625004和0.08615557，表5给出四个简单效应及方向—触发交互效应。"
+  ],
+  "engineering_factorial_findings": [
+    "DL较DR的HV均值增加0.123%，逐项95%均值区间位于零以上，校正符号秩检验p为0.53598；两者分别评价均值差和配对秩变化，区间未作多重校正。SL较SR的均值增加0.110%，校正p为1。双条件相对单条件的低方差方向比较仅11对非零差、随机方向比较仅6对非零差，两者及交互项均未显著。百万点积分及精确条件符号秩核验保持相同显著性判定。",
+    "四组累计触发脉冲分别为92、112、101和128代（图8），双条件组的平均触发次数较少。DL中有25代满足HV停滞而低方差门不成立，说明该门在机构问题中实际限制了触发。现有noLock比较支持条件扰动组合的小幅HV收益，新增分解对照尚未检出低方差方向、低方差门及二者交互的独立收益。"
+  ]
+}

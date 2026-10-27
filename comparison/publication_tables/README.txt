@@ -1,0 +1,1 @@
+Publication table numbering follows the review-implementation revision dated 26 October 2026. Table 1 is the mechanism-evidence map; Tables 4 and 8 are new saved-record analyses. Historical statistical families and expected tables retain their original paths.

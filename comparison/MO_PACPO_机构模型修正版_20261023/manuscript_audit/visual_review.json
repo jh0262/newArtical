@@ -1,0 +1,36 @@
+{
+  "method": "Microsoft Word 16 native PDF export; all 13 rendered pages visually inspected",
+  "pages": 13,
+  "inspectedPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "status": "passed",
+  "docxSHA256": "298bac3e2d40f4d8deb9c300d0f4953bb972943ef47657b83d8762c042248afc",
+  "pdfSHA256": "e46a7b35b2bed2e2be7aa2a075516f3ecbf9ca8ae07193a619ed49853c6b12b5",
+  "checks": [
+    "equation radicals and native accents",
+    "table values against refined result JSON",
+    "six figures with captions",
+    "repeated table header on page 7",
+    "reference heading and balanced final columns",
+    "no page-edge clipping or blank pages"
+  ],
+  "figureData": {
+    "figure5RepresentativeCoordinates": "exactly match saved results table",
+    "representatives": 5,
+    "checked": true
+  },
+  "nativeAccentCount": 26
+}

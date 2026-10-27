@@ -1,0 +1,11 @@
+{
+  "phase": "confirmation",
+  "runs": 750,
+  "FE": 1.8825E+7,
+  "holmFamily": "all problems and comparators within each metric",
+  "IGDPass": 5,
+  "HVPass": 5,
+  "BestHVPass": 5,
+  "DTLZ1MeanIGD": 0.053213504381174857,
+  "passed": true
+}

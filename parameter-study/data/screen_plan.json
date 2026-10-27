@@ -1,0 +1,2914 @@
+[
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N11",
+    "seed": 941001,
+    "id": "PPAR_N11_941001"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N12",
+    "seed": 941001,
+    "id": "PPAR_N12_941001"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N13",
+    "seed": 941001,
+    "id": "PPAR_N13_941001"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N21",
+    "seed": 941001,
+    "id": "PPAR_N21_941001"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "B",
+    "seed": 941001,
+    "id": "PPAR_B_941001"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N23",
+    "seed": 941001,
+    "id": "PPAR_N23_941001"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N31",
+    "seed": 941001,
+    "id": "PPAR_N31_941001"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N32",
+    "seed": 941001,
+    "id": "PPAR_N32_941001"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N33",
+    "seed": 941001,
+    "id": "PPAR_N33_941001"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2",
+    "seed": 941001,
+    "id": "PPAR_W2_941001"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W10",
+    "seed": 941001,
+    "id": "PPAR_W10_941001"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "C005",
+    "seed": 941001,
+    "id": "PPAR_C005_941001"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2C005",
+    "seed": 941001,
+    "id": "PPAR_W2C005_941001"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2C005",
+    "seed": 941002,
+    "id": "PPAR_W2C005_941002"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N11",
+    "seed": 941002,
+    "id": "PPAR_N11_941002"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N12",
+    "seed": 941002,
+    "id": "PPAR_N12_941002"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N13",
+    "seed": 941002,
+    "id": "PPAR_N13_941002"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N21",
+    "seed": 941002,
+    "id": "PPAR_N21_941002"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "B",
+    "seed": 941002,
+    "id": "PPAR_B_941002"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N23",
+    "seed": 941002,
+    "id": "PPAR_N23_941002"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N31",
+    "seed": 941002,
+    "id": "PPAR_N31_941002"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N32",
+    "seed": 941002,
+    "id": "PPAR_N32_941002"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N33",
+    "seed": 941002,
+    "id": "PPAR_N33_941002"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2",
+    "seed": 941002,
+    "id": "PPAR_W2_941002"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W10",
+    "seed": 941002,
+    "id": "PPAR_W10_941002"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "C005",
+    "seed": 941002,
+    "id": "PPAR_C005_941002"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "C005",
+    "seed": 941003,
+    "id": "PPAR_C005_941003"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2C005",
+    "seed": 941003,
+    "id": "PPAR_W2C005_941003"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N11",
+    "seed": 941003,
+    "id": "PPAR_N11_941003"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N12",
+    "seed": 941003,
+    "id": "PPAR_N12_941003"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N13",
+    "seed": 941003,
+    "id": "PPAR_N13_941003"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N21",
+    "seed": 941003,
+    "id": "PPAR_N21_941003"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "B",
+    "seed": 941003,
+    "id": "PPAR_B_941003"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N23",
+    "seed": 941003,
+    "id": "PPAR_N23_941003"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N31",
+    "seed": 941003,
+    "id": "PPAR_N31_941003"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N32",
+    "seed": 941003,
+    "id": "PPAR_N32_941003"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N33",
+    "seed": 941003,
+    "id": "PPAR_N33_941003"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2",
+    "seed": 941003,
+    "id": "PPAR_W2_941003"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W10",
+    "seed": 941003,
+    "id": "PPAR_W10_941003"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W10",
+    "seed": 941004,
+    "id": "PPAR_W10_941004"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "C005",
+    "seed": 941004,
+    "id": "PPAR_C005_941004"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2C005",
+    "seed": 941004,
+    "id": "PPAR_W2C005_941004"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N11",
+    "seed": 941004,
+    "id": "PPAR_N11_941004"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N12",
+    "seed": 941004,
+    "id": "PPAR_N12_941004"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N13",
+    "seed": 941004,
+    "id": "PPAR_N13_941004"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N21",
+    "seed": 941004,
+    "id": "PPAR_N21_941004"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "B",
+    "seed": 941004,
+    "id": "PPAR_B_941004"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N23",
+    "seed": 941004,
+    "id": "PPAR_N23_941004"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N31",
+    "seed": 941004,
+    "id": "PPAR_N31_941004"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N32",
+    "seed": 941004,
+    "id": "PPAR_N32_941004"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N33",
+    "seed": 941004,
+    "id": "PPAR_N33_941004"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2",
+    "seed": 941004,
+    "id": "PPAR_W2_941004"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2",
+    "seed": 941005,
+    "id": "PPAR_W2_941005"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W10",
+    "seed": 941005,
+    "id": "PPAR_W10_941005"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "C005",
+    "seed": 941005,
+    "id": "PPAR_C005_941005"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2C005",
+    "seed": 941005,
+    "id": "PPAR_W2C005_941005"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N11",
+    "seed": 941005,
+    "id": "PPAR_N11_941005"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N12",
+    "seed": 941005,
+    "id": "PPAR_N12_941005"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N13",
+    "seed": 941005,
+    "id": "PPAR_N13_941005"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N21",
+    "seed": 941005,
+    "id": "PPAR_N21_941005"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "B",
+    "seed": 941005,
+    "id": "PPAR_B_941005"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N23",
+    "seed": 941005,
+    "id": "PPAR_N23_941005"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N31",
+    "seed": 941005,
+    "id": "PPAR_N31_941005"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N32",
+    "seed": 941005,
+    "id": "PPAR_N32_941005"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N33",
+    "seed": 941005,
+    "id": "PPAR_N33_941005"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N33",
+    "seed": 941006,
+    "id": "PPAR_N33_941006"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2",
+    "seed": 941006,
+    "id": "PPAR_W2_941006"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W10",
+    "seed": 941006,
+    "id": "PPAR_W10_941006"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "C005",
+    "seed": 941006,
+    "id": "PPAR_C005_941006"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2C005",
+    "seed": 941006,
+    "id": "PPAR_W2C005_941006"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N11",
+    "seed": 941006,
+    "id": "PPAR_N11_941006"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N12",
+    "seed": 941006,
+    "id": "PPAR_N12_941006"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N13",
+    "seed": 941006,
+    "id": "PPAR_N13_941006"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N21",
+    "seed": 941006,
+    "id": "PPAR_N21_941006"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "B",
+    "seed": 941006,
+    "id": "PPAR_B_941006"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N23",
+    "seed": 941006,
+    "id": "PPAR_N23_941006"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N31",
+    "seed": 941006,
+    "id": "PPAR_N31_941006"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N32",
+    "seed": 941006,
+    "id": "PPAR_N32_941006"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N32",
+    "seed": 941007,
+    "id": "PPAR_N32_941007"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N33",
+    "seed": 941007,
+    "id": "PPAR_N33_941007"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2",
+    "seed": 941007,
+    "id": "PPAR_W2_941007"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W10",
+    "seed": 941007,
+    "id": "PPAR_W10_941007"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "C005",
+    "seed": 941007,
+    "id": "PPAR_C005_941007"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2C005",
+    "seed": 941007,
+    "id": "PPAR_W2C005_941007"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N11",
+    "seed": 941007,
+    "id": "PPAR_N11_941007"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N12",
+    "seed": 941007,
+    "id": "PPAR_N12_941007"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N13",
+    "seed": 941007,
+    "id": "PPAR_N13_941007"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N21",
+    "seed": 941007,
+    "id": "PPAR_N21_941007"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "B",
+    "seed": 941007,
+    "id": "PPAR_B_941007"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N23",
+    "seed": 941007,
+    "id": "PPAR_N23_941007"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N31",
+    "seed": 941007,
+    "id": "PPAR_N31_941007"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N31",
+    "seed": 941008,
+    "id": "PPAR_N31_941008"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N32",
+    "seed": 941008,
+    "id": "PPAR_N32_941008"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N33",
+    "seed": 941008,
+    "id": "PPAR_N33_941008"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2",
+    "seed": 941008,
+    "id": "PPAR_W2_941008"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W10",
+    "seed": 941008,
+    "id": "PPAR_W10_941008"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "C005",
+    "seed": 941008,
+    "id": "PPAR_C005_941008"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2C005",
+    "seed": 941008,
+    "id": "PPAR_W2C005_941008"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N11",
+    "seed": 941008,
+    "id": "PPAR_N11_941008"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N12",
+    "seed": 941008,
+    "id": "PPAR_N12_941008"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N13",
+    "seed": 941008,
+    "id": "PPAR_N13_941008"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N21",
+    "seed": 941008,
+    "id": "PPAR_N21_941008"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "B",
+    "seed": 941008,
+    "id": "PPAR_B_941008"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N23",
+    "seed": 941008,
+    "id": "PPAR_N23_941008"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N23",
+    "seed": 941009,
+    "id": "PPAR_N23_941009"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N31",
+    "seed": 941009,
+    "id": "PPAR_N31_941009"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N32",
+    "seed": 941009,
+    "id": "PPAR_N32_941009"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N33",
+    "seed": 941009,
+    "id": "PPAR_N33_941009"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2",
+    "seed": 941009,
+    "id": "PPAR_W2_941009"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W10",
+    "seed": 941009,
+    "id": "PPAR_W10_941009"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "C005",
+    "seed": 941009,
+    "id": "PPAR_C005_941009"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2C005",
+    "seed": 941009,
+    "id": "PPAR_W2C005_941009"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N11",
+    "seed": 941009,
+    "id": "PPAR_N11_941009"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N12",
+    "seed": 941009,
+    "id": "PPAR_N12_941009"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N13",
+    "seed": 941009,
+    "id": "PPAR_N13_941009"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N21",
+    "seed": 941009,
+    "id": "PPAR_N21_941009"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "B",
+    "seed": 941009,
+    "id": "PPAR_B_941009"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "B",
+    "seed": 941010,
+    "id": "PPAR_B_941010"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N23",
+    "seed": 941010,
+    "id": "PPAR_N23_941010"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N31",
+    "seed": 941010,
+    "id": "PPAR_N31_941010"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N32",
+    "seed": 941010,
+    "id": "PPAR_N32_941010"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N33",
+    "seed": 941010,
+    "id": "PPAR_N33_941010"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2",
+    "seed": 941010,
+    "id": "PPAR_W2_941010"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W10",
+    "seed": 941010,
+    "id": "PPAR_W10_941010"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "C005",
+    "seed": 941010,
+    "id": "PPAR_C005_941010"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2C005",
+    "seed": 941010,
+    "id": "PPAR_W2C005_941010"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N11",
+    "seed": 941010,
+    "id": "PPAR_N11_941010"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N12",
+    "seed": 941010,
+    "id": "PPAR_N12_941010"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N13",
+    "seed": 941010,
+    "id": "PPAR_N13_941010"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N21",
+    "seed": 941010,
+    "id": "PPAR_N21_941010"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N21",
+    "seed": 941011,
+    "id": "PPAR_N21_941011"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "B",
+    "seed": 941011,
+    "id": "PPAR_B_941011"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N23",
+    "seed": 941011,
+    "id": "PPAR_N23_941011"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N31",
+    "seed": 941011,
+    "id": "PPAR_N31_941011"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N32",
+    "seed": 941011,
+    "id": "PPAR_N32_941011"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N33",
+    "seed": 941011,
+    "id": "PPAR_N33_941011"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2",
+    "seed": 941011,
+    "id": "PPAR_W2_941011"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W10",
+    "seed": 941011,
+    "id": "PPAR_W10_941011"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "C005",
+    "seed": 941011,
+    "id": "PPAR_C005_941011"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2C005",
+    "seed": 941011,
+    "id": "PPAR_W2C005_941011"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N11",
+    "seed": 941011,
+    "id": "PPAR_N11_941011"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N12",
+    "seed": 941011,
+    "id": "PPAR_N12_941011"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N13",
+    "seed": 941011,
+    "id": "PPAR_N13_941011"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N13",
+    "seed": 941012,
+    "id": "PPAR_N13_941012"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N21",
+    "seed": 941012,
+    "id": "PPAR_N21_941012"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "B",
+    "seed": 941012,
+    "id": "PPAR_B_941012"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N23",
+    "seed": 941012,
+    "id": "PPAR_N23_941012"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N31",
+    "seed": 941012,
+    "id": "PPAR_N31_941012"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N32",
+    "seed": 941012,
+    "id": "PPAR_N32_941012"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N33",
+    "seed": 941012,
+    "id": "PPAR_N33_941012"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2",
+    "seed": 941012,
+    "id": "PPAR_W2_941012"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W10",
+    "seed": 941012,
+    "id": "PPAR_W10_941012"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "C005",
+    "seed": 941012,
+    "id": "PPAR_C005_941012"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2C005",
+    "seed": 941012,
+    "id": "PPAR_W2C005_941012"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N11",
+    "seed": 941012,
+    "id": "PPAR_N11_941012"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N12",
+    "seed": 941012,
+    "id": "PPAR_N12_941012"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N12",
+    "seed": 941013,
+    "id": "PPAR_N12_941013"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N13",
+    "seed": 941013,
+    "id": "PPAR_N13_941013"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N21",
+    "seed": 941013,
+    "id": "PPAR_N21_941013"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "B",
+    "seed": 941013,
+    "id": "PPAR_B_941013"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N23",
+    "seed": 941013,
+    "id": "PPAR_N23_941013"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N31",
+    "seed": 941013,
+    "id": "PPAR_N31_941013"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N32",
+    "seed": 941013,
+    "id": "PPAR_N32_941013"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N33",
+    "seed": 941013,
+    "id": "PPAR_N33_941013"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2",
+    "seed": 941013,
+    "id": "PPAR_W2_941013"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W10",
+    "seed": 941013,
+    "id": "PPAR_W10_941013"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "C005",
+    "seed": 941013,
+    "id": "PPAR_C005_941013"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2C005",
+    "seed": 941013,
+    "id": "PPAR_W2C005_941013"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N11",
+    "seed": 941013,
+    "id": "PPAR_N11_941013"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N11",
+    "seed": 941014,
+    "id": "PPAR_N11_941014"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N12",
+    "seed": 941014,
+    "id": "PPAR_N12_941014"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N13",
+    "seed": 941014,
+    "id": "PPAR_N13_941014"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N21",
+    "seed": 941014,
+    "id": "PPAR_N21_941014"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "B",
+    "seed": 941014,
+    "id": "PPAR_B_941014"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N23",
+    "seed": 941014,
+    "id": "PPAR_N23_941014"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N31",
+    "seed": 941014,
+    "id": "PPAR_N31_941014"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N32",
+    "seed": 941014,
+    "id": "PPAR_N32_941014"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N33",
+    "seed": 941014,
+    "id": "PPAR_N33_941014"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2",
+    "seed": 941014,
+    "id": "PPAR_W2_941014"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W10",
+    "seed": 941014,
+    "id": "PPAR_W10_941014"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "C005",
+    "seed": 941014,
+    "id": "PPAR_C005_941014"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2C005",
+    "seed": 941014,
+    "id": "PPAR_W2C005_941014"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2C005",
+    "seed": 941015,
+    "id": "PPAR_W2C005_941015"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N11",
+    "seed": 941015,
+    "id": "PPAR_N11_941015"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N12",
+    "seed": 941015,
+    "id": "PPAR_N12_941015"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N13",
+    "seed": 941015,
+    "id": "PPAR_N13_941015"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N21",
+    "seed": 941015,
+    "id": "PPAR_N21_941015"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "B",
+    "seed": 941015,
+    "id": "PPAR_B_941015"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N23",
+    "seed": 941015,
+    "id": "PPAR_N23_941015"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N31",
+    "seed": 941015,
+    "id": "PPAR_N31_941015"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N32",
+    "seed": 941015,
+    "id": "PPAR_N32_941015"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N33",
+    "seed": 941015,
+    "id": "PPAR_N33_941015"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2",
+    "seed": 941015,
+    "id": "PPAR_W2_941015"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W10",
+    "seed": 941015,
+    "id": "PPAR_W10_941015"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "C005",
+    "seed": 941015,
+    "id": "PPAR_C005_941015"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "C005",
+    "seed": 941016,
+    "id": "PPAR_C005_941016"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2C005",
+    "seed": 941016,
+    "id": "PPAR_W2C005_941016"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N11",
+    "seed": 941016,
+    "id": "PPAR_N11_941016"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N12",
+    "seed": 941016,
+    "id": "PPAR_N12_941016"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N13",
+    "seed": 941016,
+    "id": "PPAR_N13_941016"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N21",
+    "seed": 941016,
+    "id": "PPAR_N21_941016"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "B",
+    "seed": 941016,
+    "id": "PPAR_B_941016"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N23",
+    "seed": 941016,
+    "id": "PPAR_N23_941016"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N31",
+    "seed": 941016,
+    "id": "PPAR_N31_941016"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N32",
+    "seed": 941016,
+    "id": "PPAR_N32_941016"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "N33",
+    "seed": 941016,
+    "id": "PPAR_N33_941016"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W2",
+    "seed": 941016,
+    "id": "PPAR_W2_941016"
+  },
+  {
+    "phase": "screen",
+    "problem": "PPAR",
+    "variant": "W10",
+    "seed": 941016,
+    "id": "PPAR_W10_941016"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N11",
+    "seed": 942001,
+    "id": "DTLZ3_N11_942001"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N12",
+    "seed": 942001,
+    "id": "DTLZ3_N12_942001"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N13",
+    "seed": 942001,
+    "id": "DTLZ3_N13_942001"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N21",
+    "seed": 942001,
+    "id": "DTLZ3_N21_942001"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "B",
+    "seed": 942001,
+    "id": "DTLZ3_B_942001"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N23",
+    "seed": 942001,
+    "id": "DTLZ3_N23_942001"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N31",
+    "seed": 942001,
+    "id": "DTLZ3_N31_942001"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N32",
+    "seed": 942001,
+    "id": "DTLZ3_N32_942001"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N33",
+    "seed": 942001,
+    "id": "DTLZ3_N33_942001"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2",
+    "seed": 942001,
+    "id": "DTLZ3_W2_942001"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W10",
+    "seed": 942001,
+    "id": "DTLZ3_W10_942001"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "C005",
+    "seed": 942001,
+    "id": "DTLZ3_C005_942001"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2C005",
+    "seed": 942001,
+    "id": "DTLZ3_W2C005_942001"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2C005",
+    "seed": 942002,
+    "id": "DTLZ3_W2C005_942002"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N11",
+    "seed": 942002,
+    "id": "DTLZ3_N11_942002"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N12",
+    "seed": 942002,
+    "id": "DTLZ3_N12_942002"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N13",
+    "seed": 942002,
+    "id": "DTLZ3_N13_942002"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N21",
+    "seed": 942002,
+    "id": "DTLZ3_N21_942002"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "B",
+    "seed": 942002,
+    "id": "DTLZ3_B_942002"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N23",
+    "seed": 942002,
+    "id": "DTLZ3_N23_942002"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N31",
+    "seed": 942002,
+    "id": "DTLZ3_N31_942002"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N32",
+    "seed": 942002,
+    "id": "DTLZ3_N32_942002"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N33",
+    "seed": 942002,
+    "id": "DTLZ3_N33_942002"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2",
+    "seed": 942002,
+    "id": "DTLZ3_W2_942002"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W10",
+    "seed": 942002,
+    "id": "DTLZ3_W10_942002"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "C005",
+    "seed": 942002,
+    "id": "DTLZ3_C005_942002"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "C005",
+    "seed": 942003,
+    "id": "DTLZ3_C005_942003"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2C005",
+    "seed": 942003,
+    "id": "DTLZ3_W2C005_942003"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N11",
+    "seed": 942003,
+    "id": "DTLZ3_N11_942003"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N12",
+    "seed": 942003,
+    "id": "DTLZ3_N12_942003"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N13",
+    "seed": 942003,
+    "id": "DTLZ3_N13_942003"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N21",
+    "seed": 942003,
+    "id": "DTLZ3_N21_942003"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "B",
+    "seed": 942003,
+    "id": "DTLZ3_B_942003"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N23",
+    "seed": 942003,
+    "id": "DTLZ3_N23_942003"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N31",
+    "seed": 942003,
+    "id": "DTLZ3_N31_942003"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N32",
+    "seed": 942003,
+    "id": "DTLZ3_N32_942003"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N33",
+    "seed": 942003,
+    "id": "DTLZ3_N33_942003"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2",
+    "seed": 942003,
+    "id": "DTLZ3_W2_942003"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W10",
+    "seed": 942003,
+    "id": "DTLZ3_W10_942003"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W10",
+    "seed": 942004,
+    "id": "DTLZ3_W10_942004"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "C005",
+    "seed": 942004,
+    "id": "DTLZ3_C005_942004"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2C005",
+    "seed": 942004,
+    "id": "DTLZ3_W2C005_942004"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N11",
+    "seed": 942004,
+    "id": "DTLZ3_N11_942004"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N12",
+    "seed": 942004,
+    "id": "DTLZ3_N12_942004"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N13",
+    "seed": 942004,
+    "id": "DTLZ3_N13_942004"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N21",
+    "seed": 942004,
+    "id": "DTLZ3_N21_942004"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "B",
+    "seed": 942004,
+    "id": "DTLZ3_B_942004"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N23",
+    "seed": 942004,
+    "id": "DTLZ3_N23_942004"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N31",
+    "seed": 942004,
+    "id": "DTLZ3_N31_942004"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N32",
+    "seed": 942004,
+    "id": "DTLZ3_N32_942004"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N33",
+    "seed": 942004,
+    "id": "DTLZ3_N33_942004"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2",
+    "seed": 942004,
+    "id": "DTLZ3_W2_942004"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2",
+    "seed": 942005,
+    "id": "DTLZ3_W2_942005"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W10",
+    "seed": 942005,
+    "id": "DTLZ3_W10_942005"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "C005",
+    "seed": 942005,
+    "id": "DTLZ3_C005_942005"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2C005",
+    "seed": 942005,
+    "id": "DTLZ3_W2C005_942005"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N11",
+    "seed": 942005,
+    "id": "DTLZ3_N11_942005"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N12",
+    "seed": 942005,
+    "id": "DTLZ3_N12_942005"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N13",
+    "seed": 942005,
+    "id": "DTLZ3_N13_942005"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N21",
+    "seed": 942005,
+    "id": "DTLZ3_N21_942005"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "B",
+    "seed": 942005,
+    "id": "DTLZ3_B_942005"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N23",
+    "seed": 942005,
+    "id": "DTLZ3_N23_942005"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N31",
+    "seed": 942005,
+    "id": "DTLZ3_N31_942005"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N32",
+    "seed": 942005,
+    "id": "DTLZ3_N32_942005"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N33",
+    "seed": 942005,
+    "id": "DTLZ3_N33_942005"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N33",
+    "seed": 942006,
+    "id": "DTLZ3_N33_942006"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2",
+    "seed": 942006,
+    "id": "DTLZ3_W2_942006"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W10",
+    "seed": 942006,
+    "id": "DTLZ3_W10_942006"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "C005",
+    "seed": 942006,
+    "id": "DTLZ3_C005_942006"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2C005",
+    "seed": 942006,
+    "id": "DTLZ3_W2C005_942006"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N11",
+    "seed": 942006,
+    "id": "DTLZ3_N11_942006"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N12",
+    "seed": 942006,
+    "id": "DTLZ3_N12_942006"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N13",
+    "seed": 942006,
+    "id": "DTLZ3_N13_942006"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N21",
+    "seed": 942006,
+    "id": "DTLZ3_N21_942006"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "B",
+    "seed": 942006,
+    "id": "DTLZ3_B_942006"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N23",
+    "seed": 942006,
+    "id": "DTLZ3_N23_942006"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N31",
+    "seed": 942006,
+    "id": "DTLZ3_N31_942006"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N32",
+    "seed": 942006,
+    "id": "DTLZ3_N32_942006"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N32",
+    "seed": 942007,
+    "id": "DTLZ3_N32_942007"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N33",
+    "seed": 942007,
+    "id": "DTLZ3_N33_942007"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2",
+    "seed": 942007,
+    "id": "DTLZ3_W2_942007"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W10",
+    "seed": 942007,
+    "id": "DTLZ3_W10_942007"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "C005",
+    "seed": 942007,
+    "id": "DTLZ3_C005_942007"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2C005",
+    "seed": 942007,
+    "id": "DTLZ3_W2C005_942007"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N11",
+    "seed": 942007,
+    "id": "DTLZ3_N11_942007"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N12",
+    "seed": 942007,
+    "id": "DTLZ3_N12_942007"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N13",
+    "seed": 942007,
+    "id": "DTLZ3_N13_942007"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N21",
+    "seed": 942007,
+    "id": "DTLZ3_N21_942007"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "B",
+    "seed": 942007,
+    "id": "DTLZ3_B_942007"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N23",
+    "seed": 942007,
+    "id": "DTLZ3_N23_942007"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N31",
+    "seed": 942007,
+    "id": "DTLZ3_N31_942007"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N31",
+    "seed": 942008,
+    "id": "DTLZ3_N31_942008"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N32",
+    "seed": 942008,
+    "id": "DTLZ3_N32_942008"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N33",
+    "seed": 942008,
+    "id": "DTLZ3_N33_942008"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2",
+    "seed": 942008,
+    "id": "DTLZ3_W2_942008"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W10",
+    "seed": 942008,
+    "id": "DTLZ3_W10_942008"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "C005",
+    "seed": 942008,
+    "id": "DTLZ3_C005_942008"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2C005",
+    "seed": 942008,
+    "id": "DTLZ3_W2C005_942008"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N11",
+    "seed": 942008,
+    "id": "DTLZ3_N11_942008"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N12",
+    "seed": 942008,
+    "id": "DTLZ3_N12_942008"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N13",
+    "seed": 942008,
+    "id": "DTLZ3_N13_942008"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N21",
+    "seed": 942008,
+    "id": "DTLZ3_N21_942008"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "B",
+    "seed": 942008,
+    "id": "DTLZ3_B_942008"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N23",
+    "seed": 942008,
+    "id": "DTLZ3_N23_942008"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N23",
+    "seed": 942009,
+    "id": "DTLZ3_N23_942009"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N31",
+    "seed": 942009,
+    "id": "DTLZ3_N31_942009"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N32",
+    "seed": 942009,
+    "id": "DTLZ3_N32_942009"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N33",
+    "seed": 942009,
+    "id": "DTLZ3_N33_942009"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2",
+    "seed": 942009,
+    "id": "DTLZ3_W2_942009"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W10",
+    "seed": 942009,
+    "id": "DTLZ3_W10_942009"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "C005",
+    "seed": 942009,
+    "id": "DTLZ3_C005_942009"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2C005",
+    "seed": 942009,
+    "id": "DTLZ3_W2C005_942009"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N11",
+    "seed": 942009,
+    "id": "DTLZ3_N11_942009"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N12",
+    "seed": 942009,
+    "id": "DTLZ3_N12_942009"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N13",
+    "seed": 942009,
+    "id": "DTLZ3_N13_942009"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N21",
+    "seed": 942009,
+    "id": "DTLZ3_N21_942009"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "B",
+    "seed": 942009,
+    "id": "DTLZ3_B_942009"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "B",
+    "seed": 942010,
+    "id": "DTLZ3_B_942010"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N23",
+    "seed": 942010,
+    "id": "DTLZ3_N23_942010"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N31",
+    "seed": 942010,
+    "id": "DTLZ3_N31_942010"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N32",
+    "seed": 942010,
+    "id": "DTLZ3_N32_942010"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N33",
+    "seed": 942010,
+    "id": "DTLZ3_N33_942010"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2",
+    "seed": 942010,
+    "id": "DTLZ3_W2_942010"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W10",
+    "seed": 942010,
+    "id": "DTLZ3_W10_942010"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "C005",
+    "seed": 942010,
+    "id": "DTLZ3_C005_942010"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2C005",
+    "seed": 942010,
+    "id": "DTLZ3_W2C005_942010"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N11",
+    "seed": 942010,
+    "id": "DTLZ3_N11_942010"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N12",
+    "seed": 942010,
+    "id": "DTLZ3_N12_942010"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N13",
+    "seed": 942010,
+    "id": "DTLZ3_N13_942010"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N21",
+    "seed": 942010,
+    "id": "DTLZ3_N21_942010"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N21",
+    "seed": 942011,
+    "id": "DTLZ3_N21_942011"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "B",
+    "seed": 942011,
+    "id": "DTLZ3_B_942011"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N23",
+    "seed": 942011,
+    "id": "DTLZ3_N23_942011"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N31",
+    "seed": 942011,
+    "id": "DTLZ3_N31_942011"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N32",
+    "seed": 942011,
+    "id": "DTLZ3_N32_942011"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N33",
+    "seed": 942011,
+    "id": "DTLZ3_N33_942011"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2",
+    "seed": 942011,
+    "id": "DTLZ3_W2_942011"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W10",
+    "seed": 942011,
+    "id": "DTLZ3_W10_942011"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "C005",
+    "seed": 942011,
+    "id": "DTLZ3_C005_942011"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2C005",
+    "seed": 942011,
+    "id": "DTLZ3_W2C005_942011"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N11",
+    "seed": 942011,
+    "id": "DTLZ3_N11_942011"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N12",
+    "seed": 942011,
+    "id": "DTLZ3_N12_942011"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N13",
+    "seed": 942011,
+    "id": "DTLZ3_N13_942011"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N13",
+    "seed": 942012,
+    "id": "DTLZ3_N13_942012"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N21",
+    "seed": 942012,
+    "id": "DTLZ3_N21_942012"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "B",
+    "seed": 942012,
+    "id": "DTLZ3_B_942012"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N23",
+    "seed": 942012,
+    "id": "DTLZ3_N23_942012"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N31",
+    "seed": 942012,
+    "id": "DTLZ3_N31_942012"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N32",
+    "seed": 942012,
+    "id": "DTLZ3_N32_942012"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N33",
+    "seed": 942012,
+    "id": "DTLZ3_N33_942012"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2",
+    "seed": 942012,
+    "id": "DTLZ3_W2_942012"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W10",
+    "seed": 942012,
+    "id": "DTLZ3_W10_942012"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "C005",
+    "seed": 942012,
+    "id": "DTLZ3_C005_942012"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2C005",
+    "seed": 942012,
+    "id": "DTLZ3_W2C005_942012"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N11",
+    "seed": 942012,
+    "id": "DTLZ3_N11_942012"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N12",
+    "seed": 942012,
+    "id": "DTLZ3_N12_942012"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N12",
+    "seed": 942013,
+    "id": "DTLZ3_N12_942013"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N13",
+    "seed": 942013,
+    "id": "DTLZ3_N13_942013"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N21",
+    "seed": 942013,
+    "id": "DTLZ3_N21_942013"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "B",
+    "seed": 942013,
+    "id": "DTLZ3_B_942013"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N23",
+    "seed": 942013,
+    "id": "DTLZ3_N23_942013"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N31",
+    "seed": 942013,
+    "id": "DTLZ3_N31_942013"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N32",
+    "seed": 942013,
+    "id": "DTLZ3_N32_942013"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N33",
+    "seed": 942013,
+    "id": "DTLZ3_N33_942013"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2",
+    "seed": 942013,
+    "id": "DTLZ3_W2_942013"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W10",
+    "seed": 942013,
+    "id": "DTLZ3_W10_942013"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "C005",
+    "seed": 942013,
+    "id": "DTLZ3_C005_942013"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2C005",
+    "seed": 942013,
+    "id": "DTLZ3_W2C005_942013"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N11",
+    "seed": 942013,
+    "id": "DTLZ3_N11_942013"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N11",
+    "seed": 942014,
+    "id": "DTLZ3_N11_942014"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N12",
+    "seed": 942014,
+    "id": "DTLZ3_N12_942014"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N13",
+    "seed": 942014,
+    "id": "DTLZ3_N13_942014"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N21",
+    "seed": 942014,
+    "id": "DTLZ3_N21_942014"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "B",
+    "seed": 942014,
+    "id": "DTLZ3_B_942014"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N23",
+    "seed": 942014,
+    "id": "DTLZ3_N23_942014"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N31",
+    "seed": 942014,
+    "id": "DTLZ3_N31_942014"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N32",
+    "seed": 942014,
+    "id": "DTLZ3_N32_942014"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N33",
+    "seed": 942014,
+    "id": "DTLZ3_N33_942014"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2",
+    "seed": 942014,
+    "id": "DTLZ3_W2_942014"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W10",
+    "seed": 942014,
+    "id": "DTLZ3_W10_942014"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "C005",
+    "seed": 942014,
+    "id": "DTLZ3_C005_942014"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2C005",
+    "seed": 942014,
+    "id": "DTLZ3_W2C005_942014"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2C005",
+    "seed": 942015,
+    "id": "DTLZ3_W2C005_942015"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N11",
+    "seed": 942015,
+    "id": "DTLZ3_N11_942015"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N12",
+    "seed": 942015,
+    "id": "DTLZ3_N12_942015"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N13",
+    "seed": 942015,
+    "id": "DTLZ3_N13_942015"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N21",
+    "seed": 942015,
+    "id": "DTLZ3_N21_942015"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "B",
+    "seed": 942015,
+    "id": "DTLZ3_B_942015"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N23",
+    "seed": 942015,
+    "id": "DTLZ3_N23_942015"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N31",
+    "seed": 942015,
+    "id": "DTLZ3_N31_942015"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N32",
+    "seed": 942015,
+    "id": "DTLZ3_N32_942015"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N33",
+    "seed": 942015,
+    "id": "DTLZ3_N33_942015"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2",
+    "seed": 942015,
+    "id": "DTLZ3_W2_942015"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W10",
+    "seed": 942015,
+    "id": "DTLZ3_W10_942015"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "C005",
+    "seed": 942015,
+    "id": "DTLZ3_C005_942015"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "C005",
+    "seed": 942016,
+    "id": "DTLZ3_C005_942016"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2C005",
+    "seed": 942016,
+    "id": "DTLZ3_W2C005_942016"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N11",
+    "seed": 942016,
+    "id": "DTLZ3_N11_942016"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N12",
+    "seed": 942016,
+    "id": "DTLZ3_N12_942016"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N13",
+    "seed": 942016,
+    "id": "DTLZ3_N13_942016"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N21",
+    "seed": 942016,
+    "id": "DTLZ3_N21_942016"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "B",
+    "seed": 942016,
+    "id": "DTLZ3_B_942016"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N23",
+    "seed": 942016,
+    "id": "DTLZ3_N23_942016"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N31",
+    "seed": 942016,
+    "id": "DTLZ3_N31_942016"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N32",
+    "seed": 942016,
+    "id": "DTLZ3_N32_942016"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "N33",
+    "seed": 942016,
+    "id": "DTLZ3_N33_942016"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W2",
+    "seed": 942016,
+    "id": "DTLZ3_W2_942016"
+  },
+  {
+    "phase": "screen",
+    "problem": "DTLZ3",
+    "variant": "W10",
+    "seed": 942016,
+    "id": "DTLZ3_W10_942016"
+  }
+]

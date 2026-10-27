@@ -1,0 +1,17 @@
+{
+  "phase": "completed",
+  "updated": "2026-10-24T17:02:07.4067312+08:00",
+  "new_searches_completed": 60,
+  "full_replays_completed": 30,
+  "planned_new_searches": 60,
+  "planned_full_replays": 30,
+  "failed": 0,
+  "new_search_evaluations": 1506000,
+  "manuscript_status": "completed_native_render_and_fulltext_check",
+  "manuscript_pages": 23,
+  "all_original_sources_unchanged": 19,
+  "primary_integration_points": 262144,
+  "sensitivity_integration_points": 1048576,
+  "original_scope_preserved": true,
+  "anti_defensive_writing_completed": true
+}

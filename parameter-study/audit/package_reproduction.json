@@ -1,0 +1,147 @@
+{
+  "status": "pass",
+  "clean_directory": "F:\\暑假原始资料\\论文总项目_20261013\\00_管理\\MO_PACPO_round3_repro_20261027",
+  "method": "new directory containing the same compact-package file selection; MATLAB reproduce_derived, then portable independent Python verification",
+  "searches_rerun": 0,
+  "statistics_csv_identical": 7,
+  "png_pixel_identical": 5,
+  "png_minor_raster_variation": 2,
+  "pdf_text_pages_vector_geometry_identical": 7,
+  "identical_source_files": 11,
+  "portable_verification": {
+    "screen": {
+      "runs": 416,
+      "numerical_checks": 2288,
+      "statistical_rows": 45
+    },
+    "confirm": {
+      "runs": 180,
+      "numerical_checks": 1006,
+      "statistical_rows": 10
+    },
+    "engineering_only_selection_verified": true,
+    "originals_check": "skipped in portable mode; see original local audit",
+    "status": "pass"
+  },
+  "checks": [
+    {
+      "file": "data/screen_summary.csv",
+      "check": "byte_identical",
+      "sha256": "11abf1170c3f7c94732378a6b7414f8ed851d541ec5d7ed8e2b00079e891858a"
+    },
+    {
+      "file": "data/screen_statistics.csv",
+      "check": "byte_identical",
+      "sha256": "f50b55f4dd0d1fe78f5b3f2f14b473741f6ec92b72b969e17ab036813622bd8e"
+    },
+    {
+      "file": "data/screen_bootstrap.csv",
+      "check": "byte_identical",
+      "sha256": "19af6b2a652d857cd031095847d00f5c99288465ee6bc844cbb05968e8d169e6"
+    },
+    {
+      "file": "data/confirm_summary.csv",
+      "check": "byte_identical",
+      "sha256": "464e9475b525ab96d0295ab7a0313381c012339b520c190f3e52607831473503"
+    },
+    {
+      "file": "data/confirm_statistics.csv",
+      "check": "byte_identical",
+      "sha256": "51930b9f9a6f45c903681a22deb55c3d833bbdd874dc745b839ef3a784d40fb6"
+    },
+    {
+      "file": "data/confirm_bootstrap.csv",
+      "check": "byte_identical",
+      "sha256": "c35f55c61bf806bc9a1707856bd2cfb4aef655e3f3e56cca5d3e1662baa9ced3"
+    },
+    {
+      "file": "data/confirm_stability.csv",
+      "check": "byte_identical",
+      "sha256": "f6eb63940787da16b5a3c093191d6c9ae0d9556d351319e381b1204ed15700f0"
+    },
+    {
+      "file": "figures/01_engineering_noise_grid.png",
+      "check": "pixel_identical",
+      "different_pixels": 0,
+      "maximum_channel_difference": 0,
+      "mean_absolute_channel_difference": 0.0
+    },
+    {
+      "file": "figures/02_engineering_gate_effects.png",
+      "check": "pixel_identical",
+      "different_pixels": 0,
+      "maximum_channel_difference": 0,
+      "mean_absolute_channel_difference": 0.0
+    },
+    {
+      "file": "figures/03_confirmation_convergence.png",
+      "check": "minor_raster_variation_with_identical_pdf_drawing_stream",
+      "different_pixels": 13,
+      "maximum_channel_difference": 34,
+      "mean_absolute_channel_difference": 7.292486894095781e-05
+    },
+    {
+      "file": "figures/04_confirmation_quality_stability.png",
+      "check": "minor_raster_variation_with_identical_pdf_drawing_stream",
+      "different_pixels": 7,
+      "maximum_channel_difference": 1,
+      "mean_absolute_channel_difference": 2.4112131054254705e-06
+    },
+    {
+      "file": "figures/05_mechanism_activation.png",
+      "check": "pixel_identical",
+      "different_pixels": 0,
+      "maximum_channel_difference": 0,
+      "mean_absolute_channel_difference": 0.0
+    },
+    {
+      "file": "figures/06_dtlz3_auxiliary.png",
+      "check": "pixel_identical",
+      "different_pixels": 0,
+      "maximum_channel_difference": 0,
+      "mean_absolute_channel_difference": 0.0
+    },
+    {
+      "file": "figures/07_integration_sensitivity.png",
+      "check": "pixel_identical",
+      "different_pixels": 0,
+      "maximum_channel_difference": 0,
+      "mean_absolute_channel_difference": 0.0
+    },
+    {
+      "file": "figures/01_engineering_noise_grid.pdf",
+      "check": "page_count_text_and_vector_geometry_identical",
+      "complete_content_stream_identical": false
+    },
+    {
+      "file": "figures/02_engineering_gate_effects.pdf",
+      "check": "page_count_text_and_vector_geometry_identical",
+      "complete_content_stream_identical": true
+    },
+    {
+      "file": "figures/03_confirmation_convergence.pdf",
+      "check": "page_count_text_and_vector_geometry_identical",
+      "complete_content_stream_identical": true
+    },
+    {
+      "file": "figures/04_confirmation_quality_stability.pdf",
+      "check": "page_count_text_and_vector_geometry_identical",
+      "complete_content_stream_identical": true
+    },
+    {
+      "file": "figures/05_mechanism_activation.pdf",
+      "check": "page_count_text_and_vector_geometry_identical",
+      "complete_content_stream_identical": false
+    },
+    {
+      "file": "figures/06_dtlz3_auxiliary.pdf",
+      "check": "page_count_text_and_vector_geometry_identical",
+      "complete_content_stream_identical": false
+    },
+    {
+      "file": "figures/07_integration_sensitivity.pdf",
+      "check": "page_count_text_and_vector_geometry_identical",
+      "complete_content_stream_identical": true
+    }
+  ]
+}

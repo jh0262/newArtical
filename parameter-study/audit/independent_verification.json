@@ -1,0 +1,16 @@
+{
+  "screen": {
+    "runs": 416,
+    "numerical_checks": 2288,
+    "statistical_rows": 45
+  },
+  "confirm": {
+    "runs": 180,
+    "numerical_checks": 1006,
+    "statistical_rows": 10
+  },
+  "engineering_only_selection_verified": true,
+  "preserved_original_files": 3656,
+  "algorithm_and_model_unchanged": true,
+  "status": "pass"
+}

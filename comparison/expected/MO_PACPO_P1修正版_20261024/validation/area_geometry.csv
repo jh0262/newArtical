@@ -1,0 +1,9 @@
+Front,Mode,MaximumGap,GapRatio
+linear,onepass,142.835569799683,101
+linear,progressive,4.24264068711928,3
+near_linear,onepass,0.142132016212263,19.9999999680011
+near_linear,progressive,0.0213198024657341,2.99999999996962
+convex,onepass,0.588679570580815,8.28356039444321
+convex,progressive,0.071066008159452,1
+disconnected,onepass,0.472456497806981,1
+disconnected,progressive,0.472456497806981,1

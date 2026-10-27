@@ -1,0 +1,17 @@
+{
+  "phase": "P1_revision_complete",
+  "new_formal_searches": 90,
+  "new_formal_search_FE": 2259000,
+  "reused_control_tapes_verified": 270,
+  "P0_first_seed_tapes_verified": 8,
+  "matlab_contract_tests_passed": 4,
+  "independent_metric_checks": 1200,
+  "independent_statistics_rows": 60,
+  "portable_csv_tables_verified": 41,
+  "portable_csv_rows_verified": 761785,
+  "research_scope_unchanged": true,
+  "originals_preserved": true,
+  "finding": "No significant Full-versus-joint primary-indicator advantage or noise-pulse interaction on the three active problems.",
+  "rendering": "LibreOffice 26.8, 39 pages inspected; Word native export did not complete.",
+  "remaining_review_scope": "Other P2/P3 items retained; no submission performed."
+}

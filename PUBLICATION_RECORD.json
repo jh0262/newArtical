@@ -44,21 +44,10 @@
     "jme_review_20260930_round5"
   ],
   "snapshot_date": "2026-10-28",
-  "resource_files": 2031,
-  "original_bytes": 2767317754,
-  "bundles": 61,
-  "omitted_large_files": [
-    {
-      "path": "jme_review_20260930_round4/external_validation/rollout_inputs.npz",
-      "bytes": 94416933,
-      "reason": "large raw file retained in local source archive"
-    },
-    {
-      "path": "jme_review_20260930_round5/rollout/prepared.npz",
-      "bytes": 97278260,
-      "reason": "large raw file retained in local source archive"
-    }
-  ],
+  "resource_files": 2033,
+  "original_bytes": 2959012947,
+  "bundles": 63,
+  "omitted_large_files": [],
   "secret_pattern_findings": [],
   "source_files_modified": false,
   "experiments_run_for_publication": false,
@@ -203,5 +192,6 @@
       "path": "project/jme_review_20260930_round4/input/manuscript.md",
       "sha256": "a4ac3ca8181b7b7d5764728efac4da4efd34996e167426f3a1a0723d01b2c19a"
     }
-  ]
+  ],
+  "release_resource_completion_files": 2
 }

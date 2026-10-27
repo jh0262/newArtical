@@ -208,7 +208,8 @@
     "path": "project/runs/ann_only_seed19_a/source/bootstrap.py",
     "bytes": 208,
     "sha256": "8373a4446f000092cb5c1bc04adafb1eb6f86beef73894997af89b5fcc2b1345",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/ann_only_seed19_a/source/bootstrap.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/ann_only_seed19_a/source/bootstrap.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/ann_only_seed19_a/source/config.json",
@@ -221,19 +222,22 @@
     "path": "project/runs/ann_only_seed19_a/source/core.py",
     "bytes": 4177,
     "sha256": "59eeb732cd3eb360a86c36745636bd677b88f01f07484a05284aaa79b685706a",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/ann_only_seed19_a/source/core.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/ann_only_seed19_a/source/core.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/ann_only_seed19_a/source/networks.py",
     "bytes": 2208,
     "sha256": "ec8ad2f4276c1666f1f050aa112ff368f002520e67c3ba7c518d4ecd3d4abf18",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/ann_only_seed19_a/source/networks.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/ann_only_seed19_a/source/networks.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/ann_only_seed19_a/source/run_model.py",
     "bytes": 9998,
     "sha256": "feff51998c685e1fbc3319506115c6b9a20f1a6d7a767c06885e79e1ada6b0f0",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/ann_only_seed19_a/source/run_model.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/ann_only_seed19_a/source/run_model.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/ann_only_seed29_a/best.pt",
@@ -288,7 +292,8 @@
     "path": "project/runs/ann_only_seed29_a/source/bootstrap.py",
     "bytes": 208,
     "sha256": "8373a4446f000092cb5c1bc04adafb1eb6f86beef73894997af89b5fcc2b1345",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/ann_only_seed29_a/source/bootstrap.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/ann_only_seed29_a/source/bootstrap.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/ann_only_seed29_a/source/config.json",
@@ -301,19 +306,22 @@
     "path": "project/runs/ann_only_seed29_a/source/core.py",
     "bytes": 4177,
     "sha256": "59eeb732cd3eb360a86c36745636bd677b88f01f07484a05284aaa79b685706a",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/ann_only_seed29_a/source/core.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/ann_only_seed29_a/source/core.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/ann_only_seed29_a/source/networks.py",
     "bytes": 2208,
     "sha256": "ec8ad2f4276c1666f1f050aa112ff368f002520e67c3ba7c518d4ecd3d4abf18",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/ann_only_seed29_a/source/networks.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/ann_only_seed29_a/source/networks.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/ann_only_seed29_a/source/run_model.py",
     "bytes": 9998,
     "sha256": "feff51998c685e1fbc3319506115c6b9a20f1a6d7a767c06885e79e1ada6b0f0",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/ann_only_seed29_a/source/run_model.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/ann_only_seed29_a/source/run_model.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/ann_only_seed9_a/best.pt",
@@ -368,7 +376,8 @@
     "path": "project/runs/ann_only_seed9_a/source/bootstrap.py",
     "bytes": 208,
     "sha256": "8373a4446f000092cb5c1bc04adafb1eb6f86beef73894997af89b5fcc2b1345",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/ann_only_seed9_a/source/bootstrap.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/ann_only_seed9_a/source/bootstrap.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/ann_only_seed9_a/source/config.json",
@@ -381,19 +390,22 @@
     "path": "project/runs/ann_only_seed9_a/source/core.py",
     "bytes": 4177,
     "sha256": "59eeb732cd3eb360a86c36745636bd677b88f01f07484a05284aaa79b685706a",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/ann_only_seed9_a/source/core.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/ann_only_seed9_a/source/core.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/ann_only_seed9_a/source/networks.py",
     "bytes": 2208,
     "sha256": "ec8ad2f4276c1666f1f050aa112ff368f002520e67c3ba7c518d4ecd3d4abf18",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/ann_only_seed9_a/source/networks.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/ann_only_seed9_a/source/networks.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/ann_only_seed9_a/source/run_model.py",
     "bytes": 9998,
     "sha256": "feff51998c685e1fbc3319506115c6b9a20f1a6d7a767c06885e79e1ada6b0f0",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/ann_only_seed9_a/source/run_model.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/ann_only_seed9_a/source/run_model.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/capacity_control_seed19_a/best.pt",
@@ -448,7 +460,8 @@
     "path": "project/runs/capacity_control_seed19_a/source/bootstrap.py",
     "bytes": 208,
     "sha256": "8373a4446f000092cb5c1bc04adafb1eb6f86beef73894997af89b5fcc2b1345",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/capacity_control_seed19_a/source/bootstrap.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/capacity_control_seed19_a/source/bootstrap.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/capacity_control_seed19_a/source/config.json",
@@ -461,19 +474,22 @@
     "path": "project/runs/capacity_control_seed19_a/source/core.py",
     "bytes": 4177,
     "sha256": "59eeb732cd3eb360a86c36745636bd677b88f01f07484a05284aaa79b685706a",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/capacity_control_seed19_a/source/core.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/capacity_control_seed19_a/source/core.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/capacity_control_seed19_a/source/networks.py",
     "bytes": 2208,
     "sha256": "ec8ad2f4276c1666f1f050aa112ff368f002520e67c3ba7c518d4ecd3d4abf18",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/capacity_control_seed19_a/source/networks.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/capacity_control_seed19_a/source/networks.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/capacity_control_seed19_a/source/run_model.py",
     "bytes": 9998,
     "sha256": "feff51998c685e1fbc3319506115c6b9a20f1a6d7a767c06885e79e1ada6b0f0",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/capacity_control_seed19_a/source/run_model.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/capacity_control_seed19_a/source/run_model.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/capacity_control_seed29_a/best.pt",
@@ -528,7 +544,8 @@
     "path": "project/runs/capacity_control_seed29_a/source/bootstrap.py",
     "bytes": 208,
     "sha256": "8373a4446f000092cb5c1bc04adafb1eb6f86beef73894997af89b5fcc2b1345",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/capacity_control_seed29_a/source/bootstrap.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/capacity_control_seed29_a/source/bootstrap.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/capacity_control_seed29_a/source/config.json",
@@ -541,19 +558,22 @@
     "path": "project/runs/capacity_control_seed29_a/source/core.py",
     "bytes": 4177,
     "sha256": "59eeb732cd3eb360a86c36745636bd677b88f01f07484a05284aaa79b685706a",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/capacity_control_seed29_a/source/core.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/capacity_control_seed29_a/source/core.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/capacity_control_seed29_a/source/networks.py",
     "bytes": 2208,
     "sha256": "ec8ad2f4276c1666f1f050aa112ff368f002520e67c3ba7c518d4ecd3d4abf18",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/capacity_control_seed29_a/source/networks.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/capacity_control_seed29_a/source/networks.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/capacity_control_seed29_a/source/run_model.py",
     "bytes": 9998,
     "sha256": "feff51998c685e1fbc3319506115c6b9a20f1a6d7a767c06885e79e1ada6b0f0",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/capacity_control_seed29_a/source/run_model.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/capacity_control_seed29_a/source/run_model.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/capacity_control_seed9_a/best.pt",
@@ -622,7 +642,8 @@
     "path": "project/runs/capacity_control_seed9_a/source/bootstrap.py",
     "bytes": 208,
     "sha256": "8373a4446f000092cb5c1bc04adafb1eb6f86beef73894997af89b5fcc2b1345",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/capacity_control_seed9_a/source/bootstrap.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/capacity_control_seed9_a/source/bootstrap.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/capacity_control_seed9_a/source/config.json",
@@ -635,19 +656,22 @@
     "path": "project/runs/capacity_control_seed9_a/source/core.py",
     "bytes": 4177,
     "sha256": "59eeb732cd3eb360a86c36745636bd677b88f01f07484a05284aaa79b685706a",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/capacity_control_seed9_a/source/core.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/capacity_control_seed9_a/source/core.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/capacity_control_seed9_a/source/networks.py",
     "bytes": 2208,
     "sha256": "ec8ad2f4276c1666f1f050aa112ff368f002520e67c3ba7c518d4ecd3d4abf18",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/capacity_control_seed9_a/source/networks.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/capacity_control_seed9_a/source/networks.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/capacity_control_seed9_a/source/run_model.py",
     "bytes": 9998,
     "sha256": "06df540533b3a3a58875da6883aa3c0992faf3421cdf42b39bd9ba4ef3a418ca",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/capacity_control_seed9_a/source/run_model.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/capacity_control_seed9_a/source/run_model.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/history_seed19_a/best.pt",
@@ -702,7 +726,8 @@
     "path": "project/runs/history_seed19_a/source/bootstrap.py",
     "bytes": 208,
     "sha256": "8373a4446f000092cb5c1bc04adafb1eb6f86beef73894997af89b5fcc2b1345",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/history_seed19_a/source/bootstrap.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/history_seed19_a/source/bootstrap.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/history_seed19_a/source/config.json",
@@ -715,19 +740,22 @@
     "path": "project/runs/history_seed19_a/source/core.py",
     "bytes": 4177,
     "sha256": "59eeb732cd3eb360a86c36745636bd677b88f01f07484a05284aaa79b685706a",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/history_seed19_a/source/core.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/history_seed19_a/source/core.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/history_seed19_a/source/networks.py",
     "bytes": 2208,
     "sha256": "ec8ad2f4276c1666f1f050aa112ff368f002520e67c3ba7c518d4ecd3d4abf18",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/history_seed19_a/source/networks.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/history_seed19_a/source/networks.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/history_seed19_a/source/run_model.py",
     "bytes": 9998,
     "sha256": "feff51998c685e1fbc3319506115c6b9a20f1a6d7a767c06885e79e1ada6b0f0",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/history_seed19_a/source/run_model.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/history_seed19_a/source/run_model.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/history_seed29_a/best.pt",
@@ -782,7 +810,8 @@
     "path": "project/runs/history_seed29_a/source/bootstrap.py",
     "bytes": 208,
     "sha256": "8373a4446f000092cb5c1bc04adafb1eb6f86beef73894997af89b5fcc2b1345",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/history_seed29_a/source/bootstrap.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/history_seed29_a/source/bootstrap.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/history_seed29_a/source/config.json",
@@ -795,19 +824,22 @@
     "path": "project/runs/history_seed29_a/source/core.py",
     "bytes": 4177,
     "sha256": "59eeb732cd3eb360a86c36745636bd677b88f01f07484a05284aaa79b685706a",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/history_seed29_a/source/core.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/history_seed29_a/source/core.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/history_seed29_a/source/networks.py",
     "bytes": 2208,
     "sha256": "ec8ad2f4276c1666f1f050aa112ff368f002520e67c3ba7c518d4ecd3d4abf18",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/history_seed29_a/source/networks.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/history_seed29_a/source/networks.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/history_seed29_a/source/run_model.py",
     "bytes": 9998,
     "sha256": "feff51998c685e1fbc3319506115c6b9a20f1a6d7a767c06885e79e1ada6b0f0",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/history_seed29_a/source/run_model.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/history_seed29_a/source/run_model.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/history_seed9_a/best.pt",
@@ -862,7 +894,8 @@
     "path": "project/runs/history_seed9_a/source/bootstrap.py",
     "bytes": 208,
     "sha256": "8373a4446f000092cb5c1bc04adafb1eb6f86beef73894997af89b5fcc2b1345",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/history_seed9_a/source/bootstrap.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/history_seed9_a/source/bootstrap.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/history_seed9_a/source/config.json",
@@ -875,19 +908,22 @@
     "path": "project/runs/history_seed9_a/source/core.py",
     "bytes": 4177,
     "sha256": "59eeb732cd3eb360a86c36745636bd677b88f01f07484a05284aaa79b685706a",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/history_seed9_a/source/core.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/history_seed9_a/source/core.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/history_seed9_a/source/networks.py",
     "bytes": 2208,
     "sha256": "ec8ad2f4276c1666f1f050aa112ff368f002520e67c3ba7c518d4ecd3d4abf18",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/history_seed9_a/source/networks.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/history_seed9_a/source/networks.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/history_seed9_a/source/run_model.py",
     "bytes": 9998,
     "sha256": "feff51998c685e1fbc3319506115c6b9a20f1a6d7a767c06885e79e1ada6b0f0",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/history_seed9_a/source/run_model.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/history_seed9_a/source/run_model.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/physics_seed9_a/failure.txt",
@@ -942,7 +978,8 @@
     "path": "project/runs/physics_seed9_a/source/bootstrap.py",
     "bytes": 208,
     "sha256": "8373a4446f000092cb5c1bc04adafb1eb6f86beef73894997af89b5fcc2b1345",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/physics_seed9_a/source/bootstrap.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/physics_seed9_a/source/bootstrap.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/physics_seed9_a/source/config.json",
@@ -955,19 +992,22 @@
     "path": "project/runs/physics_seed9_a/source/core.py",
     "bytes": 4177,
     "sha256": "59eeb732cd3eb360a86c36745636bd677b88f01f07484a05284aaa79b685706a",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/physics_seed9_a/source/core.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/physics_seed9_a/source/core.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/physics_seed9_a/source/networks.py",
     "bytes": 2208,
     "sha256": "ec8ad2f4276c1666f1f050aa112ff368f002520e67c3ba7c518d4ecd3d4abf18",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/physics_seed9_a/source/networks.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/physics_seed9_a/source/networks.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/physics_seed9_a/source/run_model.py",
     "bytes": 9998,
     "sha256": "06df540533b3a3a58875da6883aa3c0992faf3421cdf42b39bd9ba4ef3a418ca",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/physics_seed9_a/source/run_model.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/physics_seed9_a/source/run_model.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/velocity_seed19_a/best.pt",
@@ -1022,7 +1062,8 @@
     "path": "project/runs/velocity_seed19_a/source/bootstrap.py",
     "bytes": 208,
     "sha256": "8373a4446f000092cb5c1bc04adafb1eb6f86beef73894997af89b5fcc2b1345",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed19_a/source/bootstrap.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed19_a/source/bootstrap.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/velocity_seed19_a/source/config.json",
@@ -1035,19 +1076,22 @@
     "path": "project/runs/velocity_seed19_a/source/core.py",
     "bytes": 4177,
     "sha256": "59eeb732cd3eb360a86c36745636bd677b88f01f07484a05284aaa79b685706a",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed19_a/source/core.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed19_a/source/core.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/velocity_seed19_a/source/networks.py",
     "bytes": 2208,
     "sha256": "ec8ad2f4276c1666f1f050aa112ff368f002520e67c3ba7c518d4ecd3d4abf18",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed19_a/source/networks.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed19_a/source/networks.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/velocity_seed19_a/source/run_model.py",
     "bytes": 9998,
     "sha256": "feff51998c685e1fbc3319506115c6b9a20f1a6d7a767c06885e79e1ada6b0f0",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed19_a/source/run_model.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed19_a/source/run_model.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/velocity_seed29_a/best.pt",
@@ -1102,7 +1146,8 @@
     "path": "project/runs/velocity_seed29_a/source/bootstrap.py",
     "bytes": 208,
     "sha256": "8373a4446f000092cb5c1bc04adafb1eb6f86beef73894997af89b5fcc2b1345",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed29_a/source/bootstrap.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed29_a/source/bootstrap.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/velocity_seed29_a/source/config.json",
@@ -1115,19 +1160,22 @@
     "path": "project/runs/velocity_seed29_a/source/core.py",
     "bytes": 4177,
     "sha256": "59eeb732cd3eb360a86c36745636bd677b88f01f07484a05284aaa79b685706a",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed29_a/source/core.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed29_a/source/core.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/velocity_seed29_a/source/networks.py",
     "bytes": 2208,
     "sha256": "ec8ad2f4276c1666f1f050aa112ff368f002520e67c3ba7c518d4ecd3d4abf18",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed29_a/source/networks.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed29_a/source/networks.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/velocity_seed29_a/source/run_model.py",
     "bytes": 9998,
     "sha256": "feff51998c685e1fbc3319506115c6b9a20f1a6d7a767c06885e79e1ada6b0f0",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed29_a/source/run_model.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed29_a/source/run_model.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/velocity_seed9_a/best.pt",
@@ -1196,7 +1244,8 @@
     "path": "project/runs/velocity_seed9_a/source/bootstrap.py",
     "bytes": 208,
     "sha256": "8373a4446f000092cb5c1bc04adafb1eb6f86beef73894997af89b5fcc2b1345",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed9_a/source/bootstrap.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed9_a/source/bootstrap.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/velocity_seed9_a/source/config.json",
@@ -1209,19 +1258,22 @@
     "path": "project/runs/velocity_seed9_a/source/core.py",
     "bytes": 4177,
     "sha256": "59eeb732cd3eb360a86c36745636bd677b88f01f07484a05284aaa79b685706a",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed9_a/source/core.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed9_a/source/core.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/velocity_seed9_a/source/networks.py",
     "bytes": 2208,
     "sha256": "ec8ad2f4276c1666f1f050aa112ff368f002520e67c3ba7c518d4ecd3d4abf18",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed9_a/source/networks.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed9_a/source/networks.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/velocity_seed9_a/source/run_model.py",
     "bytes": 9998,
     "sha256": "06df540533b3a3a58875da6883aa3c0992faf3421cdf42b39bd9ba4ef3a418ca",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed9_a/source/run_model.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed9_a/source/run_model.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/velocity_seed9_repeat/best.pt",
@@ -1276,7 +1328,8 @@
     "path": "project/runs/velocity_seed9_repeat/source/bootstrap.py",
     "bytes": 208,
     "sha256": "8373a4446f000092cb5c1bc04adafb1eb6f86beef73894997af89b5fcc2b1345",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed9_repeat/source/bootstrap.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed9_repeat/source/bootstrap.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/velocity_seed9_repeat/source/config.json",
@@ -1289,19 +1342,22 @@
     "path": "project/runs/velocity_seed9_repeat/source/core.py",
     "bytes": 4177,
     "sha256": "59eeb732cd3eb360a86c36745636bd677b88f01f07484a05284aaa79b685706a",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed9_repeat/source/core.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed9_repeat/source/core.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/velocity_seed9_repeat/source/networks.py",
     "bytes": 2208,
     "sha256": "ec8ad2f4276c1666f1f050aa112ff368f002520e67c3ba7c518d4ecd3d4abf18",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed9_repeat/source/networks.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed9_repeat/source/networks.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/runs/velocity_seed9_repeat/source/run_model.py",
     "bytes": 9998,
     "sha256": "feff51998c685e1fbc3319506115c6b9a20f1a6d7a767c06885e79e1ada6b0f0",
-    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed9_repeat/source/run_model.py"
+    "source": "01_待投稿_P02_机器人历史补偿/runs/velocity_seed9_repeat/source/run_model.py",
+    "bundle": "resources/part-064.zip"
   },
   {
     "path": "project/results/audit.json",
@@ -14026,5 +14082,19 @@
     "sha256": "23623e67fdb84ddbbb78ae5fae10addc35b40b4d7dddece130988d578a712ddd",
     "source": "01_待投稿_P02_机器人历史补偿/jme_review_20260930_round5/training/seed9/selection.json",
     "bundle": "resources/part-061.zip"
+  },
+  {
+    "path": "project/jme_review_20260930_round4/external_validation/rollout_inputs.npz",
+    "bytes": 94416933,
+    "sha256": "ed446d77e1deb7fe2459a2d48ff558da2691ec424a9caa472388266480ee9441",
+    "source": "01_待投稿_P02_机器人历史补偿/jme_review_20260930_round4/external_validation/rollout_inputs.npz",
+    "bundle": "resources/part-062.zip"
+  },
+  {
+    "path": "project/jme_review_20260930_round5/rollout/prepared.npz",
+    "bytes": 97278260,
+    "sha256": "3d8d47a63dc04137df111a4669855734071677b6ecfe5ee44608ee0b759b6512",
+    "source": "01_待投稿_P02_机器人历史补偿/jme_review_20260930_round5/rollout/prepared.npz",
+    "bundle": "resources/part-063.zip"
   }
 ]

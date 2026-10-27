@@ -1,0 +1,450 @@
+[
+  {
+    "path": "resources/part-001.zip",
+    "name": "part-001.zip",
+    "bytes": 42679920,
+    "sha256": "73ee49eb825f6deb152c6c9e87f44615ed79c2f0c94804495e6d965a6d78a74c",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-001.zip"
+  },
+  {
+    "path": "resources/part-002.zip",
+    "name": "part-002.zip",
+    "bytes": 49732207,
+    "sha256": "4b902e60a4dbe1bae30878d72eda367008d45ba65455b93bd1672090d27dfe52",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-002.zip"
+  },
+  {
+    "path": "resources/part-003.zip",
+    "name": "part-003.zip",
+    "bytes": 49770554,
+    "sha256": "38a3be5207f66ee24e0fc742a4800cc81e7f23325c7e715372a085acf8ef5180",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-003.zip"
+  },
+  {
+    "path": "resources/part-004.zip",
+    "name": "part-004.zip",
+    "bytes": 20692981,
+    "sha256": "d17641213219d292505dfe05b69b278aedf579ff1318ab78852c84b2a0ad1855",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-004.zip"
+  },
+  {
+    "path": "resources/part-005.zip",
+    "name": "part-005.zip",
+    "bytes": 35108129,
+    "sha256": "d140cbbb121318387fcbcc825e9a624c3d4676d21c573b74387bcb4c319ca23a",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-005.zip"
+  },
+  {
+    "path": "resources/part-006.zip",
+    "name": "part-006.zip",
+    "bytes": 43514996,
+    "sha256": "be1e37dbc78105cec75d961b20f900e531b6f741bbcf09d0e74a80e9ebc74336",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-006.zip"
+  },
+  {
+    "path": "resources/part-007.zip",
+    "name": "part-007.zip",
+    "bytes": 47677550,
+    "sha256": "e48a24355449e0fec10472b703fd136c7652935e7f36171053ba71b9ca09d374",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-007.zip"
+  },
+  {
+    "path": "resources/part-008.zip",
+    "name": "part-008.zip",
+    "bytes": 48046203,
+    "sha256": "ce5391e5b601a3647b802c5bb1e6ba8719613586239787f97bd50c717a2ea320",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-008.zip"
+  },
+  {
+    "path": "resources/part-009.zip",
+    "name": "part-009.zip",
+    "bytes": 47048646,
+    "sha256": "5d790719901388a196d7b2671d71191ee49944bbc3fd47dcf4ef3a8e4baf8673",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-009.zip"
+  },
+  {
+    "path": "resources/part-010.zip",
+    "name": "part-010.zip",
+    "bytes": 46700410,
+    "sha256": "9a15a613f499452aca0ea4daa60a44c3a7c33337700aca07358e558b7af2636a",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-010.zip"
+  },
+  {
+    "path": "resources/part-011.zip",
+    "name": "part-011.zip",
+    "bytes": 46320345,
+    "sha256": "a2e0796ff9c6b569764bf72ec93fd250132fa6e36aaf03a41e12fab00785c09b",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-011.zip"
+  },
+  {
+    "path": "resources/part-012.zip",
+    "name": "part-012.zip",
+    "bytes": 46306237,
+    "sha256": "957e8e57cbb4c4d75e75a9507547becfce991322be27a1a0d5f1c36448d9444d",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-012.zip"
+  },
+  {
+    "path": "resources/part-013.zip",
+    "name": "part-013.zip",
+    "bytes": 43501494,
+    "sha256": "511e554de8dc9296e06af17f5d320e448fbce0fe5bb626196dbe657464e09097",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-013.zip"
+  },
+  {
+    "path": "resources/part-014.zip",
+    "name": "part-014.zip",
+    "bytes": 44547370,
+    "sha256": "bf6604b3cd9b638f90224d22709a45265b250e0cd45619e696c76e1f30948f16",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-014.zip"
+  },
+  {
+    "path": "resources/part-015.zip",
+    "name": "part-015.zip",
+    "bytes": 48817869,
+    "sha256": "9c2169c87074af14be58fe8fe119bd694f60ee2b86c3450c1cb082c04ea66e28",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-015.zip"
+  },
+  {
+    "path": "resources/part-016.zip",
+    "name": "part-016.zip",
+    "bytes": 48742675,
+    "sha256": "f21ed67aa2e6c5e41235aa97c2abdfc69451db6e2c5927514342de3f2cbbe635",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-016.zip"
+  },
+  {
+    "path": "resources/part-017.zip",
+    "name": "part-017.zip",
+    "bytes": 46501170,
+    "sha256": "07591c8e972f4469f3931f71cfe377bab2fdbb64609542b71db58ef0d740f4b7",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-017.zip"
+  },
+  {
+    "path": "resources/part-018.zip",
+    "name": "part-018.zip",
+    "bytes": 48533477,
+    "sha256": "0e36a258bfe17b534a9c1576679d2a0599f6d75c35c3be3999bfa4b7e95b111b",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-018.zip"
+  },
+  {
+    "path": "resources/part-019.zip",
+    "name": "part-019.zip",
+    "bytes": 48834136,
+    "sha256": "08a1314a9ebf73140907ddf24a5c6fe4c1cece0e68ceb1967c1ac7d3caec771d",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-019.zip"
+  },
+  {
+    "path": "resources/part-020.zip",
+    "name": "part-020.zip",
+    "bytes": 49805655,
+    "sha256": "03da8d4ff6e79abf360888ed2385b94d8c5d9dc87ccddfde7a1f39fd80e46d22",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-020.zip"
+  },
+  {
+    "path": "resources/part-021.zip",
+    "name": "part-021.zip",
+    "bytes": 34947745,
+    "sha256": "c79c7ba04a3ad2fbadd5117ba4b94e7ee37b313c9b47053adb5b4fd4156c511f",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-021.zip"
+  },
+  {
+    "path": "resources/part-022.zip",
+    "name": "part-022.zip",
+    "bytes": 35259490,
+    "sha256": "7ed5d92191f83a64531f0c7ebbc504eec337d95126ae12ecde838adc6793e2c1",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-022.zip"
+  },
+  {
+    "path": "resources/part-023.zip",
+    "name": "part-023.zip",
+    "bytes": 35285936,
+    "sha256": "9da4e35fc9ea8ee18c274e5560b9f084f07fda4001c21d50bbe4529e62e06ba8",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-023.zip"
+  },
+  {
+    "path": "resources/part-024.zip",
+    "name": "part-024.zip",
+    "bytes": 35295121,
+    "sha256": "0eea383097227fb99d84d698717337ef44e960b7a037cbe906a4ba7176c89211",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-024.zip"
+  },
+  {
+    "path": "resources/part-025.zip",
+    "name": "part-025.zip",
+    "bytes": 35276482,
+    "sha256": "a1a71f9fae5bc6c626378578b622acb75fae2d86e0380d7eee69bd67a26cbd14",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-025.zip"
+  },
+  {
+    "path": "resources/part-026.zip",
+    "name": "part-026.zip",
+    "bytes": 35331252,
+    "sha256": "3cea8a42e806c6b9cd827bbfbd9038e24c1e07e5a59a5f023ccd583da70456ea",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-026.zip"
+  },
+  {
+    "path": "resources/part-027.zip",
+    "name": "part-027.zip",
+    "bytes": 47172762,
+    "sha256": "0b5159d5d8e019861c338c17ce818bcf7a86495f6e9baafb727aa1af111c3bfe",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-027.zip"
+  },
+  {
+    "path": "resources/part-028.zip",
+    "name": "part-028.zip",
+    "bytes": 44064781,
+    "sha256": "2b6e0eb2131a4008b6a83679fd471842a47fc9ccb580c6f72b6171352b1b32f0",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-028.zip"
+  },
+  {
+    "path": "resources/part-029.zip",
+    "name": "part-029.zip",
+    "bytes": 44116408,
+    "sha256": "18a378638758db540e641b600967aeac63ab2dc55fe65c654519ebcafb5cbc83",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-029.zip"
+  },
+  {
+    "path": "resources/part-030.zip",
+    "name": "part-030.zip",
+    "bytes": 44093579,
+    "sha256": "17831dbc43f5ed80f935a93214c5e0e262e2a162c4aa053fc70e381305cd863f",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-030.zip"
+  },
+  {
+    "path": "resources/part-031.zip",
+    "name": "part-031.zip",
+    "bytes": 44087964,
+    "sha256": "f077ebe25ac95a20db0411a72ec7f63de13285090bfd697725c4282f0b309dc8",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-031.zip"
+  },
+  {
+    "path": "resources/part-032.zip",
+    "name": "part-032.zip",
+    "bytes": 44127828,
+    "sha256": "111dc37110e22284fdcbab396c357b73220029ec7a9d8484e18723896117411d",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-032.zip"
+  },
+  {
+    "path": "resources/part-033.zip",
+    "name": "part-033.zip",
+    "bytes": 48222706,
+    "sha256": "c8364f2a8ccc7e83711d7dd84c312cfe8d1564b6c2a42e18b3c74bef3c54f915",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-033.zip"
+  },
+  {
+    "path": "resources/part-034.zip",
+    "name": "part-034.zip",
+    "bytes": 47820485,
+    "sha256": "c4efaaf36a4001234859a6fec09cdd5c8f7a20f42c99156cfb75acc2f480f983",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-034.zip"
+  },
+  {
+    "path": "resources/part-035.zip",
+    "name": "part-035.zip",
+    "bytes": 49332483,
+    "sha256": "40f520ad0c66cd09481c83e50cb4855ed28ed1767988f5c698d600284d4be57d",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-035.zip"
+  },
+  {
+    "path": "resources/part-036.zip",
+    "name": "part-036.zip",
+    "bytes": 46428696,
+    "sha256": "0ad0d6d0bd309cacc3ffa3f97f202f6f7d5619daab65f71603d2743dfe9642e8",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-036.zip"
+  },
+  {
+    "path": "resources/part-037.zip",
+    "name": "part-037.zip",
+    "bytes": 40835250,
+    "sha256": "5bd9bc3923e201630cfb65c13d1156a4e0e74a2bf571b7ee546bc73168026322",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-037.zip"
+  },
+  {
+    "path": "resources/part-038.zip",
+    "name": "part-038.zip",
+    "bytes": 43284017,
+    "sha256": "6fb94a1b57d4b370515417a54ad34321bbc6cfe239d76c20eab97dbe8279c626",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-038.zip"
+  },
+  {
+    "path": "resources/part-039.zip",
+    "name": "part-039.zip",
+    "bytes": 46017676,
+    "sha256": "aee1def512731c5f821f69b0b3518f19b79cb546f98e617b62564357816391f6",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-039.zip"
+  },
+  {
+    "path": "resources/part-040.zip",
+    "name": "part-040.zip",
+    "bytes": 46018567,
+    "sha256": "216dcd2815bf531d9d4c45a5d17340d62405742e0f232607e5e7650c15a4e940",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-040.zip"
+  },
+  {
+    "path": "resources/part-041.zip",
+    "name": "part-041.zip",
+    "bytes": 46017480,
+    "sha256": "7ab5ea5bff5b15b8bf57c6ebaba7bf4dad4f78891651a9489c82ed64d0942bac",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-041.zip"
+  },
+  {
+    "path": "resources/part-042.zip",
+    "name": "part-042.zip",
+    "bytes": 46017077,
+    "sha256": "38dcc65f2502e5095a6412fc9c6f617bb2fb82b88d32df6ecf5079a69abf30a0",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-042.zip"
+  },
+  {
+    "path": "resources/part-043.zip",
+    "name": "part-043.zip",
+    "bytes": 46053918,
+    "sha256": "42cd5c68f97364372cdf4d8a0378eb46fe9310d8756c41fd9daf72b3f3a78d1c",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-043.zip"
+  },
+  {
+    "path": "resources/part-044.zip",
+    "name": "part-044.zip",
+    "bytes": 46070205,
+    "sha256": "df8c9753c77c0ff992dbc4d2912245068a694099dd26f343c21c416ee0936fb3",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-044.zip"
+  },
+  {
+    "path": "resources/part-045.zip",
+    "name": "part-045.zip",
+    "bytes": 46078720,
+    "sha256": "087151266bec9753b8a508982787f1321ad28c82da9358d2271799ff09bd89ac",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-045.zip"
+  },
+  {
+    "path": "resources/part-046.zip",
+    "name": "part-046.zip",
+    "bytes": 46047175,
+    "sha256": "5770f7d6c4dddf7035dc28c0e6f8d84e77c9403fe149406e959a5b1c689c3b62",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-046.zip"
+  },
+  {
+    "path": "resources/part-047.zip",
+    "name": "part-047.zip",
+    "bytes": 46034187,
+    "sha256": "1adc489cf62a98dfdfa0064e603674d31b7917b67c2e445ea21ecb63763658ce",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-047.zip"
+  },
+  {
+    "path": "resources/part-048.zip",
+    "name": "part-048.zip",
+    "bytes": 46028324,
+    "sha256": "cd8f8e96abe6bf55d377d843106106f191bdf5f0c3cd970e9b226315562a057a",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-048.zip"
+  },
+  {
+    "path": "resources/part-049.zip",
+    "name": "part-049.zip",
+    "bytes": 46041222,
+    "sha256": "ca2cbac8bad9c8dd9a91c1a4a5a9d8ecfabb54a90471081c5f5229f697953c4f",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-049.zip"
+  },
+  {
+    "path": "resources/part-050.zip",
+    "name": "part-050.zip",
+    "bytes": 46079868,
+    "sha256": "84ea7d147971ae7e1cff3ead1aa50e76870375312ebb808a8117bab0820564c7",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-050.zip"
+  },
+  {
+    "path": "resources/part-051.zip",
+    "name": "part-051.zip",
+    "bytes": 46090700,
+    "sha256": "7c1e029c439dcdcf5c41798809d5179fbab56af3bbcbbfc444d6a24f19167a48",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-051.zip"
+  },
+  {
+    "path": "resources/part-052.zip",
+    "name": "part-052.zip",
+    "bytes": 46069673,
+    "sha256": "7039e4cbdb8c50b7157643704a8d4707dc401c06cc4f01202829af9dc7af4a4e",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-052.zip"
+  },
+  {
+    "path": "resources/part-053.zip",
+    "name": "part-053.zip",
+    "bytes": 46103039,
+    "sha256": "aa9af892fb5987095e6fe0a62935e24c72012d1cfbff77f05e05670a3f1a91d2",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-053.zip"
+  },
+  {
+    "path": "resources/part-054.zip",
+    "name": "part-054.zip",
+    "bytes": 46087257,
+    "sha256": "6a42baa5afac378579392dc1c517d4b05e739bb2075498a1c2f49b2127b66aba",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-054.zip"
+  },
+  {
+    "path": "resources/part-055.zip",
+    "name": "part-055.zip",
+    "bytes": 46098033,
+    "sha256": "0e11a15a955b3b9775618b3a920bf59a825078532c496b3e249cea457d3b0bfb",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-055.zip"
+  },
+  {
+    "path": "resources/part-056.zip",
+    "name": "part-056.zip",
+    "bytes": 48767111,
+    "sha256": "a96d373d46cb437bbe5abc57037134d73e498f2746dab8e14fdc6e8b8823305e",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-056.zip"
+  },
+  {
+    "path": "resources/part-057.zip",
+    "name": "part-057.zip",
+    "bytes": 48591320,
+    "sha256": "71527048c7036402903e831b8b944bc260ee8902e6f83c5994690278d6e9868e",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-057.zip"
+  },
+  {
+    "path": "resources/part-058.zip",
+    "name": "part-058.zip",
+    "bytes": 47399725,
+    "sha256": "28dc305a1d43b98544938b35a76377108627d71e84a9bf47ab6c116d42a55028",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-058.zip"
+  },
+  {
+    "path": "resources/part-059.zip",
+    "name": "part-059.zip",
+    "bytes": 33310877,
+    "sha256": "864e99bb9f66dcb9b23d9b36a6eab79143954f633050e96c962a6ea74e6c834b",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-059.zip"
+  },
+  {
+    "path": "resources/part-060.zip",
+    "name": "part-060.zip",
+    "bytes": 33323240,
+    "sha256": "15daedde08de193aacc59d728964ee3b1b73526f7125ad19e6a735343b8ef6a1",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-060.zip"
+  },
+  {
+    "path": "resources/part-061.zip",
+    "name": "part-061.zip",
+    "bytes": 8287688,
+    "sha256": "a212c8d09069f3216dbf26ecfbd0faaa6bdacad98feaba6b362a2c15555dfb22",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-061.zip"
+  },
+  {
+    "path": "resources/part-062.zip",
+    "name": "part-062.zip",
+    "bytes": 94417177,
+    "sha256": "e08056810a1e5d679a67804d1673331937ed949aa9f4766882eb01f9ec2d6803",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-062.zip"
+  },
+  {
+    "path": "resources/part-063.zip",
+    "name": "part-063.zip",
+    "bytes": 97278468,
+    "sha256": "1d1221fd389c2c5a7436af987b5c5baa6aea9122fef779045ac8c52a2a52ada9",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-063.zip"
+  },
+  {
+    "path": "resources/part-064.zip",
+    "name": "part-064.zip",
+    "bytes": 101058,
+    "sha256": "420ca2943c892f41c38c87f797c1df859f015e0200420338bdb4aa6eb6fd8b3d",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P02-20261028/part-064.zip"
+  }
+]

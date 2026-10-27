@@ -9,10 +9,10 @@ Original robot-history models and 27 metric-matching conditions are separate exp
 ## Restore and verify the saved resources
 
 ```bash
-python restore_resources.py
+python restore_resources.py --download
 ```
 
-This standard-library-only script verifies SHA-256 hashes and restores bundled files to their original relative paths under `project/`. It refuses to overwrite changed files. Download or clone this branch before running it; GitHub's file preview does not unpack the resource archives.
+This standard-library-only script verifies SHA-256 hashes and restores bundled files to their original relative paths under `project/`. It refuses to overwrite changed files. Download or clone this branch first. Resource archives are attached to the [paper-specific release](https://github.com/jh0262/newArtical/releases/tag/resources-P02-20261028); `--download` retrieves them and verifies their SHA-256 hashes before restoration.
 
 ## Entry points and dependencies
 
@@ -22,8 +22,7 @@ Run scientific commands from `project/` after restoring resources. Existing sour
 
 ## Contents and provenance
 
-The snapshot contains 2031 original files (2,767,317,754 bytes before compression). `RESOURCE_MANIFEST.json` maps each file to its source path, SHA-256 hash and resource archive. `PUBLICATION_RECORD.json` records the selected directories, actual research state and any large-file omissions. Installed environments, credentials, unrelated paper PDFs, manuscript submission materials and duplicate workspace junctions are excluded. Some branches are research candidates or partial implementations; their availability does not indicate completed experiments or publication readiness.
+The snapshot contains 2033 original files (2,959,012,947 bytes before compression). `RESOURCE_MANIFEST.json` maps each file to its source path, SHA-256 hash and resource archive. `PUBLICATION_RECORD.json` records the selected directories, actual research state and any large-file omissions. Installed environments, credentials, unrelated paper PDFs, manuscript submission materials and duplicate workspace junctions are excluded. Some branches are research candidates or partial implementations; their availability does not indicate completed experiments or publication readiness.
 
 Existing source notices and third-party terms are retained. This release does not add a blanket open-source license or override third-party licenses. External dependencies remain subject to their upstream terms.
 
-2 files larger than 48 MiB remain in the original local archive; see the exact paths and sizes in PUBLICATION_RECORD.json. Re-auditing those full raw records requires the original files.

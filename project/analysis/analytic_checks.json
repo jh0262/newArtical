@@ -1,0 +1,13 @@
+{
+  "status": "PASS_FIXED_ANALYTIC_EXAMPLES",
+  "arithmetic": "exact_rational",
+  "independent_check": "rectangle_union_inclusion_exclusion",
+  "collinear_triangle_area": "0",
+  "collinear_point_hv_loss": "1/4",
+  "adjacent_sum_of_individual_losses": "2/9",
+  "adjacent_joint_loss": "1/3",
+  "adjacent_interaction": "1/9",
+  "nonadjacent_joint_loss": "1/8",
+  "new_optimizer_performance_runs": 0,
+  "limitations": "Fixed examples only; not novelty, general proof, or optimizer performance evidence."
+}

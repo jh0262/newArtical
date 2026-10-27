@@ -1,0 +1,24 @@
+{
+  "key": "P10",
+  "root": "05_选题与方案_P10_割耳多目标新研究",
+  "title": "冲突感知批量局部删除的割耳相关纯多目标算法候选",
+  "branch": "冲突感知批量局部删除的割耳相关纯多目标算法候选",
+  "include": [
+    "analysis",
+    "STATUS.json",
+    "TOPIC_SELECTION.md",
+    "README.md"
+  ],
+  "status": "Fixed mathematical examples only. The optimizer mechanism has not been selected and no formal performance experiment is included.",
+  "entry": "The analysis directory contains the existing example script; this is a research candidate, not a completed optimization algorithm.",
+  "exclude": [],
+  "data": [],
+  "snapshot_date": "2026-10-28",
+  "resource_files": 5,
+  "original_bytes": 17604,
+  "bundles": 0,
+  "omitted_large_files": [],
+  "secret_pattern_findings": [],
+  "source_files_modified": false,
+  "experiments_run_for_publication": false
+}

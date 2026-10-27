@@ -1,0 +1,32 @@
+[
+  {
+    "path": "project/analysis/analytic_checks.json",
+    "bytes": 515,
+    "sha256": "4cbc8abf824f2863f8bda2ad4b3c390ebb7bb5ae50682b4400bff6ead483cc00",
+    "source": "05_选题与方案_P10_割耳多目标新研究/analysis/analytic_checks.json"
+  },
+  {
+    "path": "project/analysis/verify_hand_examples.py",
+    "bytes": 2757,
+    "sha256": "e7ebfbad187a8d932b51db780b7ad400d16d6ff968c127e9d73f8c069e585c5b",
+    "source": "05_选题与方案_P10_割耳多目标新研究/analysis/verify_hand_examples.py"
+  },
+  {
+    "path": "project/STATUS.json",
+    "bytes": 1650,
+    "sha256": "0909832e89abf32ebfbb8e2f506508c9224501aa7ff7ff94583829aacb336e37",
+    "source": "05_选题与方案_P10_割耳多目标新研究/STATUS.json"
+  },
+  {
+    "path": "project/TOPIC_SELECTION.md",
+    "bytes": 9798,
+    "sha256": "a636c6d56ef8347e0728db14bfea4d9d4cd1d647a612e4cd82272719365090d2",
+    "source": "05_选题与方案_P10_割耳多目标新研究/TOPIC_SELECTION.md"
+  },
+  {
+    "path": "project/README.md",
+    "bytes": 2884,
+    "sha256": "ecf5fde58e9cd2f3e1322c68b335850f18e16d6ede9a8bd99ed5590c28d001cf",
+    "source": "05_选题与方案_P10_割耳多目标新研究/README.md"
+  }
+]

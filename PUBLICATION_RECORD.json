@@ -1,0 +1,29 @@
+{
+  "key": "P01",
+  "root": "01_待投稿_P01_丝杠解析筛选",
+  "title": "Problem structure governs solver choice in preliminary catalogue-constrained ball-screw multiobjective design",
+  "branch": "Problem-structure-governs-solver-choice-in-preliminary-catalogue-constrained-ball-screw-multiobjective-design",
+  "include": [
+    "03_model",
+    "04_algorithm",
+    "05_experiments",
+    "06_results",
+    "07_figures",
+    "reproduce.ps1",
+    "RESEARCH_BRIEF.md"
+  ],
+  "status": "Analytical catalogue screening and computational solver comparisons; no new physical validation is asserted.",
+  "entry": "Python: inspect 05_experiments/test_model.py and reanalyze_results.py. The legacy reproduce.ps1 also builds a manuscript and uses machine-specific paths; run the analysis components separately.",
+  "exclude": [],
+  "data": [
+    "06_results"
+  ],
+  "snapshot_date": "2026-10-28",
+  "resource_files": 106,
+  "original_bytes": 18832594,
+  "bundles": 1,
+  "omitted_large_files": [],
+  "secret_pattern_findings": [],
+  "source_files_modified": false,
+  "experiments_run_for_publication": false
+}

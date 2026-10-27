@@ -1,0 +1,729 @@
+[
+  {
+    "path": "project/03_model/assumptions.json",
+    "bytes": 1173,
+    "sha256": "ace40a3c123451c4fb27379cc2641b962f9e6c19f0b20e44ee8cc90df06d7d29",
+    "source": "01_待投稿_P01_丝杠解析筛选/03_model/assumptions.json"
+  },
+  {
+    "path": "project/03_model/ball_screw_model.py",
+    "bytes": 9002,
+    "sha256": "128f68e1507823f9bbb4b78502901a43f98d272b627648003d0d1e7cc35c8d95",
+    "source": "01_待投稿_P01_丝杠解析筛选/03_model/ball_screw_model.py"
+  },
+  {
+    "path": "project/03_model/catalog_btkv.csv",
+    "bytes": 1589,
+    "sha256": "588878ec293d9e92ef0a95cd913dc3b0a78635de73c3220e73eea7e0dc191d8c",
+    "source": "01_待投稿_P01_丝杠解析筛选/03_model/catalog_btkv.csv"
+  },
+  {
+    "path": "project/04_algorithm/optimizer.py",
+    "bytes": 13528,
+    "sha256": "a239a0a2337608b54a5d85659a9b548a0fe4da46dccb8c2d44951b6443d18128",
+    "source": "01_待投稿_P01_丝杠解析筛选/04_algorithm/optimizer.py"
+  },
+  {
+    "path": "project/05_experiments/audit_constraint_tolerance.py",
+    "bytes": 1947,
+    "sha256": "b85470b624eb685ad822b880d24f0e6963f332d33d13cdbbf72883cd37029de1",
+    "source": "01_待投稿_P01_丝杠解析筛选/05_experiments/audit_constraint_tolerance.py"
+  },
+  {
+    "path": "project/05_experiments/compare_tolerance_reruns.py",
+    "bytes": 3130,
+    "sha256": "fde79f057efd36856ee184e21240c531ae586210b252c10679bf9a48c6866d7d",
+    "source": "01_待投稿_P01_丝杠解析筛选/05_experiments/compare_tolerance_reruns.py"
+  },
+  {
+    "path": "project/05_experiments/reanalyze_results.py",
+    "bytes": 3208,
+    "sha256": "9e7e967ad7c2c8e787f8ded5e501d9ec15e2fe13b8a74d73d7db1b1af9e67337",
+    "source": "01_待投稿_P01_丝杠解析筛选/05_experiments/reanalyze_results.py"
+  },
+  {
+    "path": "project/05_experiments/run_sensitivity.py",
+    "bytes": 3861,
+    "sha256": "d4a9ed4e9a9478497a913e93a9fd062e84943ea966d0f89ae79b41ed3333bf65",
+    "source": "01_待投稿_P01_丝杠解析筛选/05_experiments/run_sensitivity.py"
+  },
+  {
+    "path": "project/05_experiments/run_study.py",
+    "bytes": 6954,
+    "sha256": "cd9913d0e07d05023b4c22d2da0c7063b2599b847ab4a74d194841770a1b3f99",
+    "source": "01_待投稿_P01_丝杠解析筛选/05_experiments/run_study.py"
+  },
+  {
+    "path": "project/05_experiments/test_model.py",
+    "bytes": 3057,
+    "sha256": "b4cf2bbffe182430cdadc41d10bbd68e6d8f0fa8938b50e71168b98f520ddd80",
+    "source": "01_待投稿_P01_丝杠解析筛选/05_experiments/test_model.py"
+  },
+  {
+    "path": "project/05_experiments/test_optimizer.py",
+    "bytes": 1670,
+    "sha256": "8570e467260ae6033d6c4d4c195f60849d1a1ac156cf837402bf374961280969",
+    "source": "01_待投稿_P01_丝杠解析筛选/05_experiments/test_optimizer.py"
+  },
+  {
+    "path": "project/05_experiments/verify_structural_reduction.py",
+    "bytes": 8780,
+    "sha256": "bc4b958e8e9cd6199e6501890afe96f014f9354dd49af1efdafcc20381658295",
+    "source": "01_待投稿_P01_丝杠解析筛选/05_experiments/verify_structural_reduction.py"
+  },
+  {
+    "path": "project/06_results/ablation_30x800/oracle_front.json",
+    "bytes": 3179,
+    "sha256": "244a94f876f61fe2c72855a101684b5746a59a8d43de0f9a5d0c58b6c94b7187",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/ablation_30x800/oracle_front.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/ablation_30x800/run_metrics.csv",
+    "bytes": 11710,
+    "sha256": "1ed9a65f77e9e891df716b62e62ac770184e68324401fa76f799970448a59a22",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/ablation_30x800/run_metrics.csv",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/ablation_30x800/runs.json",
+    "bytes": 845763,
+    "sha256": "96b4c9c0c762e833becc5ca3823f793802ca0c1a744e2cfc9497acd068e16c19",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/ablation_30x800/runs.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/ablation_30x800/summary.json",
+    "bytes": 3104,
+    "sha256": "ce36b659152914eac372c36f2a0fac12a2fd4e140eb36778aaf388c4af74d214",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/ablation_30x800/summary.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/ablation_30x800_v2_oracle/oracle_front.json",
+    "bytes": 3178,
+    "sha256": "5ed683861652b56808790cdca6c8cb69b0381ae335dae0589178110dbe6821a6",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/ablation_30x800_v2_oracle/oracle_front.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/ablation_30x800_v2_oracle/run_metrics.csv",
+    "bytes": 11715,
+    "sha256": "4b3cdd08d49f6f6c67340dc8786840dbaede8dee73947a20e626d3043296bab0",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/ablation_30x800_v2_oracle/run_metrics.csv",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/ablation_30x800_v2_oracle/runs.json",
+    "bytes": 845769,
+    "sha256": "473599bc58352eadbe390f9c90931c7fa868991f507cecc20aad0bcfa837f25d",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/ablation_30x800_v2_oracle/runs.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/ablation_30x800_v2_oracle/summary.json",
+    "bytes": 3113,
+    "sha256": "21509ad37367b7480ee599f7aa1cddbc9745a26490a21d5e16688dbda401c0e6",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/ablation_30x800_v2_oracle/summary.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/ablation_30x800_v3_physics/analysis_v4.json",
+    "bytes": 1924,
+    "sha256": "4687d4abf6a3caa4ec976fba37f2171e0178c6972bccda8623e1265675708847",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/ablation_30x800_v3_physics/analysis_v4.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/ablation_30x800_v3_physics/oracle_front.json",
+    "bytes": 4329,
+    "sha256": "4e8b6a2d2ec26b64a92c9acf89e93af840d59a3269f731e13ebb3b63b2825f7e",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/ablation_30x800_v3_physics/oracle_front.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/ablation_30x800_v3_physics/run_metrics.csv",
+    "bytes": 11691,
+    "sha256": "dec3e01bff3f55370a1f5ef7a242e54ebbe80c22d0292d7aa2ce346d0f11d655",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/ablation_30x800_v3_physics/run_metrics.csv",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/ablation_30x800_v3_physics/runs.json",
+    "bytes": 916674,
+    "sha256": "06b1e3e9d6598e8d87ceb4b9fdcdd92b1ab7da735b80d1a7703637e8bdef529d",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/ablation_30x800_v3_physics/runs.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/ablation_30x800_v3_physics/summary.json",
+    "bytes": 3100,
+    "sha256": "08f9f1629cb537501ff65823a46f81751cb222386721865d6647fcaf35dfbcdf",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/ablation_30x800_v3_physics/summary.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/ablation_30x800_v4_tolerance/analysis_v4.json",
+    "bytes": 1926,
+    "sha256": "4ab289e960f469434bdab9233bdf52724da38a1f143c595ae53888ae39a70653",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/ablation_30x800_v4_tolerance/analysis_v4.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/ablation_30x800_v4_tolerance/oracle_front.json",
+    "bytes": 4329,
+    "sha256": "4e8b6a2d2ec26b64a92c9acf89e93af840d59a3269f731e13ebb3b63b2825f7e",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/ablation_30x800_v4_tolerance/oracle_front.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/ablation_30x800_v4_tolerance/run_metrics.csv",
+    "bytes": 11691,
+    "sha256": "dec3e01bff3f55370a1f5ef7a242e54ebbe80c22d0292d7aa2ce346d0f11d655",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/ablation_30x800_v4_tolerance/run_metrics.csv",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/ablation_30x800_v4_tolerance/runs.json",
+    "bytes": 916674,
+    "sha256": "06b1e3e9d6598e8d87ceb4b9fdcdd92b1ab7da735b80d1a7703637e8bdef529d",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/ablation_30x800_v4_tolerance/runs.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/ablation_30x800_v4_tolerance/summary.json",
+    "bytes": 3102,
+    "sha256": "4e06c290c2bf207f17c7337467ce5a50e44c0c903202ae98fcd544955e3a1f58",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/ablation_30x800_v4_tolerance/summary.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x1600/oracle_front.json",
+    "bytes": 3179,
+    "sha256": "244a94f876f61fe2c72855a101684b5746a59a8d43de0f9a5d0c58b6c94b7187",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x1600/oracle_front.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x1600/run_metrics.csv",
+    "bytes": 11701,
+    "sha256": "b61b4935ac837ce2a66df07592fc08c3855683e4e62a896314aa8a62926a4ae6",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x1600/run_metrics.csv",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x1600/runs.json",
+    "bytes": 1598681,
+    "sha256": "1a345f42791dabd42a28d788072d56f631ce756c0b490c02b3c975f39a49b0fa",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x1600/runs.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x1600/summary.json",
+    "bytes": 3085,
+    "sha256": "98ce0550876678406ca35541e367fe694f49bce5b735ec532cb26730d320818d",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x1600/summary.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x1600_v2_oracle/oracle_front.json",
+    "bytes": 3178,
+    "sha256": "5ed683861652b56808790cdca6c8cb69b0381ae335dae0589178110dbe6821a6",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x1600_v2_oracle/oracle_front.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x1600_v2_oracle/run_metrics.csv",
+    "bytes": 11690,
+    "sha256": "40ff321341b233dda101382df1579d6340374198d95cc8aab09c54c5e4d720c6",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x1600_v2_oracle/run_metrics.csv",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x1600_v2_oracle/runs.json",
+    "bytes": 1598671,
+    "sha256": "aba17d6379e782687766a7b2aac0f2ef396236cede62717b11265b3f992a4cd1",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x1600_v2_oracle/runs.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x1600_v2_oracle/summary.json",
+    "bytes": 3094,
+    "sha256": "ec191efe2444f6906a925862a3281f6dceaa7d44f936a0194d1a8f772529f053",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x1600_v2_oracle/summary.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x1600_v3_physics/analysis_v4.json",
+    "bytes": 2617,
+    "sha256": "07ed71fed960e682c5ef2192c278f43d0fc54dcc4ab6a1b85a858c8e7e53867a",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x1600_v3_physics/analysis_v4.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x1600_v3_physics/oracle_front.json",
+    "bytes": 4329,
+    "sha256": "4e8b6a2d2ec26b64a92c9acf89e93af840d59a3269f731e13ebb3b63b2825f7e",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x1600_v3_physics/oracle_front.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x1600_v3_physics/run_metrics.csv",
+    "bytes": 15418,
+    "sha256": "65dcba80284e78d41b421853a6eaaa492cf42bdb67b90c9de57d233cf19c368e",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x1600_v3_physics/run_metrics.csv",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x1600_v3_physics/runs.json",
+    "bytes": 2215812,
+    "sha256": "0c04e489336e67d115e23e296b97e2fdfb9191ec3c87567744892b8f09ddcb9e",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x1600_v3_physics/runs.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x1600_v3_physics/summary.json",
+    "bytes": 4093,
+    "sha256": "3ca19503949f09e1cb9aa68f079a25af139b8b911d51425e596925be06ad65d4",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x1600_v3_physics/summary.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x1600_v4_tolerance/analysis_v4.json",
+    "bytes": 2619,
+    "sha256": "52db84198386cab34a829fcc4b3cbc0faf960d61b5c3d9b905327cd019ff0d8b",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x1600_v4_tolerance/analysis_v4.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x1600_v4_tolerance/oracle_front.json",
+    "bytes": 4329,
+    "sha256": "4e8b6a2d2ec26b64a92c9acf89e93af840d59a3269f731e13ebb3b63b2825f7e",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x1600_v4_tolerance/oracle_front.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x1600_v4_tolerance/run_metrics.csv",
+    "bytes": 15418,
+    "sha256": "8575f4e6058cf7995afa0ee3dffe19bc2008188d54a5a6a776a95700515b98d4",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x1600_v4_tolerance/run_metrics.csv",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x1600_v4_tolerance/runs.json",
+    "bytes": 2215812,
+    "sha256": "896ec3c2a2d207b0a3a42fbdaae1846545cd885531ec36405d9d945762117ad9",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x1600_v4_tolerance/runs.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x1600_v4_tolerance/summary.json",
+    "bytes": 4095,
+    "sha256": "39f460cbdb2f8dbb2b1fedc1d06eb534b87b295f8022ade121fb74c60005fb7b",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x1600_v4_tolerance/summary.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x400/oracle_front.json",
+    "bytes": 3179,
+    "sha256": "244a94f876f61fe2c72855a101684b5746a59a8d43de0f9a5d0c58b6c94b7187",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x400/oracle_front.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x400/run_metrics.csv",
+    "bytes": 10925,
+    "sha256": "f09fb64bad295e4c0828073153385fa711656acc06f0757f51b847f69d816b4a",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x400/run_metrics.csv",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x400/runs.json",
+    "bytes": 450204,
+    "sha256": "35f4c223d9375ab63b487ddf48a6a213aedec164318ca99f3f3969e0e4bdbdd3",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x400/runs.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x400/summary.json",
+    "bytes": 3187,
+    "sha256": "abe79781cf612b7170f914dd654c52f924fde6e9a2fa1799761d36e8894d0e01",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x400/summary.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x400_v2_oracle/oracle_front.json",
+    "bytes": 3178,
+    "sha256": "5ed683861652b56808790cdca6c8cb69b0381ae335dae0589178110dbe6821a6",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x400_v2_oracle/oracle_front.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x400_v2_oracle/run_metrics.csv",
+    "bytes": 10921,
+    "sha256": "68ff4483aaa80682c2d96fea187029e1ba7b5f80315e525ac8e5b4b0d1e5ab97",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x400_v2_oracle/run_metrics.csv",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x400_v2_oracle/runs.json",
+    "bytes": 450199,
+    "sha256": "e66d5613d16bb4b1221839a4fc7c8033c32d58cdccce46223a01f12c7756a883",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x400_v2_oracle/runs.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x400_v2_oracle/summary.json",
+    "bytes": 3196,
+    "sha256": "48aab986aa924aae048424f38b10ff6bb8164e057876cb6ac016f3a6ec1271a4",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x400_v2_oracle/summary.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x400_v3_physics/analysis_v4.json",
+    "bytes": 2598,
+    "sha256": "78a6d4e28e1bfecbe0cc2bd8b83791f5727960988fca00a356eb362944bf8fdf",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x400_v3_physics/analysis_v4.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x400_v3_physics/oracle_front.json",
+    "bytes": 4329,
+    "sha256": "4e8b6a2d2ec26b64a92c9acf89e93af840d59a3269f731e13ebb3b63b2825f7e",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x400_v3_physics/oracle_front.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x400_v3_physics/run_metrics.csv",
+    "bytes": 14531,
+    "sha256": "458c08fe185e60038024159c903faddc125613543e1feceb676a6ad9513738e1",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x400_v3_physics/run_metrics.csv",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x400_v3_physics/runs.json",
+    "bytes": 699932,
+    "sha256": "9c7bffa2241e7858192c0b582b807602c1cf818afc5a6939201ee0e7cb38aedb",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x400_v3_physics/runs.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x400_v3_physics/summary.json",
+    "bytes": 4238,
+    "sha256": "6d88e06101eefe38e91b31abedd3e2364a19e580fb2be654cc2f8e8de8af82c7",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x400_v3_physics/summary.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x400_v4_tolerance/analysis_v4.json",
+    "bytes": 2600,
+    "sha256": "9eaf59191d5540702349a671bda18d7f2c98c13ab017aaa2da26fe5b2e34b2f7",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x400_v4_tolerance/analysis_v4.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x400_v4_tolerance/oracle_front.json",
+    "bytes": 4329,
+    "sha256": "4e8b6a2d2ec26b64a92c9acf89e93af840d59a3269f731e13ebb3b63b2825f7e",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x400_v4_tolerance/oracle_front.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x400_v4_tolerance/run_metrics.csv",
+    "bytes": 14531,
+    "sha256": "9e640aca7c2b5d69c19395980168da44fb95609175159d7f38408658e67368ba",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x400_v4_tolerance/run_metrics.csv",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x400_v4_tolerance/runs.json",
+    "bytes": 699932,
+    "sha256": "ceb2f27868069d7ff5d5118469c10e7b71de071391ca3653b9b2634d828c0786",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x400_v4_tolerance/runs.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/budget_30x400_v4_tolerance/summary.json",
+    "bytes": 4240,
+    "sha256": "74427f10149a6daa20c1d5414a1dd9592545909f87e6b9f2134b51197c1f436b",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/budget_30x400_v4_tolerance/summary.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/main_30x800/oracle_front.json",
+    "bytes": 3179,
+    "sha256": "244a94f876f61fe2c72855a101684b5746a59a8d43de0f9a5d0c58b6c94b7187",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/main_30x800/oracle_front.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/main_30x800/run_metrics.csv",
+    "bytes": 11415,
+    "sha256": "58e9b414b5d4633cd925910b85c0532078b09b93730488284ab99ba6e298370d",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/main_30x800/run_metrics.csv",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/main_30x800/runs.json",
+    "bytes": 843342,
+    "sha256": "658c71b109a1c2cac684995ca56e5c1f50bf69a54f72fbfd9bfb811e6fb04fe3",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/main_30x800/runs.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/main_30x800/summary.json",
+    "bytes": 3085,
+    "sha256": "552b8076a4ce406d3c7c32383fcfdc402afb9a5b853c4cc2bef6f91caf19af0f",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/main_30x800/summary.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/main_30x800_v2_oracle/oracle_front.json",
+    "bytes": 3178,
+    "sha256": "5ed683861652b56808790cdca6c8cb69b0381ae335dae0589178110dbe6821a6",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/main_30x800_v2_oracle/oracle_front.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/main_30x800_v2_oracle/run_metrics.csv",
+    "bytes": 11407,
+    "sha256": "53263e979d8e1a91fc7e6b868564a18e75589ff43c21b51161a961ae5489cf21",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/main_30x800_v2_oracle/run_metrics.csv",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/main_30x800_v2_oracle/runs.json",
+    "bytes": 843336,
+    "sha256": "2b5683da829b00189bf40c081ba4b2c84ae54eb0a26801d34f7470b022fe2016",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/main_30x800_v2_oracle/runs.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/main_30x800_v2_oracle/summary.json",
+    "bytes": 3085,
+    "sha256": "e9ae591fb2e3a70dae347ce5ec0b29cc56eaac7627fac7a94ba8a274bf7d3568",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/main_30x800_v2_oracle/summary.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/main_30x800_v3_physics/analysis_v4.json",
+    "bytes": 2615,
+    "sha256": "123766be856b2187dffa7845ef7724838f052bb94ccacb3f6804e8b596a3077c",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/main_30x800_v3_physics/analysis_v4.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/main_30x800_v3_physics/oracle_front.json",
+    "bytes": 4329,
+    "sha256": "4e8b6a2d2ec26b64a92c9acf89e93af840d59a3269f731e13ebb3b63b2825f7e",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/main_30x800_v3_physics/oracle_front.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/main_30x800_v3_physics/run_metrics.csv",
+    "bytes": 15090,
+    "sha256": "6238f129456f6d5b4d0e56f877a46ca5d46032aa47605a80a4af0ab03c11a683",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/main_30x800_v3_physics/run_metrics.csv",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/main_30x800_v3_physics/runs.json",
+    "bytes": 1223363,
+    "sha256": "f0c50ab8cf1d96dcd6705c16f76c7d15653e9a94f691b2c947a88b6b0f474980",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/main_30x800_v3_physics/runs.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/main_30x800_v3_physics/summary.json",
+    "bytes": 4075,
+    "sha256": "3f2f55bce15afc50e8d85e6cce7873fd3b130dbf367deb91da058008651184ff",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/main_30x800_v3_physics/summary.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/main_30x800_v4_tolerance/analysis_v4.json",
+    "bytes": 2617,
+    "sha256": "771f4c915b9a9e6adac07e61abbafeeea346e6c8b968f5ac20ec3b38a87c6ba1",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/main_30x800_v4_tolerance/analysis_v4.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/main_30x800_v4_tolerance/oracle_front.json",
+    "bytes": 4329,
+    "sha256": "4e8b6a2d2ec26b64a92c9acf89e93af840d59a3269f731e13ebb3b63b2825f7e",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/main_30x800_v4_tolerance/oracle_front.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/main_30x800_v4_tolerance/run_metrics.csv",
+    "bytes": 15090,
+    "sha256": "dcab3264c6442723ce3bc0c0ced8faf5d2dfa011693f6c0aa2785b39a3cd16c2",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/main_30x800_v4_tolerance/run_metrics.csv",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/main_30x800_v4_tolerance/runs.json",
+    "bytes": 1223363,
+    "sha256": "14de46085259310778c96ee761d12ab76b051e0f01ce68046823b843998662cc",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/main_30x800_v4_tolerance/runs.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/main_30x800_v4_tolerance/summary.json",
+    "bytes": 4077,
+    "sha256": "f0efd18c431379a5eab418abfa1dd8ded26e1b22126b07f32ea61892d1506abc",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/main_30x800_v4_tolerance/summary.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/pilot/oracle_front.json",
+    "bytes": 3179,
+    "sha256": "244a94f876f61fe2c72855a101684b5746a59a8d43de0f9a5d0c58b6c94b7187",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/pilot/oracle_front.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/pilot/run_metrics.csv",
+    "bytes": 3886,
+    "sha256": "a096e38f3347c29028251b6edb0b7056eaab8ca230aee77a6ac33258d5db9976",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/pilot/run_metrics.csv",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/pilot/runs.json",
+    "bytes": 285642,
+    "sha256": "10d1268b9f6771ba28ee2f54a60fceb4890b78882a98ae64bec3a019af769a00",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/pilot/runs.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/pilot/summary.json",
+    "bytes": 3003,
+    "sha256": "5f4a988d8d17b7d7745aea5b70b424c94a29db56ef8b940ff787491bdfdf679f",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/pilot/summary.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/sensitivity/sensitivity_details.json",
+    "bytes": 95529,
+    "sha256": "b04e778d0ccfe4477660883b201378eecb62ba2dd05201f1498be758b4f6626f",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/sensitivity/sensitivity_details.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/sensitivity/sensitivity_summary.csv",
+    "bytes": 2343,
+    "sha256": "c749ceb38ff1ab16539d89284d485330080cd0570e43e611075670dde5bc6291",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/sensitivity/sensitivity_summary.csv",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/structural_reduction_verification/constraint_tolerance_audit.json",
+    "bytes": 917,
+    "sha256": "7fca5cb59eae5be03fb003e0da154169ee60df1d00cc72ebe89fb7631d5ea517",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/structural_reduction_verification/constraint_tolerance_audit.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/structural_reduction_verification/structural_reduction_rows.csv",
+    "bytes": 18067,
+    "sha256": "ff79218594b49fb69b70d99b2dc242627c76b4e5da2721279db8f6169e725169",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/structural_reduction_verification/structural_reduction_rows.csv",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/structural_reduction_verification/structural_reduction_verification.json",
+    "bytes": 7943,
+    "sha256": "7e003f520189373b80e8a5b1990364ace67270fa0df8bc845e80d29d41ddc8e1",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/structural_reduction_verification/structural_reduction_verification.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/structural_reduction_verification/tolerance_rerun_comparison.json",
+    "bytes": 1722,
+    "sha256": "adb052ede81dc16b8d0a944dd9ba3f5cb945f96c9deeffa57bc2bc4229d55b44",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/structural_reduction_verification/tolerance_rerun_comparison.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/tolerance_smoke_1x800/oracle_front.json",
+    "bytes": 4329,
+    "sha256": "4e8b6a2d2ec26b64a92c9acf89e93af840d59a3269f731e13ebb3b63b2825f7e",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/tolerance_smoke_1x800/oracle_front.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/tolerance_smoke_1x800/run_metrics.csv",
+    "bytes": 636,
+    "sha256": "7f3561b958863fe786f2587bf4c249adb5f89a82582c64fe036f709d4a731c27",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/tolerance_smoke_1x800/run_metrics.csv",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/tolerance_smoke_1x800/runs.json",
+    "bytes": 40369,
+    "sha256": "3ab79872366ea5170dad5912609b011498bc239feb24550f607bacefe4279688",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/tolerance_smoke_1x800/runs.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/06_results/tolerance_smoke_1x800/summary.json",
+    "bytes": 3784,
+    "sha256": "461d37aede86129e0d64b2206800c2a7d17c7838741c7ccee8d62826b3deebfb",
+    "source": "01_待投稿_P01_丝杠解析筛选/06_results/tolerance_smoke_1x800/summary.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/07_figures/Fig1_workflow.png",
+    "bytes": 78678,
+    "sha256": "ea93bb5c48669db6cd73d923dba089d4fa5c25738773d4bfc45ee00b6b509f3d",
+    "source": "01_待投稿_P01_丝杠解析筛选/07_figures/Fig1_workflow.png",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/07_figures/Fig2_catalogue_map.png",
+    "bytes": 73732,
+    "sha256": "2e8f69b86ba5635daea21d56647df06c8456168c1cf93f9f80601b7ab40deb0f",
+    "source": "01_待投稿_P01_丝杠解析筛选/07_figures/Fig2_catalogue_map.png",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/07_figures/Fig3_oracle_front.png",
+    "bytes": 76937,
+    "sha256": "c8838235f38814040227f1a748136b871aab9ef7ae65ad8452237592237bc75d",
+    "source": "01_待投稿_P01_丝杠解析筛选/07_figures/Fig3_oracle_front.png",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/07_figures/Fig4_hypervolume_boxplot.png",
+    "bytes": 58554,
+    "sha256": "5f6acd46f14a1c373d98b96599428831f8cbd014b1164480adb856d6c9d45f4f",
+    "source": "01_待投稿_P01_丝杠解析筛选/07_figures/Fig4_hypervolume_boxplot.png",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/07_figures/Fig5_budget_sensitivity.png",
+    "bytes": 71199,
+    "sha256": "1adb547d4a533a0780e9c8faf20941b469b88e8bc46f8abd97d43cec0db3a96c",
+    "source": "01_待投稿_P01_丝杠解析筛选/07_figures/Fig5_budget_sensitivity.png",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/07_figures/make_figures.py",
+    "bytes": 9325,
+    "sha256": "0fa8caf4ba56b8ee1d8e8b333b79ef8c581646cf4578f478d3299129c898e766",
+    "source": "01_待投稿_P01_丝杠解析筛选/07_figures/make_figures.py"
+  },
+  {
+    "path": "project/reproduce.ps1",
+    "bytes": 4101,
+    "sha256": "28744f1864ca0a53d71b6d081ff56a1bf1e0c13a0b0a80ae34436bca981f3801",
+    "source": "01_待投稿_P01_丝杠解析筛选/reproduce.ps1"
+  },
+  {
+    "path": "project/RESEARCH_BRIEF.md",
+    "bytes": 2804,
+    "sha256": "8cf4d7e0b06d90e461000d86bb5cb4a0ae5c45d87edc114f405506a123ad2769",
+    "source": "01_待投稿_P01_丝杠解析筛选/RESEARCH_BRIEF.md"
+  }
+]

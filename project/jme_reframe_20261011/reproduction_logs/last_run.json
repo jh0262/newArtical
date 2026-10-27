@@ -1,0 +1,62 @@
+{
+  "completed_utc": "2026-10-11T09:49:15.9040863Z",
+  "scope": "saved-result recomputation and artifact rebuild; no training or integration",
+  "native_pdf_export": false,
+  "manuscript_sha256": "fc50c682704b3262cacb7ab2f2d0e47372830057c95733207fc3d4cd7c535b2f",
+  "stages": [
+    {
+      "stage": "01_saved_result_audit",
+      "exit_code": 0,
+      "seconds": 2.5528376,
+      "log": "F:\\暑假原始资料\\06_projects\\Retzler_History_Step4_20260928\\jme_reframe_20261011\\reproduction_logs\\01_saved_result_audit.log"
+    },
+    {
+      "stage": "02_manuscript",
+      "exit_code": 0,
+      "seconds": 0.0544322,
+      "log": "F:\\暑假原始资料\\06_projects\\Retzler_History_Step4_20260928\\jme_reframe_20261011\\reproduction_logs\\02_manuscript.log"
+    },
+    {
+      "stage": "03_metric_figure",
+      "exit_code": 0,
+      "seconds": 1.0113933,
+      "log": "F:\\暑假原始资料\\06_projects\\Retzler_History_Step4_20260928\\jme_reframe_20261011\\reproduction_logs\\03_metric_figure.log"
+    },
+    {
+      "stage": "04_document_tools",
+      "exit_code": 0,
+      "seconds": 0.0497625,
+      "log": "F:\\暑假原始资料\\06_projects\\Retzler_History_Step4_20260928\\jme_reframe_20261011\\reproduction_logs\\04_document_tools.log"
+    },
+    {
+      "stage": "05_editable_docx",
+      "exit_code": 0,
+      "seconds": 0.3272519,
+      "log": "F:\\暑假原始资料\\06_projects\\Retzler_History_Step4_20260928\\jme_reframe_20261011\\reproduction_logs\\05_editable_docx.log"
+    },
+    {
+      "stage": "06_docx_structure",
+      "exit_code": 0,
+      "seconds": 0.0926258,
+      "log": "F:\\暑假原始资料\\06_projects\\Retzler_History_Step4_20260928\\jme_reframe_20261011\\reproduction_logs\\06_docx_structure.log"
+    },
+    {
+      "stage": "07_references",
+      "exit_code": 0,
+      "seconds": 0.0493916,
+      "log": "F:\\暑假原始资料\\06_projects\\Retzler_History_Step4_20260928\\jme_reframe_20261011\\reproduction_logs\\07_references.log"
+    },
+    {
+      "stage": "08_paperpolice_raw",
+      "exit_code": 0,
+      "seconds": 0.2339823,
+      "log": "F:\\暑假原始资料\\06_projects\\Retzler_History_Step4_20260928\\jme_reframe_20261011\\reproduction_logs\\08_paperpolice_raw.log"
+    },
+    {
+      "stage": "09_paperpolice_adjudication",
+      "exit_code": 0,
+      "seconds": 0.1294561,
+      "log": "F:\\暑假原始资料\\06_projects\\Retzler_History_Step4_20260928\\jme_reframe_20261011\\reproduction_logs\\09_paperpolice_adjudication.log"
+    }
+  ]
+}

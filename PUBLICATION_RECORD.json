@@ -1,0 +1,207 @@
+{
+  "key": "P02",
+  "root": "01_待投稿_P02_机器人历史补偿",
+  "title": "基于梯度度量匹配的重载机器人速度历史补偿模型优化",
+  "branch": "基于梯度度量匹配的重载机器人速度历史补偿模型优化",
+  "include": [
+    "*.py",
+    "*.json",
+    "*.md",
+    "*.ps1",
+    "*.txt",
+    "SOURCE_LICENSE",
+    "runs",
+    "results",
+    "physics_run",
+    "preflight",
+    "revision_v2_20260929",
+    "jme_reframe_20261011",
+    "jme_review_20260929",
+    "jme_review_20260930_round4",
+    "jme_review_20260930_round5"
+  ],
+  "status": "Original robot-history models and 27 metric-matching conditions are separate experiments. GPLv3 source attribution is preserved. Original external robot datasets are obtained from the source described in project/README.md.",
+  "entry": "Python environment versions are in requirements-*.lock.txt. Saved-output analysis: analyze.py; latest metric analysis: jme_reframe_20261011/analyze_metric_experiment.py. Training scripts are included but were not executed for this release.",
+  "exclude": [
+    "plot_deps",
+    "support",
+    "delivery",
+    "final_check",
+    "review",
+    "docx_qa",
+    "rendered"
+  ],
+  "data": [
+    "runs",
+    "results",
+    "physics_run",
+    "preflight",
+    "revision_v2_20260929",
+    "jme_reframe_20261011/metric_experiment",
+    "jme_reframe_20261011/analysis",
+    "jme_review_20260929",
+    "jme_review_20260930_round4",
+    "jme_review_20260930_round5"
+  ],
+  "snapshot_date": "2026-10-28",
+  "resource_files": 2031,
+  "original_bytes": 2767317754,
+  "bundles": 61,
+  "omitted_large_files": [
+    {
+      "path": "jme_review_20260930_round4/external_validation/rollout_inputs.npz",
+      "bytes": 94416933,
+      "reason": "large raw file retained in local source archive"
+    },
+    {
+      "path": "jme_review_20260930_round5/rollout/prepared.npz",
+      "bytes": 97278260,
+      "reason": "large raw file retained in local source archive"
+    }
+  ],
+  "secret_pattern_findings": [],
+  "source_files_modified": false,
+  "experiments_run_for_publication": false,
+  "editorial_files_excluded": [
+    {
+      "path": "project/revision_v2_20260929/manuscript_template.md",
+      "sha256": "8fc9cf9194d38a1b429c20127b470daec7f187c21cf6dfce9d428be21a36d254"
+    },
+    {
+      "path": "project/revision_v2_20260929/editorial_backups/20260929_232236/README.md",
+      "sha256": "de3647300aba2409b6518d64ac79116108eb019c5fbf7cc103011fa8c279e7c8"
+    },
+    {
+      "path": "project/revision_v2_20260929/editorial_backups/20260929_232236/apply_editorial.py",
+      "sha256": "cfd00f27f39a6eaf74601bd1fd5c757284161cdbe5bdc3b0301be6b6a559b231"
+    },
+    {
+      "path": "project/revision_v2_20260929/editorial_backups/20260929_232236/assemble_manuscript.py",
+      "sha256": "6ab9edcfb09deb999d948d0cc1b5f0ae678ed2f0553932f3a90db6881c3930b1"
+    },
+    {
+      "path": "project/revision_v2_20260929/editorial_backups/20260929_232236/build_docx.py",
+      "sha256": "4431031237066d340ca6af30c60b086614c47cad5d9c38f4562bcd4deb8c530d"
+    },
+    {
+      "path": "project/revision_v2_20260929/editorial_backups/20260929_232236/check_editorial.py",
+      "sha256": "6d999cdd3bd73bb8b4b9a2574caa8ecb0b97963f566647c46e9c33d0a86c6c2d"
+    },
+    {
+      "path": "project/revision_v2_20260929/editorial_backups/20260929_232236/manuscript_template.md",
+      "sha256": "8790c7b9714cf38194450d0e998d6c9ed9df40b65fe015b5bc8f07e0008a4a03"
+    },
+    {
+      "path": "project/revision_v2_20260929/editorial_backups/20260929_232236/numerical_passages.json",
+      "sha256": "3f294b7947c33591647cd9fc790653ac3860f4fc86b09504917d335abb2855a4"
+    },
+    {
+      "path": "project/revision_v2_20260929/editorial_backups/20260929_232236/replacement_log.json",
+      "sha256": "be709ae6d5292feb2fa340c2d72578b0f757a5e32a8ba685a911f571cb542b3a"
+    },
+    {
+      "path": "project/revision_v2_20260929/editorial_backups/20260929_232236/verification.json",
+      "sha256": "6f00c490cc4728c88cc5c7df08715707ec2cbd8f9c54c32a469c0efdb12f763f"
+    },
+    {
+      "path": "project/revision_v2_20260929/editorial_backups/20260929_232236/论文修订稿.md",
+      "sha256": "cf40778e06e957ae839ba853a48a6fcb671e389af4c23efe0341bd0506da2547"
+    },
+    {
+      "path": "project/revision_v2_20260929/editorial_backups/20260929_232236/current_source/assemble_manuscript.py",
+      "sha256": "b1c0ccf4b53b0276e9de8bb1f8379c6eb76a07c47b42714c9d7660ffa6354600"
+    },
+    {
+      "path": "project/revision_v2_20260929/editorial_backups/20260929_232236/current_source/build_docx.py",
+      "sha256": "4fc569ce54538c94da88d504f661c30be94aff1241eb0a0ae0469f81eeb57306"
+    },
+    {
+      "path": "project/revision_v2_20260929/editorial_backups/20260929_232236/current_source/manuscript_template.md",
+      "sha256": "8fc9cf9194d38a1b429c20127b470daec7f187c21cf6dfce9d428be21a36d254"
+    },
+    {
+      "path": "project/revision_v2_20260929/editorial_backups/20260929_232236/render_qa/visual_review.json",
+      "sha256": "7ba2def2eaea41ef3c04427a0f5ceb59f7f978dbe5ea763a0e3a16342ebbd531"
+    },
+    {
+      "path": "project/revision_v2_20260929/editorial_backups/20260929_232236/render_qa/final/page-1.png",
+      "sha256": "f5677777fa046e5e9a9c19f580dc250e10a12c2b5b43a5947eee62adaa8093ad"
+    },
+    {
+      "path": "project/revision_v2_20260929/editorial_backups/20260929_232236/render_qa/final/page-10.png",
+      "sha256": "806cbe5a185ab80b3af1e607d05831b15b0ce863c0fa1512ef3b83bcfe6fb6de"
+    },
+    {
+      "path": "project/revision_v2_20260929/editorial_backups/20260929_232236/render_qa/final/page-11.png",
+      "sha256": "7cf32cc0478038f888e6a557ebed25cd9e8b13cca3d2d8a32e7aacdf8ad08ce9"
+    },
+    {
+      "path": "project/revision_v2_20260929/editorial_backups/20260929_232236/render_qa/final/page-12.png",
+      "sha256": "2aa5ac3ea30d7211613dbe7c2e6438258983831ffffed019de34b6567c131edb"
+    },
+    {
+      "path": "project/revision_v2_20260929/editorial_backups/20260929_232236/render_qa/final/page-2.png",
+      "sha256": "23d9aa70162e509f21d072c796a9ded5eb7d472ffb4dba53d7c624fd5795ef30"
+    },
+    {
+      "path": "project/revision_v2_20260929/editorial_backups/20260929_232236/render_qa/final/page-3.png",
+      "sha256": "a74f96ca3d59e7ecccc1cf65dddf7af1b8454b1933cd5559bcc0a56baae61c46"
+    },
+    {
+      "path": "project/revision_v2_20260929/editorial_backups/20260929_232236/render_qa/final/page-4.png",
+      "sha256": "178825756d97240d8ba7601d5b59b551d9b65d7e63149fdea411f6b82ff153c8"
+    },
+    {
+      "path": "project/revision_v2_20260929/editorial_backups/20260929_232236/render_qa/final/page-5.png",
+      "sha256": "a14828bb57d49891921ad0e97fe965d69e86aa1440deb53219cb95e15da7df27"
+    },
+    {
+      "path": "project/revision_v2_20260929/editorial_backups/20260929_232236/render_qa/final/page-6.png",
+      "sha256": "2641aed7dfc3ed71c8fe71067d729019257d71284447884d34cf2ecf9503518e"
+    },
+    {
+      "path": "project/revision_v2_20260929/editorial_backups/20260929_232236/render_qa/final/page-7.png",
+      "sha256": "42a8e33b75ecb1a5a59d2e6d6352cd7b64e18b740458f81b97c63293303a0dff"
+    },
+    {
+      "path": "project/revision_v2_20260929/editorial_backups/20260929_232236/render_qa/final/page-8.png",
+      "sha256": "a84b0ed25e0a921d548d95363a43bd3e416be88487692e91ad4e8f8f8d0bdd92"
+    },
+    {
+      "path": "project/revision_v2_20260929/editorial_backups/20260929_232236/render_qa/final/page-9.png",
+      "sha256": "528e0c943071696f389fd7373ce2c84a7d844b444a1ab0b28a719fcc8fc8a8b7"
+    },
+    {
+      "path": "project/revision_v2_20260929/editorial_backups/20260929_232236/render_qa/final/page_text.json",
+      "sha256": "009f2db70cd6d9976e91d72cffe5f266b4e292dc0adb708cf0feb715031a86dc"
+    },
+    {
+      "path": "project/jme_review_20260929/round1/input/manuscript.md",
+      "sha256": "6970bc63bbce1225fdf0a7a57542141ae7d55bc848d2d5f01a331416dacb2c96"
+    },
+    {
+      "path": "project/jme_review_20260929/round1/output/manuscript.md",
+      "sha256": "aa6fc3eacbf226dac0f0a79f99c493016db499a78bb27fde63a7200df1c6f71d"
+    },
+    {
+      "path": "project/jme_review_20260929/round2/input/manuscript.md",
+      "sha256": "aa6fc3eacbf226dac0f0a79f99c493016db499a78bb27fde63a7200df1c6f71d"
+    },
+    {
+      "path": "project/jme_review_20260929/round2/output/manuscript.md",
+      "sha256": "7f7187eab6962c4df20295d2e98a0fb2e11a8fe11de592d821b4e1525fb5c327"
+    },
+    {
+      "path": "project/jme_review_20260929/round3/input/manuscript.md",
+      "sha256": "7f7187eab6962c4df20295d2e98a0fb2e11a8fe11de592d821b4e1525fb5c327"
+    },
+    {
+      "path": "project/jme_review_20260929/round3/output/manuscript.md",
+      "sha256": "a4ac3ca8181b7b7d5764728efac4da4efd34996e167426f3a1a0723d01b2c19a"
+    },
+    {
+      "path": "project/jme_review_20260930_round4/input/manuscript.md",
+      "sha256": "a4ac3ca8181b7b7d5764728efac4da4efd34996e167426f3a1a0723d01b2c19a"
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+[
+  {
+    "model": "physics",
+    "seed": 9,
+    "attempt": "a",
+    "exit_code": 1,
+    "elapsed_seconds": 45.1106520000003,
+    "argv": [
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\.venv-v3\\Scripts\\python.exe",
+      "-u",
+      "-X",
+      "utf8",
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\06_projects\\Retzler_History_Step4_20260928\\run_model.py",
+      "--model",
+      "physics",
+      "--seed",
+      "9",
+      "--attempt",
+      "a"
+    ]
+  },
+  {
+    "model": "velocity",
+    "seed": 9,
+    "attempt": "a",
+    "exit_code": 1,
+    "elapsed_seconds": 52.672252900000785,
+    "argv": [
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\.venv-v3\\Scripts\\python.exe",
+      "-u",
+      "-X",
+      "utf8",
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\06_projects\\Retzler_History_Step4_20260928\\run_model.py",
+      "--model",
+      "velocity",
+      "--seed",
+      "9",
+      "--attempt",
+      "a"
+    ]
+  },
+  {
+    "model": "capacity_control",
+    "seed": 9,
+    "attempt": "a",
+    "exit_code": 1,
+    "elapsed_seconds": 52.97434070000054,
+    "argv": [
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\.venv-v3\\Scripts\\python.exe",
+      "-u",
+      "-X",
+      "utf8",
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\06_projects\\Retzler_History_Step4_20260928\\run_model.py",
+      "--model",
+      "capacity_control",
+      "--seed",
+      "9",
+      "--attempt",
+      "a"
+    ]
+  },
+  {
+    "model": "history",
+    "seed": 9,
+    "attempt": "a",
+    "exit_code": 0,
+    "elapsed_seconds": 51.39863549999973,
+    "argv": [
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\.venv-v3\\Scripts\\python.exe",
+      "-u",
+      "-X",
+      "utf8",
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\06_projects\\Retzler_History_Step4_20260928\\run_model.py",
+      "--model",
+      "history",
+      "--seed",
+      "9",
+      "--attempt",
+      "a"
+    ]
+  },
+  {
+    "model": "ann_only",
+    "seed": 9,
+    "attempt": "a",
+    "exit_code": 0,
+    "elapsed_seconds": 21.79528560000017,
+    "argv": [
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\.venv-v3\\Scripts\\python.exe",
+      "-u",
+      "-X",
+      "utf8",
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\06_projects\\Retzler_History_Step4_20260928\\run_model.py",
+      "--model",
+      "ann_only",
+      "--seed",
+      "9",
+      "--attempt",
+      "a"
+    ]
+  },
+  {
+    "model": "velocity",
+    "seed": 19,
+    "attempt": "a",
+    "exit_code": 0,
+    "elapsed_seconds": 51.269438499999524,
+    "argv": [
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\.venv-v3\\Scripts\\python.exe",
+      "-u",
+      "-X",
+      "utf8",
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\06_projects\\Retzler_History_Step4_20260928\\run_model.py",
+      "--model",
+      "velocity",
+      "--seed",
+      "19",
+      "--attempt",
+      "a"
+    ]
+  },
+  {
+    "model": "capacity_control",
+    "seed": 19,
+    "attempt": "a",
+    "exit_code": 0,
+    "elapsed_seconds": 55.67862109999987,
+    "argv": [
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\.venv-v3\\Scripts\\python.exe",
+      "-u",
+      "-X",
+      "utf8",
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\06_projects\\Retzler_History_Step4_20260928\\run_model.py",
+      "--model",
+      "capacity_control",
+      "--seed",
+      "19",
+      "--attempt",
+      "a"
+    ]
+  },
+  {
+    "model": "history",
+    "seed": 19,
+    "attempt": "a",
+    "exit_code": 0,
+    "elapsed_seconds": 56.140326800000366,
+    "argv": [
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\.venv-v3\\Scripts\\python.exe",
+      "-u",
+      "-X",
+      "utf8",
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\06_projects\\Retzler_History_Step4_20260928\\run_model.py",
+      "--model",
+      "history",
+      "--seed",
+      "19",
+      "--attempt",
+      "a"
+    ]
+  },
+  {
+    "model": "ann_only",
+    "seed": 19,
+    "attempt": "a",
+    "exit_code": 0,
+    "elapsed_seconds": 22.585248899999897,
+    "argv": [
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\.venv-v3\\Scripts\\python.exe",
+      "-u",
+      "-X",
+      "utf8",
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\06_projects\\Retzler_History_Step4_20260928\\run_model.py",
+      "--model",
+      "ann_only",
+      "--seed",
+      "19",
+      "--attempt",
+      "a"
+    ]
+  },
+  {
+    "model": "velocity",
+    "seed": 29,
+    "attempt": "a",
+    "exit_code": 0,
+    "elapsed_seconds": 51.045314099999814,
+    "argv": [
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\.venv-v3\\Scripts\\python.exe",
+      "-u",
+      "-X",
+      "utf8",
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\06_projects\\Retzler_History_Step4_20260928\\run_model.py",
+      "--model",
+      "velocity",
+      "--seed",
+      "29",
+      "--attempt",
+      "a"
+    ]
+  },
+  {
+    "model": "capacity_control",
+    "seed": 29,
+    "attempt": "a",
+    "exit_code": 0,
+    "elapsed_seconds": 51.682887500000106,
+    "argv": [
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\.venv-v3\\Scripts\\python.exe",
+      "-u",
+      "-X",
+      "utf8",
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\06_projects\\Retzler_History_Step4_20260928\\run_model.py",
+      "--model",
+      "capacity_control",
+      "--seed",
+      "29",
+      "--attempt",
+      "a"
+    ]
+  },
+  {
+    "model": "history",
+    "seed": 29,
+    "attempt": "a",
+    "exit_code": 0,
+    "elapsed_seconds": 52.512915399999656,
+    "argv": [
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\.venv-v3\\Scripts\\python.exe",
+      "-u",
+      "-X",
+      "utf8",
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\06_projects\\Retzler_History_Step4_20260928\\run_model.py",
+      "--model",
+      "history",
+      "--seed",
+      "29",
+      "--attempt",
+      "a"
+    ]
+  },
+  {
+    "model": "ann_only",
+    "seed": 29,
+    "attempt": "a",
+    "exit_code": 0,
+    "elapsed_seconds": 22.502089200000228,
+    "argv": [
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\.venv-v3\\Scripts\\python.exe",
+      "-u",
+      "-X",
+      "utf8",
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\06_projects\\Retzler_History_Step4_20260928\\run_model.py",
+      "--model",
+      "ann_only",
+      "--seed",
+      "29",
+      "--attempt",
+      "a"
+    ]
+  },
+  {
+    "model": "velocity",
+    "seed": 9,
+    "attempt": "repeat",
+    "exit_code": 0,
+    "elapsed_seconds": 52.81498809999994,
+    "argv": [
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\.venv-v3\\Scripts\\python.exe",
+      "-u",
+      "-X",
+      "utf8",
+      "F:\\\u6691\u5047\u539f\u59cb\u8d44\u6599\\06_projects\\Retzler_History_Step4_20260928\\run_model.py",
+      "--model",
+      "velocity",
+      "--seed",
+      "9",
+      "--attempt",
+      "repeat"
+    ]
+  }
+]

@@ -1,0 +1,4 @@
+# Python 3.12.14; existing workspace .venv-v3 with read-only .v3deps
+numpy==2.5.2
+scipy==1.18.1
+torch==2.13.0+cpu

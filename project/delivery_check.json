@@ -1,0 +1,237 @@
+{
+  "checked_at": "2026-09-28T06:46:32.269545+08:00",
+  "delivery_integrity_pass": true,
+  "checks": [
+    {
+      "check": "analysis configuration matches delivery",
+      "passed": true
+    },
+    {
+      "check": "14 saved predictions audited",
+      "passed": true
+    },
+    {
+      "check": "all predictions finite and metrics recomputed",
+      "passed": true
+    },
+    {
+      "check": "same-seed independent prediction reproduction",
+      "passed": true
+    },
+    {
+      "check": "physical and strict-reproduction boundaries retained",
+      "passed": true
+    },
+    {
+      "check": "raw data source hash",
+      "passed": true
+    },
+    {
+      "check": "physical artifact and original source snapshot",
+      "passed": true
+    },
+    {
+      "check": "ann_only_seed19_a input and version lineage",
+      "passed": true
+    },
+    {
+      "check": "ann_only_seed19_a saved result hash",
+      "passed": true
+    },
+    {
+      "check": "ann_only_seed29_a input and version lineage",
+      "passed": true
+    },
+    {
+      "check": "ann_only_seed29_a saved result hash",
+      "passed": true
+    },
+    {
+      "check": "ann_only_seed9_a input and version lineage",
+      "passed": true
+    },
+    {
+      "check": "ann_only_seed9_a saved result hash",
+      "passed": true
+    },
+    {
+      "check": "capacity_control_seed19_a input and version lineage",
+      "passed": true
+    },
+    {
+      "check": "capacity_control_seed19_a saved result hash",
+      "passed": true
+    },
+    {
+      "check": "capacity_control_seed29_a input and version lineage",
+      "passed": true
+    },
+    {
+      "check": "capacity_control_seed29_a saved result hash",
+      "passed": true
+    },
+    {
+      "check": "capacity_control_seed9_a input and version lineage",
+      "passed": true
+    },
+    {
+      "check": "capacity_control_seed9_a failure retained and recovery traceable",
+      "passed": true
+    },
+    {
+      "check": "history_seed19_a input and version lineage",
+      "passed": true
+    },
+    {
+      "check": "history_seed19_a saved result hash",
+      "passed": true
+    },
+    {
+      "check": "history_seed29_a input and version lineage",
+      "passed": true
+    },
+    {
+      "check": "history_seed29_a saved result hash",
+      "passed": true
+    },
+    {
+      "check": "history_seed9_a input and version lineage",
+      "passed": true
+    },
+    {
+      "check": "history_seed9_a saved result hash",
+      "passed": true
+    },
+    {
+      "check": "physics_seed9_a input and version lineage",
+      "passed": true
+    },
+    {
+      "check": "physics_seed9_a failure retained and recovery traceable",
+      "passed": true
+    },
+    {
+      "check": "velocity_seed19_a input and version lineage",
+      "passed": true
+    },
+    {
+      "check": "velocity_seed19_a saved result hash",
+      "passed": true
+    },
+    {
+      "check": "velocity_seed29_a input and version lineage",
+      "passed": true
+    },
+    {
+      "check": "velocity_seed29_a saved result hash",
+      "passed": true
+    },
+    {
+      "check": "velocity_seed9_a input and version lineage",
+      "passed": true
+    },
+    {
+      "check": "velocity_seed9_a failure retained and recovery traceable",
+      "passed": true
+    },
+    {
+      "check": "velocity_seed9_repeat input and version lineage",
+      "passed": true
+    },
+    {
+      "check": "velocity_seed9_repeat saved result hash",
+      "passed": true
+    },
+    {
+      "check": "coverage row coverage",
+      "passed": true
+    },
+    {
+      "check": "joint_metrics row coverage",
+      "passed": true
+    },
+    {
+      "check": "paired_comparisons row coverage",
+      "passed": true
+    },
+    {
+      "check": "run_metrics row coverage",
+      "passed": true
+    },
+    {
+      "check": "summary row coverage",
+      "passed": true
+    },
+    {
+      "check": "training_runs row coverage",
+      "passed": true
+    },
+    {
+      "check": "variable_dictionary row coverage",
+      "passed": true
+    },
+    {
+      "check": "six figure groups in three formats",
+      "passed": true
+    },
+    {
+      "check": "README.md local links resolve",
+      "passed": true
+    },
+    {
+      "check": "第4步_重跑分析报告.md local links resolve",
+      "passed": true
+    },
+    {
+      "check": "11 mathematical and implementation checks",
+      "passed": true
+    }
+  ],
+  "recovered_export_count": 3,
+  "full_replay_launcher_executed_again": false,
+  "scope": "saved evidence and packaging integrity; not scientific superiority, convergence, physical validation, or approval-gate certification",
+  "file_sha256": {
+    "analyze.py": "8a91dd7f4d5aace20880cff045a76221c14ead231db54038ac5f8bddee7c2110",
+    "bootstrap.py": "8373a4446f000092cb5c1bc04adafb1eb6f86beef73894997af89b5fcc2b1345",
+    "config.json": "5e71e99b8d65ee25fbb5a86030e07c6eecbe54a25b1afd16eda1d131092ba1fa",
+    "core.py": "59eeb732cd3eb360a86c36745636bd677b88f01f07484a05284aaa79b685706a",
+    "delivery_check.py": "c3bb87a1781fa05f17cd60467f7d64d785ef10e616c83c69100a692aa2af1e5a",
+    "networks.py": "ec8ad2f4276c1666f1f050aa112ff368f002520e67c3ba7c518d4ecd3d4abf18",
+    "preflight.py": "d97acf1eeab3af5d9babc201d3d3edfbfe3aef19d7b7ed73e283fcf97d7c3ffc",
+    "render_results.py": "a0957bbdaa40c733f2858d3741ba29964cdb349607907bdf99059216137c14a5",
+    "reproduce.ps1": "8e0c850d142c680c135bff66871439a2bc4f5c282192ce352dc1d4055d7b0b38",
+    "results\\coverage.csv": "e171717c2cf8f5c5a2956fd187672b238e31421f870ba22dbc346850494a2071",
+    "results\\figures\\01_overall_and_regimes.pdf": "d5931e052dd17f606ad32fdb5d5d08051e881996d8c12a76e7600f1befa9fe84",
+    "results\\figures\\01_overall_and_regimes.png": "81ca9c4dca50bbcd982b561d41f07a1ad0014917bbb795ed0487e8dcbd5d2e16",
+    "results\\figures\\01_overall_and_regimes.svg": "57a2ab6170339642a3bd135a6797dbc3b4fc70b709a0f189c450f680e51b0177",
+    "results\\figures\\02_joint_changes.pdf": "4785d9f2bed3787a05b30da123cb7ad35161dd94903d8ae07f125c8b6bbf9e66",
+    "results\\figures\\02_joint_changes.png": "1ee2540e98d5790aa6531ba1bfe89924932e9e0292b993ac7708c6c080d2c9f9",
+    "results\\figures\\02_joint_changes.svg": "3abc88a3333ddb1b44dae9f778e88b0aebe54e1cb1427e4a3ea2bcfd0137baf5",
+    "results\\figures\\03_validation_curves.pdf": "2fe5724a11ab91fa4e5740dcab9ab3c8b3a89197fcac5842e30d162497084771",
+    "results\\figures\\03_validation_curves.png": "9dfec8673ad0ce00e57521f848de4af232105b345a8737d10add25dc78c01b53",
+    "results\\figures\\03_validation_curves.svg": "077ed801c74ccac8d88629ce6f3fe4e64d240a8e089f7d0efd1aa384437fcbfd",
+    "results\\figures\\04_example_reversal.pdf": "113751b13c3da5714e8a23b1c6f32d406f357359a9238b25ad288e51141f5d27",
+    "results\\figures\\04_example_reversal.png": "f568bcebc2054f0f121d20919060fe82401f17f55a988c860ecb1d4c77cff787",
+    "results\\figures\\04_example_reversal.svg": "d2098d77e32d673364c234d054057363244f7e8ea239265698a4f76127326997",
+    "results\\figures\\05_coverage.pdf": "6ea7262568500ae694fcd64e09267d2c6870e71f13bd65c8ff25c6347daf66a1",
+    "results\\figures\\05_coverage.png": "7478396bd2f9e85f3d67c754ede7373046dd3b2ad7997b8a054cb4b938041504",
+    "results\\figures\\05_coverage.svg": "5e9943aa9805b3d4e6d7fa193ebe6030492c31f004771716a4540c47dc2de678",
+    "results\\figures\\06_horizon_errors.pdf": "1fdb0ebb21362753187851c97e2a3d4b9ec6fa36eb362300016c31cbc8bda4e2",
+    "results\\figures\\06_horizon_errors.png": "fe89e57908a798a3e31360883d03ffee8fa011c0aae442f1f30ee97d3acf393c",
+    "results\\figures\\06_horizon_errors.svg": "5ff78fa74de0571f34ea2939e7f0a04b7fec42dac34e88c70fe0ed6678ce9413",
+    "results\\joint_metrics.csv": "235238522a4811d2420d1d0ee729dbf34ae5920caee5a6e33d72734962a2c859",
+    "results\\paired_comparisons.csv": "c1f02515b1bc962e5cc71121fe98ff09b7a88bd13d2388da213b253c9ec0b50b",
+    "results\\run_metrics.csv": "0934bb014b7f2c6144f84b9a3b15cb699d67e48be2e5dfd828119a1c1c4549d9",
+    "results\\summary.csv": "1a826e019cf9fdef88caa8e1184e6e2a64e20de87a08b11f73263fc5f3b088b2",
+    "results\\training_runs.csv": "f79f74d62a2eac6f6675cdffb0c2c9e135ba64c6cfb18ecf04a56e897f7f590a",
+    "results\\variable_dictionary.csv": "2635e96555c98241431226315a07ba528bc5a5ca5ef601e753f458e0a0da2c49",
+    "run_model.py": "feff51998c685e1fbc3319506115c6b9a20f1a6d7a767c06885e79e1ada6b0f0",
+    "run_physics.py": "6504183fddd872216f8dc4b479f04a63c44993a1d2bf5bb12fc4e45f727389a9",
+    "run_suite.py": "a1025f39cd225f2b0475647f242c440052f2fcad971df86d16d1a66838d14083",
+    "test_contracts.py": "f9fdd0f660e785f5cedf500794a5339a49afd373394b341201f8511f97d3535e",
+    "test_export.py": "8f68876a930cf42d50bebc7fa1701c00cf98eaab8eb532b3b101f48a91d27c83",
+    "test_networks.py": "c861392e63c2f855866d54a0f808fd33f5f7051d5a825dbaf6f3be019e6a3861",
+    "write_report.py": "f7469bf18bc734c35e35defd60b2493ff12aaa3d76fbc815712c1660dd00a2bc",
+    "实验协议.md": "6bef7757c407a35981ce6b4950d71c57d17ce3ee78bf47034ed8379d54f18a0b"
+  }
+}

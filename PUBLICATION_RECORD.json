@@ -28,11 +28,12 @@
     "artifacts"
   ],
   "snapshot_date": "2026-10-28",
-  "resource_files": 162,
-  "original_bytes": 749717,
-  "bundles": 1,
+  "resource_files": 707,
+  "original_bytes": 4436710,
+  "bundles": 2,
   "omitted_large_files": [],
   "secret_pattern_findings": [],
   "source_files_modified": false,
-  "experiments_run_for_publication": false
+  "experiments_run_for_publication": false,
+  "release_resource_completion_files": 545
 }

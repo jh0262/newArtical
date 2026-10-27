@@ -5,5 +5,12 @@
     "bytes": 26370,
     "sha256": "e49e1bed6ddf3c181b0ebd8209471d9b28dc326b26f9ddbf773e634ab2906f0d",
     "url": "https://github.com/jh0262/newArtical/releases/download/resources-P08-20261028/part-001.zip"
+  },
+  {
+    "path": "resources/part-002.zip",
+    "name": "part-002.zip",
+    "bytes": 3871011,
+    "sha256": "e8a4de00bad285f60ca038d66cadff5254bf0f420dab01de058e9fea1d36fdab",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-P08-20261028/part-002.zip"
   }
 ]

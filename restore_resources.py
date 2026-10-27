@@ -1,7 +1,7 @@
 from pathlib import Path
 from zipfile import ZipFile
 from urllib.request import urlopen
-import hashlib,json,sys,shutil
+import hashlib,json,sys,shutil,gzip
 root=Path(__file__).resolve().parent
 def digest(path):
     h=hashlib.sha256()
@@ -18,7 +18,11 @@ for row in json.loads((root/'ARCHIVE_MANIFEST.json').read_text(encoding='utf-8')
         assert temp.stat().st_size==row['bytes'] and digest(temp)==row['sha256'],row['path']
         temp.replace(p)
     assert p.stat().st_size==row['bytes'] and digest(p)==row['sha256'],row['path']
-manifest=json.loads((root/'RESOURCE_MANIFEST.json').read_text(encoding='utf-8'));archives={}
+manifest_path=root/'RESOURCE_MANIFEST.json'
+if manifest_path.exists():manifest=json.loads(manifest_path.read_text(encoding='utf-8'))
+else:
+    with gzip.open(root/'RESOURCE_MANIFEST.json.gz','rt',encoding='utf-8') as f:manifest=json.load(f)
+archives={}
 for row in manifest:
     target=(root/row['path']).resolve();assert target.is_relative_to(root.resolve())
     if row.get('bundle'):

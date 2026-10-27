@@ -1,0 +1,131 @@
+{
+  "schema": "alg1_replan.external_baseline_modern_benchmark_decision_candidate.v1",
+  "candidate_id": "I3-CVGR-EXTERNAL-BASELINE-MODERN-BENCHMARK-DECISION-v0.1",
+  "status": "PROPOSED_NOT_AUTHORIZED",
+  "generated_at": "2026-08-31T22:11:54+08:00",
+  "project": "ALG1-Replan",
+  "method": "I3-CVGR-SHADE",
+  "purpose": "Select a license-clear modern constrained benchmark and external baseline set, and authorize preparation of a versioned plan amendment plus additive specifications and expected-red tests only. This candidate does not freeze an experiment matrix, install or download dependencies, change production code, call an evaluator, run an optimizer or consume formal FFE.",
+  "bound_audit": {
+    "json_path": "governance/external_baseline_modern_benchmark_license_audit_I3_CVGR_v0.1.json",
+    "json_sha256": "6EE80F4DC59E1554F3CB18ECFFE17D10AA01FC16B15684068C7DB5453A3B2380",
+    "json_bytes": 15630,
+    "md_path": "governance/external_baseline_modern_benchmark_license_audit_I3_CVGR_v0.1.md",
+    "md_sha256": "4F7719D6FB159F865F40E2669468F97822BECEB38DAAD044EF1B99D30A979C8D",
+    "md_bytes": 5854,
+    "verdict": "LICENSE_CLEAR_MODERN_SUITE_AVAILABLE_BUT_BENCHMARK_AND_BASELINE_MATRIX_NOT_AUTHORIZED_OR_FROZEN"
+  },
+  "decision_B_modern_benchmark": {
+    "recommended": "SELECT_COCO_BBOB_CONSTRAINED_2_8_2",
+    "meaning": "Use the BSD-3-Clause coco-experiment 2.8.2 implementation of COCO bbob-constrained as the proposed modern primary suite in a new, separately declared analysis family.",
+    "required_pre_execution_contracts": [
+      "Bind the package artifact, version and environment before the first evaluator call.",
+      "Freeze dimensions, instances, seeds, budget, stopping, restart and inferential-unit policies.",
+      "Freeze whether and how the COCO-provided feasible initial solution is inserted identically for applicable stochastic algorithms.",
+      "Retain all m=1 functions as prespecified fallback controls and declare m>=3 as the CVGR mechanism applicability domain.",
+      "Keep COCO, CEC2006 and any CEC2020-M4 supplement as separate benchmark and analysis families."
+    ]
+  },
+  "decision_D_constrained_de_peer": {
+    "recommended": "SELECT_LSHADE44_IEPSILON_CLEAN_ROOM",
+    "meaning": "Select LSHADE44-IEpsilon as the proposed same-family constrained-DE peer, prepared from the primary-paper algorithm contract without copying unlicensed third-party source.",
+    "required_pre_execution_contracts": [
+      "Prepare a versioned mathematical and algorithmic identity specification.",
+      "Prepare deterministic fixtures and expected-red tests for population schedule, mutation strategies, parameter adaptation, epsilon schedule, constraint ordering, archive and exact FFE accounting.",
+      "Keep implementation and green tests behind a later hash-bound authorization."
+    ]
+  },
+  "decision_X_cross_family_stochastic": {
+    "recommended": "SELECT_PYCMA_AL_CMA_ES_4_4_4",
+    "meaning": "Select pycma 4.4.4 ConstrainedFitnessAL as the proposed license-clear cross-family stochastic robustness control.",
+    "required_pre_execution_contracts": [
+      "Freeze equality-to-inequality conversion and equality tolerance.",
+      "Disable or ledger any recommendation, feasibility or update evaluation outside the paired oracle.",
+      "Use a memoized paired objective-plus-full-constraint evaluator and assert exact call counts."
+    ]
+  },
+  "decision_L_local_control": {
+    "recommended": "SELECT_SCIPY_COBYLA_1_18_0_NON_HEADLINE_CONTROL",
+    "meaning": "Select SciPy 1.18.0 COBYLA as a non-headline deterministic local calibration control, not as the strong stochastic global baseline.",
+    "required_pre_execution_contracts": [
+      "Freeze start-point policy, bounds conversion, constraint sign, equality handling, tolerances and termination.",
+      "Memoize repeated objective and constraint callbacks at the same x.",
+      "Reconcile SciPy maxiter semantics with the project paired-FFE ledger."
+    ]
+  },
+  "decision_A_amendment_scope": {
+    "recommended": "AUTHORIZE_VERSIONED_MODERN_MATRIX_AMENDMENT_PREPARATION_ONLY",
+    "meaning": "Prepare a versioned additive amendment that proposes the selected benchmark and baseline matrix. The historical frozen plan remains immutable, and the amendment remains non-effective until a later hash-bound freeze authorization."
+  },
+  "decision_T_tdd_scope": {
+    "recommended": "AUTHORIZE_ADDITIVE_BENCHMARK_BASELINE_SPEC_AND_RED_TEST_PREPARATION_ONLY",
+    "required_red_coverage": [
+      "COCO problem identity, dimension, instance and per-constraint-vector exposure",
+      "paired objective-plus-full-constraint cache with objective_calls == constraint_calls == project formal FFE",
+      "no hidden target, recommendation, feasibility or terminal evaluation",
+      "common initialization and feasible-start policy",
+      "LSHADE44-IEpsilon clean-room algorithm identity",
+      "pycma equality, best-update and paired-FFE semantics",
+      "SciPy COBYLA callback caching and termination accounting",
+      "common bounds, residual sign/order, equality tolerance, seed and output-schema contracts"
+    ],
+    "phase_boundary": "Preparation and expected-red/static execution become allowed only after exact author confirmation of this candidate. Dependency installation, production implementation and green execution require later hash-bound authorization."
+  },
+  "supplement_boundary": {
+    "S": "KEEP_CEC2020_M4_SUPPLEMENTAL_AND_UNAUTHORIZED",
+    "meaning": "Do not promote CEC2020-M4 or ENOPPY to the primary modern suite, do not infer 57-problem identity from the existing limited cross-check, and do not execute the supplement without separate authorization."
+  },
+  "mandatory_holds": {
+    "C": "DO_NOT_AUTHORIZE_PRODUCTION_CODE_CHANGES",
+    "I": "DO_NOT_AUTHORIZE_PACKAGE_INSTALLATION_OR_DOWNLOAD",
+    "E": "DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION",
+    "F": "KEEP_FORMAL_FFE_ZERO",
+    "P": "KEEP_PENDING_M_H_AND_PARENT_DECISIONS_INDEPENDENT"
+  },
+  "local_git": {
+    "G": "AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE",
+    "remote_actions": "FORBIDDEN"
+  },
+  "scientific_state": {
+    "formal_optimizer_runs": 0,
+    "objective_or_constraint_evaluator_calls": 0,
+    "formal_run_packages": 0,
+    "formal_ffe": 0,
+    "performance_evidence": "NONE",
+    "paper_status": "METHOD_AND_CONDITIONAL_PLAN_ONLY"
+  },
+  "authorization_effect_if_confirmed": [
+    "Record the selected modern benchmark and external baseline decisions.",
+    "Prepare a versioned additive modern-matrix amendment without freezing it.",
+    "Prepare additive specifications, deterministic fixtures and expected-red/static tests for benchmark identity, baseline identity, common semantics and exact paired-FFE accounting.",
+    "Run only the newly authorized expected-red/static tests with all evaluator access forbidden and formal FFE fixed at zero.",
+    "Prepare a separate hash-bound freeze or production-implementation candidate for later author confirmation."
+  ],
+  "not_authorized_even_if_confirmed": [
+    "Editing or replacing historical frozen snapshots.",
+    "Freezing the modern matrix or any pending M/H or parent-identity amendment by inference.",
+    "Installing or downloading coco-experiment, pycma, ENOPPY or any other dependency.",
+    "Copying or redistributing CEC source without a verified license.",
+    "Changing production optimizer, evaluator, adapter or benchmark code.",
+    "Calling an objective, constraint, benchmark, optimizer or evaluator.",
+    "Executing Stage 6 experiments, full TCAC, Stage B or any formal FFE.",
+    "Forming performance, superiority, novelty or paper-readiness conclusions.",
+    "Public release, remote push, submission or publication."
+  ],
+  "requested_author_decisions": {
+    "B": "SELECT_COCO_BBOB_CONSTRAINED_2_8_2",
+    "D": "SELECT_LSHADE44_IEPSILON_CLEAN_ROOM",
+    "X": "SELECT_PYCMA_AL_CMA_ES_4_4_4",
+    "L": "SELECT_SCIPY_COBYLA_1_18_0_NON_HEADLINE_CONTROL",
+    "A": "AUTHORIZE_VERSIONED_MODERN_MATRIX_AMENDMENT_PREPARATION_ONLY",
+    "T": "AUTHORIZE_ADDITIVE_BENCHMARK_BASELINE_SPEC_AND_RED_TEST_PREPARATION_ONLY",
+    "C": "DO_NOT_AUTHORIZE_PRODUCTION_CODE_CHANGES",
+    "I": "DO_NOT_AUTHORIZE_PACKAGE_INSTALLATION_OR_DOWNLOAD",
+    "E": "DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION",
+    "F": "KEEP_FORMAL_FFE_ZERO",
+    "G": "AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE",
+    "P": "KEEP_PENDING_M_H_AND_PARENT_DECISIONS_INDEPENDENT",
+    "S": "KEEP_CEC2020_M4_SUPPLEMENTAL_AND_UNAUTHORIZED"
+  },
+  "suggested_response": "我确认I3现代基准与外部基线裁决候选v0.1，SHA-256为<CANDIDATE_SHA256>；B=SELECT_COCO_BBOB_CONSTRAINED_2_8_2；D=SELECT_LSHADE44_IEPSILON_CLEAN_ROOM；X=SELECT_PYCMA_AL_CMA_ES_4_4_4；L=SELECT_SCIPY_COBYLA_1_18_0_NON_HEADLINE_CONTROL；A=AUTHORIZE_VERSIONED_MODERN_MATRIX_AMENDMENT_PREPARATION_ONLY；T=AUTHORIZE_ADDITIVE_BENCHMARK_BASELINE_SPEC_AND_RED_TEST_PREPARATION_ONLY；C=DO_NOT_AUTHORIZE_PRODUCTION_CODE_CHANGES；I=DO_NOT_AUTHORIZE_PACKAGE_INSTALLATION_OR_DOWNLOAD；E=DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION；F=KEEP_FORMAL_FFE_ZERO；G=AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE；P=KEEP_PENDING_M_H_AND_PARENT_DECISIONS_INDEPENDENT；S=KEEP_CEC2020_M4_SUPPLEMENTAL_AND_UNAUTHORIZED"
+}

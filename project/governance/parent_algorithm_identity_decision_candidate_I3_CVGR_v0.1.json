@@ -1,0 +1,103 @@
+{
+  "schema": "alg1_replan.parent_algorithm_identity_decision_candidate.v1",
+  "candidate_id": "I3-CVGR-PARENT-IDENTITY-DECISION-v0.1",
+  "status": "PROPOSED_NOT_AUTHORIZED",
+  "generated_at": "2026-08-31T21:44:00+08:00",
+  "project": "ALG1-Replan",
+  "method": "I3-CVGR-SHADE",
+  "purpose": "Select a citable parent-algorithm identity and authorize preparation of additive parent-conformance specifications and expected-red tests only. This candidate does not amend or freeze the research plan, change production code, execute an optimizer/evaluator or consume formal FFE.",
+  "bound_audit": {
+    "json_path": "governance/parent_algorithm_identity_and_conformance_audit_I3_CVGR_v0.1.json",
+    "json_sha256": "9399BF38C2F56A351E7D52ABB33637B59521AB38EB5A3D4421367C5C2F808D64",
+    "json_bytes": 10455,
+    "md_path": "governance/parent_algorithm_identity_and_conformance_audit_I3_CVGR_v0.1.md",
+    "md_sha256": "BE4EA669E67918C4F3F07AF6981CD53EFEB180A8C49BD7FDF582AC834D3B871E",
+    "md_bytes": 4191,
+    "verdict": "PARENT_IDENTITY_UNRESOLVED_AND_CURRENT_KERNEL_NOT_FULLY_CONFORMANT"
+  },
+  "decision_P_parent_identity": {
+    "recommended": "SELECT_SHADE_1_1_1_PLUS_DEB2000_PROJECT_COMPOSITE",
+    "options": [
+      {
+        "code": "SELECT_SHADE_1_1_1_PLUS_DEB2000_PROJECT_COMPOSITE",
+        "meaning": "Use the author's corrected SHADE 1.1.1 behavior as the selected unconstrained parent mechanics and Deb 2000 feasibility-first ordering as a separately specified project constraint layer. The manuscript label must state that this is a project composite, not imply that FR-SHADE is a standard published algorithm.",
+        "consequence": "The additive amendment must bind 1.1.1-specific donor domains, random archive replacement, CR/F Lehmer memories and complete optimizer contracts; the implementation must be clean-room because no source license was observed."
+      },
+      {
+        "code": "SELECT_SHADE_2013_PAPER_PLUS_DEB2000_PROJECT_COMPOSITE",
+        "meaning": "Use the 2013 SHADE paper as the parent mechanics and Deb 2000 as the separate constraint layer.",
+        "consequence": "The amendment must use arithmetic M_CR, Lehmer M_F, per-individual random p and N-sized random-eviction archive; this has a larger delta from the current kernel."
+      },
+      {
+        "code": "SELECT_CURRENT_FROZEN_PROJECT_PARENT_AND_RENAME",
+        "meaning": "Keep the current deterministic donor, archive and memory contracts as a project-defined derivative rather than claim external SHADE-version conformance.",
+        "consequence": "The parent must receive a new project-specific name and cannot be described as exact SHADE fallback; stronger external baselines become especially important."
+      }
+    ]
+  },
+  "decision_N_parent_label": {
+    "recommended": "AUTHORIZE_PARENT_LABEL_AMENDMENT_PREPARATION_ONLY",
+    "meaning": "Prepare a versioned terminology/plan amendment that replaces the ambiguous external-style label FR-SHADE with the selected project-composite description. This does not authorize editing the frozen plan itself or updating active terminology until a separate freeze candidate is confirmed."
+  },
+  "decision_T_tdd_scope": {
+    "recommended": "AUTHORIZE_ADDITIVE_PARENT_CONFORMANCE_SPEC_AND_RED_TEST_PREPARATION_ONLY",
+    "required_red_coverage": [
+      "selected-version CR/F parameter sampling distributions and clipping/resampling",
+      "p-best selection and selected-version donor distinctness",
+      "current-to-pbest/1 mutation and binomial crossover",
+      "midpoint repair after trial construction",
+      "selected-version archive capacity, random replacement and archive-vector retention",
+      "Deb-layer residual conversion, aggregate violation, equality tolerance and tie semantics",
+      "initialization, one-generation full trace, stopping and exact FFE accounting",
+      "all CVGR inactive paths identical to the selected project parent under the same base_rng state"
+    ],
+    "phase_boundary": "Preparation and expected-red execution are allowed only after exact author confirmation of this candidate. Green production changes require a later hash-bound authorization."
+  },
+  "mandatory_holds": {
+    "C": "DO_NOT_AUTHORIZE_PRODUCTION_CODE_CHANGES",
+    "E": "DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION",
+    "F": "KEEP_FORMAL_FFE_ZERO",
+    "X": "DO_NOT_FREEZE_OR_RESTORE_THE_PENDING_M_H_AMENDMENT_BY_INFERENCE",
+    "M": "DO_NOT_RESOLVE_THE_SEPARATE_CVGR_METHOD_FULL_NAME_CONFLICT_BY_INFERENCE"
+  },
+  "local_git": {
+    "G": "AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE",
+    "remote_actions": "FORBIDDEN"
+  },
+  "scientific_state": {
+    "formal_optimizer_runs": 0,
+    "objective_or_constraint_evaluator_calls": 0,
+    "formal_run_packages": 0,
+    "formal_ffe": 0,
+    "performance_evidence": "NONE",
+    "paper_status": "METHOD_AND_CONDITIONAL_PLAN_ONLY"
+  },
+  "authorization_effect_if_confirmed": [
+    "Record the selected parent identity decision.",
+    "Prepare a versioned additive parent-identity/conformance amendment without freezing it.",
+    "Prepare additive specifications, deterministic fixtures and expected-red tests for the complete parent contracts.",
+    "Run only the newly authorized expected-red/static tests with evaluator access forbidden and formal FFE fixed at zero.",
+    "Prepare a separate hash-bound freeze candidate for later author confirmation."
+  ],
+  "not_authorized_even_if_confirmed": [
+    "Editing or replacing historical frozen snapshots.",
+    "Freezing the pending M/H amendment or any new parent amendment by inference.",
+    "Changing selection.py, shade_kernel.py, cvgr_donor.py or other production modules.",
+    "Calling an objective, constraint, benchmark, optimizer or evaluator.",
+    "Executing M, C1, F, C2, Stage B or any formal FFE.",
+    "Forming performance, superiority, novelty or paper-readiness conclusions.",
+    "Public release, remote push, submission or publication."
+  ],
+  "requested_author_decisions": {
+    "P": "SELECT_SHADE_1_1_1_PLUS_DEB2000_PROJECT_COMPOSITE",
+    "N": "AUTHORIZE_PARENT_LABEL_AMENDMENT_PREPARATION_ONLY",
+    "T": "AUTHORIZE_ADDITIVE_PARENT_CONFORMANCE_SPEC_AND_RED_TEST_PREPARATION_ONLY",
+    "C": "DO_NOT_AUTHORIZE_PRODUCTION_CODE_CHANGES",
+    "E": "DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION",
+    "F": "KEEP_FORMAL_FFE_ZERO",
+    "G": "AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE",
+    "X": "KEEP_PENDING_M_H_AMENDMENT_UNFROZEN",
+    "M": "KEEP_SEPARATE_CVGR_METHOD_NAME_DECISION_UNRESOLVED"
+  },
+  "suggested_response": "我确认I3父算法身份裁决候选v0.1，SHA-256为<CANDIDATE_SHA256>；P=SELECT_SHADE_1_1_1_PLUS_DEB2000_PROJECT_COMPOSITE；N=AUTHORIZE_PARENT_LABEL_AMENDMENT_PREPARATION_ONLY；T=AUTHORIZE_ADDITIVE_PARENT_CONFORMANCE_SPEC_AND_RED_TEST_PREPARATION_ONLY；C=DO_NOT_AUTHORIZE_PRODUCTION_CODE_CHANGES；E=DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION；F=KEEP_FORMAL_FFE_ZERO；G=AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE；X=KEEP_PENDING_M_H_AMENDMENT_UNFROZEN；M=KEEP_SEPARATE_CVGR_METHOD_NAME_DECISION_UNRESOLVED"
+}

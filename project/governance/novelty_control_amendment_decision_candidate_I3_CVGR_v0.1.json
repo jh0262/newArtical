@@ -1,0 +1,120 @@
+{
+  "schema": "alg1_replan.novelty_control_amendment_decision_candidate.v1",
+  "candidate_id": "I3-CVGR-NOVELTY-CONTROL-AMENDMENT-DECISION-v0.1",
+  "status": "PROPOSED_NOT_AUTHORIZED",
+  "generated_at": "2026-08-31T23:12:00+08:00",
+  "project": "ALG1-Replan",
+  "method": "I3-CVGR-SHADE",
+  "purpose": "Acknowledge two newly identified precursors and authorize preparation only of a versioned novelty-control amendment, narrowed claim text, additive specifications, deterministic fixtures and expected-red tests. This candidate does not amend or freeze the plan, install dependencies, change production code, execute an optimizer/evaluator or consume formal FFE.",
+  "bound_audit": {
+    "json_path": "governance/novelty_collision_addendum_I3_CVGR_v0.1.json",
+    "json_sha256": "938ADF14CE663D59692BB3294C0930D9C60E6895F55BBFAEE902EE8D07B95F1D",
+    "json_bytes": 13594,
+    "md_path": "governance/novelty_collision_addendum_I3_CVGR_v0.1.md",
+    "md_sha256": "741896DEA62E4A84609805E5D06E8C74FA6E9AE1362D7C3A8083238D20113F4F",
+    "md_bytes": 6862,
+    "verdict": "REVISE_HIGH_RISK_PRECURSOR_FOUND_NO_EXACT_COLLISION_WITHIN_SEARCHED_SOURCES_NOVELTY_UNKNOWN"
+  },
+  "decision_R_historical_precursor": {
+    "recommended": "ACKNOWLEDGE_RAY2000_HIGH_RISK_PRECURSOR",
+    "meaning": "Accept Ray, Tai and Seow 2000 as a high-risk adjacent precursor for per-constraint non-overlap/complementary mate selection. Do not describe I3 as the first complementary constraint-signature mating method."
+  },
+  "decision_M_conceptual_precursor": {
+    "recommended": "ACKNOWLEDGE_MING2021_CONCEPTUAL_PRECURSOR",
+    "meaning": "Accept Ming, Wang and Zhang 2021 as a conceptual precursor for pairwise constraint-relationship identification and grouping. Do not describe I3 as the first method to model or exploit relationships among constraints."
+  },
+  "decision_C_amendment_scope": {
+    "recommended": "AUTHORIZE_VERSIONED_NOVELTY_CONTROL_AMENDMENT_PREPARATION_ONLY",
+    "meaning": "Prepare an additive versioned plan amendment proposing the new control and claim boundary. Historical frozen files remain immutable and the amendment is ineffective until a separate hash-bound freeze authorization."
+  },
+  "decision_B_required_control": {
+    "recommended": "ADD_RAY_STYLE_SET_OVERLAP_COMPLEMENTARY_MATING_CONTROL",
+    "meaning": "Propose a clean-room, same-parent, equal-FFE control that selects complementary mates by per-solution constraint-satisfaction set overlap, based only on the public Ray et al. mathematical mechanism.",
+    "required_fairness_contracts": [
+      "Use the same selected parent mechanics, initialization, bounds, constraint residual order/sign, selection, stopping, seed policy and paired FFE ledger as I3.",
+      "Do not copy source code; translate only the public algorithmic concept into a project specification after parent identity is separately resolved.",
+      "Do not use a graph, graph community, co-violation matrix or graph-derived donor identity in this control.",
+      "Define deterministic tie-breaking and exact base-RNG draw continuity.",
+      "Keep activation/applicability and fallback bookkeeping comparable to I3 without adding hidden evaluations."
+    ]
+  },
+  "decision_N_claim_scope": {
+    "recommended": "AUTHORIZE_NARROW_CLAIM_UPDATE_PREPARATION_ONLY",
+    "candidate_claim": "I3 tests whether a population-conditioned constraint co-violation community signal contributes information to constrained SHADE difference-donor topology beyond non-graph complementary constraint-signature mating and diversity-matched controls.",
+    "prohibited_claim_families": [
+      "first use of per-constraint patterns for mating",
+      "first complementary constraint-based mating",
+      "first use of non-overlapping constraint satisfaction",
+      "first identification, grouping or exploitation of constraint relationships",
+      "objective novelty or performance superiority is established"
+    ]
+  },
+  "decision_T_tdd_scope": {
+    "recommended": "AUTHORIZE_ADDITIVE_CONTROL_SPEC_AND_RED_TEST_PREPARATION_ONLY",
+    "required_red_coverage": [
+      "Ray-style set-overlap score and direction",
+      "feasible/infeasible and empty/full overlap boundary cases",
+      "deterministic tie-breaking and donor exclusion",
+      "no graph or community input to the control",
+      "base-RNG continuity and exact fallback",
+      "paired objective-plus-full-constraint FFE accounting with evaluator forbidden during red/static phase",
+      "result schema distinguishes I3, Ray-style, diversity-matched, rewired and random-label controls",
+      "plan and claim text retain novelty UNKNOWN until authorized experiments and analysis"
+    ],
+    "phase_boundary": "Only specification, fixtures and expected-red/static tests become eligible after exact author confirmation. No production implementation or evaluator access is included."
+  },
+  "mandatory_holds": {
+    "P": "DO_NOT_AUTHORIZE_PRODUCTION_CODE_CHANGES",
+    "I": "DO_NOT_AUTHORIZE_PACKAGE_INSTALLATION_OR_DOWNLOAD",
+    "E": "DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION",
+    "F": "KEEP_FORMAL_FFE_ZERO",
+    "X": "KEEP_EXISTING_THREE_PENDING_DECISIONS_INDEPENDENT"
+  },
+  "local_git": {
+    "G": "AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE",
+    "remote_actions": "FORBIDDEN"
+  },
+  "scientific_state": {
+    "formal_optimizer_runs": 0,
+    "objective_or_constraint_evaluator_calls": 0,
+    "formal_run_packages": 0,
+    "formal_ffe": 0,
+    "objective_novelty": "UNKNOWN",
+    "performance_evidence": "NONE",
+    "paper_status": "METHOD_AND_CONDITIONAL_PLAN_ONLY"
+  },
+  "authorization_effect_if_confirmed": [
+    "Record Ray 2000 as a high-risk adjacent precursor and Ming 2021 as a conceptual precursor.",
+    "Prepare a versioned additive novelty-control amendment without freezing or activating it.",
+    "Prepare narrowed claim language that does not assert objective novelty or performance.",
+    "Prepare additive specifications, deterministic fixtures and expected-red/static tests for the Ray-style and graph-specific negative controls.",
+    "Run only the newly authorized expected-red/static tests with all evaluator access forbidden and formal FFE fixed at zero.",
+    "Prepare a separate hash-bound amendment freeze or production-implementation candidate for later author confirmation."
+  ],
+  "not_authorized_even_if_confirmed": [
+    "Editing or replacing historical frozen Stage 4, Stage 5 or Stage 6 snapshots.",
+    "Freezing or activating the novelty-control amendment.",
+    "Resolving, freezing or importing the pending M/H, parent-identity or modern-benchmark/external-baseline decisions by inference.",
+    "Installing or downloading any package, benchmark or source code.",
+    "Changing production optimizer, evaluator, adapter, benchmark or existing test code beyond the separately prepared additive red-test files.",
+    "Calling an objective, constraint, benchmark, optimizer or evaluator.",
+    "Executing S6-E0, M/C1/F/C2, Stage B, full TCAC or any formal FFE.",
+    "Forming novelty, effectiveness, superiority, convergence, robustness or paper-readiness conclusions.",
+    "Public release, remote push, submission or publication."
+  ],
+  "requested_author_decisions": {
+    "R": "ACKNOWLEDGE_RAY2000_HIGH_RISK_PRECURSOR",
+    "M": "ACKNOWLEDGE_MING2021_CONCEPTUAL_PRECURSOR",
+    "C": "AUTHORIZE_VERSIONED_NOVELTY_CONTROL_AMENDMENT_PREPARATION_ONLY",
+    "B": "ADD_RAY_STYLE_SET_OVERLAP_COMPLEMENTARY_MATING_CONTROL",
+    "N": "AUTHORIZE_NARROW_CLAIM_UPDATE_PREPARATION_ONLY",
+    "T": "AUTHORIZE_ADDITIVE_CONTROL_SPEC_AND_RED_TEST_PREPARATION_ONLY",
+    "P": "DO_NOT_AUTHORIZE_PRODUCTION_CODE_CHANGES",
+    "I": "DO_NOT_AUTHORIZE_PACKAGE_INSTALLATION_OR_DOWNLOAD",
+    "E": "DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION",
+    "F": "KEEP_FORMAL_FFE_ZERO",
+    "G": "AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE",
+    "X": "KEEP_EXISTING_THREE_PENDING_DECISIONS_INDEPENDENT"
+  },
+  "suggested_response": "我确认I3新颖性控制修订裁决候选v0.1，SHA-256为<CANDIDATE_SHA256>；R=ACKNOWLEDGE_RAY2000_HIGH_RISK_PRECURSOR；M=ACKNOWLEDGE_MING2021_CONCEPTUAL_PRECURSOR；C=AUTHORIZE_VERSIONED_NOVELTY_CONTROL_AMENDMENT_PREPARATION_ONLY；B=ADD_RAY_STYLE_SET_OVERLAP_COMPLEMENTARY_MATING_CONTROL；N=AUTHORIZE_NARROW_CLAIM_UPDATE_PREPARATION_ONLY；T=AUTHORIZE_ADDITIVE_CONTROL_SPEC_AND_RED_TEST_PREPARATION_ONLY；P=DO_NOT_AUTHORIZE_PRODUCTION_CODE_CHANGES；I=DO_NOT_AUTHORIZE_PACKAGE_INSTALLATION_OR_DOWNLOAD；E=DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION；F=KEEP_FORMAL_FFE_ZERO；G=AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE；X=KEEP_EXISTING_THREE_PENDING_DECISIONS_INDEPENDENT"
+}

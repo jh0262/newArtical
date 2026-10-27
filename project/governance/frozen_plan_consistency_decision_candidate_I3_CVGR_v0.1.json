@@ -1,0 +1,119 @@
+{
+  "schema": "alg1_replan.frozen_plan_consistency_decision_candidate.v1",
+  "project": "ALG1-Replan",
+  "candidate": "I3-CVGR-SHADE",
+  "created_at": "2026-08-31T20:28:35.8621715+08:00",
+  "status": "PROPOSED_NOT_AUTHORIZED",
+  "decision_id": "DEC-I3-FROZEN-PLAN-M-BUDGET-H1-ENDPOINT-v0.1",
+  "purpose": "Obtain the author's explicit choice for two internally inconsistent frozen-plan facts before any S6-E0 red contract, optimizer implementation or execution is prepared.",
+  "bound_consistency_findings": {
+    "path": "governance/frozen_plan_consistency_findings_I3_CVGR_v0.1.json",
+    "sha256": "A8AEA7A9A2CF29C9721F5E9F8BB30D4EA40DFCCD8324B98429FE41485A510AEC",
+    "verdict": "fail",
+    "critical_conflicts": 2
+  },
+  "bound_fact_observations": {
+    "path": "governance/s6_e0_frozen_plan_fact_bindings_v0.1.json",
+    "sha256": "2F42AAECFDE45EDE16EFF01B85EC5C1373D3FAB98F27D9F0ED3799E96407D8BA",
+    "fact_consistency_status": "FAIL",
+    "fact_consistency_exit_code": 1
+  },
+  "bound_frozen_plan": {
+    "acceptance_path": "governance/freeze_acceptance_I3_CVGR_v0.1.json",
+    "acceptance_sha256": "803123E861A6E0C7ADCDBCB56A9345E9E1D3AB6ADD809A6C40BB8AEBC1F2B5B8",
+    "accepted_candidate_sha256": "79F23915AAE5853B01EFFB095AA6448CE1C7A5F7F0A3D0166DBE0A119AA684B3",
+    "snapshot_archive_sha256": "6AC43CB831B5965CC5EB408E45C6D790859A74A6E10DFBB1091C13E9DC5E8F45",
+    "original_preservation_rule": "The original frozen snapshot remains authoritative historical evidence and may not be edited or replaced. Resolution must be additive, versioned, hash-bound and separately frozen."
+  },
+  "conflicts_requiring_author_choice": [
+    {
+      "id": "C-M-BUDGET",
+      "question": "Which per-run FFE budget governs the 12-problem, 7-variant, 30-seed mechanism stage M?",
+      "option_recommended": {
+        "decision": "SELECT_M_2000D",
+        "value": "2,000D per problem/algorithm/seed",
+        "total_M_ffe": 52920000,
+        "core_M_C1_F_ffe": 270120000,
+        "consequence": "Matches PROJECT_PLAN, preregistration, failure tree and the frozen aggregate totals; requires an additive amendment that supersedes only the 10,000D sentence in the synthetic-suite specification."
+      },
+      "option_alternative": {
+        "decision": "SELECT_M_10000D",
+        "value": "10,000D per problem/algorithm/seed",
+        "total_M_ffe": 264600000,
+        "core_M_C1_F_ffe": 481800000,
+        "consequence": "Matches the synthetic-suite sentence but adds 211,680,000 M FFE and requires versioned changes to the plan, preregistration, failure tree and all aggregate totals before execution."
+      }
+    },
+    {
+      "id": "C-H1-ENDPOINT",
+      "question": "Which timing and aggregation definition governs the primary H1 graph-recovery endpoint?",
+      "option_recommended": {
+        "decision": "SELECT_H1_FIXED_CHECKPOINT_MEDIAN",
+        "value": "NMI at 25/50/75/100 percent fixed-budget checkpoints; problem-level median",
+        "consequence": "Matches PROJECT_PLAN, preregistration, experiment matrix and failure tree and keeps the frozen H1 branch thresholds directly executable."
+      },
+      "option_alternative": {
+        "decision": "SELECT_H1_FIRST_ACTIVATION_TIME_WEIGHTED",
+        "value": "NMI at first valid activation and time-weighted median over later valid graphs",
+        "consequence": "Matches the synthetic-suite sentence but requires versioned changes to four governing artifacts, a precise time-weighting formula and reconsideration of the frozen H1 thresholds."
+      }
+    }
+  ],
+  "requested_decisions": {
+    "B": {
+      "recommended": "SELECT_M_2000D",
+      "meaning": "Resolve the mechanism budget at 2,000D, retaining the currently frozen 52,920,000 M-FFE and 270,120,000 M+C1+F totals."
+    },
+    "H": {
+      "recommended": "SELECT_H1_FIXED_CHECKPOINT_MEDIAN",
+      "meaning": "Resolve H1 at the fixed 25/50/75/100 percent checkpoints with the problem-level median NMI."
+    },
+    "A": {
+      "recommended": "AUTHORIZE_VERSIONED_PLAN_AMENDMENT_PREPARATION_ONLY",
+      "meaning": "After B/H are chosen, create an additive amendment candidate, deviation entry, hash manifest and verification receipt; do not auto-freeze it."
+    },
+    "R": {
+      "recommended": "HOLD_S6_E0_RED_PHASE_UNTIL_AMENDMENT_FROZEN",
+      "meaning": "Place the previous S6-E0 red-phase candidate on hold and issue a new version only after the consistency amendment is separately accepted and frozen."
+    },
+    "G": {
+      "recommended": "AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE",
+      "meaning": "Record local governance provenance only; do not configure a remote, push or publish."
+    },
+    "E": {
+      "recommended": "DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION",
+      "meaning": "Do not execute any optimizer, objective/constraint evaluator, benchmark, simulation, pilot, M, C1, F or C2."
+    },
+    "F": {
+      "recommended": "KEEP_FORMAL_FFE_ZERO",
+      "meaning": "Consistency resolution and amendment preparation create no run package and no formal FFE."
+    }
+  },
+  "additive_amendment_allowlist_if_authorized": [
+    "artifacts/stage5_amendment/frozen_plan_consistency_amendment_I3_CVGR_v0.1.md",
+    ".light/deviations.md",
+    "governance/freeze_candidate_I3_CVGR_plan_consistency_amendment_v0.1.json",
+    "governance/freeze_candidate_I3_CVGR_plan_consistency_amendment_v0.1_verification.md",
+    ".light/frozen_plan_consistency_findings_I3_CVGR_post_amendment_v0.1.json"
+  ],
+  "hard_stop_conditions": [
+    "The author's B or H choice is absent, ambiguous or differs from the recorded candidate without an equivalent explicit decision.",
+    "Any original frozen artifact or snapshot byte would need to be edited or replaced.",
+    "The amendment changes any fact beyond the selected M budget and H1 timing/aggregation resolution.",
+    "Any S6-E0 specification, fixture, red test or production module is created before the amendment has its own hash-bound freeze acceptance.",
+    "Any objective/constraint evaluation, optimizer run, formal run package or formal FFE occurs.",
+    "Any performance, superiority, convergence, robustness, novelty, physical-validation or paper-readiness claim is inferred from the resolution."
+  ],
+  "supersession": {
+    "held_candidate_path": "governance/s6_e0_red_phase_authorization_candidate_I3_CVGR_v0.1.json",
+    "held_candidate_sha256": "B344AA5BE00A0E12C6596FF477AC5E29740F9392D15237C3CAC969572906F649",
+    "state": "HOLD_NOT_SAFE_TO_AUTHORIZE_UNTIL_PLAN_CONFLICTS_ARE_AMENDED_AND_FROZEN",
+    "note": "The held candidate remains immutable historical provenance; it is not edited or silently treated as authorized."
+  },
+  "completion_boundary": {
+    "author_choice_means": "The two conflicting facts have an author-selected intended resolution and amendment preparation may begin.",
+    "author_choice_does_not_mean": "The frozen plan is amended, S6-E0 red tests are authorized, an optimizer exists or any experiment may run.",
+    "next_gate": "Prepare and verify the additive plan-consistency amendment freeze candidate, then request separate author freeze acceptance."
+  },
+  "suggested_response": "我确认I3冻结方案一致性裁决候选v0.1，SHA-256为<CANDIDATE_SHA256>；B=SELECT_M_2000D；H=SELECT_H1_FIXED_CHECKPOINT_MEDIAN；A=AUTHORIZE_VERSIONED_PLAN_AMENDMENT_PREPARATION_ONLY；R=HOLD_S6_E0_RED_PHASE_UNTIL_AMENDMENT_FROZEN；G=AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE；E=DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION；F=KEEP_FORMAL_FFE_ZERO"
+}

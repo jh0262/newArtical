@@ -1,0 +1,89 @@
+{
+  "schema": "alg1_replan.name_provenance_amendment_freeze_acceptance.v1",
+  "acceptance_id": "I3-CVGR-NAME-PROVENANCE-AMENDMENT-FREEZE-ACCEPTANCE-v0.1",
+  "status": "FROZEN_RESTORED_STATIC_PASS",
+  "accepted_at": "2026-09-01T07:31:43.1112685+08:00",
+  "project": "ALG1-Replan",
+  "candidate": {
+    "path": "governance/freeze_candidate_I3_CVGR_name_provenance_amendment_v0.1.json",
+    "sha256": "FD54D6E7A8A850B4CA7BF03FFF6F2DA551F59FB39164A32EEA62E32370409ACD",
+    "bytes": 3127
+  },
+  "authorization": {
+    "path": "governance/freeze_authorization_I3_CVGR_name_provenance_amendment_v0.1.json",
+    "sha256": "77CDAF642229F4C0A5D7C45987DAC37C1AC5844A5E6A007097822A4B791E8C4A",
+    "bytes": 3931
+  },
+  "ordered_prerequisites": [
+    {
+      "path": "governance/freeze_acceptance_I3_CVGR_parent_conformance_amendment_v0.1.json",
+      "sha256": "E117680193FDB35962E62D346C23DC2388AD3F1A71B7369FD6D485F88E11EE6B",
+      "status": "FROZEN_RESTORED_STATIC_PASS"
+    },
+    {
+      "path": "governance/freeze_acceptance_I3_CVGR_mechanism_integrity_amendment_v0.1.json",
+      "sha256": "8B36F8386B20116E5A7AC632179DD323D3DDB72BFFF600EB51F66996ABBA45FA",
+      "status": "FROZEN_RESTORED_STATIC_PASS"
+    }
+  ],
+  "snapshot": {
+    "directory": "governance/frozen/I3_CVGR_name_provenance_amendment_v0.1_FD54D6E7_snapshot",
+    "manifest_path": "governance/frozen/I3_CVGR_name_provenance_amendment_v0.1_FD54D6E7_snapshot/FREEZE_MANIFEST.json",
+    "manifest_sha256": "A125C5E203F7FA4B038DDD21240F51D447C0FA0CE9DC11EA2E3E373CBD727717",
+    "manifest_bytes": 3636,
+    "payload_files": 8,
+    "total_files": 9
+  },
+  "archive": {
+    "path": "governance/frozen/I3_CVGR_name_provenance_amendment_v0.1_FD54D6E7_snapshot.zip",
+    "sha256": "62AE01BC701FDD7AE4FDBD77400AD6E9D52BC4C1B02651253A3D03B7B5BE6F76",
+    "bytes": 13613,
+    "deterministic_regeneration_match": true
+  },
+  "restore_verification": {
+    "path": "governance/freeze_restore_verification_I3_CVGR_name_provenance_amendment_v0.1.md",
+    "sha256": "6FAEB3C45A27F89F8E14E2EA561DEB04F6C1107DD0B2A3EF35D35EAE8888695F",
+    "bytes": 3698,
+    "new_empty_directory": true,
+    "path_set_match": "9/9",
+    "hash_and_byte_match": "9/9",
+    "json_parse": "5/5",
+    "yaml_parse": "2/2",
+    "english_name_and_abbreviation": "5/5",
+    "localized_name": "4/4",
+    "superseded_machine_expansion_marked": "4/4",
+    "nonoperative_status_checks": "11/11",
+    "active_lock_preservation": "3/3",
+    "tests_collected_or_executed": 0
+  },
+  "frozen_effect": {
+    "canonical_full_name": "Co-Violation Graph Recombination SHADE",
+    "abbreviation": "CVGR-SHADE",
+    "canonical_chinese_name": "共违反图重组 SHADE",
+    "superseded_machine_expansion": "Constraint-Violation Graph Representation SHADE",
+    "candidate_consistency_locks_activated": false,
+    "active_light_locks_edited": false,
+    "operative_runtime_authority": false,
+    "s6_e0_release": false
+  },
+  "scientific_state": {
+    "formal_optimizer_runs": 0,
+    "objective_or_constraint_evaluator_calls": 0,
+    "formal_run_packages": 0,
+    "formal_ffe": 0,
+    "performance_evidence": "NONE",
+    "objective_novelty": "UNKNOWN",
+    "paper_readiness": "NOT_ESTABLISHED"
+  },
+  "remaining_holds": [
+    "Candidate consistency locks and runtime-authority manifest remain non-operative; activation requires a later last-gate authorization.",
+    "NV, BM and SA are not frozen by this acceptance.",
+    "Production or analysis implementation, test execution, S6-E0, optimizer/evaluator execution, result access and formal FFE remain forbidden.",
+    "No performance, novelty, robustness or paper-readiness conclusion is authorized."
+  ],
+  "next_gate": {
+    "candidate": "governance/freeze_candidate_I3_CVGR_novelty_control_amendment_v0.1.json",
+    "sha256": "E7D05F958C18B7BC84051ADA4F910988EF1A747117FEBA833DEF28D6D9BB69ED",
+    "action": "REQUEST_SEPARATE_NV_FREEZE_CONFIRMATION"
+  }
+}

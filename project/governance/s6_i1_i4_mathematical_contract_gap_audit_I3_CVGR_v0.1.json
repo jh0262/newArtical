@@ -1,0 +1,243 @@
+{
+  "schema": "alg1_replan.s6_i1_i4_mathematical_contract_gap_audit.v1",
+  "audit_id": "I3-CVGR-S6-I1-I4-MATHEMATICAL-CONTRACT-GAP-AUDIT-v0.1",
+  "status": "STATIC_AUDIT_COMPLETE_NO_PRODUCTION_OR_TEST_CHANGE",
+  "as_of": "2026-08-31",
+  "project": "ALG1-Replan",
+  "method": "I3-CVGR-SHADE",
+  "purpose": "Independently test whether the frozen contract-green S6-I1-I4 implementation is mathematically and metrologically sufficient for a future full optimizer and paper-supporting experiment. This audit does not modify the frozen package, execute an optimizer/evaluator or create formal FFE.",
+  "analysis_contract": {
+    "input": [
+      "frozen mathematical method and S6-I2/I3/I4 contracts",
+      "frozen implementation manifest and acceptance",
+      "live source and 46-test suite",
+      "pure-function diagnostic inputs constructed without an objective or constraint callback"
+    ],
+    "output": [
+      "source-to-spec gap findings",
+      "test-coverage gap map",
+      "minimal deterministic reproductions",
+      "versioned amendment requirements and execution hold"
+    ],
+    "process": "bind hashes -> compare live code/tests with frozen manifest -> collect tests without executing them -> inspect formulas and control flow -> run evaluator-free pure-function diagnostics -> classify consequences -> define amendment/red-test gate",
+    "flow_logic": "frozen evidence -> byte identity -> spec/code comparison -> uncovered boundary probe -> severity -> hold or release"
+  },
+  "bound_state": {
+    "live_commit_before_audit": "045601c81e0b7ede618b24d5fd67682261efde32",
+    "live_worktree_before_audit": "CLEAN",
+    "freeze_acceptance": {
+      "path": "governance/freeze_acceptance_I3_CVGR_stage6_I2_I4_implementation_v0.1.json",
+      "sha256": "9708B351A122B4795FC78058CFC80D6D3223708106CE3739B9C85F4A98C95057",
+      "bytes": 4938,
+      "accepted_candidate_sha256": "5D6C8F48845FE1C9BD1AB455708E8DEC80EF5BCE3E4E6C1F7128E64FE09BBBAF"
+    },
+    "freeze_manifest": {
+      "path": "governance/frozen/I3_CVGR_stage6_I1_I4_implementation_v0.1_5D6C8F48_snapshot/FREEZE_MANIFEST.json",
+      "sha256": "6645DD1F7DFDFBFFAD62B7D526B813373A6E9957A427E20B08919C604D881492",
+      "bytes": 49897,
+      "source_commit": "3d4c9d91359a5b0bb3a21ea43605839c3aca19c7"
+    },
+    "specifications": [
+      {
+        "path": "artifacts/stage5/method_spec_I3_CVGR_v0.1.md",
+        "sha256": "5D7ED359841510E3FE5EAEDEB18F68D18430D75534FC891BE46CCEAF89702870",
+        "bytes": 11166
+      },
+      {
+        "path": "artifacts/stage6_preimplementation/parent_shade_contract_I3_CVGR_v0.1.md",
+        "sha256": "86073DBD0B3FBC026C29FDC2E77B3D3232BBF596F536133262FCE5D86AB2493C",
+        "bytes": 4355
+      },
+      {
+        "path": "artifacts/stage6_preimplementation/online_cvgr_state_contract_I3_CVGR_v0.1.md",
+        "sha256": "D25EEED45BBBD8ACA3DC1A95E8E3608EC8E1439ED7EE2509C79CCFF4F03802AE",
+        "bytes": 4117
+      },
+      {
+        "path": "artifacts/stage6_preimplementation/dry_run_experiment_contract_I3_CVGR_v0.1.md",
+        "sha256": "F4586633575B4637918C8E2F6523044BED7C8FA56614297196EA037B6FBC32EC",
+        "bytes": 3091
+      }
+    ]
+  },
+  "identity_checks": {
+    "live_source_files_matched_frozen_manifest": "9/9",
+    "live_test_files_matched_frozen_manifest": "11/11",
+    "hash_mismatches": 0,
+    "pytest_collect_only": {
+      "collected": 46,
+      "exit_code": 0,
+      "tests_executed": 0
+    },
+    "interpretation": "The findings apply to the accepted frozen S6-I1-I4 package; they are not caused by later source or test drift."
+  },
+  "findings": [
+    {
+      "id": "MCG-01",
+      "severity": "CRITICAL",
+      "title": "Activation stability uses only thresholded edges instead of the frozen full weight matrices",
+      "frozen_requirement": "Method specification section 5 defines weighted Jaccard by summing min/max over every j<k entry of consecutive W matrices, with absent edges represented by zero.",
+      "implementation_evidence": [
+        "src/alg1_replan/cvgr_graph.py:152-153 maps only graph.edges",
+        "src/alg1_replan/cvgr_graph.py:263-267 passes those thresholded maps to weighted_jaccard"
+      ],
+      "deterministic_reproduction": {
+        "thresholded_caller_stability": 1.0,
+        "full_weight_matrix_stability": 0.6326530612244898,
+        "construction": "Both graphs share a 0.30 retained edge; a subthreshold pair changes from 0.19 to 0.01."
+      },
+      "consequence": "Activation can be granted or denied under a different statistic than the frozen method, invalidating H1 activation and mechanism interpretation.",
+      "test_gap": "The existing Jaccard test calls weighted_jaccard directly on supplied edge lists and never verifies build_covio_graph against a full-matrix oracle.",
+      "required_resolution": "Specify and implement full-upper-triangle W Jaccard, including subthreshold positive weights, and add a gold boundary test."
+    },
+    {
+      "id": "MCG-02",
+      "severity": "CRITICAL",
+      "title": "NMI is computed on the observed/truth node intersection and can reward missing constraints",
+      "frozen_requirement": "The synthetic representation endpoint compares recovered constraint blocks against the fixed truth partition and uses NMI>0.30 as a kill criterion.",
+      "implementation_evidence": "src/alg1_replan/cvgr_graph.py:54 restricts NMI to set(observed) intersect set(truth).",
+      "deterministic_reproduction": {
+        "observed_components": [[0, 1]],
+        "truth_components": [[0, 1], [2, 3]],
+        "observed_nmi": 1.0
+      },
+      "consequence": "A method recovering only half the truth-node universe can receive perfect NMI, creating a false pass of the preregistered representation endpoint.",
+      "test_gap": "The sole NMI assertion compares an exact full recovery to itself.",
+      "required_resolution": "Freeze the truth-node universe and a missing-node policy; recommended policy assigns every missing observed node to a deterministic singleton/error label before NMI."
+    },
+    {
+      "id": "MCG-03",
+      "severity": "CRITICAL",
+      "title": "Relief-pool quantile uses total population size rather than eligible population size",
+      "frozen_requirement": "Method specification section 7 defines the relief pool as the lowest 30 percent of eligible population members.",
+      "implementation_evidence": "src/alg1_replan/cvgr_donor.py:60-63 computes ceil(q * len(population_profiles)) after exclusions instead of ceil(q * len(eligible_population)).",
+      "deterministic_reproduction": {
+        "total_population_profiles": 4,
+        "eligible_after_target_and_pbest_exclusion": 2,
+        "expected_pool_size": 1,
+        "observed_positive_donor_ids": ["a", "b"]
+      },
+      "consequence": "The implemented donor domain differs from the frozen mechanism and can change both selection probability and claimed graph effect.",
+      "test_gap": "The existing reciprocal-pair fixture does not create a case where exclusions change ceil(qN).",
+      "required_resolution": "Use the eligible-domain cardinality and test quantile boundaries after every distinctness exclusion."
+    },
+    {
+      "id": "MCG-04",
+      "severity": "CRITICAL",
+      "title": "The parent-generation trace cannot represent an unsuccessful trial with zero improvement",
+      "frozen_requirement": "Every parent receives a pre-evaluated trial; only successful F/CR values are added to success memories with strictly positive improvement weights.",
+      "implementation_evidence": "src/alg1_replan/shade_kernel.py:142-148 requires every trial, before comparison, to carry improvement>0.",
+      "deterministic_reproduction": "A finite worse trial with improvement=0 raises ValueError: trial improvement must be finite and strictly positive.",
+      "consequence": "A complete generation containing rejected trials cannot be represented honestly without assigning fabricated positive gains, blocking faithful optimizer integration.",
+      "test_gap": "The one generation fixture gives positive improvement to both trials and contains no rejected zero-gain trial.",
+      "required_resolution": "Permit finite zero/non-positive placeholder gain for rejected trials, require positive gain only after successful comparison, and test mixed success/failure generations."
+    },
+    {
+      "id": "MCG-05",
+      "severity": "CRITICAL",
+      "title": "Evaluator attempts that fail before return are not counted as FFE",
+      "frozen_requirement": "One call returning objective and complete residual vector consumes one FFE; batch execution must preserve failures and use identical exact budgets.",
+      "implementation_evidence": "src/alg1_replan/accounting.py:61 invokes evaluator, while line 63 increments the ledger only after callback return and output conversion.",
+      "deterministic_reproduction": "Static control-flow proof: any callback exception before line 63 leaves ledger.ffe unchanged despite an attempted evaluation.",
+      "consequence": "Failed evaluations can create algorithm-dependent hidden budget advantages and break fair stopping and failure-package accounting.",
+      "test_gap": "The cache test covers one successful miss and one cache hit only; no failed-call or malformed-output accounting case exists.",
+      "required_resolution": "Freeze whether every attempted oracle call counts at call entry; recommended policy increments an attempt ledger before invocation and separately records success/failure."
+    },
+    {
+      "id": "MCG-06",
+      "severity": "MAJOR",
+      "title": "A target violating only inactive constraints is diagnosed as FEASIBLE_TARGET",
+      "frozen_requirement": "Feasibility is determined from the complete violation vector; graph inactivity and target feasibility are distinct diagnostics.",
+      "implementation_evidence": "src/alg1_replan/cvgr_donor.py:205-209 tests only the active-community profile and emits FEASIBLE_TARGET when it is all zero.",
+      "deterministic_reproduction": {
+        "full_target_raw_violations": [0.0, 0.0, 0.0, 1.0],
+        "active_community_profile": [0.0, 0.0],
+        "observed_fallback_reason": "FEASIBLE_TARGET"
+      },
+      "consequence": "Donor behavior falls back, but feasibility/fallback rates and mechanism diagnostics become scientifically false.",
+      "test_gap": "The feasible-target test uses a globally zero profile and does not cover inactive-only violations.",
+      "required_resolution": "Carry complete target feasibility separately and introduce a non-feasible fallback such as NO_ACTIVE_TARGET_VIOLATION."
+    },
+    {
+      "id": "MCG-07",
+      "severity": "MAJOR",
+      "title": "Stable-ID tie-breaking is lexicographic on repr rather than lower numeric ID",
+      "frozen_requirement": "Exact ties use the lower stable individual ID.",
+      "implementation_evidence": "src/alg1_replan/selection.py:11-12 and 93-97 compare (type name, repr(value)).",
+      "deterministic_reproduction": {
+        "comparison": "stable_id 2 versus stable_id 10 with identical feasible objective",
+        "expected_if_numeric_lower_id": -1,
+        "observed": 1
+      },
+      "consequence": "Tie order changes with identifier representation and can break cross-adapter reproducibility.",
+      "test_gap": "The existing numeric tie fixture uses 7 and 9, for which numeric and repr ordering coincide.",
+      "required_resolution": "Freeze a single stable-ID type and canonical total ordering; reject mixed or ambiguous ID domains."
+    },
+    {
+      "id": "MCG-08",
+      "severity": "MAJOR",
+      "title": "Degree-preserving rewiring can silently return an unchanged identity control",
+      "frozen_requirement": "The negative control must test learned topology against a degree-preserving rewired topology.",
+      "implementation_evidence": "src/alg1_replan/cvgr_donor.py:114-138 returns only the edge set and does not expose requested versus successful swaps.",
+      "deterministic_reproduction": {
+        "input_edges": [[0, 1], [1, 2]],
+        "requested_swaps": 40,
+        "changed": false
+      },
+      "consequence": "The control can equal the learned graph while still being labeled rewired, making a graph-specific comparison uninterpretable.",
+      "test_gap": "Existing tests verify degree preservation and simplicity but not non-identity or achieved-swap telemetry.",
+      "required_resolution": "Return attempts/successful swaps and graph identity; predefine resampling, inapplicability or INCONCLUSIVE handling when a non-identity rewire cannot be formed."
+    },
+    {
+      "id": "MCG-09",
+      "severity": "MAJOR",
+      "title": "Cache output validation and immutability are not closed",
+      "frozen_requirement": "NaN/Inf must fail closed, cached records must preserve raw evidence, and cache hits must not mutate history or FFE.",
+      "implementation_evidence": "src/alg1_replan/accounting.py:61-65 converts and stores outputs without finite/shape validation and returns the same mutable residual array on later hits.",
+      "deterministic_reproduction": "Static data-flow proof: the cached Evaluation tuple contains a mutable ndarray that is returned directly at line 59.",
+      "consequence": "A caller can mutate historical residual evidence; malformed/nonfinite results can enter the cache before graph-side fail-closed checks.",
+      "test_gap": "No mutation-isolation, finite-output, fixed constraint-count or malformed-output test exists.",
+      "required_resolution": "Validate objective/residual finiteness and ordered length, store immutable copies, and return copies or read-only views with provenance."
+    },
+    {
+      "id": "MCG-10",
+      "severity": "MAJOR",
+      "title": "Future run-path components are not sanitized",
+      "frozen_requirement": "The experiment system must use collision-checked stable run IDs and paths while preserving packages.",
+      "implementation_evidence": "src/alg1_replan/experiment_contracts.py:172-184 rejects pipes but not slash, backslash, dot-dot or reserved path components; line 214 embeds the resulting key in a planned path.",
+      "deterministic_reproduction": "Static path proof: matrix/algorithm/problem IDs containing path separators can become path segments outside the intended logical attempt directory in a future writer.",
+      "consequence": "The present in-memory dry run is safe, but promoting it to file-writing S6-E0 infrastructure without an identity grammar can misplace or collide run packages.",
+      "test_gap": "No traversal, separator, Windows reserved-name or Unicode-normalization fixture exists.",
+      "required_resolution": "Freeze a portable identifier grammar and construct filesystem paths from a digest plus separately stored display IDs."
+    }
+  ],
+  "coverage_summary": {
+    "critical_findings": 5,
+    "major_findings": 5,
+    "existing_tests_collected": 46,
+    "new_tests_created": 0,
+    "existing_tests_executed": 0,
+    "finding_specific_frozen_tests": 0,
+    "reason_green_suite_missed_findings": "The frozen suite checks representative gold paths and declared fallback reasons but lacks adversarial measurement-universe, subthreshold-weight, post-exclusion quantile, rejected-trial, failed-call and control-identity boundaries."
+  },
+  "verdict": {
+    "code": "FROZEN_CONTRACT_GREEN_BUT_NOT_MATHEMATICALLY_EXECUTION_READY_VERSIONED_AMENDMENT_REQUIRED",
+    "s6_e0_release": "HOLD",
+    "existing_freeze_validity": "PRESERVED_AS_HISTORICAL_CONTRACT_GREEN_EVIDENCE",
+    "paper_readiness": "NOT_READY",
+    "performance_evidence": "NONE",
+    "objective_novelty": "UNKNOWN",
+    "rationale": "The accepted package is byte-stable and its 46 declared tests remain collectible, but five critical spec/code or measurement gaps can change activation, donor domains, generation semantics, FFE fairness or the primary mechanism endpoint."
+  },
+  "governance_effect": {
+    "frozen_files_edited": 0,
+    "production_files_edited": 0,
+    "test_files_edited": 0,
+    "dependencies_installed_or_downloaded": 0,
+    "optimizer_runs": 0,
+    "objective_or_constraint_evaluator_calls": 0,
+    "formal_run_packages": 0,
+    "formal_ffe": 0,
+    "next_gate": "Author decision on preparation of a versioned mechanism-integrity specification amendment and additive expected-red tests only."
+  }
+}

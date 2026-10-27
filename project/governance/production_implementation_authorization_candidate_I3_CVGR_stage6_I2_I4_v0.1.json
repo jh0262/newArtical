@@ -1,0 +1,139 @@
+{
+  "schema": "alg1_replan.stage6_production_implementation_authorization_candidate.v1",
+  "project": "ALG1-Replan",
+  "candidate": "I3-CVGR-SHADE",
+  "created_at": "2026-08-31T14:50:05.7782653+08:00",
+  "status": "PROPOSED_NOT_AUTHORIZED",
+  "decision_id": "DEC-I3-STAGE6-I2-I4-SEQUENTIAL-PRODUCTION-v0.1",
+  "purpose": "Request sequential TDD implementation of the now-frozen S6-I2 parent SHADE contracts, S6-I3 online CVGR state contracts and S6-I4 evaluator-forbidden dry-run infrastructure, while continuing to prohibit every optimizer, benchmark, simulation and formal FFE execution.",
+  "bound_frozen_red_baseline": {
+    "freeze_candidate_path": "governance/freeze_candidate_I3_CVGR_stage6_I2_I4_red_v0.1.json",
+    "freeze_candidate_sha256": "0144EE7F892CB3957532D32A432A0F81C2352E599F35A66861680090B07D6921",
+    "freeze_acceptance_path": "governance/freeze_acceptance_I3_CVGR_stage6_I2_I4_red_v0.1.json",
+    "freeze_acceptance_sha256": "FB6D4D77A1E95743AB78FE9325960D0E265C1E4FE66E4A7FEC1610FADDDFFF5B",
+    "freeze_acceptance_verification_sha256": "9131C42BCB271FB9F26CDE7C8C7F5EA4C858A3234CDC34965E63910333C885B1",
+    "snapshot_manifest_sha256": "7FF2C2BA2C9B7F218FD2E9AF3F2AD647BF578974A39415D34ABEE0366881B6A8",
+    "snapshot_archive_sha256": "981B210CFF1E967CBD8C78E5132105551DBC2747B7533C865F4881DD9F469878",
+    "restore_verification_sha256": "FE4C1B9D2B8D8F545739FE7B66F55A0367C306B568E7F3F39F4FF346AFA60D7B",
+    "frozen_red_artifacts": 11,
+    "restored_bound_files": 246,
+    "restore_hash_mismatches": 0,
+    "amendment_rule": "No frozen red-baseline byte may change. Any ambiguity or contract change requires a new version, red evidence and separately accepted author amendment before implementation continues."
+  },
+  "bound_existing_implementation": {
+    "s6_i1_source_commit": "668adee769d1784df731ac33202564cdf3d8e51a",
+    "s6_i1_evidence_commit": "73b1a96e7bead18502b3b572ccdf681f05cc965e",
+    "freeze_commit": "e6127ed679e65f5fb9d97998fd8bb7490e4e303d",
+    "s6_i1_frozen_tests": "29/29 passed in restored snapshot",
+    "s6_i1_state": "DETERMINISTIC_CORE_CONTRACT_GREEN",
+    "git_remote_count": 0
+  },
+  "requested_decisions": {
+    "I2": {
+      "recommended": "AUTHORIZE_PARENT_SHADE_PRODUCTION_IMPLEMENTATION",
+      "meaning": "Create only selection.py and shade_kernel.py to satisfy the frozen residual, comparator, midpoint-repair, success-memory, archive and pre-evaluated one-generation trace contracts."
+    },
+    "I3": {
+      "recommended": "AUTHORIZE_ONLINE_CVGR_PRODUCTION_IMPLEMENTATION_AFTER_I2_GREEN",
+      "meaning": "After the frozen I2 tests and the S6-I1 regression are green, create only online_state.py to satisfy rolling-history, reprofile, activation, component and ledger-neutral integration contracts."
+    },
+    "I4": {
+      "recommended": "AUTHORIZE_EVALUATOR_FORBIDDEN_DRY_RUN_INFRASTRUCTURE_AFTER_I3_GREEN",
+      "meaning": "After I3 is green, create only experiment_contracts.py for metadata validation and in-memory planned dry bundles; no evaluator or optimizer execution hook may exist."
+    },
+    "T": {
+      "recommended": "AUTHORIZE_FROZEN_GREEN_TESTS_AND_STATIC_CHECKS",
+      "meaning": "Run only the 10 frozen test files, AST/import/static review and exact-hash checks needed to turn the four later red files green while retaining the 29 S6-I1 passes."
+    },
+    "G": {
+      "recommended": "AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE",
+      "meaning": "Create local provenance commits and evidence only; do not configure a remote, push or publish."
+    },
+    "E": {
+      "recommended": "DO_NOT_AUTHORIZE_OPTIMIZER_EXECUTION",
+      "meaning": "Do not construct or execute an optimizer generation loop, problem adapter evaluation, benchmark, simulation, pilot, M, C1, F, C2, Stage B or TCAC workflow."
+    },
+    "F": {
+      "recommended": "KEEP_FORMAL_FFE_ZERO",
+      "meaning": "All tests use pre-evaluated deterministic fixtures; no objective or constraint function may be called and formal FFE remains zero."
+    }
+  },
+  "sequential_scope_if_authorized": [
+    {
+      "slice": "S6-I2",
+      "permitted_source_files": [
+        "src/alg1_replan/selection.py",
+        "src/alg1_replan/shade_kernel.py"
+      ],
+      "permitted_tests": [
+        "tests/test_violation_selection_contract_v0_1.py",
+        "tests/test_parent_shade_kernel_contract_v0_1.py"
+      ],
+      "required_exit_gate": "All 10 I2 test cases and the existing 29 S6-I1 tests pass; no frozen file changes, evaluator calls, history increments or formal FFE occur."
+    },
+    {
+      "slice": "S6-I3",
+      "entry_gate": "S6-I2 exit gate passed and evidence recorded",
+      "permitted_source_files": [
+        "src/alg1_replan/online_state.py"
+      ],
+      "permitted_tests": [
+        "tests/test_online_cvgr_state_contract_v0_1.py"
+      ],
+      "required_exit_gate": "All 4 I3 test cases plus every prior frozen test pass; graph operations and archive reprofile remain ledger-neutral and exact fallback remains unchanged."
+    },
+    {
+      "slice": "S6-I4",
+      "entry_gate": "S6-I3 exit gate passed and evidence recorded",
+      "permitted_source_files": [
+        "src/alg1_replan/experiment_contracts.py"
+      ],
+      "permitted_tests": [
+        "tests/test_experiment_dry_run_contract_v0_1.py"
+      ],
+      "required_exit_gate": "All 3 I4 test cases and the complete 46-test frozen suite pass; dry-run objects remain in-memory planned metadata with zero formal run packages and no evaluator callable accepted."
+    }
+  ],
+  "permitted_evidence_files": [
+    "artifacts/stage6/implementation_manifest_I3_CVGR_I2_I4_v0.1.json",
+    "artifacts/stage6/tdd_green_receipt_I3_CVGR_I2_I4_v0.1.md",
+    "artifacts/stage6/environment_I3_CVGR_I2_I4_v0.1.json",
+    ".light/stage6_I2_I4_implementation_findings_v0.1.json",
+    ".light/stage6_I2_I4_code_hash_manifest_v0.1.json"
+  ],
+  "required_implementation_discipline": [
+    "Implement in the order I2 then I3 then I4; do not create a later module before the prior slice is green and recorded.",
+    "Use the frozen tests without editing any frozen specification, fixture, test or receipt byte.",
+    "Implement the full frozen interface and invariants, not a test-specific shortcut or mock.",
+    "Reject NaN/Inf and invalid shapes as specified; use declared floating tolerances.",
+    "Preserve base_rng/graph_rng isolation and all S6-I1 exact-fallback contracts.",
+    "Record source hashes, environment, commands, direct process exits, static findings and zero-FFE accounting after every slice.",
+    "If a frozen contract is ambiguous, internally inconsistent or requires an unallowlisted edit, stop and produce an amendment candidate instead of guessing."
+  ],
+  "hard_stop_conditions": [
+    "Any frozen baseline hash or byte changes.",
+    "Any frozen test fails for a reason other than the production module currently being implemented, or any previously green test regresses.",
+    "Any need to edit S6-I1 source, pyproject, frozen fixtures/tests/specifications or an unallowlisted production file.",
+    "Any need to install a dependency, access the network, configure a remote or alter the Python environment.",
+    "Any objective/constraint evaluator call, optimizer generation loop, benchmark/simulation adapter execution, formal run package or formal FFE.",
+    "Any dry-run API accepts a callable evaluator or represents a planned artifact as a completed run.",
+    "Any attempt to infer performance, superiority, novelty, convergence, robustness, physical validity or paper readiness from unit tests."
+  ],
+  "explicitly_not_authorized": [
+    "editing or replacing the frozen red baseline",
+    "new tests or production modules outside the four allowlisted modules",
+    "problem, benchmark, synthetic-suite or CEC adapter execution",
+    "optimizer initialization or generation execution",
+    "objective or constraint evaluation or formal FFE",
+    "pilot, M, C1, F, C2, Stage B or full TCAC",
+    "dependency installation, network, HPC, cloud, paid resources or remote Git",
+    "parameter tuning, data-dependent redesign, performance analysis or scientific claims",
+    "public release, preregistration-platform action, preprint or submission"
+  ],
+  "completion_boundary": {
+    "green_means": "The frozen deterministic parent-kernel, online-state and evaluator-forbidden infrastructure contracts are satisfied in the recorded local environment, with the S6-I1 regression preserved.",
+    "green_does_not_mean": "A complete executable optimizer, problem adapters, formal experiment system, performance evidence or paper evidence exists.",
+    "next_gate": "After green implementation, freeze and independently restore the complete source/evidence package; then obtain a separate S6-E0 optimizer-execution and formal-FFE authorization."
+  },
+  "suggested_response": "我确认I3 Stage6 I2-I4顺序生产实现授权候选v0.1，SHA-256为<CANDIDATE_SHA256>；I2=AUTHORIZE_PARENT_SHADE_PRODUCTION_IMPLEMENTATION；I3=AUTHORIZE_ONLINE_CVGR_PRODUCTION_IMPLEMENTATION_AFTER_I2_GREEN；I4=AUTHORIZE_EVALUATOR_FORBIDDEN_DRY_RUN_INFRASTRUCTURE_AFTER_I3_GREEN；T=AUTHORIZE_FROZEN_GREEN_TESTS_AND_STATIC_CHECKS；G=AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE；E=DO_NOT_AUTHORIZE_OPTIMIZER_EXECUTION；F=KEEP_FORMAL_FFE_ZERO"
+}

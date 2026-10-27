@@ -1,0 +1,146 @@
+{
+  "schema": "alg1_replan.s6_e0_readiness_audit.v1",
+  "project": "ALG1-Replan",
+  "candidate": "I3-CVGR-SHADE",
+  "generated_at": "2026-08-31T20:10:51.0686754+08:00",
+  "mode": "STATIC_READ_ONLY_NO_OPTIMIZER_NO_EVALUATOR_ZERO_FORMAL_FFE",
+  "source_commit": "06ac0c91461b0be1dbfd89ed742caea622abad80",
+  "verdict": "NOT_READY_FOR_S6_E0_IMPLEMENTATION_OR_EXECUTION",
+  "bound_frozen_plan": {
+    "acceptance_path": "governance/freeze_acceptance_I3_CVGR_v0.1.json",
+    "acceptance_sha256": "803123E861A6E0C7ADCDBCB56A9345E9E1D3AB6ADD809A6C40BB8AEBC1F2B5B8",
+    "accepted_candidate_sha256": "79F23915AAE5853B01EFFB095AA6448CE1C7A5F7F0A3D0166DBE0A119AA684B3",
+    "snapshot_archive_sha256": "6AC43CB831B5965CC5EB408E45C6D790859A74A6E10DFBB1091C13E9DC5E8F45",
+    "amendment_rule": "Frozen research-question, method, endpoint, matrix, seed, budget, failure and analysis choices may not change without a versioned author-authorized amendment."
+  },
+  "bound_contract_green_implementation": {
+    "acceptance_path": "governance/freeze_acceptance_I3_CVGR_stage6_I2_I4_implementation_v0.1.json",
+    "acceptance_sha256": "9708B351A122B4795FC78058CFC80D6D3223708106CE3739B9C85F4A98C95057",
+    "restore_verification_sha256": "AA8EC20C11A1E27E7A6DE82DB0A3342790C7E03642EE5414FE30FF99F5656C3D",
+    "snapshot_manifest_sha256": "6645DD1F7DFDFBFFAD62B7D526B813373A6E9957A427E20B08919C604D881492",
+    "snapshot_archive_sha256": "FAD1E2C42202253B3914CE945F76FBCF0B7DC20CECD997385F439B56F193BD58",
+    "restored_files": "171/171",
+    "frozen_contract_tests": "46/46 passed",
+    "frozen_scope": "S6-I1 deterministic core, S6-I2 pre-evaluated parent transition, S6-I3 online state, and S6-I4 evaluator-forbidden in-memory dry-run metadata only."
+  },
+  "live_input_hashes": [
+    {"path": "PROJECT_PLAN.md", "sha256": "D0B4B652B4FC52373A43C1929DC9718B265DEAED19FECF272D78F7F544DFB5F8"},
+    {"path": "preregistration_candidate_v0.1.md", "sha256": "A5F36D52D6C5D0B8ED9159FEFF107BBB55C86B454F93F5639E2EDCF53BFC4789"},
+    {"path": "experiments/experiment_matrix.md", "sha256": "AB6042BF4D463BCC3CFCBEB71E2ADE426CBF85EBA7530B0ACADA26B0CE64ECB8"},
+    {"path": "artifacts/stage5/method_spec_I3_CVGR_v0.1.md", "sha256": "5D7ED359841510E3FE5EAEDEB18F68D18430D75534FC891BE46CCEAF89702870"},
+    {"path": "artifacts/stage5/synthetic_problem_suite_spec_v0.1.md", "sha256": "AABAD923B228C88D13BCE37D2BFCD91F2AF529B1A843F4FDD1275260CDDDA285"},
+    {"path": "artifacts/stage5/synthetic_falsification_fixtures_v0.1.json", "sha256": "214EA1A8DDA57A77DF900B136B1EB4537DC60CA17DF452950FEFE3748C28403A"},
+    {"path": "artifacts/stage2/benchmark_inventory_v0.1.json", "sha256": "60AEC34464EC2BFB9CA27073D3BAAD526331DC05CBCAC91F2D777F5B90065EEC"},
+    {"path": ".light/failure_tree_I3_CVGR_v0.1.json", "sha256": "23836B37856C4FAF6D1448F78D8F22851C7F6674DA5E2A9CEEA0B21111969C66"},
+    {"path": ".light/failure_tree_report_I3_CVGR_v0.1.json", "sha256": "4A3E27ED108352B209D3B938DB317C23CB4291B40FAD37BE15714BAEEDC75439"}
+  ],
+  "live_static_inventory": {
+    "python_source_files": 9,
+    "frozen_test_files": 10,
+    "registered_cli_entrypoints": 0,
+    "optimizer_api_files": 0,
+    "problem_or_benchmark_adapter_files": 0,
+    "formal_runs_directory_exists": false,
+    "git_remote_count": 0,
+    "formal_optimizer_runs": 0,
+    "objective_or_constraint_evaluations": 0,
+    "formal_run_packages": 0,
+    "formal_ffe": 0
+  },
+  "verified_present_capabilities": [
+    "constraint-residual conversion and frozen lexicographic comparison",
+    "midpoint repair, success-memory update and a pre-evaluated one-generation parent trace",
+    "rolling violation history, graph activation/fallback state and CVGR donor-core delegation",
+    "evaluator-forbidden validation of planned metadata and in-memory dry-run bundle schemas",
+    "independently restored 46-test deterministic contract baseline"
+  ],
+  "blocking_gaps": [
+    {
+      "id": "E0-G1",
+      "component": "complete optimizer state and generation loop",
+      "evidence": "No optimizer entry point or optimize/run_optimizer symbol exists; trace_parent_generation consumes pre-evaluated trials and deterministic draws only.",
+      "required_before_execution": "Population initialization, SHADE parameter sampling, p-best selection, mutation, crossover, midpoint repair, evaluator call, selection, archive/memory/population schedule, checkpointing and exact fixed-FFE termination must be integrated without changing the frozen CVGR contract."
+    },
+    {
+      "id": "E0-G2",
+      "component": "problem and evaluator contract",
+      "evidence": "No problem/evaluator production module or adapter file exists.",
+      "required_before_execution": "One-call objective-plus-ordered-residual interface, equality tolerances, decision-vector hashing/cache provenance, complete violation output, finite-value rejection and exactly-one-FFE ledger semantics."
+    },
+    {
+      "id": "E0-G3",
+      "component": "synthetic and CEC2006 problem adapters",
+      "evidence": "The mathematical synthetic suite and CEC2006 inventory exist only as specifications/metadata.",
+      "required_before_execution": "Twelve deterministic synthetic instances require gold-value and rotation-oracle tests. CEC2006-eligible-16 and fallback-8 require source/version/hash/license identity, dimension/bounds/constraint-count oracles and independent conformance points before C1/F."
+    },
+    {
+      "id": "E0-G4",
+      "component": "algorithm variants and negative controls",
+      "evidence": "No executable adapters exist for PARENT, CVGR, DEG_REWIRE, DIV_MATCH, LABEL_PERM, SCALAR_CV or NO_STABILITY.",
+      "required_before_execution": "All variants must share evaluator, initialization, base RNG, SHADE code, comparator, repair, stopping and FFE ledger; only the registered intervention may differ, with graph_rng isolated."
+    },
+    {
+      "id": "E0-G5",
+      "component": "immutable configuration and matrix expansion",
+      "evidence": "No executable config schema or one-config-per-matrix-row/algorithm/problem/seed expansion exists; pyproject declares no CLI.",
+      "required_before_execution": "Versioned config schema, frozen defaults, registered matrix row IDs, 30 common seeds, stable run IDs, deterministic scheduling and rejection of hidden/unregistered overrides."
+    },
+    {
+      "id": "E0-G6",
+      "component": "guardrails and hard-stop monitor",
+      "evidence": "G1-G5 exist only in the frozen failure tree; no runtime branch-action monitor exists.",
+      "required_before_execution": "FFE equality, fallback equivalence, wall-clock overhead, activation rate and infrastructure-failure thresholds must preserve packages and stop/downgrade exactly as preregistered."
+    },
+    {
+      "id": "E0-G7",
+      "component": "immutable run bundle, failure recovery and resume",
+      "evidence": "Current S6-I4 builds planned objects in memory and deliberately creates zero run packages.",
+      "required_before_execution": "Atomic package closure, manifest/config/environment/code/input hashes, stdout/stderr, checkpoints, raw metrics, final records, donor/graph diagnostics, FFE ledger, failure artifacts, one-retry recovery and non-overwrite resume semantics."
+    },
+    {
+      "id": "E0-G8",
+      "component": "end-to-end and reproducibility evidence",
+      "evidence": "Only deterministic unit contracts exist; no evaluator-bearing smoke, fixed-seed duplicate run or complete bundle verification has occurred.",
+      "required_before_execution": "After separately authorized implementation, run gold/property/metamorphic tests, exact fallback traces, same-environment same-seed duplicate smoke packages and run-artifact checks before any M budget is released."
+    }
+  ],
+  "required_tdd_sequence": [
+    "S6-E0-R1: write versioned specifications, deterministic fixtures and additive tests for G1-G8; tests must collect and fail only because the new production APIs are absent, with no evaluator call.",
+    "S6-E0-F1: hash-freeze the red baseline and independently restore its complete dependency closure.",
+    "S6-E0-I1: obtain a separate authorization for production implementation and deterministic unit-evaluator tests; preserve formal FFE at zero and keep benchmark execution prohibited.",
+    "S6-E0-F2: freeze and independently restore the complete executable optimizer, adapters, configs, CLI, guardrails and run-bundle system after all frozen tests are green.",
+    "S6-E0-X0: obtain a separate, budget-specific authorization for a bounded smoke/pilot only; formal M/C1/F remain prohibited until its artifacts pass integrity and exact-FFE gates.",
+    "M/C1/F: execute only under their own hash-bound phase authorizations and preregistered kill branches; C2 remains optional and separate."
+  ],
+  "proposed_additive_red_artifacts": {
+    "specifications": [
+      "artifacts/stage6_e0_preimplementation/optimizer_execution_contract_I3_CVGR_v0.1.md",
+      "artifacts/stage6_e0_preimplementation/problem_adapter_contract_I3_CVGR_v0.1.md",
+      "artifacts/stage6_e0_preimplementation/variant_adapter_contract_I3_CVGR_v0.1.md",
+      "artifacts/stage6_e0_preimplementation/run_bundle_guardrail_contract_I3_CVGR_v0.1.md"
+    ],
+    "fixtures": [
+      "artifacts/stage6_e0_preimplementation/optimizer_trace_fixtures_I3_CVGR_v0.1.json",
+      "artifacts/stage6_e0_preimplementation/problem_oracle_fixtures_I3_CVGR_v0.1.json",
+      "artifacts/stage6_e0_preimplementation/run_bundle_fixtures_I3_CVGR_v0.1.json"
+    ],
+    "tests": [
+      "tests/test_optimizer_execution_contract_v0_1.py",
+      "tests/test_problem_adapter_contract_v0_1.py",
+      "tests/test_variant_adapter_contract_v0_1.py",
+      "tests/test_run_bundle_guardrail_contract_v0_1.py",
+      "tests/test_cli_execution_boundary_contract_v0_1.py"
+    ],
+    "red_receipt": "artifacts/stage6_e0_preimplementation/red_phase_receipt_I3_CVGR_v0.1.md"
+  },
+  "hard_stops_for_next_phase": [
+    "Any frozen plan, implementation snapshot, test, fixture or source byte is edited instead of adding a versioned artifact.",
+    "Any additive test invokes an objective, constraint, benchmark or optimizer during the red-specification phase.",
+    "Any new API silently changes a frozen endpoint, comparator, seed, budget, stopping, fallback or FFE rule.",
+    "Any CEC2006 adapter is treated as confirmed before source/version/hash/license and conformance evidence close.",
+    "Any formal run directory, run package, optimizer result, performance metric or formal FFE is created.",
+    "Any performance, superiority, convergence, robustness, novelty, physical-validation or paper-readiness claim is inferred from static or red-phase evidence."
+  ],
+  "next_gate": "HASH_BOUND_AUTHOR_DECISION_ON_S6_E0_ADDITIVE_SPEC_AND_RED_TEST_PREPARATION_ONLY",
+  "claim_boundary": "This audit establishes implementation/execution incompleteness and a TDD-safe next gate. It is not experimental evidence and does not authorize or predict algorithm performance."
+}

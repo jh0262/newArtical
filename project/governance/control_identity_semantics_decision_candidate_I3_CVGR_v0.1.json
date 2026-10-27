@@ -1,0 +1,153 @@
+{
+  "schema": "alg1_replan.control_identity_semantics_decision_candidate.v1",
+  "candidate_id": "I3-CVGR-CONTROL-IDENTITY-SEMANTICS-DECISION-v0.1",
+  "status": "PROPOSED_NOT_AUTHORIZED",
+  "generated_at": "2026-09-01T23:52:00+08:00",
+  "project": "ALG1-Replan",
+  "method": "I3-CVGR-SHADE",
+  "purpose": "Obtain an author-owned resolution of the historical LABEL_PERM identifier versus the frozen RANDOM_LABEL control, then authorize preparation only of an additive versioned control-identity amendment and deterministic expected-red/static contracts. This candidate does not alter authority, freeze the amendment, execute tests, implement production/analysis behavior, install packages, call an optimizer/evaluator or consume formal FFE.",
+  "bound_audit": {
+    "path": "governance/control_identity_semantics_audit_I3_CVGR_v0.1.json",
+    "sha256": "B0448FCA07A71AC6A58DF98EEB1BFF9C58A4A106196E35C22C23990E24010B4C",
+    "bytes": 14495,
+    "verdict": "AUTHOR_DECISION_REQUIRED_RECOMMEND_CANONICAL_SUCCESSOR_NOT_SILENT_ALIAS"
+  },
+  "bound_authority": {
+    "path": "governance/consolidated_author_decision_authorization_I3_CVGR_v0.1.json",
+    "sha256": "F07C3AD10EEE640108898C9D6607EEE9791A4B539A9789F687982A38A2EC04CB",
+    "decision": "NV_AND_BM_MATRIX_PREPARATION; ordered separate freezes; zero execution"
+  },
+  "bound_frozen_layers": [
+    {
+      "path": "governance/freeze_acceptance_I3_CVGR_v0.1.json",
+      "sha256": "803123E861A6E0C7ADCDBCB56A9345E9E1D3AB6ADD809A6C40BB8AEBC1F2B5B8",
+      "meaning": "historical LABEL_PERM plan identity remains immutable"
+    },
+    {
+      "path": "governance/freeze_acceptance_I3_CVGR_plan_consistency_amendment_v0.1.json",
+      "sha256": "3A413ACC393987DAD48F19C8DE2C196C0B3788EF9C9A98288A0B7C13F19AE290",
+      "meaning": "2,000D M budget and fixed-checkpoint H1 timing remain authoritative"
+    },
+    {
+      "path": "governance/freeze_acceptance_I3_CVGR_novelty_control_amendment_v0.1.json",
+      "sha256": "427327494D91BFB7A421EDE45FA7474A7A5AC9CCB2EA97017BF8104FFBE40C7D",
+      "meaning": "RANDOM_LABEL is a mandatory future control and objective novelty remains UNKNOWN"
+    }
+  ],
+  "decision_I_control_identity": {
+    "recommended": "SELECT_RANDOM_LABEL_CANONICAL_SUCCESSOR_RECLASSIFY_LABEL_PERM",
+    "options": [
+      {
+        "code": "SELECT_RANDOM_LABEL_CANONICAL_SUCCESSOR_RECLASSIFY_LABEL_PERM",
+        "recommended": true,
+        "meaning": "Preserve LABEL_PERM in historical frozen evidence only. Future versioned H1, ABL-03, result-schema and adapter contracts use RANDOM_LABEL, operationalized as a nonidentity node-to-community membership shuffle that preserves activation schedule and component-size multiset. Pure component-ID renaming becomes a separate zero-FFE permutation-equivariance integrity test.",
+        "consequence": "Removes the no-op ambiguity, matches the frozen NV roster and retains the audited Ray-inclusive matrix at M=8 variants, C1=5 variants, 5,760 core packages and 325,380,000 maximum core FFE."
+      },
+      {
+        "code": "SELECT_EXACT_ALIAS_LABEL_PERM_RANDOM_LABEL",
+        "recommended": false,
+        "meaning": "Declare LABEL_PERM and RANDOM_LABEL exact aliases for the same membership-shuffle operation.",
+        "consequence": "Keeps the same resource arithmetic, but requires an explicit operational supersession because the historical wording can still be misread as a no-op identifier rename; version provenance is less clear."
+      },
+      {
+        "code": "SELECT_DISTINCT_COEXIST_M_ONLY",
+        "recommended": false,
+        "meaning": "Keep LABEL_PERM and RANDOM_LABEL as separate formal M variants after defining a scientifically nonredundant LABEL_PERM operation.",
+        "consequence": "At minimum M becomes 9 variants, core becomes 6,120 packages and 332,940,000 FFE, adding 360 packages and 7,560,000 FFE. The current materials do not yet specify a nonredundant LABEL_PERM mechanism."
+      },
+      {
+        "code": "HOLD_CONTROL_IDENTITY",
+        "recommended": false,
+        "meaning": "Make no relation decision. BM-R1 parameter selection remains independent, but SA and S6-E0 remain on hold."
+      }
+    ]
+  },
+  "recommended_operational_contract": {
+    "canonical_result_schema_value": "RANDOM_LABEL",
+    "historical_only_value": "LABEL_PERM",
+    "randomization_target": "node-to-community membership among active constraints",
+    "preserve": [
+      "active constraint set",
+      "activation/fallback schedule",
+      "component-size multiset",
+      "base parent mechanics and base-RNG state",
+      "objective-plus-full-constraint paired FFE ledger"
+    ],
+    "destroy": "learned association between each physical constraint identity and its community membership",
+    "forbidden_interpretations": [
+      "renaming only the integer component IDs",
+      "permuting the ground-truth labels used by offline NMI scoring",
+      "using objective/constraint values not already present in the authorized run state",
+      "accepting an identity partition while labeling it a randomized control"
+    ],
+    "separate_integrity_contract": "COMPONENT_ID_RENAMING_EQUIVARIANCE_ZERO_FFE",
+    "scientific_boundary": "This contract is proposed. It is not canonical, implemented or frozen unless the author confirms this candidate and later separately freezes the prepared amendment."
+  },
+  "decision_A_amendment_scope": {
+    "recommended": "AUTHORIZE_VERSIONED_CONTROL_IDENTITY_AMENDMENT_PREPARATION_ONLY",
+    "allowlist": [
+      "one additive control-identity amendment",
+      "one machine-readable semantic fixture set",
+      "additive expected-red/static test source for nonidentity, size preservation, activation matching, RNG isolation, forbidden truth-label access and FFE neutrality",
+      "versioned future H1/ABL-03/result-schema/adapter/resource bindings",
+      "one separate hash-bound freeze candidate and verification record"
+    ],
+    "boundary": "Preparation does not activate the amendment or change any historical frozen byte."
+  },
+  "decision_T_test_scope": {
+    "recommended": "AUTHORIZE_ADDITIVE_STATIC_AND_EXPECTED_RED_TEST_PREPARATION_ONLY",
+    "execution": "DO_NOT_EXECUTE_EXPECTED_RED_TESTS",
+    "green_phase": "NOT_AUTHORIZED",
+    "production_change": "NOT_AUTHORIZED"
+  },
+  "independent_BM_gate": {
+    "decision": "KEEP_BM_R1_SELECTION_INDEPENDENT",
+    "candidate_path": "governance/modern_matrix_parameter_decision_candidate_I3_CVGR_v0.1.json",
+    "candidate_sha256": "96BB6B6ED0EDDA695B3DC93BF1D3FE621675914E450B34E9FF628344F54A6FE3",
+    "interpretation": "The control-identity decision is not imported into BM-R1, and BM-R1 is not selected by confirming this candidate. Either author decision may be made first; SA still requires both resulting amendment layers to be separately frozen and restored."
+  },
+  "authorization_effect_if_confirmed": [
+    "Record the author-selected typed relation between LABEL_PERM and RANDOM_LABEL.",
+    "Prepare only the additive versioned control-identity amendment, semantic fixtures and expected-red/static source allowed above.",
+    "Keep historical frozen bytes immutable and keep active consistency registries unchanged until a separate freeze and runtime-authority sequence.",
+    "Prepare a separate hash-bound freeze candidate for later author confirmation.",
+    "Keep expected-red execution, production/analysis implementation, package installation, optimizer/evaluator execution and formal FFE prohibited."
+  ],
+  "not_authorized_even_if_confirmed": [
+    "Editing, deleting, replacing or silently relabeling any historical frozen artifact or snapshot.",
+    "Treating the recommended option as objective evidence that either control is effective.",
+    "Freezing or activating the prepared control-identity amendment without a later exact hash confirmation.",
+    "Executing any expected-red or green test.",
+    "Changing production or analysis implementation.",
+    "Installing or downloading any package, benchmark or source.",
+    "Selecting, freezing or executing BM-R1 by inference.",
+    "Releasing SA, S6-E0, M, C1, F, C2, the modern matrix or any formal experiment.",
+    "Calling an optimizer, evaluator, objective, constraint or benchmark function or consuming formal FFE.",
+    "Forming performance, superiority, convergence, robustness, objective-novelty or paper-readiness conclusions.",
+    "Remote push, public release, preregistration submission, manuscript submission or publication."
+  ],
+  "requested_author_decisions": {
+    "I": "SELECT_RANDOM_LABEL_CANONICAL_SUCCESSOR_RECLASSIFY_LABEL_PERM",
+    "A": "AUTHORIZE_VERSIONED_CONTROL_IDENTITY_AMENDMENT_PREPARATION_ONLY",
+    "T": "AUTHORIZE_ADDITIVE_STATIC_AND_EXPECTED_RED_TEST_PREPARATION_ONLY",
+    "X": "DO_NOT_EXECUTE_EXPECTED_RED_TESTS",
+    "H": "PRESERVE_HISTORICAL_FROZEN_BYTES",
+    "B": "KEEP_BM_R1_SELECTION_INDEPENDENT",
+    "S": "HOLD_SA_AND_S6_E0_UNTIL_SEPARATE_FREEZE",
+    "D": "DO_NOT_AUTHORIZE_PACKAGE_INSTALLATION_OR_DOWNLOAD",
+    "C": "DO_NOT_AUTHORIZE_PRODUCTION_OR_ANALYSIS_IMPLEMENTATION",
+    "E": "DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION",
+    "F": "KEEP_FORMAL_FFE_ZERO",
+    "G": "AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE"
+  },
+  "scientific_state": {
+    "formal_optimizer_runs": 0,
+    "objective_or_constraint_evaluator_calls": 0,
+    "formal_run_packages": 0,
+    "formal_ffe": 0,
+    "performance_evidence": "NONE",
+    "objective_novelty": "UNKNOWN",
+    "paper_status": "METHOD_AND_CONDITIONAL_PLAN_ONLY"
+  },
+  "suggested_response": "我确认I3控制身份与语义裁决候选v0.1，SHA-256为<CANDIDATE_SHA256>；I=SELECT_RANDOM_LABEL_CANONICAL_SUCCESSOR_RECLASSIFY_LABEL_PERM；A=AUTHORIZE_VERSIONED_CONTROL_IDENTITY_AMENDMENT_PREPARATION_ONLY；T=AUTHORIZE_ADDITIVE_STATIC_AND_EXPECTED_RED_TEST_PREPARATION_ONLY；X=DO_NOT_EXECUTE_EXPECTED_RED_TESTS；H=PRESERVE_HISTORICAL_FROZEN_BYTES；B=KEEP_BM_R1_SELECTION_INDEPENDENT；S=HOLD_SA_AND_S6_E0_UNTIL_SEPARATE_FREEZE；D=DO_NOT_AUTHORIZE_PACKAGE_INSTALLATION_OR_DOWNLOAD；C=DO_NOT_AUTHORIZE_PRODUCTION_OR_ANALYSIS_IMPLEMENTATION；E=DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION；F=KEEP_FORMAL_FFE_ZERO；G=AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE"
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "alg1_replan.mechanism_integrity_amendment_freeze_candidate.v1",
+  "candidate_id": "I3-CVGR-MECHANISM-INTEGRITY-AMENDMENT-FREEZE-v0.1",
+  "status": "PROPOSED_NOT_FROZEN",
+  "generated_at": "2026-09-01T06:26:23.8592106+08:00",
+  "project": "ALG1-Replan",
+  "preparation_authority": {"path":"governance/consolidated_author_decision_authorization_I3_CVGR_v0.1.json","sha256":"F07C3AD10EEE640108898C9D6607EEE9791A4B539A9789F687982A38A2EC04CB","decision":"MI=ACCEPT_MECHANISM_INTEGRITY_PREPARATION"},
+  "accepted_contracts": ["MI-01_FULL_WEIGHT_MATRIX_JACCARD","MI-02_FIXED_TRUTH_UNIVERSE_NMI_MISSING_SINGLETON","MI-03_POST_EXCLUSION_RELIEF_QUANTILE","MI-04_ZERO_GAIN_REJECTED_SUCCESS_ONLY_MEMORY","MI-05_ATTEMPTED_FFE_AT_CALL_BOUNDARY","MI-06_NO_ACTIVE_TARGET_VIOLATION","MI-07_NONNEGATIVE_INTEGER_STABLE_IDS","MI-08_NONIDENTITY_REWIRE_OR_INCONCLUSIVE","MI-09_FINITE_IMMUTABLE_CACHE","MI-10_PORTABLE_DIGEST_RUN_ID"],
+  "artifacts": [
+    {"path":"governance/mechanism_integrity_amendment_decision_candidate_I3_CVGR_v0.1.json","sha256":"0F7872BB7375A7DCE0016A915328698BC719FEB5A660910D53C441576CE20457","bytes":9828},
+    {"path":"artifacts/stage5_amendment/mechanism_integrity_amendment_I3_CVGR_v0.1.md","sha256":"9A68F6C9BB1F2138AF6F439BBEF214F8F9869D1C0D4B431464D9EFF3DA6761EF","bytes":3438},
+    {"path":"artifacts/stage5_amendment/mechanism_integrity_fixtures_I3_CVGR_v0.1.json","sha256":"986F60780F0D3D3761416983CE8D2792BFE04BC1276527FB58F50510DCBA0B2D","bytes":1455},
+    {"path":"artifacts/stage5_amendment/proposed_red_tests/test_mechanism_integrity_expected_red_v0_1.py","sha256":"A2C88013E478DEF42FFEDE88E03F095BECF352C2D2AEBF26AE41B9D66FADB6FA","bytes":418},
+    {"path":"governance/freeze_acceptance_I3_CVGR_plan_consistency_amendment_v0.1.json","sha256":"3A413ACC393987DAD48F19C8DE2C196C0B3788EF9C9A98288A0B7C13F19AE290","bytes":4000}
+  ],
+  "artifact_count": 5,
+  "static_state": {"acknowledged_critical_gaps":5,"acknowledged_major_gaps":5,"expected_red_tests":"PREPARED_NOT_EXECUTED","production_files_edited":0,"optimizer_or_evaluator_calls":0,"formal_ffe":0},
+  "freeze_procedure_if_authorized": {"copy_rule":"Copy exactly the manifest-bound files plus candidate and verification receipt.","restore_rule":"Empty-directory exact path/hash/byte restore plus JSON and Python-AST parsing only.","activation_rule":"Freeze does not authorize test execution, repair or S6-E0."},
+  "requested_author_decisions": {"M":"FREEZE_MECHANISM_INTEGRITY_AMENDMENT_v0.1","R":"AUTHORIZE_EMPTY_DIRECTORY_RESTORE_AND_STATIC_VERIFICATION","T":"DO_NOT_EXECUTE_EXPECTED_RED_TESTS","C":"DO_NOT_AUTHORIZE_PRODUCTION_IMPLEMENTATION","E":"DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION","F":"KEEP_FORMAL_FFE_ZERO"},
+  "suggested_response": "我确认冻结I3机制完整性修订候选v0.1，SHA-256为<CANDIDATE_SHA256>；M=FREEZE_MECHANISM_INTEGRITY_AMENDMENT_v0.1；R=AUTHORIZE_EMPTY_DIRECTORY_RESTORE_AND_STATIC_VERIFICATION；T=DO_NOT_EXECUTE_EXPECTED_RED_TESTS；C=DO_NOT_AUTHORIZE_PRODUCTION_IMPLEMENTATION；E=DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION；F=KEEP_FORMAL_FFE_ZERO"
+}
+

@@ -1,0 +1,85 @@
+{
+  "schema": "alg1_replan.local_execution_environment_inventory.v1",
+  "inventory_id": "I3-CVGR-LOCAL-EXECUTION-ENVIRONMENT-INVENTORY-v0.1",
+  "status": "READ_ONLY_INVENTORY_COMPLETE_WITH_RESTRICTED_FIELDS",
+  "captured_at": "2026-09-01T05:43:39.2979404+08:00",
+  "project": "ALG1-Replan",
+  "mode": "NO_INSTALL_NO_DOWNLOAD_NO_OPTIMIZER_NO_EVALUATOR_ZERO_FORMAL_FFE",
+  "host": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "architecture": "AMD64",
+    "processor_name": "13th Gen Intel(R) Core(TM) i7-13700",
+    "logical_processors": 24,
+    "physical_cores": "UNAVAILABLE",
+    "total_physical_memory": "UNAVAILABLE",
+    "restriction_evidence": [
+      "Get-CimInstance Win32_Processor returned access denied",
+      "Get-CimInstance Win32_ComputerSystem returned access denied",
+      "systeminfo returned access denied"
+    ],
+    "interpretation": "Do not infer physical core count or usable memory from the CPU model name."
+  },
+  "storage": {
+    "drive": "F:",
+    "filesystem_capacity_gib": 1024.0,
+    "used_gib": 78.55,
+    "free_gib": 945.45,
+    "volume_metadata": "UNAVAILABLE",
+    "restriction_evidence": "Get-Volume returned access denied; capacity was read through the ordinary PowerShell drive provider.",
+    "project_quota": "NOT_DEFINED",
+    "run_package_size_evidence": "NONE"
+  },
+  "python": {
+    "executable": "C:/Python314/python.exe",
+    "version": "3.14.7",
+    "project_requires_python": ">=3.11",
+    "project_declared_dependencies": {
+      "numpy": ">=2.0"
+    },
+    "installed_packages": {
+      "numpy": "2.5.2",
+      "scipy": "1.18.0",
+      "pytest": "9.1.1",
+      "pip": "26.2.1"
+    },
+    "not_installed": [
+      "cma / pycma",
+      "coco-experiment",
+      "pandas",
+      "statsmodels",
+      "pygmo"
+    ],
+    "package_query_method": "importlib.metadata only; no package imported except NumPy for its configuration report and no network access occurred"
+  },
+  "numeric_backend": {
+    "numpy_blas": "scipy-openblas",
+    "openblas_version": "0.3.34.0.0",
+    "openblas_integer_mode": "USE64BITINT",
+    "openblas_dynamic_arch": true,
+    "openblas_no_affinity": true,
+    "openblas_max_threads": 24,
+    "simd_baseline": "X86_V2",
+    "simd_found": "X86_V3",
+    "thread_environment": {
+      "OMP_NUM_THREADS": "UNSET",
+      "MKL_NUM_THREADS": "UNSET",
+      "OPENBLAS_NUM_THREADS": "UNSET",
+      "NUMEXPR_NUM_THREADS": "UNSET"
+    },
+    "reproducibility_risk": "Parallel Python workers can oversubscribe the 24 logical processors because each NumPy process may create its own OpenBLAS threads. A future execution environment must explicitly set per-process numeric-library thread counts before any timing or formal run."
+  },
+  "reproducibility_environment": {
+    "PYTHONHASHSEED": "UNSET",
+    "project_reproducibility_checklist_state": "UNLOCKED",
+    "environment_lock_file": "MISSING",
+    "interpretation": "This host snapshot is inventory evidence only, not a frozen execution environment."
+  },
+  "execution_boundary": {
+    "optimizer_runs": 0,
+    "objective_or_constraint_evaluator_calls": 0,
+    "formal_run_packages": 0,
+    "formal_ffe": 0,
+    "dependencies_installed_or_downloaded": 0,
+    "performance_or_timing_measurements": 0
+  }
+}

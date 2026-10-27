@@ -1,0 +1,86 @@
+{
+  "schema": "alg1_replan.novelty_control_amendment_freeze_authorization.v1",
+  "authorization_id": "AUTH-I3-CVGR-NOVELTY-CONTROL-FREEZE-v0.1-20260901T190250+0800",
+  "actor": "user",
+  "authorized_at": "2026-09-01T19:02:50.9157423+08:00",
+  "project": "ALG1-Replan",
+  "bound_candidate": {
+    "path": "governance/freeze_candidate_I3_CVGR_novelty_control_amendment_v0.1.json",
+    "sha256": "E7D05F958C18B7BC84051ADA4F910988EF1A747117FEBA833DEF28D6D9BB69ED",
+    "bytes": 3023,
+    "user_repeated_sha256": true,
+    "hash_verified_before_action": true,
+    "artifact_hashes_verified": "7/7"
+  },
+  "ordered_prerequisites": [
+    {
+      "role": "M_H_FREEZE_RESTORE",
+      "path": "governance/freeze_acceptance_I3_CVGR_plan_consistency_amendment_v0.1.json",
+      "sha256": "3A413ACC393987DAD48F19C8DE2C196C0B3788EF9C9A98288A0B7C13F19AE290",
+      "bytes": 4000,
+      "included_in_candidate_payload": true
+    },
+    {
+      "role": "PA_FREEZE_RESTORE",
+      "path": "governance/freeze_acceptance_I3_CVGR_parent_conformance_amendment_v0.1.json",
+      "sha256": "E117680193FDB35962E62D346C23DC2388AD3F1A71B7369FD6D485F88E11EE6B",
+      "bytes": 3041,
+      "status": "FROZEN_RESTORED_STATIC_PASS",
+      "included_in_candidate_payload": false
+    },
+    {
+      "role": "MI_FREEZE_RESTORE",
+      "path": "governance/freeze_acceptance_I3_CVGR_mechanism_integrity_amendment_v0.1.json",
+      "sha256": "8B36F8386B20116E5A7AC632179DD323D3DDB72BFFF600EB51F66996ABBA45FA",
+      "bytes": 3378,
+      "status": "FROZEN_RESTORED_STATIC_PASS",
+      "included_in_candidate_payload": false
+    },
+    {
+      "role": "NS_FREEZE_RESTORE",
+      "path": "governance/freeze_acceptance_I3_CVGR_name_provenance_amendment_v0.1.json",
+      "sha256": "8DD7898E1536973E9CC48987124D2870389E3BC24426E71917665FC9144AA040",
+      "bytes": 3913,
+      "status": "FROZEN_RESTORED_STATIC_PASS",
+      "included_in_candidate_payload": false
+    }
+  ],
+  "decisions": {
+    "N": "FREEZE_NOVELTY_CONTROL_AMENDMENT_v0.1",
+    "R": "AUTHORIZE_EMPTY_DIRECTORY_RESTORE_AND_STATIC_VERIFICATION",
+    "T": "DO_NOT_EXECUTE_EXPECTED_RED_TESTS",
+    "C": "DO_NOT_AUTHORIZE_PRODUCTION_IMPLEMENTATION",
+    "E": "DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION",
+    "F": "KEEP_FORMAL_FFE_ZERO"
+  },
+  "authorized_actions": [
+    "Create one non-recursive immutable snapshot containing exactly the seven candidate-bound artifacts, the candidate and its verification receipt.",
+    "Create a sorted fixed-timestamp ZIP and SHA-256 manifest.",
+    "Restore into a newly created empty temporary directory and verify exact path set, bytes and SHA-256.",
+    "Parse the five JSON files and the prepared expected-red Python file by AST only.",
+    "Statically verify the four mandatory novelty controls, Ray-style no-graph boundary and NOVELTY_UNKNOWN claim boundary.",
+    "Create an acceptance record only if every authorized static check passes.",
+    "Create a local Git commit without a remote."
+  ],
+  "not_authorized": [
+    "Executing pytest or any expected-red test.",
+    "Implementing RAY_STYLE, DIV_MATCH, DEG_REWIRE, RANDOM_LABEL or any production/analysis behavior.",
+    "Changing production, analysis or existing test implementation.",
+    "Installing or downloading packages or source.",
+    "Calling an objective, constraint, benchmark, optimizer or evaluator.",
+    "Reading or analyzing formal result packages.",
+    "Executing S6-E0, M, C1, F, C2, Stage B or formal FFE.",
+    "Freezing BM, SA or operative runtime authority by inference.",
+    "Forming an objective novelty, performance, robustness or paper-readiness conclusion.",
+    "Remote push, public release or submission."
+  ],
+  "scientific_state_at_authorization": {
+    "claim_status": "CONDITIONAL_HYPOTHESIS_ONLY_NOVELTY_UNKNOWN",
+    "formal_optimizer_runs": 0,
+    "objective_or_constraint_evaluator_calls": 0,
+    "formal_run_packages": 0,
+    "formal_ffe": 0,
+    "performance_evidence": "NONE",
+    "objective_novelty": "UNKNOWN"
+  }
+}

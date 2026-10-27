@@ -1,0 +1,108 @@
+{
+  "schema": "alg1_replan.remaining_gate_dependency_closure_audit.v1",
+  "audit_id": "I3-CVGR-REMAINING-GATE-DEPENDENCY-CLOSURE-v0.1",
+  "status": "STATIC_CLOSURE_AUDIT_COMPLETE_WAITING_AUTHOR_CHOICES",
+  "generated_at": "2026-09-02T00:05:00+08:00",
+  "project": "ALG1-Replan",
+  "method": "I3-CVGR-SHADE",
+  "purpose": "Reconcile the live frozen amendment chain with the pending BM-R1 and control-identity choices, then determine whether the existing statistical-analysis and S6-E0 candidates remain safe to confirm. This is a read-only scientific/governance audit: it does not amend a frozen artifact, select an author option, execute a test, install a package, implement production or analysis code, read a formal result, call an optimizer/evaluator or consume formal FFE.",
+  "bound_state": {
+    "git_commit_before_audit": "5844ab55a31a0516c45f02883bbbbd7522c00efd",
+    "worktree_before_audit": "CLEAN",
+    "passport_state_hash": "sha256:efe4fb6fe16c28f67b277fc237efab25e43f305c5aa0d15d2131c27b45737665",
+    "passport_evidence_state": "PLANNED",
+    "frozen_restored_layers": [
+      {"gate":"MH","path":"governance/freeze_acceptance_I3_CVGR_plan_consistency_amendment_v0.1.json","sha256":"3A413ACC393987DAD48F19C8DE2C196C0B3788EF9C9A98288A0B7C13F19AE290","bytes":4000},
+      {"gate":"PA","path":"governance/freeze_acceptance_I3_CVGR_parent_conformance_amendment_v0.1.json","sha256":"E117680193FDB35962E62D346C23DC2388AD3F1A71B7369FD6D485F88E11EE6B","bytes":3041},
+      {"gate":"MI","path":"governance/freeze_acceptance_I3_CVGR_mechanism_integrity_amendment_v0.1.json","sha256":"8B36F8386B20116E5A7AC632179DD323D3DDB72BFFF600EB51F66996ABBA45FA","bytes":3378},
+      {"gate":"NS","path":"governance/freeze_acceptance_I3_CVGR_name_provenance_amendment_v0.1.json","sha256":"8DD7898E1536973E9CC48987124D2870389E3BC24426E71917665FC9144AA040","bytes":3913},
+      {"gate":"NV","path":"governance/freeze_acceptance_I3_CVGR_novelty_control_amendment_v0.1.json","sha256":"427327494D91BFB7A421EDE45FA7474A7A5AC9CCB2EA97017BF8104FFBE40C7D","bytes":4325}
+    ],
+    "pending_author_choices": [
+      {"gate":"BM-R1","path":"governance/modern_matrix_parameter_decision_candidate_I3_CVGR_v0.1.json","sha256":"96BB6B6ED0EDDA695B3DC93BF1D3FE621675914E450B34E9FF628344F54A6FE3","bytes":4375,"state":"PROPOSED_NOT_AUTHORIZED"},
+      {"gate":"CONTROL_IDENTITY","path":"governance/control_identity_semantics_decision_candidate_I3_CVGR_v0.1.json","sha256":"ACFC5953C4E30061D023F8F8F69BB0B5135B338F974350D3A05F07BA5A695FFB","bytes":10173,"state":"PROPOSED_NOT_AUTHORIZED"}
+    ],
+    "downstream_candidates": [
+      {"gate":"SA-v0.1","path":"governance/statistical_analysis_amendment_decision_candidate_I3_CVGR_v0.1.json","sha256":"4D932F063E072DAD63A0C648BA41C97E3CB78DAC15173224D3ED07F90479D32E","bytes":13599,"state":"PROPOSED_NOT_AUTHORIZED"},
+      {"gate":"S6-E0-v0.1","path":"governance/s6_e0_red_phase_authorization_candidate_I3_CVGR_v0.1.json","sha256":"B344AA5BE00A0E12C6596FF477AC5E29740F9392D15237C3CAC969572906F649","bytes":9989,"state":"PROPOSED_NOT_AUTHORIZED"}
+    ]
+  },
+  "findings": [
+    {
+      "id": "RGC-01",
+      "severity": "MAJOR",
+      "title": "Four SA-v0.1 statistical primitives remain reusable but are not yet operative",
+      "evidence": "The seed-first equal-run H1/H2 aggregation, conventional all-pairs A12 plus CRN-paired sensitivity, enumerated signed-rank zero-drop/midrank rule, and one-pair-complete infrastructure-missingness rule do not depend on the names of the final comparator or modern benchmark matrices.",
+      "resolution": "Carry U/V/Z/X forward verbatim as proposed defaults in a versioned SA-v0.2 decision candidate after the upstream matrices are frozen; do not treat this audit as author acceptance."
+    },
+    {
+      "id": "RGC-02",
+      "severity": "CRITICAL",
+      "title": "SA-v0.1 no longer binds the complete confirmatory comparison family",
+      "evidence": "The frozen NV amendment requires RAY_STYLE as a control and narrows the scientific claim to contribution beyond non-graph complementary constraint-signature mating and diversity-matched controls. SA-v0.1 still defines H3 as an intersection-union test over exactly three comparators: PARENT, DEG_REWIRE and DIV_MATCH; RAY_STYLE is absent.",
+      "consequence": "Confirming SA-v0.1 could permit a positive paper route without testing the newly frozen Ray-style falsifier, contradicting the frozen novelty-control claim boundary.",
+      "resolution": "SA-v0.2 must either include RAY_STYLE in the primary H3 intersection-union family, recommended for direct alignment with the narrowed claim, or define a separately author-selected hierarchical confirmatory Ray-control gate that cannot be bypassed by H3. A descriptive Ray result cannot support the narrowed positive claim."
+    },
+    {
+      "id": "RGC-03",
+      "severity": "CRITICAL",
+      "title": "H1 control identity and multiplicity cannot be finalized before the control-identity amendment is frozen",
+      "evidence": "The frozen historical H1 layer names LABEL_PERM, while the frozen NV roster names RANDOM_LABEL. The recommended pending control decision makes RANDOM_LABEL the future canonical successor and preserves two H1 comparisons; coexistence would create a different variant and potentially a different family.",
+      "resolution": "Do not prepare or freeze an operative SA amendment until the author selects the control relation and its separate versioned amendment is frozen and restored. Then bind exact H1 control IDs, family members and result-schema values."
+    },
+    {
+      "id": "RGC-04",
+      "severity": "CRITICAL",
+      "title": "The modern benchmark requires a separate prespecified analysis family",
+      "evidence": "BM-R1 proposes COCO bbob-constrained with different functions, dimensions, instances, five stochastic seeds, algorithm strata and one deterministic COBYLA run. The internal SA-v0.1 contract is based on 30 same-seed runs and fixed internal problem families.",
+      "consequence": "Pooling modern and internal tasks or applying the internal n=30 paired rules to BM-R1 would change the estimand, inferential unit and multiplicity family.",
+      "resolution": "After BM-R1 is selected and frozen, SA-v0.2 must keep internal M/C1/F and modern BM-R1 as separate families, define instance/seed aggregation, m>=3 and m=1 strata, stochastic versus deterministic comparisons, multiplicity and an explicitly non-rescuing transfer-claim rule."
+    },
+    {
+      "id": "RGC-05",
+      "severity": "MAJOR",
+      "title": "SA-v0.1 contains stale governance language",
+      "evidence": "Its Q field says five earlier gates remain pending, while MH, PA, MI, NS and NV are now frozen and independently restored. Its not-authorized list likewise describes several resolved preparation/freeze gates as pending.",
+      "resolution": "Do not ask the author to confirm SA-v0.1. Prepare a new hash-bound SA-v0.2 candidate only after BM and control identity are frozen/restored; preserve SA-v0.1 bytes as historical proposed evidence."
+    },
+    {
+      "id": "RGC-06",
+      "severity": "CRITICAL",
+      "title": "The existing S6-E0-v0.1 candidate is stale and cannot be released",
+      "evidence": "S6-E0-v0.1 predates the independently frozen MH/PA/MI/NS/NV layers and does not bind the future BM, control-identity or SA amendments, final result schema, revised comparison families or operative runtime authority.",
+      "resolution": "Preserve S6-E0-v0.1 as historical proposed evidence. After BM, control identity and SA are separately frozen/restored and runtime authority is activated last, prepare a new additive S6-E0 candidate bound to the complete live dependency closure."
+    }
+  ],
+  "safe_dependency_sequence": [
+    {"order":1,"action":"AUTHOR_SELECT_BM_R1_AND_CONTROL_IDENTITY_INDEPENDENTLY","effect":"Each exact hash-bound choice authorizes only its own preparation scope."},
+    {"order":2,"action":"PREPARE_SEPARATE_BM_AND_CONTROL_IDENTITY_FREEZE_CANDIDATES","effect":"No package installation, test execution, implementation or evaluator access."},
+    {"order":3,"action":"SEPARATELY_FREEZE_AND_EMPTY_RESTORE_BM_AND_CONTROL_IDENTITY","effect":"Final internal and modern matrices plus canonical control IDs become immutable inputs."},
+    {"order":4,"action":"PREPARE_SA_v0.2_DECISION_CANDIDATE","effect":"Carry U/V/Z/X forward; replace the stale multiplicity/family and governance bindings; obtain a separate author choice."},
+    {"order":5,"action":"PREPARE_FREEZE_AND_EMPTY_RESTORE_SA_v0.2","effect":"Only after its author decision; analysis implementation and result access remain prohibited."},
+    {"order":6,"action":"FINALIZE_OPERATIVE_RUNTIME_AUTHORITY","effect":"Bind all effective amendments last under a separate authorization."},
+    {"order":7,"action":"PREPARE_NEW_S6_E0_CANDIDATE","effect":"Expected-red preparation/collection remains a separate gate; production, evaluator and formal execution remain prohibited."}
+  ],
+  "verdict": {
+    "code": "WAIT_FOR_TWO_AUTHOR_CHOICES_THEN_FREEZE_UPSTREAM_BEFORE_SA_v0.2",
+    "SA_v0.1": "HISTORICAL_PROPOSED_CANDIDATE_DO_NOT_CONFIRM_OR_FREEZE",
+    "S6_E0_v0.1": "HISTORICAL_PROPOSED_CANDIDATE_DO_NOT_RELEASE",
+    "next_safe_action": "REQUEST_INDEPENDENT_HASH_BOUND_BM_R1_AND_CONTROL_IDENTITY_AUTHOR_CHOICES",
+    "production_or_analysis_implementation": "NOT_AUTHORIZED",
+    "expected_red_execution": "NOT_AUTHORIZED",
+    "optimizer_or_evaluator_execution": "NOT_AUTHORIZED",
+    "formal_result_access": "NOT_AUTHORIZED",
+    "formal_ffe": 0,
+    "paper_readiness": "METHOD_AND_CONDITIONAL_PLAN_ONLY"
+  },
+  "actions_not_taken": [
+    "No historical frozen byte was changed.",
+    "No author option was selected by inference.",
+    "No SA-v0.2 or S6-E0 successor candidate was prepared before its dependencies.",
+    "No expected-red or green test was executed.",
+    "No package was installed or downloaded.",
+    "No production or analysis implementation was changed.",
+    "No formal result was read or analyzed.",
+    "No optimizer, evaluator, benchmark, objective or constraint was called.",
+    "No formal run package or formal FFE was created."
+  ]
+}

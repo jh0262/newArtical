@@ -1,0 +1,182 @@
+{
+  "schema": "alg1_replan.statistical_analysis_amendment_decision_candidate.v1",
+  "candidate_id": "I3-CVGR-STATISTICAL-ANALYSIS-AMENDMENT-DECISION-v0.1",
+  "status": "PROPOSED_NOT_AUTHORIZED",
+  "generated_at": "2026-08-31T23:20:56.3227959+08:00",
+  "project": "ALG1-Replan",
+  "method": "I3-CVGR-SHADE",
+  "purpose": "Select the pre-data run-to-seed-to-problem estimators, CRN-aware H3 effect definition, exact zero/tie inference, global multiplicity family and infrastructure-missingness policy, then authorize preparation of an additive statistical-analysis amendment and expected-red/static analysis-contract tests only. This candidate does not freeze or activate an amendment, implement analysis code, inspect results, execute an optimizer/evaluator or consume formal FFE.",
+  "bound_audit": {
+    "json_path": "governance/statistical_analysis_contract_gap_audit_I3_CVGR_v0.1.json",
+    "json_sha256": "290957B89E8A6718A8B463F14EBFF07C892B1944E06BCFB96F3962A9D9620C06",
+    "json_bytes": 18031,
+    "md_path": "governance/statistical_analysis_contract_gap_audit_I3_CVGR_v0.1.md",
+    "md_sha256": "FEA940752F622BAF48E774E3D756438BC7C4F8D497C65E32BB5A684C0D041D18",
+    "md_bytes": 4793,
+    "verdict": "STRUCTURALLY_PREREGISTERED_BUT_NOT_STATISTICALLY_EXECUTION_READY_VERSIONED_AMENDMENT_REQUIRED",
+    "findings": "5 critical + 6 major"
+  },
+  "decision_A_gap_acknowledgement": {
+    "recommended": "ACKNOWLEDGE_5_CRITICAL_6_MAJOR_ANALYSIS_GAPS",
+    "meaning": "Acknowledge that the frozen structural plan does not yet define one analysis for all immutable run packages. This acknowledgement is not a performance or quality conclusion."
+  },
+  "decision_U_H1_H2_seed_aggregation": {
+    "recommended": "SELECT_SEED_FIRST_EQUAL_RUN_AGGREGATION",
+    "definition": [
+      "H1: for each problem-algorithm-seed run, take the median of NMI at the four fixed checkpoints, with inactive/fallback checkpoint=0; the problem-algorithm endpoint is the median across the 30 run values.",
+      "H1 control effect: compute the same-seed run-level CVGR-minus-control contrast first, then take the problem-level median across available prespecified pairs.",
+      "H2: for each run, direction success proportion equals successes divided by all activated directed-difference events; zero activation gives run proportion=0; the problem-algorithm endpoint is the median of 30 equally weighted run proportions.",
+      "H2 control effect: compute same-seed run-level proportion contrasts first, then take the problem-level median.",
+      "Event-pooled H2 and alternative aggregation orders are secondary exploratory sensitivity analyses only and cannot rescue a failed primary branch."
+    ],
+    "alternative": "SELECT_AUTHOR_SPECIFIED_TWO_STAGE_ESTIMATOR_WITH_EXPLICIT_WEIGHTS",
+    "constraint": "Any alternative must uniquely define run, seed, problem and contrast aggregation before formal result access."
+  },
+  "decision_V_H3_CRN_effect": {
+    "recommended": "SELECT_CONVENTIONAL_ALL_PAIRS_A12_PLUS_CRN_PAIRED_SENSITIVITY",
+    "definition": [
+      "Primary problem-level A12 uses every retained CVGR-comparator outcome pair with feasible-first ordering and tie weight 0.5; direction is probability that CVGR is better.",
+      "The comparison kernel, constraint tolerance and algorithm-failure worst outcome are frozen before data.",
+      "Because the same 30 seeds are used across algorithms, report a prespecified aligned-seed superiority proportion and paired seed-difference summary as secondary CRN sensitivity.",
+      "Use a CRN-aware seed bootstrap or another separately specified method for within-problem uncertainty; do not use seed-level p values as primary inference."
+    ],
+    "alternatives": [
+      {
+        "code": "SELECT_PAIRED_SEED_SUPERIORITY_AND_RENAME_ENDPOINT",
+        "consequence": "Replace A12 with the 30-pair common-random-number superiority probability and re-justify the 0.56 threshold in a versioned amendment."
+      },
+      {
+        "code": "SELECT_OFF_DIAGONAL_A12",
+        "consequence": "Use only nonmatching-seed cross pairs, name the estimator explicitly and predeclare its uncertainty method."
+      }
+    ]
+  },
+  "decision_Z_exact_rank_test": {
+    "recommended": "SELECT_ENUMERATED_SIGNED_RANK_ZERO_DROP_MIDRANK",
+    "definition": [
+      "Remove exact zero problem-level differences from the signed-rank statistic but report their count.",
+      "Assign deterministic midranks to tied absolute nonzero differences.",
+      "Enumerate all sign assignments over the nonzero ranked differences to calculate the predeclared one-sided tail probability.",
+      "If every difference is zero, set p=1 and route to failure or inconclusive according to the frozen effect boundary.",
+      "Freeze artificial vectors that cover positive, negative, zero, tied and all-zero cases with hand-computable expected statistics and p values."
+    ],
+    "alternative": "SELECT_EXACT_SIGN_TEST_WITH_EFFECT_THRESHOLDS",
+    "constraint": "Do not delegate the statistical definition to an unfrozen library auto mode."
+  },
+  "decision_M_global_multiplicity": {
+    "recommended": "SELECT_GLOBAL_H1_H3_HOLM_OVER_INTERSECTION_UNION_TESTS",
+    "definition": [
+      "Form one global H1 p value as the maximum of its two required comparator p values, conditional on both practical-effect thresholds being met.",
+      "Form one global H2 p value analogously from its two required comparator p values.",
+      "Form one global H3 p value as the maximum of its three required comparator p values, conditional on all three A12 thresholds being met.",
+      "Apply Holm correction across the three global H1, H2 and H3 hypotheses before selecting any supported mechanism route; H4 is a deterministic integrity gate outside this family.",
+      "A positive paper route requires adjusted H3 success plus at least one adjusted mechanism success and no mechanism failure; non-failure alone is not positive mechanism support."
+    ],
+    "alternatives": [
+      {
+        "code": "SELECT_REQUIRE_BOTH_H1_H2_THEN_FIXED_SEQUENCE_H3",
+        "consequence": "Require both mechanism hypotheses before testing H3 under a fixed-sequence gate; narrower and more conservative mechanism claim."
+      },
+      {
+        "code": "SELECT_DESCRIPTIVE_FIXED_BENCHMARK_WITHOUT_CONFIRMATORY_P_VALUES",
+        "consequence": "Retain all effect thresholds and all-problem reporting but downgrade formal statistical-confirmation language."
+      }
+    ]
+  },
+  "decision_X_infrastructure_missingness": {
+    "recommended": "SELECT_ONE_PAIR_COMPLETE_FAILURE_MAX_ELSE_HYPOTHESIS_INCONCLUSIVE",
+    "definition": [
+      "After the one authorized same-seed recovery attempt, zero or one unresolved infrastructure failure per 30-run problem-algorithm cell is allowed for computation; two or more unresolved failures, i.e. at least 6.67 percent, make every affected confirmatory hypothesis inconclusive.",
+      "For one unresolved failure, remove the matched seed partner from that comparator-specific endpoint and use exactly 29 complete pairs; never replace it with a new seed and never overwrite the original or retry package.",
+      "If the failed cell is CVGR, the same seed is absent from all CVGR-versus-control comparisons for that problem.",
+      "Any algorithm-attributable failure is not missing: it receives frozen fail-closed H1/H2 values and the worst H3 outcome.",
+      "Every primary table reports attempted, completed, retried, algorithm-failed and infrastructure-missing counts."
+    ],
+    "alternative": "SELECT_ZERO_UNRESOLVED_PRIMARY_FAILURE_TOLERANCE",
+    "constraint": "Any alternative must state an exact integer threshold and paired analysis action before formal execution."
+  },
+  "decision_P_amendment_scope": {
+    "recommended": "AUTHORIZE_VERSIONED_STATISTICAL_ANALYSIS_AMENDMENT_PREPARATION_ONLY",
+    "required_content": [
+      "the selected U/V/Z/M/X semantics",
+      "finite-benchmark scope and exchangeability/symmetry limitation",
+      "CRN-aware uncertainty and n=30 Monte Carlo precision sensitivity",
+      "fail-closed H1/H2 records for every algorithm failure code",
+      "H4 requirement of 480 individual run packages forming 240 complete pair keys",
+      "project-decision-threshold labeling and non-rescuing secondary threshold sensitivity",
+      "fully operational wall-clock guardrail"
+    ],
+    "boundary": "Preparation creates a proposed additive precedence layer only. The historical frozen plan and pending M/H amendment remain byte-immutable and independently governed."
+  },
+  "decision_T_test_scope": {
+    "recommended": "AUTHORIZE_ADDITIVE_STATIC_ANALYSIS_SPEC_AND_EXPECTED_RED_TEST_PREPARATION_ONLY",
+    "required_red_coverage": [
+      "noncommuting seed/checkpoint and event-pooling examples for H1/H2",
+      "all-pairs, aligned-pair and off-diagonal A12 examples with frozen tie direction",
+      "signed-rank positive, negative, zero, tied and all-zero enumeration vectors",
+      "intersection-union global p values and Holm decisions for H1/H2/H3",
+      "0, 1 and 2 unresolved infrastructure failures in 30-run cells with pair-key accounting",
+      "algorithm-failure H1/H2 fail-closed records",
+      "480 package and 240 pair H4 cardinality",
+      "wall-clock ratio/aggregation edge cases"
+    ],
+    "phase_boundary": "Only specification, fixtures and expected-red/static checks become allowed after exact author confirmation. Green analysis implementation and any formal result consumption require a later hash-bound authorization."
+  },
+  "mandatory_holds": {
+    "C": "DO_NOT_AUTHORIZE_ANALYSIS_OR_PRODUCTION_IMPLEMENTATION",
+    "E": "DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION",
+    "F": "KEEP_FORMAL_FFE_ZERO",
+    "I": "DO_NOT_AUTHORIZE_PACKAGE_INSTALLATION_OR_DOWNLOAD",
+    "R": "DO_NOT_READ_OR_ANALYZE_FORMAL_RESULTS",
+    "Q": "KEEP_EXISTING_FIVE_PENDING_DECISIONS_INDEPENDENT"
+  },
+  "local_git": {
+    "G": "AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE",
+    "remote_actions": "FORBIDDEN"
+  },
+  "scientific_state": {
+    "formal_optimizer_runs": 0,
+    "objective_or_constraint_evaluator_calls": 0,
+    "formal_run_packages": 0,
+    "formal_ffe": 0,
+    "performance_evidence": "NONE",
+    "objective_novelty": "UNKNOWN",
+    "paper_status": "METHOD_AND_CONDITIONAL_PLAN_ONLY"
+  },
+  "authorization_effect_if_confirmed": [
+    "Record the selected U/V/Z/M/X statistical semantics as author decisions.",
+    "Prepare a versioned additive statistical-analysis amendment without freezing or activating it.",
+    "Prepare a machine-readable analysis specification, hand-computable fixtures and additive expected-red/static tests.",
+    "Prepare a separate hash-bound amendment freeze candidate for later author confirmation.",
+    "Keep S6-E0 and every optimizer/evaluator/result-bearing action on HOLD."
+  ],
+  "not_authorized_even_if_confirmed": [
+    "Editing historical frozen plan artifacts, snapshots, source, tests or acceptance records.",
+    "Freezing or activating this or any other pending amendment by inference.",
+    "Implementing or making green an analysis engine, optimizer, benchmark adapter or evaluator.",
+    "Installing or downloading statistical, benchmark or algorithm dependencies.",
+    "Reading, generating or analyzing formal result packages.",
+    "Executing S6-E0, M, C1, F, C2, Stage B, full TCAC or any formal FFE.",
+    "Resolving the pending M/H, parent identity, modern benchmark, novelty control or mechanism integrity candidates by inference.",
+    "Forming effectiveness, superiority, novelty, convergence, robustness or paper-readiness conclusions.",
+    "Public release, remote push, preregistration submission, manuscript submission or publication."
+  ],
+  "requested_author_decisions": {
+    "A": "ACKNOWLEDGE_5_CRITICAL_6_MAJOR_ANALYSIS_GAPS",
+    "U": "SELECT_SEED_FIRST_EQUAL_RUN_AGGREGATION",
+    "V": "SELECT_CONVENTIONAL_ALL_PAIRS_A12_PLUS_CRN_PAIRED_SENSITIVITY",
+    "Z": "SELECT_ENUMERATED_SIGNED_RANK_ZERO_DROP_MIDRANK",
+    "M": "SELECT_GLOBAL_H1_H3_HOLM_OVER_INTERSECTION_UNION_TESTS",
+    "X": "SELECT_ONE_PAIR_COMPLETE_FAILURE_MAX_ELSE_HYPOTHESIS_INCONCLUSIVE",
+    "P": "AUTHORIZE_VERSIONED_STATISTICAL_ANALYSIS_AMENDMENT_PREPARATION_ONLY",
+    "T": "AUTHORIZE_ADDITIVE_STATIC_ANALYSIS_SPEC_AND_EXPECTED_RED_TEST_PREPARATION_ONLY",
+    "C": "DO_NOT_AUTHORIZE_ANALYSIS_OR_PRODUCTION_IMPLEMENTATION",
+    "I": "DO_NOT_AUTHORIZE_PACKAGE_INSTALLATION_OR_DOWNLOAD",
+    "R": "DO_NOT_READ_OR_ANALYZE_FORMAL_RESULTS",
+    "E": "DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION",
+    "F": "KEEP_FORMAL_FFE_ZERO",
+    "G": "AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE",
+    "Q": "KEEP_EXISTING_FIVE_PENDING_DECISIONS_INDEPENDENT"
+  },
+  "suggested_response": "我确认I3统计分析修订裁决候选v0.1，SHA-256为<CANDIDATE_SHA256>；A=ACKNOWLEDGE_5_CRITICAL_6_MAJOR_ANALYSIS_GAPS；U=SELECT_SEED_FIRST_EQUAL_RUN_AGGREGATION；V=SELECT_CONVENTIONAL_ALL_PAIRS_A12_PLUS_CRN_PAIRED_SENSITIVITY；Z=SELECT_ENUMERATED_SIGNED_RANK_ZERO_DROP_MIDRANK；M=SELECT_GLOBAL_H1_H3_HOLM_OVER_INTERSECTION_UNION_TESTS；X=SELECT_ONE_PAIR_COMPLETE_FAILURE_MAX_ELSE_HYPOTHESIS_INCONCLUSIVE；P=AUTHORIZE_VERSIONED_STATISTICAL_ANALYSIS_AMENDMENT_PREPARATION_ONLY；T=AUTHORIZE_ADDITIVE_STATIC_ANALYSIS_SPEC_AND_EXPECTED_RED_TEST_PREPARATION_ONLY；C=DO_NOT_AUTHORIZE_ANALYSIS_OR_PRODUCTION_IMPLEMENTATION；I=DO_NOT_AUTHORIZE_PACKAGE_INSTALLATION_OR_DOWNLOAD；R=DO_NOT_READ_OR_ANALYZE_FORMAL_RESULTS；E=DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION；F=KEEP_FORMAL_FFE_ZERO；G=AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE；Q=KEEP_EXISTING_FIVE_PENDING_DECISIONS_INDEPENDENT"
+}

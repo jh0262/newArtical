@@ -1,0 +1,110 @@
+{
+  "schema": "alg1_replan.method_name_provenance_decision_candidate.v1",
+  "candidate_id": "I3-CVGR-METHOD-NAME-PROVENANCE-DECISION-v0.1",
+  "status": "PROPOSED_NOT_AUTHORIZED",
+  "generated_at": "2026-08-31T23:37:29.9620374+08:00",
+  "project": "ALG1-Replan",
+  "method_abbreviation": "CVGR-SHADE",
+  "purpose": "Isolate the still-unresolved canonical method full name and post-freeze machine-provenance binding from the earlier consolidated consistency candidate. This candidate does not reopen the author's M=2,000D or fixed-checkpoint H1 choices, freeze any amendment, change active terminology, edit historical snapshots, implement code or execute an optimizer/evaluator.",
+  "bound_evidence": {
+    "full_contract_audit": {
+      "path": "governance/frozen_plan_full_contract_audit_I3_CVGR_v0.2.json",
+      "sha256": "80BA3F3592D10E82F93E1C1DAAA379B24BAC326FCEEC0D61F42078F1F207C29D",
+      "verdict": "FAIL_HOLD_PENDING_AUTHOR_RESOLUTION"
+    },
+    "earlier_consolidated_candidate": {
+      "path": "governance/frozen_plan_consistency_decision_candidate_I3_CVGR_v0.2.json",
+      "sha256": "0659DAF6D3918C400D5764F59D16A5FA87EE71C11EE9FBD9F8DB330F2D0662D6",
+      "treatment": "Only the N and S evidence/options are carried forward. Its B/H questions were later answered through the exact-hash v0.1 route and are not reopened here."
+    },
+    "later_B_H_authorization": {
+      "path": "governance/frozen_plan_consistency_decision_authorization_I3_CVGR_v0.1.json",
+      "sha256": "9C0A23A95E7CC2A28127DE05458CEFD81ABA4EEE2F5C7FDAD73DB37A3656CC2C",
+      "author_choices": {
+        "B": "SELECT_M_2000D",
+        "H": "SELECT_H1_FIXED_CHECKPOINT_MEDIAN"
+      },
+      "effect": "Preserved as prior author choices; their prepared freeze candidate remains separately pending."
+    }
+  },
+  "decision_N_canonical_full_name": {
+    "recommended": "SELECT_NAME_CO_VIOLATION_GRAPH_RECOMBINATION",
+    "meaning": "Use Co-Violation Graph Recombination SHADE as the canonical English expansion and retain CVGR-SHADE as the abbreviation.",
+    "evidence": "This name matches the selected idea genealogy, author decision packet, novelty screening, method specification and human terminology table. The alternative Constraint-Violation Graph Representation appears only in two machine consistency locks and would require broader versioned changes.",
+    "alternative": {
+      "code": "SELECT_NAME_CONSTRAINT_VIOLATION_GRAPH_REPRESENTATION",
+      "consequence": "Requires versioned amendments to the selected idea identity, method specification, novelty materials and future manuscript first use rather than only the two machine locks."
+    }
+  },
+  "decision_S_runtime_authority": {
+    "recommended": "AUTHORIZE_ADDITIVE_POST_FREEZE_PROVENANCE_BINDING",
+    "meaning": "Prepare a versioned runtime-authority manifest that points to the accepted plan, subsequent TDD/implementation acceptances and current active consistency files without editing the historical frozen plan artifacts.",
+    "required_bindings": [
+      "original frozen plan candidate, acceptance, immutable snapshot and archive hashes",
+      "pending M/H precedence amendment state without treating it as frozen",
+      "selected canonical method full name",
+      "additive TDD and S6-I1-I4 implementation acceptances",
+      "active versioned terminology/method/glossary files and their hashes",
+      "explicit zero execution authority and zero formal FFE"
+    ]
+  },
+  "decision_A_preparation_scope": {
+    "recommended": "AUTHORIZE_VERSIONED_NAME_AND_PROVENANCE_AMENDMENT_PREPARATION_ONLY",
+    "allowed": [
+      "prepare an additive terminology amendment and versioned consistency locks",
+      "prepare a runtime-authority manifest, deviation entry, hash manifest and static verification receipt",
+      "prepare a separate freeze candidate for later author confirmation"
+    ],
+    "not_allowed": "No automatic freeze, activation, production/test change, optimizer/evaluator execution, formal result access, public release or submission."
+  },
+  "mandatory_holds": {
+    "R": "HOLD_S6_E0_UNTIL_ALL_REQUIRED_AMENDMENTS_ARE_SEPARATELY_FROZEN_AND_RESTORED",
+    "C": "DO_NOT_AUTHORIZE_PRODUCTION_OR_ANALYSIS_IMPLEMENTATION",
+    "I": "DO_NOT_AUTHORIZE_PACKAGE_INSTALLATION_OR_DOWNLOAD",
+    "E": "DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION",
+    "F": "KEEP_FORMAL_FFE_ZERO"
+  },
+  "local_git": {
+    "G": "AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE",
+    "remote_actions": "FORBIDDEN"
+  },
+  "scientific_state": {
+    "formal_optimizer_runs": 0,
+    "objective_or_constraint_evaluator_calls": 0,
+    "formal_run_packages": 0,
+    "formal_ffe": 0,
+    "performance_evidence": "NONE",
+    "objective_novelty": "UNKNOWN",
+    "paper_status": "METHOD_AND_CONDITIONAL_PLAN_ONLY"
+  },
+  "authorization_effect_if_confirmed": [
+    "Record N and S as explicit author decisions without inferring any other gate.",
+    "Prepare the additive name/provenance amendment and static bindings only.",
+    "Create a separate hash-bound freeze candidate for later author confirmation.",
+    "Keep every executable or result-bearing activity on HOLD."
+  ],
+  "not_authorized_even_if_confirmed": [
+    "Reopening or changing the author's B/H selections.",
+    "Freezing the pending M/H amendment or this amendment by inference.",
+    "Changing historical frozen plan, snapshot, source, test or acceptance bytes.",
+    "Changing production or analysis implementation.",
+    "Installing or downloading dependencies.",
+    "Running S6-E0, optimizer, evaluator, benchmark, M/C1/F/C2, Stage B or formal FFE.",
+    "Forming novelty, performance, robustness or paper-readiness conclusions.",
+    "Public release, remote push, preregistration submission, manuscript submission or publication."
+  ],
+  "requested_author_decisions": {
+    "N": "SELECT_NAME_CO_VIOLATION_GRAPH_RECOMBINATION",
+    "S": "AUTHORIZE_ADDITIVE_POST_FREEZE_PROVENANCE_BINDING",
+    "A": "AUTHORIZE_VERSIONED_NAME_AND_PROVENANCE_AMENDMENT_PREPARATION_ONLY",
+    "R": "HOLD_S6_E0_UNTIL_ALL_REQUIRED_AMENDMENTS_ARE_SEPARATELY_FROZEN_AND_RESTORED",
+    "C": "DO_NOT_AUTHORIZE_PRODUCTION_OR_ANALYSIS_IMPLEMENTATION",
+    "I": "DO_NOT_AUTHORIZE_PACKAGE_INSTALLATION_OR_DOWNLOAD",
+    "E": "DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION",
+    "F": "KEEP_FORMAL_FFE_ZERO",
+    "G": "AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE",
+    "B": "PRESERVE_PRIOR_SELECT_M_2000D",
+    "H": "PRESERVE_PRIOR_SELECT_H1_FIXED_CHECKPOINT_MEDIAN"
+  },
+  "suggested_response": "我确认I3方法名称与运行时权威裁决候选v0.1，SHA-256为<CANDIDATE_SHA256>；N=SELECT_NAME_CO_VIOLATION_GRAPH_RECOMBINATION；S=AUTHORIZE_ADDITIVE_POST_FREEZE_PROVENANCE_BINDING；A=AUTHORIZE_VERSIONED_NAME_AND_PROVENANCE_AMENDMENT_PREPARATION_ONLY；R=HOLD_S6_E0_UNTIL_ALL_REQUIRED_AMENDMENTS_ARE_SEPARATELY_FROZEN_AND_RESTORED；C=DO_NOT_AUTHORIZE_PRODUCTION_OR_ANALYSIS_IMPLEMENTATION；I=DO_NOT_AUTHORIZE_PACKAGE_INSTALLATION_OR_DOWNLOAD；E=DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION；F=KEEP_FORMAL_FFE_ZERO；G=AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE；B=PRESERVE_PRIOR_SELECT_M_2000D；H=PRESERVE_PRIOR_SELECT_H1_FIXED_CHECKPOINT_MEDIAN"
+}

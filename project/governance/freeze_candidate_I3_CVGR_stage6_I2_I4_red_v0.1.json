@@ -1,0 +1,79 @@
+{
+  "schema": "alg1_replan.stage6_red_freeze_candidate.v1",
+  "project": "ALG1-Replan",
+  "candidate": "I3-CVGR-SHADE",
+  "created_at": "2026-08-31T07:26:12.6762532+08:00",
+  "status": "PROPOSED_NOT_FROZEN",
+  "purpose": "Freeze the specifications, deterministic fixtures and expected-red tests for S6-I2 parent SHADE, S6-I3 online CVGR state and S6-I4 dry-run infrastructure before any of those production APIs are implemented.",
+  "authorization": {
+    "id": "AUTH-I3-STAGE6-PHASED-IMPLEMENTATION-20260831T071006+0800",
+    "candidate_path": "governance/implementation_authorization_candidate_I3_CVGR_v0.2.json",
+    "candidate_sha256": "40495201F5846B83D7871BB5FBFBB665B51A48398E51153D1706920FE0234A8F",
+    "scope": "R234_SPEC_AND_RED_ONLY_T234_RED_PHASE_ONLY"
+  },
+  "bound_predecessors": {
+    "frozen_tdd_candidate_sha256": "345AFBA8F403A6240977DE2B2EB8B11E09FDF7B29C4C5B54CFA4A19B9CFF5988",
+    "frozen_snapshot_archive_sha256": "CBFBC21E2CD664B870D81C826858853372A2918BFD8137FB4EBE941EF986C98F",
+    "method_spec_sha256": "5D7ED359841510E3FE5EAEDEB18F68D18430D75534FC891BE46CCEAF89702870",
+    "preregistration_sha256": "A5F36D52D6C5D0B8ED9159FEFF107BBB55C86B454F93F5639E2EDCF53BFC4789",
+    "experiment_matrix_sha256": "AB6042BF4D463BCC3CFCBEB71E2ADE426CBF85EBA7530B0ACADA26B0CE64ECB8",
+    "failure_tree_sha256": "23836B37856C4FAF6D1448F78D8F22851C7F6674DA5E2A9CEEA0B21111969C66",
+    "s6_i1_source_commit": "668adee769d1784df731ac33202564cdf3d8e51a",
+    "s6_i1_evidence_commit": "73b1a96e7bead18502b3b572ccdf681f05cc965e"
+  },
+  "files": [
+    {"role": "S6-I2-specification", "path": "artifacts/stage6_preimplementation/parent_shade_contract_I3_CVGR_v0.1.md", "sha256": "86073DBD0B3FBC026C29FDC2E77B3D3232BBF596F536133262FCE5D86AB2493C", "bytes": 4355},
+    {"role": "S6-I3-specification", "path": "artifacts/stage6_preimplementation/online_cvgr_state_contract_I3_CVGR_v0.1.md", "sha256": "D25EEED45BBBD8ACA3DC1A95E8E3608EC8E1439ED7EE2509C79CCFF4F03802AE", "bytes": 4117},
+    {"role": "S6-I4-specification", "path": "artifacts/stage6_preimplementation/dry_run_experiment_contract_I3_CVGR_v0.1.md", "sha256": "F4586633575B4637918C8E2F6523044BED7C8FA56614297196EA037B6FBC32EC", "bytes": 3091},
+    {"role": "S6-I2-fixture", "path": "artifacts/stage6_preimplementation/parent_shade_fixtures_I3_CVGR_v0.1.json", "sha256": "11695C3037990796E41C542640E186C3EA83E206690DDBD20726E5C2D41F3019", "bytes": 3438},
+    {"role": "S6-I3-fixture", "path": "artifacts/stage6_preimplementation/online_state_fixtures_I3_CVGR_v0.1.json", "sha256": "65F374339E0E2F5DA0806278A1C6603F94204AC29BF7F33719F0D2F03B2DD84C", "bytes": 2921},
+    {"role": "S6-I4-fixture", "path": "artifacts/stage6_preimplementation/dry_run_artifact_fixtures_I3_CVGR_v0.1.json", "sha256": "57A759207EA6A660BA0B0DE6141300BFF48E95AA58FB9C5804D01DC3F270F643", "bytes": 2219},
+    {"role": "S6-I2-red-test", "path": "tests/test_violation_selection_contract_v0_1.py", "sha256": "AB4CB92BE47138E094D54817963902350F14E01876B5A6CF248C72EF264F143E", "bytes": 1638},
+    {"role": "S6-I2-red-test", "path": "tests/test_parent_shade_kernel_contract_v0_1.py", "sha256": "FF7555A6ED4017AE80FCF1EC9B311F6A2E7088280FDE0651DA6EC70B46B516A5", "bytes": 2826},
+    {"role": "S6-I3-red-test", "path": "tests/test_online_cvgr_state_contract_v0_1.py", "sha256": "CCE5B7ECEA9D3F3865811C2A00390A2B60631304BCA2AE5F3AC19DCD84A0209B", "bytes": 3233},
+    {"role": "S6-I4-red-test", "path": "tests/test_experiment_dry_run_contract_v0_1.py", "sha256": "7E707C80F09C250C4F30337DBA9963501345CE3FCF82E9164F820AECA83FBB05", "bytes": 2401},
+    {"role": "red-phase-receipt", "path": "artifacts/stage6_preimplementation/red_phase_receipt_I3_CVGR_v0.1.md", "sha256": "16E2019688696A340485F06DCD304E8111BA2DE2F02BFA59B08F0C29C3965379", "bytes": 3230}
+  ],
+  "verification_summary": {
+    "json_fixtures_parsed": 3,
+    "python_test_files_ast_parsed": 4,
+    "final_expected_red_collection_errors": 4,
+    "final_direct_pytest_exit_code": 2,
+    "expected_missing_modules": [
+      "alg1_replan.selection",
+      "alg1_replan.shade_kernel",
+      "alg1_replan.online_state",
+      "alg1_replan.experiment_contracts"
+    ],
+    "unexpected_red_causes": 0,
+    "static_review_files": 11,
+    "static_review_issues": 0,
+    "frozen_core_regression": "29 passed",
+    "frozen_critical_hash_mismatches": 0
+  },
+  "execution_accounting": {
+    "optimizer_runs": 0,
+    "benchmark_or_simulation_runs": 0,
+    "objective_or_constraint_evaluations": 0,
+    "formal_ffe": 0,
+    "network_downloads": 0,
+    "dependency_installations": 0,
+    "S6_I2_I4_production_modules_created": 0
+  },
+  "freeze_effect_if_author_accepted": {
+    "immutable_files": 11,
+    "meaning": "The listed specifications, fixtures, tests and receipt become an immutable red baseline. Passing implementations remain separately unauthorized.",
+    "amendment_rule": "Any byte or semantic change requires a new version, new hashes and a separately accepted author decision."
+  },
+  "explicitly_not_authorized": [
+    "implementation of alg1_replan.selection",
+    "implementation of alg1_replan.shade_kernel",
+    "implementation of alg1_replan.online_state",
+    "implementation of alg1_replan.experiment_contracts",
+    "optimizer, benchmark, simulation, pilot, M, C1, F, C2, Stage B or TCAC execution",
+    "any objective or constraint evaluation or formal FFE",
+    "parameter tuning, performance inference, public release or submission"
+  ],
+  "next_gate": "Author must verify and explicitly freeze this candidate. A later, separate hash-bound authorization is required before implementing any S6-I2/I3/I4 production API.",
+  "suggested_response": "我确认冻结I3 Stage6 I2-I4红阶段候选v0.1，SHA-256为<CANDIDATE_SHA256>；P=FREEZE_RED_BASELINE；C=DO_NOT_AUTHORIZE_I2_I4_PRODUCTION_IMPLEMENTATION；E=DO_NOT_AUTHORIZE_OPTIMIZER_EXECUTION；F=KEEP_FORMAL_FFE_ZERO"
+}

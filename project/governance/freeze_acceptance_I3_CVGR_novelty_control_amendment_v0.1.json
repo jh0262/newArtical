@@ -1,0 +1,98 @@
+{
+  "schema": "alg1_replan.novelty_control_amendment_freeze_acceptance.v1",
+  "acceptance_id": "I3-CVGR-NOVELTY-CONTROL-AMENDMENT-FREEZE-ACCEPTANCE-v0.1",
+  "status": "FROZEN_RESTORED_STATIC_PASS",
+  "accepted_at": "2026-09-01T19:05:59.5838930+08:00",
+  "project": "ALG1-Replan",
+  "candidate": {
+    "path": "governance/freeze_candidate_I3_CVGR_novelty_control_amendment_v0.1.json",
+    "sha256": "E7D05F958C18B7BC84051ADA4F910988EF1A747117FEBA833DEF28D6D9BB69ED",
+    "bytes": 3023
+  },
+  "authorization": {
+    "path": "governance/freeze_authorization_I3_CVGR_novelty_control_amendment_v0.1.json",
+    "sha256": "804E0B60F15760CB5CC0458C8D0BEDDAC7C354D098D683BF50CE33878EF56432",
+    "bytes": 3989
+  },
+  "ordered_prerequisites": [
+    {
+      "path": "governance/freeze_acceptance_I3_CVGR_plan_consistency_amendment_v0.1.json",
+      "sha256": "3A413ACC393987DAD48F19C8DE2C196C0B3788EF9C9A98288A0B7C13F19AE290"
+    },
+    {
+      "path": "governance/freeze_acceptance_I3_CVGR_parent_conformance_amendment_v0.1.json",
+      "sha256": "E117680193FDB35962E62D346C23DC2388AD3F1A71B7369FD6D485F88E11EE6B",
+      "status": "FROZEN_RESTORED_STATIC_PASS"
+    },
+    {
+      "path": "governance/freeze_acceptance_I3_CVGR_mechanism_integrity_amendment_v0.1.json",
+      "sha256": "8B36F8386B20116E5A7AC632179DD323D3DDB72BFFF600EB51F66996ABBA45FA",
+      "status": "FROZEN_RESTORED_STATIC_PASS"
+    },
+    {
+      "path": "governance/freeze_acceptance_I3_CVGR_name_provenance_amendment_v0.1.json",
+      "sha256": "8DD7898E1536973E9CC48987124D2870389E3BC24426E71917665FC9144AA040",
+      "status": "FROZEN_RESTORED_STATIC_PASS"
+    }
+  ],
+  "snapshot": {
+    "directory": "governance/frozen/I3_CVGR_novelty_control_amendment_v0.1_E7D05F95_snapshot",
+    "manifest_path": "governance/frozen/I3_CVGR_novelty_control_amendment_v0.1_E7D05F95_snapshot/FREEZE_MANIFEST.json",
+    "manifest_sha256": "A407F9FF81198CDEE4FFBE1F76694DB6E3E36688DDF79E70768BAFB69CBC5EB3",
+    "manifest_bytes": 4015,
+    "payload_files": 9,
+    "total_files": 10
+  },
+  "archive": {
+    "path": "governance/frozen/I3_CVGR_novelty_control_amendment_v0.1_E7D05F95_snapshot.zip",
+    "sha256": "2392A8874FCEEC41DBAF7F07C80F998EE80973BF24F9CD22F7657D83AA25B2F5",
+    "bytes": 15250,
+    "deterministic_regeneration_match": true
+  },
+  "restore_verification": {
+    "path": "governance/freeze_restore_verification_I3_CVGR_novelty_control_amendment_v0.1.md",
+    "sha256": "3903E3A099465EB8EA223AEC1ADCE8B1CAA89EFEBCFC4B983CF1706C217D5895",
+    "bytes": 3163,
+    "new_empty_directory": true,
+    "path_set_match": "10/10",
+    "hash_and_byte_match": "10/10",
+    "json_parse": "6/6",
+    "python_ast_parse": "1/1",
+    "expected_red_test_functions_static": "2/2",
+    "control_roster_checks": "4/4",
+    "ray_style_boundary_checks": "5/5",
+    "claim_boundary_checks": "4/4",
+    "ast_import_marker_checks": "3/3",
+    "expected_red_tests_collected_or_executed": 0
+  },
+  "frozen_effect": {
+    "claim_status": "CONDITIONAL_HYPOTHESIS_ONLY_NOVELTY_UNKNOWN",
+    "acknowledged_precursors": ["Ray-2000", "Ming-2021"],
+    "mandatory_controls": ["RAY_STYLE", "DIV_MATCH", "DEG_REWIRE", "RANDOM_LABEL"],
+    "controls_implemented": false,
+    "green_implementation_authority": false,
+    "s6_e0_release": false,
+    "operative_runtime_authority": false
+  },
+  "scientific_state": {
+    "formal_optimizer_runs": 0,
+    "objective_or_constraint_evaluator_calls": 0,
+    "formal_run_packages": 0,
+    "formal_ffe": 0,
+    "performance_evidence": "NONE",
+    "objective_novelty": "UNKNOWN",
+    "paper_readiness": "NOT_ESTABLISHED"
+  },
+  "remaining_holds": [
+    "Expected-red execution and novelty-control production implementation require later separate authorization.",
+    "BM and SA are not frozen by this acceptance.",
+    "S6-E0, optimizer/evaluator execution, result access and formal FFE remain forbidden.",
+    "Operative runtime authority remains last and non-operative.",
+    "No objective novelty, performance, robustness or paper-readiness conclusion is authorized."
+  ],
+  "next_gate": {
+    "candidate": "governance/modern_matrix_parameter_decision_candidate_I3_CVGR_v0.1.json",
+    "sha256": "96BB6B6ED0EDDA695B3DC93BF1D3FE621675914E450B34E9FF628344F54A6FE3",
+    "action": "REQUEST_BM_R1_PARAMETER_SELECTION_BEFORE_BM_FREEZE_CANDIDATE_PREPARATION"
+  }
+}

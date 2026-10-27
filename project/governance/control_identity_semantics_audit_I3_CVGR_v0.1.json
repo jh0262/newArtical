@@ -1,0 +1,231 @@
+{
+  "schema": "alg1_replan.control_identity_semantics_audit.v1",
+  "audit_id": "I3-CVGR-CONTROL-IDENTITY-SEMANTICS-AUDIT-v0.1",
+  "status": "STATIC_AUDIT_COMPLETE_AUTHOR_DECISION_REQUIRED",
+  "generated_at": "2026-09-01T23:47:14.7989315+08:00",
+  "project": "ALG1-Replan",
+  "method": "I3-CVGR-SHADE",
+  "purpose": "Distinguish the historical LABEL_PERM wording from the frozen RANDOM_LABEL control, derive the scientific and resource consequences of alias, replacement or coexistence, and recommend an author-owned resolution. This audit does not amend authority, edit a frozen artifact, implement a control, execute a test, call an optimizer/evaluator or consume formal FFE.",
+  "bound_state": {
+    "git_commit": "7a41adc8062fe49bf683a6cd17120c5afdc687a9",
+    "original_plan_acceptance": {
+      "path": "governance/freeze_acceptance_I3_CVGR_v0.1.json",
+      "sha256": "803123E861A6E0C7ADCDBCB56A9345E9E1D3AB6ADD809A6C40BB8AEBC1F2B5B8",
+      "bytes": 2640
+    },
+    "mh_amendment_acceptance": {
+      "path": "governance/freeze_acceptance_I3_CVGR_plan_consistency_amendment_v0.1.json",
+      "sha256": "3A413ACC393987DAD48F19C8DE2C196C0B3788EF9C9A98288A0B7C13F19AE290",
+      "bytes": 4000
+    },
+    "nv_amendment_acceptance": {
+      "path": "governance/freeze_acceptance_I3_CVGR_novelty_control_amendment_v0.1.json",
+      "sha256": "427327494D91BFB7A421EDE45FA7474A7A5AC9CCB2EA97017BF8104FFBE40C7D",
+      "bytes": 4325
+    },
+    "preparation_authority": {
+      "path": "governance/consolidated_author_decision_authorization_I3_CVGR_v0.1.json",
+      "sha256": "F07C3AD10EEE640108898C9D6607EEE9791A4B539A9789F687982A38A2EC04CB",
+      "bytes": 3730,
+      "scope": "NV_AND_BM_MATRIX_PREPARATION; separate freezes; zero execution"
+    },
+    "integration_preflight": {
+      "path": "governance/modern_matrix_parameter_integration_preflight_I3_CVGR_v0.1.json",
+      "sha256": "A28536837E6163EC28974E0D60D1AEE69E9444EED906F7C56A7DE175F6B486F3",
+      "bytes": 8416,
+      "finding": "BM-PF-01"
+    }
+  },
+  "evidence_inventory": [
+    {
+      "path": "preregistration_candidate_v0.1.md",
+      "sha256": "A5F36D52D6C5D0B8ED9159FEFF107BBB55C86B454F93F5639E2EDCF53BFC4789",
+      "bytes": 7763,
+      "locator": "sections 4 and 7/H1",
+      "observation": "LABEL_PERM is described as permuting graph-node labels while preserving graph statistics and is a primary H1 comparator."
+    },
+    {
+      "path": "artifacts/stage5/synthetic_problem_suite_spec_v0.1.md",
+      "sha256": "AABAD923B228C88D13BCE37D2BFCD91F2AF529B1A843F4FDD1275260CDDDA285",
+      "bytes": 4671,
+      "locator": "lines 59-65 and 86-93",
+      "observation": "The frozen synthetic design defines truth-node membership and calls for random permutation of component labels with component sizes preserved."
+    },
+    {
+      "path": "artifacts/stage5_amendment/novelty_control_amendment_I3_CVGR_v0.1.md",
+      "sha256": "061B48A53954FFE71E5A4DBF05925326F50513CC3D59073EAFDFFE7D2837A42D",
+      "bytes": 1879,
+      "locator": "Required controls item 4",
+      "observation": "RANDOM_LABEL randomizes community identity while preserving activation frequency and group-size distribution."
+    },
+    {
+      "path": "artifacts/stage5_amendment/ray_style_control_spec_I3_CVGR_v0.1.md",
+      "sha256": "19D1E28A667050BB2C464C299A0B9774C69BC5BAFE23EBE21636297E4E8DD759",
+      "bytes": 1544,
+      "locator": "Boundaries",
+      "observation": "RANDOM_LABEL is a distinct result-schema value from I3, RAY_STYLE, DIV_MATCH and DEG_REWIRE, but the document does not relate it to LABEL_PERM."
+    },
+    {
+      "path": ".light/plan_spec_I3_CVGR_v0.1.json",
+      "sha256": "56C31B75E9D79F5D115EE078BA7C52E1AB7406EA91599DBFA2A742B8F7C0E316",
+      "bytes": 2932,
+      "locator": "baseline LABEL_PERM",
+      "observation": "The plan-level fairness record preserves the historical LABEL_PERM identifier."
+    },
+    {
+      "path": ".light/failure_tree_I3_CVGR_v0.1.json",
+      "sha256": "23836B37856C4FAF6D1448F78D8F22851C7F6674DA5E2A9CEEA0B21111969C66",
+      "bytes": 7118,
+      "locator": "H1 claim",
+      "observation": "The H1 decision branch still names label-permutation as a mechanism control."
+    },
+    {
+      "path": "experiments/experiment_matrix.md",
+      "sha256": "AB6042BF4D463BCC3CFCBEB71E2ADE426CBF85EBA7530B0ACADA26B0CE64ECB8",
+      "bytes": 3492,
+      "locator": "EXP-01 and ABL-03",
+      "observation": "The experiment matrix requires a label-permuted graph that preserves degree/edge-weight distributions while breaking community semantics."
+    },
+    {
+      "path": "governance/execution_resource_feasibility_audit_I3_CVGR_v0.1.json",
+      "sha256": "75AF22A8442CD627912B99D760F4DBA42D8FA6EB858B18021FD6CB528973BFB5",
+      "bytes": 16672,
+      "locator": "internal_experiment_envelopes/recommended_claim_matrix_if_Ray_enters_M_and_C1",
+      "observation": "The current recommended resource envelope assumes eight M variants and five C1 variants, which is compatible with alias/replacement but not coexistence."
+    }
+  ],
+  "semantic_distinction": {
+    "component_id_renaming": {
+      "operation": "Apply a bijection only to component identifiers while keeping every constraint node in the same component and keeping residual coordinates aligned with that component.",
+      "preserved_objects": ["partition membership", "component aggregates", "dominant physical constraint block", "eligible donor relations"],
+      "mathematical_consequence": "This is a coordinate renaming. A correctly permutation-equivariant implementation should produce the same donor identities and FFE ledger up to the renamed component coordinate.",
+      "scientific_role": "METAMORPHIC_INTEGRITY_TEST_NOT_A_NEGATIVE_CONTROL",
+      "risk_if_used_as_ablation": "It may be a behavioral no-op and therefore cannot falsify a community-semantics contribution."
+    },
+    "node_to_community_membership_shuffle": {
+      "operation": "Keep the learned activation decision, active-node set and component-size multiset, but randomly reassign active constraint nodes among component slots under a frozen domain-separated control RNG; residual coordinates remain tied to their original constraints.",
+      "preserved_objects": ["activation schedule", "active-node count", "component-size multiset", "base parent path", "paired FFE ledger"],
+      "destroyed_object": "association between learned community membership and the physical/analytic constraint identity",
+      "scientific_role": "VALID_RANDOM_LABEL_NEGATIVE_CONTROL_IF_NONIDENTITY_AND_RNG_CONTRACTS_ARE_FROZEN",
+      "required_boundaries": [
+        "Reject or mark INAPPLICABLE any draw that does not change the node partition after the frozen attempt policy.",
+        "Use a domain-separated control RNG and record the permutation/provenance without consuming base-RNG draws.",
+        "Never permute ground-truth labels used only by offline NMI scoring.",
+        "Never use objective, constraint or evaluator callbacks to construct the control.",
+        "Report activation and group-size matching checks for every applicable checkpoint."
+      ]
+    },
+    "audit_inference_boundary": "The second operation is the scientifically coherent interpretation of RANDOM_LABEL and of the historical intent to break constraint semantics. This is a static project analysis, not an author decision and not evidence that any current production code implements either operation."
+  },
+  "findings": [
+    {
+      "id": "CI-01",
+      "severity": "CRITICAL",
+      "title": "The historical LABEL_PERM wording does not distinguish a no-op identifier renaming from a membership-shuffling negative control",
+      "consequence": "Two conforming-looking implementations could yield different scientific tests; one may leave donor behavior unchanged while the other destroys the target semantics.",
+      "required_resolution": "Freeze an explicit typed relation and an operational definition before SA or S6-E0."
+    },
+    {
+      "id": "CI-02",
+      "severity": "CRITICAL",
+      "title": "H1, ABL-03, result schema and the frozen NV roster do not currently share one control identifier",
+      "consequence": "The same immutable results could be aggregated under different comparator families or schema keys.",
+      "required_resolution": "Version the H1/ABL/result-schema references without editing historical frozen bytes."
+    },
+    {
+      "id": "CI-03",
+      "severity": "CRITICAL_FOR_RESOURCE_LOCK",
+      "title": "The eight-variant internal resource envelope silently assumes alias or replacement",
+      "consequence": "Selecting coexistence adds at least one formal M variant and invalidates the current run/FFE total.",
+      "required_resolution": "Bind the author-selected relation before the final SA matrix and resource authorization."
+    }
+  ],
+  "decision_options": [
+    {
+      "code": "SELECT_RANDOM_LABEL_CANONICAL_SUCCESSOR_RECLASSIFY_LABEL_PERM",
+      "recommended": true,
+      "meaning": "Preserve LABEL_PERM only as a historical frozen identifier. In a versioned amendment, replace it in future H1, ABL-03, result-schema and adapter contracts with RANDOM_LABEL, defined as a nonidentity node-to-community membership shuffle. Reclassify pure component-ID renaming as a zero-FFE permutation-equivariance integrity test.",
+      "scientific_rationale": "This preserves the original negative-control intent, removes the no-op ambiguity, matches the frozen NV roster and avoids adding a redundant formal variant.",
+      "resource_effect": "Keeps the currently audited Ray-inclusive internal matrix at M=8 variants and C1=5 variants."
+    },
+    {
+      "code": "SELECT_EXACT_ALIAS_LABEL_PERM_RANDOM_LABEL",
+      "recommended": false,
+      "meaning": "Declare LABEL_PERM and RANDOM_LABEL exact aliases for the same membership-shuffle operation.",
+      "scientific_risk": "The old wording remains capable of being misread as identifier renaming unless every operational clause is superseded; aliasing also obscures version provenance.",
+      "resource_effect": "Same arithmetic as the recommended option."
+    },
+    {
+      "code": "SELECT_DISTINCT_COEXIST_M_ONLY",
+      "recommended": false,
+      "meaning": "Keep both as distinct formal M variants, with LABEL_PERM separately operationalized and RANDOM_LABEL used as the membership-shuffle control.",
+      "scientific_risk": "A scientifically useful distinct LABEL_PERM operation is not currently specified; mere component-ID renaming would be a no-op rather than a valid ablation.",
+      "resource_effect": "Adds 360 M run packages and 7,560,000 FFE over the recommended matrix before any optional C1 placement."
+    },
+    {
+      "code": "HOLD_CONTROL_IDENTITY",
+      "recommended": false,
+      "meaning": "Do not choose a relation. BM-R1 may remain independently selectable, but SA and S6-E0 remain blocked."
+    }
+  ],
+  "resource_envelopes": {
+    "calculation_basis": {
+      "M": "12 synthetic problems, frozen dimension sum 126, 30 seeds, 2,000D per run",
+      "C1": "16 CEC2006 eligible problems, frozen dimension sum 159, 30 seeds, 10,000D per run",
+      "F": "8 fallback problems, 2 variants, 30 seeds, frozen aggregate 26,400,000 FFE",
+      "boundary": "These are plan arithmetic only. No run package or FFE was created."
+    },
+    "recommended_successor_or_exact_alias": {
+      "M": {"variants": 8, "run_packages": 2880, "formal_ffe": 60480000},
+      "C1": {"variants": 5, "run_packages": 2400, "formal_ffe": 238500000},
+      "F": {"variants": 2, "run_packages": 480, "formal_ffe": 26400000},
+      "core_total": {"run_packages": 5760, "formal_ffe": 325380000},
+      "core_plus_optional_C2": {"run_packages": 7200, "formal_ffe": 468480000}
+    },
+    "distinct_coexist_M_only": {
+      "M": {"variants": 9, "run_packages": 3240, "formal_ffe": 68040000},
+      "C1": {"variants": 5, "run_packages": 2400, "formal_ffe": 238500000},
+      "F": {"variants": 2, "run_packages": 480, "formal_ffe": 26400000},
+      "core_total": {"run_packages": 6120, "formal_ffe": 332940000},
+      "core_plus_optional_C2": {"run_packages": 7560, "formal_ffe": 476040000},
+      "delta_over_recommended": {"run_packages": 360, "formal_ffe": 7560000}
+    },
+    "distinct_coexist_M_and_C1_if_later_selected": {
+      "M": {"variants": 9, "run_packages": 3240, "formal_ffe": 68040000},
+      "C1": {"variants": 6, "run_packages": 2880, "formal_ffe": 286200000},
+      "F": {"variants": 2, "run_packages": 480, "formal_ffe": 26400000},
+      "core_total": {"run_packages": 6600, "formal_ffe": 380640000},
+      "core_plus_optional_C2": {"run_packages": 8040, "formal_ffe": 523740000},
+      "delta_over_recommended": {"run_packages": 840, "formal_ffe": 55260000}
+    }
+  },
+  "recommendation": {
+    "code": "SELECT_RANDOM_LABEL_CANONICAL_SUCCESSOR_RECLASSIFY_LABEL_PERM",
+    "required_future_amendment_scope": [
+      "Define RANDOM_LABEL as nonidentity node-to-community membership shuffling, not component-ID renaming.",
+      "Supersede only future H1, ABL-03, result-schema, adapter and resource references; preserve all historical frozen bytes.",
+      "Add a deterministic component-ID-renaming equivariance contract that consumes no evaluator calls and no formal FFE.",
+      "Add expected-red contracts for nonidentity, group-size preservation, activation matching, domain-separated RNG, forbidden ground-truth access and exact FFE neutrality.",
+      "Keep BM-R1 parameter selection independent and keep SA/S6-E0 held until the identity amendment is separately frozen and restored."
+    ]
+  },
+  "verdict": {
+    "code": "AUTHOR_DECISION_REQUIRED_RECOMMEND_CANONICAL_SUCCESSOR_NOT_SILENT_ALIAS",
+    "bm_r1_parameter_selection": "INDEPENDENT_AND_ALLOWED",
+    "sa_freeze_candidate": "HOLD",
+    "s6_e0_release": "HOLD",
+    "production_or_analysis_implementation": "NOT_AUTHORIZED",
+    "optimizer_or_evaluator_execution": "NOT_AUTHORIZED",
+    "performance_evidence": "NONE",
+    "objective_novelty": "UNKNOWN",
+    "formal_ffe": 0
+  },
+  "actions_not_taken": [
+    "No existing plan, registry, frozen snapshot, source, test or candidate byte was changed.",
+    "No canonical relation was registered and no option was treated as an author decision.",
+    "No expected-red, green or metamorphic test was executed.",
+    "No production or analysis implementation was created or changed.",
+    "No optimizer, evaluator, objective, constraint or benchmark function was called.",
+    "No package was installed or downloaded and no formal FFE was consumed."
+  ]
+}

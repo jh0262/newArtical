@@ -1,0 +1,217 @@
+{
+  "schema": "alg1_replan.pending_author_gate_dependency_audit.v1",
+  "audit_id": "I3-CVGR-PENDING-AUTHOR-GATE-DEPENDENCY-AUDIT-v0.1",
+  "status": "STATIC_DEPENDENCY_AUDIT_COMPLETE_NO_AUTHORITY_CREATED",
+  "generated_at": "2026-08-31T23:37:29.9620374+08:00",
+  "project": "ALG1-Replan",
+  "method_abbreviation": "CVGR-SHADE",
+  "purpose": "Bind every live author gate, identify cross-candidate conflicts and derive the shortest safe decision/preparation/freeze sequence before S6-E0. This audit does not choose an option for the author, authorize any candidate, modify frozen artifacts, implement code or execute an optimizer/evaluator.",
+  "authoritative_state": {
+    "git_commit_before_audit": "dd32fefe5113867d6d69e1b6da8b4dd50ca40844",
+    "worktree_before_audit": "CLEAN",
+    "formal_optimizer_runs": 0,
+    "objective_or_constraint_evaluator_calls": 0,
+    "formal_run_packages": 0,
+    "formal_ffe": 0,
+    "performance_evidence": "NONE",
+    "passport_intake": {
+      "state": "resume",
+      "evidence_state": "PLANNED",
+      "validation_verdict": "WARN",
+      "next_action": "run or resume stage 2 (light-data-engineering)",
+      "interpretation": "The passport is a historical Stage-2 placeholder and is not current Stage-6 authority. It must not be silently rewritten or used to release S6-E0."
+    }
+  },
+  "bound_gates": [
+    {
+      "gate_id": "MH",
+      "path": "governance/freeze_candidate_I3_CVGR_plan_consistency_amendment_v0.1.json",
+      "sha256": "E6903DE9D31FB41F52ABFF43F1B8BAF0FB9D1275977C4A6B90B7D28EA0D954D7",
+      "bytes": 7375,
+      "state": "PROPOSED_NOT_FROZEN",
+      "scope": "Freeze and independently restore the already selected M=2,000D per-run budget and fixed-checkpoint H1 endpoint precedence layer."
+    },
+    {
+      "gate_id": "NS",
+      "path": "governance/method_name_provenance_decision_candidate_I3_CVGR_v0.1.json",
+      "sha256": "9370A070C955AEAB8BDF2F3FCA338E449215DE931DF10E1AE66BC2513433D61F",
+      "bytes": 7144,
+      "state": "PROPOSED_NOT_AUTHORIZED",
+      "scope": "Select the canonical full name and authorize additive post-freeze runtime-provenance preparation only."
+    },
+    {
+      "gate_id": "PA",
+      "path": "governance/parent_algorithm_identity_decision_candidate_I3_CVGR_v0.1.json",
+      "sha256": "EC7A0594602CBE2C17235F0B6E26712ADAF49DAFDF2FCA2145DB09207C27BDE5",
+      "bytes": 7028,
+      "state": "PROPOSED_NOT_AUTHORIZED",
+      "scope": "Select a SHADE 1.1.1 plus Deb-2000 project-composite parent and prepare parent-conformance amendment/red contracts only."
+    },
+    {
+      "gate_id": "BM",
+      "path": "governance/external_baseline_modern_benchmark_decision_candidate_I3_CVGR_v0.1.json",
+      "sha256": "36FBDF42301DBB21B966067E28EF8EF02DE64E30DD6938ECE5036D3CB6C535FC",
+      "bytes": 9230,
+      "state": "PROPOSED_NOT_AUTHORIZED",
+      "scope": "Select COCO bbob-constrained and external baselines and prepare matrix/spec/red contracts only."
+    },
+    {
+      "gate_id": "NV",
+      "path": "governance/novelty_control_amendment_decision_candidate_I3_CVGR_v0.1.json",
+      "sha256": "16857C240F9DB26D0B79BDC1FAADBDF279F3AEA07E7AC149EBBAFB4DDA357C73",
+      "bytes": 8622,
+      "state": "PROPOSED_NOT_AUTHORIZED",
+      "scope": "Acknowledge Ray/Ming precursors, add a Ray-style same-parent control and narrow the claim; preparation/red contracts only."
+    },
+    {
+      "gate_id": "MI",
+      "path": "governance/mechanism_integrity_amendment_decision_candidate_I3_CVGR_v0.1.json",
+      "sha256": "0F7872BB7375A7DCE0016A915328698BC719FEB5A660910D53C441576CE20457",
+      "bytes": 9828,
+      "state": "PROPOSED_NOT_AUTHORIZED",
+      "scope": "Select resolutions for 5 critical and 5 major mathematical/measurement gaps; preparation/red contracts only."
+    },
+    {
+      "gate_id": "SA",
+      "path": "governance/statistical_analysis_amendment_decision_candidate_I3_CVGR_v0.1.json",
+      "sha256": "4D932F063E072DAD63A0C648BA41C97E3CB78DAC15173224D3ED07F90479D32E",
+      "bytes": 13599,
+      "state": "PROPOSED_NOT_AUTHORIZED",
+      "scope": "Select run-to-seed-to-problem estimators, CRN-A12, exact inference, multiplicity and missingness; preparation/red contracts only."
+    }
+  ],
+  "integration_findings": [
+    {
+      "id": "IG-01",
+      "severity": "CRITICAL",
+      "title": "The six-item waiting list omitted the unresolved canonical-name and runtime-provenance decisions",
+      "evidence": "The full-contract audit records C-METHOD-FULL-NAME and P-LIVE-REGISTRY-DRIFT/P-HISTORICAL-AUTH-FIELDS. The M/H freeze candidate explicitly refuses to infer N/S, and the parent candidate explicitly keeps the CVGR name unresolved.",
+      "consequence": "Confirming the previous six items still cannot create a complete runtime authority or release S6-E0.",
+      "resolution": "Add a separately scoped NS decision gate and bind it in any consolidated author packet."
+    },
+    {
+      "id": "IG-02",
+      "severity": "CRITICAL",
+      "title": "The mandatory Ray-style novelty control changes the frozen variant matrix and planned FFE totals",
+      "evidence": "The frozen M matrix contains seven variants and C1 contains four. NV requires a clean-room same-parent equal-FFE Ray-style control before a graph-specific contribution can be defended.",
+      "calculation_if_Ray_is_in_both_M_and_C1": {
+        "M_current_variants": 7,
+        "M_proposed_variants": 8,
+        "M_current_ffe": 52920000,
+        "M_proposed_ffe": 60480000,
+        "M_delta_ffe": 7560000,
+        "C1_current_variants": 4,
+        "C1_proposed_variants": 5,
+        "C1_current_ffe": 190800000,
+        "C1_proposed_ffe": 238500000,
+        "C1_delta_ffe": 47700000,
+        "F_ffe_unchanged": 26400000,
+        "core_current_M_C1_F_ffe": 270120000,
+        "core_proposed_M_C1_F_ffe": 325380000,
+        "core_delta_ffe": 55260000
+      },
+      "boundary": "These are deterministic plan arithmetic values, not execution or performance evidence. The exact Ray placement still requires a versioned matrix amendment.",
+      "resolution": "The NV amendment must state whether Ray is M-only, C1-only, both or exploratory. If it supports the narrowed main mechanism/performance claim, it must enter both relevant confirmatory families and supersede total-budget arithmetic without changing the selected 2,000D per-run M budget."
+    },
+    {
+      "id": "IG-03",
+      "severity": "CRITICAL",
+      "title": "The statistical amendment cannot be frozen before the final comparator and benchmark matrices",
+      "evidence": "SA defines H1-H3 global multiplicity and missingness families, while NV adds a mandatory primary control and BM adds a separate modern benchmark/baseline family.",
+      "consequence": "Freezing SA first would immediately stale its comparison family, Holm membership, run counts and missingness denominators.",
+      "resolution": "Authorize SA decisions now if desired, but prepare/freeze the operative statistical amendment only after PA, NV, MI and BM matrices/specifications are frozen."
+    },
+    {
+      "id": "IG-04",
+      "severity": "CRITICAL",
+      "title": "Post-freeze runtime authority must be the final composition layer, not an early partial binding",
+      "evidence": "NS must bind the accepted plan plus every effective additive amendment and implementation authorization. Six scientific/implementation amendments are still pending.",
+      "consequence": "Freezing runtime authority before its inputs creates another stale authority manifest and repeats the existing provenance defect.",
+      "resolution": "Prepare the NS schema early, but populate and freeze its operative runtime-authority manifest only after all required amendments are independently frozen and restored."
+    },
+    {
+      "id": "IG-05",
+      "severity": "MAJOR",
+      "title": "Unnamespaced decision codes collide and legacy keep-pending fields conflict with simultaneous confirmation",
+      "evidence": "P, N, M, F, X and other letters carry different meanings across MH/NS/PA/BM/NV/MI/SA. Several candidates say keep earlier gates pending because they were authored serially.",
+      "consequence": "A flat combined response can be ambiguous or accidentally preserve an obsolete unresolved state.",
+      "resolution": "Use gate-prefixed codes such as MH.P, NS.N, PA.P, BM.B, NV.B, MI.J and SA.U. Preserve scope independence, but explicitly supersede only the stale keep-pending markers when the same hash-bound packet confirms those gates."
+    },
+    {
+      "id": "IG-06",
+      "severity": "MAJOR",
+      "title": "The passport cannot currently serve as the authorization or Stage-6 completion ledger",
+      "evidence": "Live intake returns resume, evidence_state=PLANNED, validation=WARN and next_action=Stage 2, while project-local governance shows later frozen plan and implementation evidence.",
+      "consequence": "Using the passport as if current would either regress the project to Stage 2 or falsely promote PLANNED to VERIFIED.",
+      "resolution": "Keep the passport unchanged in this packet. After all author decisions and additive freezes, prepare a separate hash-bound ledger-reconciliation authorization rather than silently rewriting it."
+    }
+  ],
+  "safe_sequence": [
+    {
+      "order": 0,
+      "action": "AUTHOR_CONFIRM_CONSOLIDATED_PACKET",
+      "effect": "Record all seven independent choices in one hash-bound message; no preparation, freeze or execution is inferred beyond the listed scopes."
+    },
+    {
+      "order": 1,
+      "action": "FREEZE_AND_RESTORE_MH",
+      "depends_on": ["MH author confirmation"],
+      "effect": "Make only 2,000D per-run M budget and fixed-checkpoint H1 timing authoritative; later NV may add a variant and supersede total FFE arithmetic."
+    },
+    {
+      "order": 2,
+      "action": "PREPARE_PARENT_NAME_MECHANISM_AMENDMENTS",
+      "depends_on": ["NS", "PA", "MI author decisions", "MH restored"],
+      "effect": "Prepare parent identity/conformance, canonical name schema and mechanism-integrity specs/red fixtures; each remains proposed until separately frozen."
+    },
+    {
+      "order": 3,
+      "action": "PREPARE_NOVELTY_AND_MODERN_MATRIX_AMENDMENTS",
+      "depends_on": ["selected parent identity", "selected canonical method name"],
+      "effect": "Fix Ray-control placement, exact M/C1/C2/modern matrices, benchmark families, run counts and revised planned FFE totals."
+    },
+    {
+      "order": 4,
+      "action": "SEPARATELY_FREEZE_AND_RESTORE_SCIENTIFIC_AMENDMENTS",
+      "depends_on": ["orders 2 and 3 preparation packages"],
+      "effect": "Independently freeze parent, mechanism, novelty and modern-matrix amendments; no production or execution authority."
+    },
+    {
+      "order": 5,
+      "action": "PREPARE_FREEZE_AND_RESTORE_STATISTICAL_AMENDMENT",
+      "depends_on": ["final comparator and benchmark matrices", "final mechanism semantics"],
+      "effect": "Bind final estimands, aggregation, comparison families, exact tests, missingness and result schema."
+    },
+    {
+      "order": 6,
+      "action": "FINALIZE_AND_FREEZE_RUNTIME_AUTHORITY",
+      "depends_on": ["all effective amendments frozen and restored"],
+      "effect": "Create one current machine provenance manifest without editing historical evidence."
+    },
+    {
+      "order": 7,
+      "action": "PREPARE_NEW_S6_E0_RED_PHASE_CANDIDATE",
+      "depends_on": ["runtime authority", "all red-contract scopes"],
+      "effect": "Only then may a new expected-red S6-E0 candidate be prepared; still no production implementation or evaluator execution."
+    },
+    {
+      "order": 8,
+      "action": "LATER_SEPARATE_IMPLEMENTATION_AND_EXECUTION_GATES",
+      "depends_on": ["red contracts frozen and red evidence verified"],
+      "effect": "Production/analysis green implementation, dependencies, pilot, formal M, C1/F, modern suite and any paper-bearing execution each require later independent hash-bound authorization."
+    }
+  ],
+  "parallelism_boundary": {
+    "author_decisions": "May be confirmed together because every selection is explicitly namespaced and independently hash-bound.",
+    "preparation": "PA/MI/NV/BM specification work may partly overlap after decisions, but their effective freeze order must respect the dependency graph.",
+    "freeze": "Separate immutable candidates and empty-directory restores are required; a consolidated author decision is not a consolidated freeze.",
+    "execution": "No optimizer/evaluator, result reading or formal FFE is authorized anywhere in this audit."
+  },
+  "verdict": {
+    "code": "SEVEN_AUTHOR_GATES_CAN_BE_DECIDED_TOGETHER_BUT_AMENDMENTS_REQUIRE_ORDERED_SEPARATE_FREEZES",
+    "s6_e0_release": "HOLD",
+    "paper_readiness": "NOT_READY",
+    "formal_ffe": 0,
+    "next_safe_action": "Prepare one hash-bound, namespaced consolidated author decision packet that preserves all production/execution holds."
+  }
+}

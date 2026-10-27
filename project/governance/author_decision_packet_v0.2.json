@@ -1,0 +1,85 @@
+{
+  "schema": "alg1_replan.author_decision_packet.v1",
+  "created_at": "2026-08-30",
+  "status": "PROPOSED_NOT_FROZEN",
+  "project": "ALG1-Replan",
+  "supersedes": {
+    "path": "governance/author_decision_packet_v0.1.json",
+    "sha256": "5CCEF96A206786C13B0A04B2833E45B05E4E1C3AF20D2D31CB2DA8C4518C0C1D",
+    "reason": "The previously unavailable semantic and citation-graph machine channels have now been captured and screened."
+  },
+  "passport_state_hash": "sha256:efe4fb6fe16c28f67b277fc237efab25e43f305c5aa0d15d2131c27b45737665",
+  "decision_context": {
+    "I1-UGOE": "NO_GO_AS_PRIMARY_TARGET_COLLISION",
+    "I2-CRSS": "NO_GO_AS_PRIMARY_TARGET_COLLISION",
+    "I3-CVGR": "REVISE_ALL_MACHINE_CHANNELS_SEARCHED_HUMAN_REVIEW_PENDING"
+  },
+  "machine_novelty_summary": {
+    "status": "NO_IDENTIFIED_TARGET_COLLISION_WITHIN_CAPTURED_CHANNELS",
+    "semantic": "Four queries returned 120 ranked local-index positions; seven highest-risk full-text hits were mechanism-screened.",
+    "citation_graph": "Three anchors yielded 249 raw one-hop records and 240 distinct OpenAlex work IDs; six highest-risk neighbours were mechanism-screened.",
+    "boundary": "This is not proof of objective novelty. The Light gate remains UNRESOLVED/BLOCK because human domain review, NOVELTY judgment, and three falsifiable mechanism risks remain open."
+  },
+  "recommended_candidate": {
+    "id": "I3-CVGR",
+    "name": "Co-Violation Graph Recombination SHADE",
+    "narrow_claim": "An online constraint-constraint co-violation graph may provide a recombination-topology signal for many-constraint constrained differential evolution beyond scalar violation, repair directions, landscape-only operator choice, and generic donor diversity.",
+    "target_equivalence_test": [
+      "constraints are graph nodes",
+      "online co-violation behaviour defines graph edges or communities",
+      "the graph output directly controls complementary DE donor pairing or recombination topology"
+    ],
+    "not_claimed": [
+      "objective novelty or first-ever status",
+      "algorithm effectiveness or superiority",
+      "causal validity of co-violation communities",
+      "mechanical or physical validation"
+    ]
+  },
+  "bound_evidence": [
+    {"path":"artifacts/stage1/nearest_neighbor_update_v0.1.md","sha256":"705A35D46F7B681A9318CF476642FA44EE94AA790DEED1CA3575A32796DB135F"},
+    {"path":"artifacts/stage3/candidate_cards_v0.1.md","sha256":"2D8BD18E6807E5ECD4AA1633265754B171B796619A353CD8184C2727DABDF4C7"},
+    {"path":"artifacts/stage4/held_out_prior_art_search_v0.1.md","sha256":"05FE33A8EB2C1BD4F925AE17F0BFC4ECAEE0E51184E3B5B38D9068FA6C10DB02"},
+    {"path":"artifacts/stage4/fatal_flaw_review_v0.1.md","sha256":"D222BF8C4CF2A30BC590EAE7FB47C696D61CDB5F6119BDB563C5E48C471F9FB8"},
+    {"path":"artifacts/stage4/semantic_search_I3_CVGR_v0.1.json","sha256":"2926E4F37ABBC6D91DAFBF7C5DDE2CA9CD9469786E961DF303E1EB4E7E60B7EA"},
+    {"path":"artifacts/stage4/semantic_screening_I3_CVGR_v0.1.md","sha256":"3C6D27ED048B1371BB2F13700A799295DE1C5F1178BAAE3078E2236FF112FC46"},
+    {"path":"artifacts/stage4/openalex_citation_graph_I3_CVGR_v0.1.json","sha256":"C2263A6D356B653098C69D6DC27C2B0AADF53F352D7B6F82DD1DA7914BB60D7A"},
+    {"path":"artifacts/stage4/citation_graph_screening_I3_CVGR_v0.1.md","sha256":"B0513CCBC5279C526D2320292F00896F2AEDB6AAEEAA4410A9583C9BE8EDC7F4"},
+    {"path":"artifacts/stage4/novelty_evidence_I3_CVGR_v0.2.json","sha256":"4E3DFE1B9990F291CF6B8A53336823A6646D3FADE140190C38F8622FB3C7F1DD"},
+    {"path":"artifacts/stage4/novelty_findings_I3_CVGR_v0.2.json","sha256":"278E2C5AE43F1E8C082766E72C9F841B1960CE7868CB34D640855F286BE52630"},
+    {"path":"artifacts/stage2/benchmark_inventory_v0.1.json","sha256":"60AEC34464EC2BFB9CA27073D3BAAD526331DC05CBCAC91F2D777F5B90065EEC"},
+    {"path":"artifacts/stage2/benchmark_feasibility_v0.1.md","sha256":"477CBED4FA00B6C36C2577BED7822094D564F5F77BF2208D92BF4103602FD306"}
+  ],
+  "requested_decisions": {
+    "S": {
+      "recommended": "SELECT_I3",
+      "meaning": "Select I3-CVGR as the only candidate allowed to enter revision and freeze preparation."
+    },
+    "H": {
+      "recommended": "REVIEWED_AND_AGREE_DIFFERENTIATED",
+      "meaning": "After reviewing the bound target-equivalence test and nearest-neighbour screens, record the author's human-domain judgment that I3 is sufficiently target-differentiated to continue. This is not a claim of proven novelty."
+    },
+    "F": {
+      "recommended": "AUTHORIZE_FREEZE_PREPARATION",
+      "meaning": "Authorize preparation of a mathematical method specification, deterministic synthetic falsification fixtures, TDD red tests, a complete preregistration draft, and a new PROPOSED_NOT_FROZEN candidate."
+    }
+  },
+  "scope_if_authorized": {
+    "permitted": [
+      "mathematical specification and dimensional or numerical checks",
+      "deterministic synthetic fixtures without formal optimizer evaluation",
+      "TDD tests for graph, donor, fallback and FFE-accounting contracts",
+      "complete equal-FFE experiment and statistical preregistration candidate",
+      "generation and verification of a new hash-bound PROPOSED_NOT_FROZEN packet"
+    ],
+    "formal_optimizer_runs": 0,
+    "formal_ffe": 0,
+    "not_permitted": [
+      "final freezing without a new explicit hash confirmation",
+      "pilot or full benchmark optimizer runs",
+      "performance, superiority, novelty, or causal-effect conclusions",
+      "public release, submission or publication"
+    ]
+  },
+  "suggested_response": "我确认作者决策包v0.2，SHA-256为<PACKET_SHA256>；S=SELECT_I3；H=REVIEWED_AND_AGREE_DIFFERENTIATED；F=AUTHORIZE_FREEZE_PREPARATION"
+}

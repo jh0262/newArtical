@@ -1,0 +1,152 @@
+{
+  "schema": "alg1_replan.frozen_plan_consistency_decision_candidate.v2",
+  "project": "ALG1-Replan",
+  "candidate": "I3-CVGR-SHADE",
+  "created_at": "2026-08-31T20:51:05.0957699+08:00",
+  "status": "PROPOSED_NOT_AUTHORIZED",
+  "decision_id": "DEC-I3-FROZEN-PLAN-CONSOLIDATED-CONSISTENCY-v0.2",
+  "purpose": "Obtain one consolidated author decision for all author-owned frozen-plan inconsistencies discovered before S6-E0 red-contract preparation, while preserving zero formal FFE and the original frozen snapshot.",
+  "bound_full_contract_audit": {
+    "path": "governance/frozen_plan_full_contract_audit_I3_CVGR_v0.2.json",
+    "sha256": "80BA3F3592D10E82F93E1C1DAAA379B24BAC326FCEEC0D61F42078F1F207C29D",
+    "verdict": "FAIL_HOLD_PENDING_AUTHOR_RESOLUTION",
+    "critical_scientific_conflicts": 3,
+    "post_freeze_machine_provenance_findings": 2
+  },
+  "bound_frozen_plan": {
+    "acceptance_path": "governance/freeze_acceptance_I3_CVGR_v0.1.json",
+    "acceptance_sha256": "803123E861A6E0C7ADCDBCB56A9345E9E1D3AB6ADD809A6C40BB8AEBC1F2B5B8",
+    "accepted_candidate_sha256": "79F23915AAE5853B01EFFB095AA6448CE1C7A5F7F0A3D0166DBE0A119AA684B3",
+    "snapshot_archive_sha256": "6AC43CB831B5965CC5EB408E45C6D790859A74A6E10DFBB1091C13E9DC5E8F45",
+    "original_preservation_rule": "The original frozen snapshot remains immutable historical evidence and may not be edited or replaced. Resolution must be additive, versioned, hash-bound and separately frozen."
+  },
+  "supersession": {
+    "superseded_decision_candidate_path": "governance/frozen_plan_consistency_decision_candidate_I3_CVGR_v0.1.json",
+    "superseded_decision_candidate_sha256": "8B1539AC32286673B5809772AB4AAF93C8242E1D819BAC414217134BE2D88EC6",
+    "state": "SUPERSEDED_BEFORE_AUTHORIZATION_BY_CONSOLIDATED_v0.2",
+    "reason": "v0.1 covered only the M budget and H1 endpoint. v0.2 adds the canonical method-name conflict and machine-provenance reconciliation so the author is not asked to approve serial partial amendments."
+  },
+  "conflicts_requiring_author_choice": [
+    {
+      "id": "C-M-BUDGET",
+      "question": "Which per-run FFE budget governs the 12-problem, 7-variant, 30-seed mechanism stage M?",
+      "option_recommended": {
+        "decision": "SELECT_M_2000D",
+        "value": "2,000D per problem/algorithm/seed",
+        "total_M_ffe": 52920000,
+        "core_M_C1_F_ffe": 270120000,
+        "consequence": "Matches PROJECT_PLAN, preregistration, target/failure-tree timing and frozen aggregate totals; only the conflicting synthetic-suite sentence requires additive supersession."
+      },
+      "option_alternative": {
+        "decision": "SELECT_M_10000D",
+        "value": "10,000D per problem/algorithm/seed",
+        "total_M_ffe": 264600000,
+        "core_M_C1_F_ffe": 481800000,
+        "consequence": "Matches the synthetic-suite sentence but adds 211,680,000 M FFE and requires broader versioned changes to budgets, checkpoints and aggregate totals."
+      }
+    },
+    {
+      "id": "C-H1-ENDPOINT",
+      "question": "Which timing and aggregation definition governs the primary H1 graph-recovery endpoint?",
+      "option_recommended": {
+        "decision": "SELECT_H1_FIXED_CHECKPOINT_MEDIAN",
+        "value": "NMI at 25/50/75/100 percent fixed-budget checkpoints; inactive checkpoints equal zero; problem-level median",
+        "consequence": "Matches PROJECT_PLAN, preregistration, experiment matrix, target chain and failure tree and keeps the frozen H1 branch thresholds directly executable."
+      },
+      "option_alternative": {
+        "decision": "SELECT_H1_FIRST_ACTIVATION_TIME_WEIGHTED",
+        "value": "NMI at first valid activation and time-weighted median over later valid graphs",
+        "consequence": "Matches one synthetic-suite sentence but requires a precise time-weighting formula, broader plan changes and reconsideration of H1 thresholds."
+      }
+    },
+    {
+      "id": "C-METHOD-FULL-NAME",
+      "question": "Which full English name is canonical for CVGR-SHADE?",
+      "option_recommended": {
+        "decision": "SELECT_NAME_CO_VIOLATION_GRAPH_RECOMBINATION",
+        "value": "Co-Violation Graph Recombination SHADE",
+        "consequence": "Matches the selected idea genealogy, author decision packet, novelty screening, mathematical method specification and human terminology table. The conflicting machine method/glossary locks are superseded additively."
+      },
+      "option_alternative": {
+        "decision": "SELECT_NAME_CONSTRAINT_VIOLATION_GRAPH_REPRESENTATION",
+        "value": "Constraint-Violation Graph Representation SHADE",
+        "consequence": "Matches the two machine consistency locks but requires versioned changes to the selected idea identity, method specification, author-facing materials and future manuscript first use."
+      }
+    }
+  ],
+  "requested_decisions": {
+    "B": {
+      "recommended": "SELECT_M_2000D",
+      "meaning": "Resolve mechanism-stage M at 2,000D, retaining 52,920,000 M FFE and 270,120,000 M+C1+F FFE."
+    },
+    "H": {
+      "recommended": "SELECT_H1_FIXED_CHECKPOINT_MEDIAN",
+      "meaning": "Resolve H1 at fixed 25/50/75/100 percent checkpoints with inactive checkpoints equal to zero and problem-level median NMI."
+    },
+    "N": {
+      "recommended": "SELECT_NAME_CO_VIOLATION_GRAPH_RECOMBINATION",
+      "meaning": "Resolve the canonical full name as Co-Violation Graph Recombination SHADE while retaining CVGR-SHADE as the abbreviation."
+    },
+    "S": {
+      "recommended": "AUTHORIZE_ADDITIVE_POST_FREEZE_PROVENANCE_BINDING",
+      "meaning": "Prepare a versioned machine authority binding for the accepted plan and later implementation decisions; preserve historical PROPOSED/DRAFT/handoff=false artifacts and do not expand execution authority."
+    },
+    "A": {
+      "recommended": "AUTHORIZE_VERSIONED_PLAN_AMENDMENT_PREPARATION_ONLY",
+      "meaning": "Prepare an additive amendment candidate, deviation entry, versioned consistency locks, provenance binding, hash manifest and verification receipt; do not auto-freeze them."
+    },
+    "R": {
+      "recommended": "HOLD_S6_E0_RED_PHASE_UNTIL_AMENDMENT_FROZEN",
+      "meaning": "Keep the previous S6-E0 red candidate on hold and issue a new version only after the consistency amendment is independently frozen and restored."
+    },
+    "G": {
+      "recommended": "AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE",
+      "meaning": "Record local governance provenance only; do not configure a remote, push or publish."
+    },
+    "E": {
+      "recommended": "DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION",
+      "meaning": "Do not execute any optimizer, objective/constraint evaluator, benchmark, simulation, pilot, M, C1, F or C2."
+    },
+    "F": {
+      "recommended": "KEEP_FORMAL_FFE_ZERO",
+      "meaning": "Consistency resolution and amendment preparation create no formal run package and no formal FFE."
+    }
+  },
+  "additive_amendment_allowlist_if_authorized": [
+    "artifacts/stage5_amendment/frozen_plan_consistency_amendment_I3_CVGR_v0.2.md",
+    ".light/deviations.md",
+    ".light/consistency/method_lock_v0.2.yaml",
+    ".light/consistency/glossary_v0.2.yaml",
+    ".light/terminology_v0.2.md",
+    ".light/plan_post_freeze_authority_binding_I3_CVGR_v0.2.json",
+    "governance/freeze_candidate_I3_CVGR_plan_consistency_amendment_v0.2.json",
+    "governance/freeze_candidate_I3_CVGR_plan_consistency_amendment_v0.2_verification.md",
+    ".light/frozen_plan_consistency_findings_I3_CVGR_post_amendment_v0.2.json"
+  ],
+  "hard_stop_conditions": [
+    "The author's B, H or N choice is absent, ambiguous or differs from the recorded candidate without an equivalent explicit decision.",
+    "Any original frozen artifact or snapshot byte would be edited, replaced or deleted.",
+    "The amendment changes any scientific fact beyond the selected M budget, H1 timing/aggregation and method full-name resolution.",
+    "The post-freeze binding expands authority beyond already accepted plan/implementation decisions or treats optimizer execution as authorized.",
+    "Any S6-E0 specification, fixture, red test or production module is created before the amendment has its own hash-bound freeze acceptance and restore evidence.",
+    "Any objective/constraint evaluation, optimizer run, formal run package or formal FFE occurs.",
+    "Any performance, superiority, convergence, robustness, novelty, physical-validation or paper-readiness claim is inferred from the resolution."
+  ],
+  "held_downstream_candidate": {
+    "path": "governance/s6_e0_red_phase_authorization_candidate_I3_CVGR_v0.1.json",
+    "sha256": "B344AA5BE00A0E12C6596FF477AC5E29740F9392D15237C3CAC969572906F649",
+    "state": "HOLD_NOT_SAFE_TO_AUTHORIZE_UNTIL_CONSISTENCY_AMENDMENT_IS_FROZEN_AND_RESTORED",
+    "note": "The held candidate remains immutable historical provenance and is not silently treated as authorized."
+  },
+  "deferred_nonconflicting_gates": [
+    "Exact parent FR-SHADE source/version/hash/license and conformance identity must be locked before evaluator-bearing implementation.",
+    "External contemporary constrained-optimizer baselines and a modern licensed benchmark remain required for a broad SCI performance claim; the frozen C1 alone supports only a bounded mechanism/internal-control claim.",
+    "Those gates are not silently added to this consistency amendment and will require their own evidence and author decision at the appropriate stage."
+  ],
+  "completion_boundary": {
+    "author_choice_means": "The three conflicting scientific facts have an author-selected intended resolution, and an additive amendment/provenance package may be prepared.",
+    "author_choice_does_not_mean": "The frozen plan is already amended, the amendment is frozen, S6-E0 red tests are authorized, an evaluator-bearing optimizer exists, or any experiment may run.",
+    "next_gate": "Prepare and verify the additive consistency amendment freeze candidate, then request separate author freeze acceptance and empty-directory restore authorization."
+  },
+  "suggested_response": "我确认I3冻结方案综合一致性裁决候选v0.2，SHA-256为<CANDIDATE_SHA256>；B=SELECT_M_2000D；H=SELECT_H1_FIXED_CHECKPOINT_MEDIAN；N=SELECT_NAME_CO_VIOLATION_GRAPH_RECOMBINATION；S=AUTHORIZE_ADDITIVE_POST_FREEZE_PROVENANCE_BINDING；A=AUTHORIZE_VERSIONED_PLAN_AMENDMENT_PREPARATION_ONLY；R=HOLD_S6_E0_RED_PHASE_UNTIL_AMENDMENT_FROZEN；G=AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE；E=DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION；F=KEEP_FORMAL_FFE_ZERO"
+}

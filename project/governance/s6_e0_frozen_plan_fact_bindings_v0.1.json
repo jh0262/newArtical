@@ -1,0 +1,110 @@
+{
+  "schema": "light.consistency.facts.v1",
+  "scope": "ALG1-Replan frozen-plan S6-E0 pre-red audit",
+  "facts": [
+    {
+      "fact_id": "i3.m.mechanism_budget_per_run",
+      "value": "2000D",
+      "normalization": "casefold",
+      "status": "CANDIDATE_MAJORITY_NOT_AUTHOR_CONFIRMED",
+      "source": "PROJECT_PLAN.md + preregistration_candidate_v0.1.md + failure tree",
+      "locator": "PROJECT_PLAN.md:97; preregistration_candidate_v0.1.md:61; .light/failure_tree_I3_CVGR_v0.1.json:H1/primary_endpoint and stopping/limit",
+      "expected_artifacts": [
+        "PROJECT_PLAN.md",
+        "preregistration_candidate_v0.1.md",
+        ".light/failure_tree_I3_CVGR_v0.1.json",
+        "artifacts/stage5/synthetic_problem_suite_spec_v0.1.md"
+      ]
+    },
+    {
+      "fact_id": "i3.h1.graph_recovery_endpoint",
+      "value": "25/50/75/100 percent fixed-budget checkpoints; problem-level median NMI",
+      "normalization": "casefold",
+      "status": "CANDIDATE_MAJORITY_NOT_AUTHOR_CONFIRMED",
+      "source": "PROJECT_PLAN.md + preregistration_candidate_v0.1.md + experiment matrix + failure tree",
+      "locator": "PROJECT_PLAN.md:60; preregistration_candidate_v0.1.md:72; experiments/experiment_matrix.md:7; .light/failure_tree_I3_CVGR_v0.1.json:H1/primary_endpoint",
+      "expected_artifacts": [
+        "PROJECT_PLAN.md",
+        "preregistration_candidate_v0.1.md",
+        "experiments/experiment_matrix.md",
+        ".light/failure_tree_I3_CVGR_v0.1.json",
+        "artifacts/stage5/synthetic_problem_suite_spec_v0.1.md"
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "fact_id": "i3.m.mechanism_budget_per_run",
+      "value": "2000D",
+      "artifact": "PROJECT_PLAN.md",
+      "locator": "line:97",
+      "status": "CONFIRMED",
+      "artifact_sha256": "sha256:D0B4B652B4FC52373A43C1929DC9718B265DEAED19FECF272D78F7F544DFB5F8"
+    },
+    {
+      "fact_id": "i3.m.mechanism_budget_per_run",
+      "value": "2000D",
+      "artifact": "preregistration_candidate_v0.1.md",
+      "locator": "line:61",
+      "status": "CONFIRMED",
+      "artifact_sha256": "sha256:A5F36D52D6C5D0B8ED9159FEFF107BBB55C86B454F93F5639E2EDCF53BFC4789"
+    },
+    {
+      "fact_id": "i3.m.mechanism_budget_per_run",
+      "value": "2000D",
+      "artifact": ".light/failure_tree_I3_CVGR_v0.1.json",
+      "locator": "H1/primary_endpoint/timepoint and stopping/limit",
+      "status": "CONFIRMED",
+      "artifact_sha256": "sha256:23836B37856C4FAF6D1448F78D8F22851C7F6674DA5E2A9CEEA0B21111969C66"
+    },
+    {
+      "fact_id": "i3.m.mechanism_budget_per_run",
+      "value": "10000D",
+      "artifact": "artifacts/stage5/synthetic_problem_suite_spec_v0.1.md",
+      "locator": "line:80",
+      "status": "CONFIRMED",
+      "artifact_sha256": "sha256:AABAD923B228C88D13BCE37D2BFCD91F2AF529B1A843F4FDD1275260CDDDA285"
+    },
+    {
+      "fact_id": "i3.h1.graph_recovery_endpoint",
+      "value": "25/50/75/100 percent fixed-budget checkpoints; problem-level median NMI",
+      "artifact": "PROJECT_PLAN.md",
+      "locator": "line:60",
+      "status": "CONFIRMED",
+      "artifact_sha256": "sha256:D0B4B652B4FC52373A43C1929DC9718B265DEAED19FECF272D78F7F544DFB5F8"
+    },
+    {
+      "fact_id": "i3.h1.graph_recovery_endpoint",
+      "value": "25/50/75/100 percent fixed-budget checkpoints; problem-level median NMI",
+      "artifact": "preregistration_candidate_v0.1.md",
+      "locator": "line:72",
+      "status": "CONFIRMED",
+      "artifact_sha256": "sha256:A5F36D52D6C5D0B8ED9159FEFF107BBB55C86B454F93F5639E2EDCF53BFC4789"
+    },
+    {
+      "fact_id": "i3.h1.graph_recovery_endpoint",
+      "value": "25/50/75/100 percent fixed-budget checkpoints; problem-level median NMI",
+      "artifact": "experiments/experiment_matrix.md",
+      "locator": "line:7",
+      "status": "CONFIRMED",
+      "artifact_sha256": "sha256:AB6042BF4D463BCC3CFCBEB71E2ADE426CBF85EBA7530B0ACADA26B0CE64ECB8"
+    },
+    {
+      "fact_id": "i3.h1.graph_recovery_endpoint",
+      "value": "25/50/75/100 percent fixed-budget checkpoints; problem-level median NMI",
+      "artifact": ".light/failure_tree_I3_CVGR_v0.1.json",
+      "locator": "H1/primary_endpoint",
+      "status": "CONFIRMED",
+      "artifact_sha256": "sha256:23836B37856C4FAF6D1448F78D8F22851C7F6674DA5E2A9CEEA0B21111969C66"
+    },
+    {
+      "fact_id": "i3.h1.graph_recovery_endpoint",
+      "value": "first valid activation and time-weighted median over later valid graphs",
+      "artifact": "artifacts/stage5/synthetic_problem_suite_spec_v0.1.md",
+      "locator": "line:82",
+      "status": "CONFIRMED",
+      "artifact_sha256": "sha256:AABAD923B228C88D13BCE37D2BFCD91F2AF529B1A843F4FDD1275260CDDDA285"
+    }
+  ],
+  "decision_boundary": "The candidate values are majority readings, not authoritative resolutions. Only the author may decide which budget and H1 endpoint govern a versioned amendment."
+}

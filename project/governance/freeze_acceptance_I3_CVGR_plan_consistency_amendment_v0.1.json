@@ -1,0 +1,77 @@
+{
+  "schema": "alg1_replan.plan_consistency_amendment_freeze_acceptance.v1",
+  "authorization_id": "AUTH-I3-CVGR-CONSOLIDATED-GATES-v0.1-20260901T060722+0800",
+  "actor": "user",
+  "accepted_at": "2026-09-01T06:11:36.0277544+08:00",
+  "decision": {
+    "MH": "ACCEPT_MH_FREEZE_RESTORE_V0_1",
+    "P": "FREEZE_M_H_PLAN_CONSISTENCY_AMENDMENT_v0.1",
+    "R": "AUTHORIZE_EMPTY_DIRECTORY_RESTORE_AND_STATIC_VERIFICATION",
+    "E": "DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION",
+    "F": "KEEP_FORMAL_FFE_ZERO"
+  },
+  "authorizing_packet": {
+    "path": "governance/consolidated_author_decision_packet_I3_CVGR_v0.1.json",
+    "sha256": "CC0AF083FCBEE8880AF39319790106D6624321F0828B65EBB0EABB9248305457"
+  },
+  "authorization_record": {
+    "path": "governance/consolidated_author_decision_authorization_I3_CVGR_v0.1.json",
+    "sha256": "F07C3AD10EEE640108898C9D6607EEE9791A4B539A9789F687982A38A2EC04CB"
+  },
+  "accepted_candidate": {
+    "path": "governance/freeze_candidate_I3_CVGR_plan_consistency_amendment_v0.1.json",
+    "sha256": "E6903DE9D31FB41F52ABFF43F1B8BAF0FB9D1275977C4A6B90B7D28EA0D954D7",
+    "user_confirmation_via_namespaced_bundle": true,
+    "live_and_restored_sha256_matched": true
+  },
+  "immutable_snapshot": {
+    "directory": "governance/frozen/I3_CVGR_plan_consistency_amendment_v0.1_E6903DE9_snapshot",
+    "manifest": "governance/frozen/I3_CVGR_plan_consistency_amendment_v0.1_E6903DE9_snapshot/FREEZE_MANIFEST.json",
+    "manifest_sha256": "DB69A43576887B6F654839DFB8B25CB90F0E8A8E7BC6821A38CF4F8F7B87A133",
+    "manifest_bound_files": 12,
+    "manifest_bound_bytes": 64188,
+    "files_including_manifest": 13,
+    "archive": "governance/frozen/I3_CVGR_plan_consistency_amendment_v0.1_E6903DE9_snapshot.zip",
+    "archive_sha256": "CBD0CF94F2BA6608DEFE0EECDCE5976645D208511674A9A142994C54BBE649AC",
+    "archive_bytes": 31759,
+    "selection_rule": "Exactly the ten candidate-bound files plus the candidate and its verification receipt; historical frozen directories excluded."
+  },
+  "independent_restore_verification": {
+    "path": "governance/freeze_restore_verification_I3_CVGR_plan_consistency_amendment_v0.1.md",
+    "sha256": "4664E0643B6161BBD82F772C6BE62229C2F9A9542E92AFC2F9A84BB56AD2628A",
+    "restored_files": "13/13",
+    "missing_or_extra_files": 0,
+    "hash_or_byte_mismatches": 0,
+    "json_parse": "10/10",
+    "static_MH_check": "PASS",
+    "temporary_restore_cleanup": "SUCCESS",
+    "verdict": "FROZEN_MH_PLAN_CONSISTENCY_AMENDMENT_v0.1_RESTORED"
+  },
+  "freeze_effect": {
+    "state": "FROZEN_MH_PLAN_CONSISTENCY_AMENDMENT_v0.1",
+    "precedence": {
+      "M_budget": "2,000D per synthetic problem/algorithm/seed",
+      "H1_endpoint": "Problem-level median of NMI at fixed 25/50/75/100 percent M-budget checkpoints; inactive checkpoints equal zero"
+    },
+    "amendment_rule": "Any later change requires a new additive version, preservation of this snapshot and separate author hash confirmation before confirmatory use."
+  },
+  "scientific_state_at_freeze": {
+    "formal_optimizer_runs": 0,
+    "objective_or_constraint_evaluator_calls": 0,
+    "formal_run_packages": 0,
+    "formal_ffe": 0,
+    "performance_evidence": "NONE",
+    "objective_novelty": "UNKNOWN",
+    "paper_readiness": "NOT_READY"
+  },
+  "explicitly_not_authorized": [
+    "Freezing any NS, PA, BM, NV, MI or SA amendment without its own later author hash confirmation.",
+    "Production or analysis implementation changes.",
+    "Package installation or download.",
+    "Formal result reading or analysis.",
+    "Optimizer, evaluator, benchmark, simulation, S6-E0, M, C1, F, C2, Stage B or full TCAC execution.",
+    "Public release, remote push, preregistration submission, manuscript submission or publication.",
+    "Performance, superiority, convergence, robustness, objective-novelty, physical-validation or paper-readiness conclusions."
+  ],
+  "next_state": "AUTHORIZED_TO_PREPARE_PA_MI_NS_THEN_NV_BM_THEN_SA_SEPARATE_AMENDMENTS_WITHOUT_IMPLEMENTATION_OR_EXECUTION"
+}

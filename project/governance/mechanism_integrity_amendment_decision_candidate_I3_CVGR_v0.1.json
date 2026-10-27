@@ -1,0 +1,141 @@
+{
+  "schema": "alg1_replan.mechanism_integrity_amendment_decision_candidate.v1",
+  "candidate_id": "I3-CVGR-MECHANISM-INTEGRITY-AMENDMENT-DECISION-v0.1",
+  "status": "PROPOSED_NOT_AUTHORIZED",
+  "generated_at": "2026-08-31T23:38:00+08:00",
+  "project": "ALG1-Replan",
+  "method": "I3-CVGR-SHADE",
+  "purpose": "Acknowledge frozen S6-I1-I4 mathematical-contract gaps and authorize preparation only of a versioned mechanism-integrity amendment, deterministic fixtures and additive expected-red tests. This candidate preserves every frozen byte and does not authorize production repair, optimizer/evaluator execution or formal FFE.",
+  "bound_audit": {
+    "json_path": "governance/s6_i1_i4_mathematical_contract_gap_audit_I3_CVGR_v0.1.json",
+    "json_sha256": "674F1CEBA11FE2693B96B4BE88B30397B38EA4455AA162B52C108351CF93B6E4",
+    "json_bytes": 16275,
+    "md_path": "governance/s6_i1_i4_mathematical_contract_gap_audit_I3_CVGR_v0.1.md",
+    "md_sha256": "27649FB40695A86150C2A8F193FC7E6B0C245E9BBFF85B3BCAD6E2C70A9BB311",
+    "md_bytes": 4891,
+    "verdict": "FROZEN_CONTRACT_GREEN_BUT_NOT_MATHEMATICALLY_EXECUTION_READY_VERSIONED_AMENDMENT_REQUIRED"
+  },
+  "decision_A_gap_acknowledgement": {
+    "recommended": "ACKNOWLEDGE_5_CRITICAL_5_MAJOR_GAPS",
+    "meaning": "Treat the audit as a blocker for S6-E0 while preserving the existing freeze as historical evidence of its declared 46-test scope."
+  },
+  "decision_J_stability": {
+    "recommended": "SELECT_FULL_WEIGHT_MATRIX_JACCARD",
+    "meaning": "Compute stability over every upper-triangle pair of consecutive W matrices, including subthreshold positive weights, exactly as the frozen formula states."
+  },
+  "decision_N_nmi_universe": {
+    "recommended": "SELECT_FIXED_TRUTH_NODE_UNIVERSE_NMI_MISSING_AS_SINGLETON",
+    "meaning": "Evaluate NMI over the prespecified truth-node universe; map every missing observed constraint to its own deterministic missing-node singleton so omission cannot receive credit."
+  },
+  "decision_Q_relief_pool": {
+    "recommended": "SELECT_RELIEF_QUANTILE_OVER_ELIGIBLE_POPULATION",
+    "meaning": "After all target/p-best/distinctness exclusions, set relief-pool size to max(1, ceil(q times eligible_count))."
+  },
+  "decision_U_unsuccessful_trials": {
+    "recommended": "ALLOW_UNSUCCESSFUL_TRIAL_ZERO_GAIN_SUCCESS_ONLY_MEMORY",
+    "meaning": "Permit finite zero gain for rejected/equal trials; require strictly positive gain only for an accepted trial entering success-history memory."
+  },
+  "decision_F_ffe_attempts": {
+    "recommended": "COUNT_EVALUATOR_ATTEMPTS_AT_CALL_BOUNDARY",
+    "meaning": "Increment an attempted-FFE ledger immediately before each oracle invocation, then record success, malformed output or exception separately; cache hits remain zero FFE."
+  },
+  "decision_D_target_diagnostic": {
+    "recommended": "SELECT_NO_ACTIVE_TARGET_VIOLATION_FALLBACK",
+    "meaning": "Keep global feasibility based on the complete violation vector and use NO_ACTIVE_TARGET_VIOLATION when an infeasible target has zero violation in all active graph communities."
+  },
+  "decision_K_stable_id": {
+    "recommended": "SELECT_CANONICAL_TYPED_STABLE_ID_ORDER",
+    "meaning": "Freeze one stable-ID schema and total ordering; recommended run-local non-negative integer evaluation IDs compared numerically, with mixed types rejected."
+  },
+  "decision_W_rewire_control": {
+    "recommended": "REQUIRE_NONIDENTITY_REWIRE_OR_INCONCLUSIVE_WITH_TELEMETRY",
+    "meaning": "Record requested/attempted/successful swaps and graph identity; if a non-identity degree-preserving rewire cannot be generated under the frozen policy, mark the control inapplicable/inconclusive rather than silently using the learned graph."
+  },
+  "additional_mandatory_contracts": [
+    "Validate finite objective and complete ordered residual length before a cache entry becomes usable.",
+    "Store immutable cache evidence and return a copy or read-only view so callers cannot mutate history.",
+    "Freeze a portable identifier grammar for matrix, algorithm, problem and attempt IDs.",
+    "Construct future filesystem paths from a digest and preserve display IDs only as metadata.",
+    "Preserve all existing frozen snapshots and add an explicit precedence layer rather than editing them."
+  ],
+  "decision_C_amendment_scope": {
+    "recommended": "AUTHORIZE_VERSIONED_MECHANISM_INTEGRITY_AMENDMENT_PREPARATION_ONLY",
+    "meaning": "Prepare an additive specification amendment containing the selected semantics. It remains proposed and ineffective until a separate hash-bound freeze authorization."
+  },
+  "decision_T_tdd_scope": {
+    "recommended": "AUTHORIZE_ADDITIVE_MECHANISM_INTEGRITY_RED_TEST_PREPARATION_ONLY",
+    "required_red_coverage": [
+      "full-weight-matrix versus thresholded-edge Jaccard counterexample",
+      "fixed truth-node NMI with missing observed constraints",
+      "relief quantile after target/p-best/distinctness exclusions",
+      "mixed accepted and rejected trial generation with zero rejected gain",
+      "evaluator-attempt accounting on callback exception and malformed output using a forbidden-formal-FFE test double only",
+      "inactive-only target violation versus globally feasible target diagnostics",
+      "numeric stable IDs 2 versus 10 and mixed-type rejection",
+      "rewire achieved-swap telemetry and identity/inconclusive branch",
+      "cache finite shape/immutability contract",
+      "portable resume identity and traversal rejection"
+    ],
+    "phase_boundary": "After exact author confirmation, only additive specifications, fixtures and expected-red/static tests may be prepared and run. Production implementation and any formal evaluator remain forbidden."
+  },
+  "mandatory_holds": {
+    "P": "DO_NOT_AUTHORIZE_PRODUCTION_CODE_CHANGES",
+    "I": "DO_NOT_AUTHORIZE_PACKAGE_INSTALLATION_OR_DOWNLOAD",
+    "E": "DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION",
+    "F0": "KEEP_FORMAL_FFE_ZERO",
+    "X": "KEEP_EXISTING_FOUR_PENDING_DECISIONS_INDEPENDENT"
+  },
+  "local_git": {
+    "G": "AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE",
+    "remote_actions": "FORBIDDEN"
+  },
+  "scientific_state": {
+    "frozen_source_test_hashes_matched": "20/20",
+    "tests_collected_not_executed": 46,
+    "formal_optimizer_runs": 0,
+    "objective_or_constraint_evaluator_calls": 0,
+    "formal_run_packages": 0,
+    "formal_ffe": 0,
+    "performance_evidence": "NONE",
+    "objective_novelty": "UNKNOWN",
+    "paper_status": "METHOD_AND_CONDITIONAL_PLAN_ONLY"
+  },
+  "authorization_effect_if_confirmed": [
+    "Record the selected mathematical and diagnostic semantics as author decisions.",
+    "Prepare a versioned additive mechanism-integrity amendment without freezing or activating it.",
+    "Prepare deterministic counterexample fixtures and additive expected-red/static tests for all ten findings.",
+    "Use only test doubles explicitly isolated from formal FFE for exception-accounting red tests.",
+    "Prepare a separate hash-bound amendment freeze and later production-repair candidate."
+  ],
+  "not_authorized_even_if_confirmed": [
+    "Editing historical frozen source, tests, specifications, snapshots or acceptance records.",
+    "Freezing or activating the amendment by inference.",
+    "Modifying production source or making expected-red tests green.",
+    "Resolving or importing the existing M/H, parent-identity, modern-benchmark/external-baseline or novelty-control decisions.",
+    "Installing or downloading packages, benchmarks or source code.",
+    "Calling a formal objective, constraint, benchmark, optimizer or evaluator.",
+    "Executing S6-E0, M/C1/F/C2, Stage B, full TCAC or any formal FFE.",
+    "Forming novelty, effectiveness, superiority, convergence, robustness or paper-readiness conclusions.",
+    "Public release, remote push, submission or publication."
+  ],
+  "requested_author_decisions": {
+    "A": "ACKNOWLEDGE_5_CRITICAL_5_MAJOR_GAPS",
+    "J": "SELECT_FULL_WEIGHT_MATRIX_JACCARD",
+    "N": "SELECT_FIXED_TRUTH_NODE_UNIVERSE_NMI_MISSING_AS_SINGLETON",
+    "Q": "SELECT_RELIEF_QUANTILE_OVER_ELIGIBLE_POPULATION",
+    "U": "ALLOW_UNSUCCESSFUL_TRIAL_ZERO_GAIN_SUCCESS_ONLY_MEMORY",
+    "F": "COUNT_EVALUATOR_ATTEMPTS_AT_CALL_BOUNDARY",
+    "D": "SELECT_NO_ACTIVE_TARGET_VIOLATION_FALLBACK",
+    "K": "SELECT_CANONICAL_TYPED_STABLE_ID_ORDER",
+    "W": "REQUIRE_NONIDENTITY_REWIRE_OR_INCONCLUSIVE_WITH_TELEMETRY",
+    "C": "AUTHORIZE_VERSIONED_MECHANISM_INTEGRITY_AMENDMENT_PREPARATION_ONLY",
+    "T": "AUTHORIZE_ADDITIVE_MECHANISM_INTEGRITY_RED_TEST_PREPARATION_ONLY",
+    "P": "DO_NOT_AUTHORIZE_PRODUCTION_CODE_CHANGES",
+    "I": "DO_NOT_AUTHORIZE_PACKAGE_INSTALLATION_OR_DOWNLOAD",
+    "E": "DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION",
+    "F0": "KEEP_FORMAL_FFE_ZERO",
+    "G": "AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE",
+    "X": "KEEP_EXISTING_FOUR_PENDING_DECISIONS_INDEPENDENT"
+  },
+  "suggested_response": "我确认I3机制完整性修订裁决候选v0.1，SHA-256为<CANDIDATE_SHA256>；A=ACKNOWLEDGE_5_CRITICAL_5_MAJOR_GAPS；J=SELECT_FULL_WEIGHT_MATRIX_JACCARD；N=SELECT_FIXED_TRUTH_NODE_UNIVERSE_NMI_MISSING_AS_SINGLETON；Q=SELECT_RELIEF_QUANTILE_OVER_ELIGIBLE_POPULATION；U=ALLOW_UNSUCCESSFUL_TRIAL_ZERO_GAIN_SUCCESS_ONLY_MEMORY；F=COUNT_EVALUATOR_ATTEMPTS_AT_CALL_BOUNDARY；D=SELECT_NO_ACTIVE_TARGET_VIOLATION_FALLBACK；K=SELECT_CANONICAL_TYPED_STABLE_ID_ORDER；W=REQUIRE_NONIDENTITY_REWIRE_OR_INCONCLUSIVE_WITH_TELEMETRY；C=AUTHORIZE_VERSIONED_MECHANISM_INTEGRITY_AMENDMENT_PREPARATION_ONLY；T=AUTHORIZE_ADDITIVE_MECHANISM_INTEGRITY_RED_TEST_PREPARATION_ONLY；P=DO_NOT_AUTHORIZE_PRODUCTION_CODE_CHANGES；I=DO_NOT_AUTHORIZE_PACKAGE_INSTALLATION_OR_DOWNLOAD；E=DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION；F0=KEEP_FORMAL_FFE_ZERO；G=AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE；X=KEEP_EXISTING_FOUR_PENDING_DECISIONS_INDEPENDENT"
+}

@@ -1,0 +1,105 @@
+{
+  "schema": "alg1_replan.plan_consistency_amendment_freeze_candidate.v1",
+  "candidate_id": "I3-CVGR-PLAN-CONSISTENCY-AMENDMENT-FREEZE-v0.1",
+  "status": "PROPOSED_NOT_FROZEN",
+  "generated_at": "2026-08-31T21:05:06.9740604+08:00",
+  "project": "ALG1-Replan",
+  "method": "I3-CVGR-SHADE",
+  "preparation_authorization": {
+    "authorization_id": "AUTH-I3-FROZEN-PLAN-CONSISTENCY-v0.1-20260831T210506+0800",
+    "source": "governance/frozen_plan_consistency_decision_authorization_I3_CVGR_v0.1.json",
+    "source_sha256": "9C0A23A95E7CC2A28127DE05458CEFD81ABA4EEE2F5C7FDAD73DB37A3656CC2C",
+    "bound_decision_candidate_sha256": "8B1539AC32286673B5809772AB4AAF93C8242E1D819BAC414217134BE2D88EC6",
+    "scope": "Prepare and hash-bind an additive M-budget/H1-endpoint amendment only; no automatic freeze, restore, S6-E0 red phase, implementation, optimizer/evaluator execution or formal FFE."
+  },
+  "parent_frozen_plan": {
+    "acceptance_path": "governance/freeze_acceptance_I3_CVGR_v0.1.json",
+    "acceptance_sha256": "803123E861A6E0C7ADCDBCB56A9345E9E1D3AB6ADD809A6C40BB8AEBC1F2B5B8",
+    "accepted_candidate_sha256": "79F23915AAE5853B01EFFB095AA6448CE1C7A5F7F0A3D0166DBE0A119AA684B3",
+    "snapshot_archive_sha256": "6AC43CB831B5965CC5EB408E45C6D790859A74A6E10DFBB1091C13E9DC5E8F45",
+    "preservation_verified": true,
+    "rule": "The parent snapshot remains immutable and authoritative historical evidence. This candidate contains only an additive precedence layer."
+  },
+  "proposed_amendment": {
+    "path": "artifacts/stage5_amendment/frozen_plan_consistency_amendment_I3_CVGR_v0.1.md",
+    "sha256": "507AB8E5DF2B44807583D6DE0B8F0CE308EBBB2FC465F6D36C40A4D4227EA33A",
+    "decisions": {
+      "B": "SELECT_M_2000D",
+      "H": "SELECT_H1_FIXED_CHECKPOINT_MEDIAN"
+    },
+    "effective_only_if_separately_frozen": true,
+    "precedence_scope": [
+      {
+        "conflict_id": "C-M-BUDGET",
+        "selected_value": "2,000D per synthetic problem/algorithm/seed",
+        "M_ffe": 52920000,
+        "core_M_C1_F_ffe": 270120000,
+        "superseded_historical_locator": "artifacts/stage5/synthetic_problem_suite_spec_v0.1.md:80"
+      },
+      {
+        "conflict_id": "C-H1-ENDPOINT",
+        "selected_value": "NMI at fixed 25/50/75/100 percent M-budget checkpoints; inactive checkpoint=0; problem-level median",
+        "superseded_historical_locator": "artifacts/stage5/synthetic_problem_suite_spec_v0.1.md:82"
+      }
+    ]
+  },
+  "scientific_state": {
+    "formal_optimizer_runs": 0,
+    "objective_or_constraint_evaluator_calls": 0,
+    "formal_run_packages": 0,
+    "formal_ffe": 0,
+    "performance_evidence": "NONE",
+    "objective_novelty": "UNKNOWN",
+    "paper_status": "METHOD_AND_CONDITIONAL_PLAN_ONLY"
+  },
+  "scope_validation": {
+    "original_frozen_artifacts_edited": 0,
+    "threshold_changes": 0,
+    "problem_or_seed_changes": 0,
+    "code_or_test_changes": 0,
+    "S6_E0_artifacts_created": 0,
+    "optimizer_or_evaluator_execution": 0,
+    "formal_ffe": 0
+  },
+  "artifact_hash_algorithm": "SHA-256 over exact file bytes",
+  "artifacts": [
+    {"path":"governance/freeze_acceptance_I3_CVGR_v0.1.json","sha256":"803123E861A6E0C7ADCDBCB56A9345E9E1D3AB6ADD809A6C40BB8AEBC1F2B5B8","bytes":2640},
+    {"path":"governance/frozen_plan_consistency_findings_I3_CVGR_v0.1.json","sha256":"A8AEA7A9A2CF29C9721F5E9F8BB30D4EA40DFCCD8324B98429FE41485A510AEC","bytes":5963},
+    {"path":"governance/s6_e0_frozen_plan_fact_bindings_v0.1.json","sha256":"2F42AAECFDE45EDE16EFF01B85EC5C1373D3FAB98F27D9F0ED3799E96407D8BA","bytes":4844},
+    {"path":"governance/frozen_plan_consistency_decision_candidate_I3_CVGR_v0.1.json","sha256":"8B1539AC32286673B5809772AB4AAF93C8242E1D819BAC414217134BE2D88EC6","bytes":7484},
+    {"path":"governance/frozen_plan_consistency_decision_authorization_I3_CVGR_v0.1.json","sha256":"9C0A23A95E7CC2A28127DE05458CEFD81ABA4EEE2F5C7FDAD73DB37A3656CC2C","bytes":2841},
+    {"path":"artifacts/stage5_amendment/frozen_plan_consistency_amendment_I3_CVGR_v0.1.md","sha256":"507AB8E5DF2B44807583D6DE0B8F0CE308EBBB2FC465F6D36C40A4D4227EA33A","bytes":4305},
+    {"path":".light/deviations.md","sha256":"422934D5FECAD14D3EFF89B895E4162C762E89A4BDC745150EE64B671B149CEB","bytes":889},
+    {"path":".light/frozen_plan_consistency_findings_I3_CVGR_post_amendment_v0.1.json","sha256":"7D99B8ABFB1FED7D9A29B64B58FE0C6FCB5B2A03E9BC5FE5877DEABDDC1B53C3","bytes":4140},
+    {"path":"governance/frozen_plan_full_contract_audit_I3_CVGR_v0.2.json","sha256":"80BA3F3592D10E82F93E1C1DAAA379B24BAC326FCEEC0D61F42078F1F207C29D","bytes":11459},
+    {"path":"governance/s6_e0_red_phase_authorization_candidate_I3_CVGR_v0.1.json","sha256":"B344AA5BE00A0E12C6596FF477AC5E29740F9392D15237C3CAC969572906F649","bytes":9989}
+  ],
+  "artifact_count": 10,
+  "freeze_procedure_if_authorized": {
+    "snapshot_directory_pattern": "governance/frozen/I3_CVGR_plan_consistency_amendment_v0.1_<candidate-hash-prefix>_snapshot",
+    "archive_pattern": "governance/frozen/I3_CVGR_plan_consistency_amendment_v0.1_<candidate-hash-prefix>_snapshot.zip",
+    "copy_rule": "Copy exactly the ten manifest-bound files plus this candidate and its verification receipt; do not recursively include historical frozen directories.",
+    "restore_rule": "Restore into a new empty directory, require exact path-set and SHA-256 equality, and rerun JSON/Markdown/static consistency checks without invoking an evaluator or optimizer.",
+    "acceptance_rule": "Create a separate freeze acceptance record only after candidate hash confirmation and successful restore."
+  },
+  "remaining_hard_stops_even_if_frozen": [
+    "The method-full-name conflict and post-freeze machine-provenance findings in the v0.2 audit remain unresolved and are not covered by this candidate.",
+    "S6-E0 red-contract preparation remains on hold until those later full-contract matters receive their own author decision and binding.",
+    "Parent FR-SHADE exact identity, external baseline fairness and modern benchmark/license closure remain open.",
+    "No optimizer/evaluator execution, formal run package, M/C1/F/C2 budget, public release or submission is authorized."
+  ],
+  "requested_author_decisions": {
+    "P": "FREEZE_M_H_PLAN_CONSISTENCY_AMENDMENT_v0.1",
+    "R": "AUTHORIZE_EMPTY_DIRECTORY_RESTORE_AND_STATIC_VERIFICATION",
+    "E": "DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION",
+    "F": "KEEP_FORMAL_FFE_ZERO",
+    "N": "DO_NOT_INFER_METHOD_NAME_DECISION",
+    "S": "DO_NOT_INFER_POST_FREEZE_PROVENANCE_BINDING"
+  },
+  "completion_boundary": {
+    "freeze_means": "The M-budget and H1-endpoint precedence layer is immutable, restorable and eligible for later confirmatory contract composition.",
+    "freeze_does_not_mean": "The full frozen plan is internally complete, S6-E0 is released, an executable optimizer is authorized, or any experimental/performance evidence exists.",
+    "next_gate_after_restore": "Separate author decision on the remaining v0.2 method-name and machine-provenance findings."
+  },
+  "suggested_response": "我确认冻结I3 M/H方案一致性修订候选v0.1，SHA-256为<CANDIDATE_SHA256>；P=FREEZE_M_H_PLAN_CONSISTENCY_AMENDMENT_v0.1；R=AUTHORIZE_EMPTY_DIRECTORY_RESTORE_AND_STATIC_VERIFICATION；E=DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION；F=KEEP_FORMAL_FFE_ZERO；N=DO_NOT_INFER_METHOD_NAME_DECISION；S=DO_NOT_INFER_POST_FREEZE_PROVENANCE_BINDING"
+}

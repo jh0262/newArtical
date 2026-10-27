@@ -1,0 +1,236 @@
+{
+  "schema": "alg1_replan.statistical_analysis_contract_gap_audit.v1",
+  "audit_id": "I3-CVGR-STATISTICAL-ANALYSIS-CONTRACT-GAP-AUDIT-v0.1",
+  "status": "STATIC_AUDIT_COMPLETE_NO_PLAN_OR_CODE_CHANGE",
+  "as_of": "2026-08-31",
+  "generated_at": "2026-08-31T23:20:56.3227959+08:00",
+  "project": "ALG1-Replan",
+  "method": "I3-CVGR-SHADE",
+  "purpose": "Determine whether the frozen experiment matrix, preregistration, target chain and failure tree define one reproducible confirmatory analysis capable of supporting a bounded SCI claim. This audit does not amend the frozen plan, inspect outcomes, execute an optimizer/evaluator or consume formal FFE.",
+  "analysis_contract": {
+    "input": [
+      "accepted frozen plan and immutable snapshot identity",
+      "live plan, preregistration, experiment matrix, target chain, failure tree, plan specification and reproducibility checklist",
+      "pending M/H precedence amendment and five independent unresolved author gates",
+      "zero formal run and zero formal FFE scientific state"
+    ],
+    "output": [
+      "endpoint and inferential-unit ambiguity findings",
+      "multiplicity, missingness and exact-test gap map",
+      "minimum versioned amendment requirements",
+      "execution and paper-readiness hold"
+    ],
+    "process": "bind live bytes and prior authority -> compare estimand to operational endpoint -> trace run/seed/problem aggregation -> audit exact-test and multiplicity contracts -> audit failure/missingness actions -> classify evidence consequences",
+    "flow_logic": "frozen plan -> immutable run schema -> run-level measurement -> seed-level aggregation -> problem-level effect -> cross-problem inference -> multiplicity-controlled branch -> allowed claim"
+  },
+  "bound_state": {
+    "live_commit_before_audit": "87e48975afbc97b41a1c4d0ab9c5032a0b1019ec",
+    "live_worktree_before_audit": "CLEAN",
+    "freeze_acceptance": {
+      "path": "governance/freeze_acceptance_I3_CVGR_v0.1.json",
+      "sha256": "803123E861A6E0C7ADCDBCB56A9345E9E1D3AB6ADD809A6C40BB8AEBC1F2B5B8",
+      "accepted_candidate_sha256": "79F23915AAE5853B01EFFB095AA6448CE1C7A5F7F0A3D0166DBE0A119AA684B3"
+    },
+    "live_artifacts": [
+      {"path": "PROJECT_PLAN.md", "sha256": "D0B4B652B4FC52373A43C1929DC9718B265DEAED19FECF272D78F7F544DFB5F8", "bytes": 10869},
+      {"path": "preregistration_candidate_v0.1.md", "sha256": "A5F36D52D6C5D0B8ED9159FEFF107BBB55C86B454F93F5639E2EDCF53BFC4789", "bytes": 7763},
+      {"path": "experiments/experiment_matrix.md", "sha256": "AB6042BF4D463BCC3CFCBEB71E2ADE426CBF85EBA7530B0ACADA26B0CE64ECB8", "bytes": 3492},
+      {"path": ".light/target_chain_I3_CVGR_v0.1.json", "sha256": "D431857A5A6B00582FD7AAFFBE5A9840C02EB25307FE7D1265BDDD757B76AFDA", "bytes": 17364},
+      {"path": ".light/failure_tree_I3_CVGR_v0.1.json", "sha256": "23836B37856C4FAF6D1448F78D8F22851C7F6674DA5E2A9CEEA0B21111969C66", "bytes": 7118},
+      {"path": ".light/plan_spec_I3_CVGR_v0.1.json", "sha256": "56C31B75E9D79F5D115EE078BA7C52E1AB7406EA91599DBFA2A742B8F7C0E316", "bytes": 2932},
+      {"path": ".light/plan_package_I3_CVGR_v0.1.json", "sha256": "BF4E26C3E05595DE4FA732191FA0B5D345737AF4F87DB9EFDF9D9E414626D206", "bytes": 1760},
+      {"path": "reproducibility-checklist.md", "sha256": "E83F5607E6CF206FFFEFD23F38E99053EF59E353C7EBBF68AD2B910669A14B68", "bytes": 3040}
+    ],
+    "pending_M_H_amendment": {
+      "path": "governance/freeze_candidate_I3_CVGR_plan_consistency_amendment_v0.1.json",
+      "sha256": "E6903DE9D31FB41F52ABFF43F1B8BAF0FB9D1275977C4A6B90B7D28EA0D954D7",
+      "state": "PROPOSED_NOT_FROZEN",
+      "audit_treatment": "The author-selected 2,000D M budget and fixed-checkpoint H1 endpoint are treated as pending precedence choices, not as frozen authority. This audit does not reopen or freeze them."
+    }
+  },
+  "structural_gate_context": {
+    "plan_findings": "PASS with statistical_power=SKIP",
+    "target_chain": "PASS",
+    "failure_tree": "PASS",
+    "research_package_final": "not released; historical manifest has handoff authorization gaps",
+    "interpretation": "These gates verify declared structure. They do not prove that seed aggregation, A12 estimation, exact zero/tie inference, cross-hypothesis multiplicity or unresolved-run handling has one mathematical implementation."
+  },
+  "findings": [
+    {
+      "id": "SAG-01",
+      "severity": "CRITICAL",
+      "title": "H1 and H2 do not define the unique path from 30 seed runs to one problem-level endpoint",
+      "evidence": [
+        "preregistration_candidate_v0.1.md:55 declares 30 runs per problem and seed is not the inferential unit",
+        "preregistration_candidate_v0.1.md:72 defines a four-checkpoint median NMI but does not state whether checkpoints are aggregated before or after the 30 seeds",
+        "preregistration_candidate_v0.1.md:76 defines a problem-level directional-success proportion but does not state whether donor events are pooled across runs, run proportions are equally weighted, or seed-paired contrasts are aggregated",
+        ".light/target_chain_I3_CVGR_v0.1.json declares problem as the analysis unit but leaves the within-problem seed estimator implicit"
+      ],
+      "why_it_changes_results": "Median-over-checkpoints then median-over-seeds, median-over-seeds then median-over-checkpoints, and pooling all events are not algebraically equivalent. Event pooling additionally weights long or frequently activating runs more heavily.",
+      "required_resolution": "Freeze a two-stage estimator for each endpoint, including run-level numerator/denominator, inactive-run handling, seed-paired contrast, problem aggregation and the exploratory status of any event-weighted alternative."
+    },
+    {
+      "id": "SAG-02",
+      "severity": "CRITICAL",
+      "title": "H3 uses common random numbers but does not uniquely define the A12 estimand or estimator",
+      "evidence": [
+        "PROJECT_PLAN.md:78 states that algorithms use the same 30 seeds",
+        "preregistration_candidate_v0.1.md:80 says A12 is estimated from 30 outputs per algorithm",
+        ".light/target_chain_I3_CVGR_v0.1.json operationally mentions 30 outcomes but does not state whether A12 uses all 900 cross-algorithm pairs, only 30 aligned-seed pairs, or excludes the 30 correlated diagonal pairs"
+      ],
+      "why_it_changes_results": "All-pairs Vargha-Delaney A12 and aligned-seed superiority probability estimate different quantities. Under common random numbers, the diagonal pairs are dependent and cannot be silently treated as ordinary independent two-sample pairs.",
+      "required_resolution": "Freeze the exact comparison kernel, tie weight, pair set and estimator name. If conventional all-pairs A12 is retained, predefine a CRN-aware paired sensitivity analysis and uncertainty method; if aligned pairs are primary, rename the endpoint and revisit the 0.56 threshold."
+    },
+    {
+      "id": "SAG-03",
+      "severity": "CRITICAL",
+      "title": "The promised exact Wilcoxon analysis is not executable under the natural zero and tie patterns",
+      "evidence": [
+        "PROJECT_PLAN.md:117 specifies one-sided exact Wilcoxon tests",
+        "PROJECT_PLAN.md:119 defers zero-difference and tie handling to a future frozen library implementation",
+        "reproducibility-checklist.md:53 leaves Holm family, zero/tie handling and A12 direction unchecked",
+        "H1/H2 assign zero to inactive problems and H3 uses discrete A12 values, so zero differences and tied absolute ranks are expected rather than exceptional"
+      ],
+      "why_it_changes_results": "Library versions differ in whether they use asymptotic or exact calculations and how they treat zero differences and tied ranks. The resulting p values and Holm branches can differ for the same immutable data.",
+      "required_resolution": "Freeze a library-independent enumerated signed-rank or alternative exact procedure, including zero method, midrank rule, alternative direction, p-value definition, all-zero action and test vectors with hand-computable expected values."
+    },
+    {
+      "id": "SAG-04",
+      "severity": "CRITICAL",
+      "title": "Multiplicity is controlled within each hypothesis but not across the selectable H1/H2 mechanism route and H3 paper claim",
+      "evidence": [
+        "PROJECT_PLAN.md:117 limits Holm correction to the comparisons within one hypothesis",
+        "PROJECT_PLAN.md:149 permits the paper route when H3 and at least one of H1 or H2 succeeds",
+        "preregistration_candidate_v0.1.md:96 requires H3 success with H1/H2 merely not failed, while the final paper gate later selects at least one successful mechanism hypothesis"
+      ],
+      "why_it_changes_results": "Selecting whichever of H1 or H2 passes after separate within-hypothesis corrections inflates the chance of a mechanism-supported paper claim. The distinction between non-failure and positive support is also not resolved in the H3 branch.",
+      "required_resolution": "Freeze one global confirmatory claim family and gatekeeping rule. A defensible option is to form one intersection-union p value for each of H1, H2 and H3, then apply Holm across those three global hypotheses; H4 remains a deterministic integrity gate."
+    },
+    {
+      "id": "SAG-05",
+      "severity": "CRITICAL",
+      "title": "The <=5 percent unresolved infrastructure-failure case and paired-seed handling are undefined",
+      "evidence": [
+        "preregistration_candidate_v0.1.md:103-104 allows one same-seed recovery and marks a comparison missing only when failures exceed 5 percent",
+        "with 30 runs, one unresolved run is 3.33 percent and two are 6.67 percent, but the plan does not state what happens to the one unresolved run",
+        "the plan does not state whether the matched run from the other algorithm is retained, removed as a pair, or used in an unequal-sample estimator"
+      ],
+      "why_it_changes_results": "Different complete-case and unequal-sample choices change H1/H2 seed contrasts and H3 A12. Deciding this after observing failures would be an outcome-dependent exclusion rule.",
+      "required_resolution": "Freeze the exact integer threshold, pair-complete rule, denominator, minimum analyzable runs, whole-hypothesis action and immutable retention of original plus retry packages before any formal execution."
+    },
+    {
+      "id": "SAG-06",
+      "severity": "MAJOR",
+      "title": "The independent-problem assumption and inferential population are stronger than the fixed benchmark construction supports",
+      "evidence": [
+        "the 12 synthetic problems are a complete 3x2x2 deterministic factorial family rather than a random sample",
+        "the 16 CEC2006 problems are a fixed eligibility subset",
+        "target-chain analysis families call these problems independent generalization units"
+      ],
+      "consequence": "Cross-problem p values can be read as superpopulation evidence even though the plan only has a fixed benchmark census and related task families.",
+      "required_resolution": "Define the finite benchmark population as the primary scope, state the exchangeability/symmetry assumption explicitly, report all task effects and factorial strata, and prohibit extrapolation beyond the frozen suites without a separately frozen modern-family analysis."
+    },
+    {
+      "id": "SAG-07",
+      "severity": "MAJOR",
+      "title": "Thirty seeds are fixed without a Monte Carlo precision target or uncertainty contract",
+      "evidence": [
+        "PROJECT_PLAN.md:121 states that no conventional 80 percent power claim is made",
+        "the preregistration reports point effects and q values but does not define confidence intervals for seed-derived NMI, proportions or A12",
+        "the 0.56 A12 success boundary is close enough to 0.5 that within-problem Monte Carlo uncertainty can affect classification"
+      ],
+      "consequence": "The plan avoids seed pseudo-replication but does not show what stochastic effect precision 30 runs can support.",
+      "required_resolution": "Predefine paired seed bootstrap or another CRN-aware interval, Monte Carlo standard error reporting and a fixed sensitivity analysis for n=30; do not use observed post hoc power."
+    },
+    {
+      "id": "SAG-08",
+      "severity": "MAJOR",
+      "title": "Algorithm-attributable failure is defined for final performance but not for H1/H2 mechanism endpoints",
+      "evidence": [
+        "preregistration_candidate_v0.1.md:101 assigns a worst constraint-first final outcome to NaN, illegal index or internal exception",
+        "the same section does not define the NMI checkpoint series, activation count or directional-success denominator for a failed mechanism run"
+      ],
+      "consequence": "A failed run could be excluded from H1/H2 while being penalized in H3, creating inconsistent evidence and survivorship bias.",
+      "required_resolution": "Freeze fail-closed H1/H2 run records and endpoint values for each algorithm failure code, distinct from infrastructure missingness."
+    },
+    {
+      "id": "SAG-09",
+      "severity": "MAJOR",
+      "title": "H4 alternates between 240 paired comparisons and 480 individual run traces",
+      "evidence": [
+        "experiment_matrix.md:10 describes all 8x30 runs against the parent",
+        ".light/failure_tree_I3_CVGR_v0.1.json declares inconclusive when expected trace count is below 480",
+        "8 problems x 30 seeds yields 240 CVGR-parent pairs but 480 individual algorithm traces"
+      ],
+      "consequence": "A report can reach 100 percent using different denominators while still appearing compliant.",
+      "required_resolution": "Freeze both expected counts: 480 immutable run packages forming exactly 240 pair keys, and require zero missing packages, zero missing pairs and zero mismatches."
+    },
+    {
+      "id": "SAG-10",
+      "severity": "MAJOR",
+      "title": "Primary SESOI thresholds are decision values without a predeclared robustness envelope",
+      "evidence": [
+        "PROJECT_PLAN.md:83 says A12=0.56 is preregistered but not a literature-established domain constant",
+        ".light/plan_spec_I3_CVGR_v0.1.json states that no credible prior problem-level effect distribution exists",
+        "NMI=0.60, delta-NMI=0.20 and direction-delta=0.05 likewise have no recorded external or pilot source"
+      ],
+      "consequence": "The thresholds are valid decision rules but cannot be presented as established scientific importance boundaries.",
+      "required_resolution": "Label them project decision thresholds, preserve them for confirmatory branching, and predeclare threshold-sensitivity plots as secondary without using them to rescue a failed primary branch."
+    },
+    {
+      "id": "SAG-11",
+      "severity": "MAJOR",
+      "title": "The 25 percent wall-clock guardrail lacks an operational estimator",
+      "evidence": [
+        "PROJECT_PLAN.md:143 and the failure tree use a median overhead threshold of 25 percent",
+        "ROB-02 specifies hardware, single-thread and warm-up but not timer boundaries, paired ratio, aggregation order, repetition count or handling of near-zero parent times"
+      ],
+      "consequence": "The same timing records can produce different guardrail decisions and efficiency claims.",
+      "required_resolution": "Freeze timer scope, warm-up exclusion, paired seed/problem ratio, robust aggregation order, clock source, process isolation and a no-efficiency-claim action for unstable timing."
+    }
+  ],
+  "coverage_summary": {
+    "critical_findings": 5,
+    "major_findings": 6,
+    "frozen_plan_files_edited": 0,
+    "production_files_edited": 0,
+    "test_files_edited": 0,
+    "analysis_scripts_executed_on_results": 0,
+    "optimizer_or_evaluator_calls": 0,
+    "formal_ffe": 0
+  },
+  "nonoverlap_with_existing_pending_gates": [
+    "M/H candidate governs only the selected 2,000D budget and fixed-checkpoint H1 timing",
+    "parent-identity candidate governs the citable SHADE/Deb composite and parent conformance",
+    "modern-benchmark candidate governs benchmark and external-baseline identity, license and FFE adapters",
+    "novelty-control candidate governs Ray-style collision control and narrowed originality claims",
+    "mechanism-integrity candidate governs graph mathematics, donor semantics, FFE attempts, cache and path identity",
+    "this audit governs the run-to-seed-to-problem estimators, exact inference, global multiplicity and failure/missingness analysis contract"
+  ],
+  "verdict": {
+    "code": "STRUCTURALLY_PREREGISTERED_BUT_NOT_STATISTICALLY_EXECUTION_READY_VERSIONED_AMENDMENT_REQUIRED",
+    "s6_e0_release": "HOLD",
+    "paper_readiness": "NOT_READY",
+    "performance_evidence": "NONE",
+    "formal_ffe": 0,
+    "rationale": "Five critical analysis choices can change primary endpoints, p values or branch decisions for the same immutable run packages. They must be fixed before result access and before an analysis script is allowed to consume formal data."
+  },
+  "governance_effect": {
+    "authority_created": "NONE",
+    "next_gate": "Author decision on preparation of a versioned statistical-analysis amendment and additive static/expected-red analysis-contract tests only.",
+    "required_sequence": [
+      "author selects the critical statistical semantics",
+      "prepare additive amendment, machine analysis specification and hand-computable red fixtures",
+      "separately freeze and restore that amendment",
+      "only then authorize analysis implementation and green tests",
+      "optimizer/evaluator execution remains behind later independent gates"
+    ]
+  },
+  "actions_not_taken": [
+    "No frozen plan, snapshot, source, test or analysis artifact was edited.",
+    "No statistical choice was silently selected for the author.",
+    "No optimizer, benchmark, evaluator, objective or constraint function was called.",
+    "No formal run package or formal FFE was created.",
+    "No performance, superiority, novelty, convergence, robustness or paper-readiness conclusion was formed."
+  ]
+}

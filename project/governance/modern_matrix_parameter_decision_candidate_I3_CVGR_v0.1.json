@@ -1,0 +1,40 @@
+{
+  "schema": "alg1_replan.modern_matrix_parameter_decision_candidate.v1",
+  "candidate_id": "I3-CVGR-MODERN-MATRIX-PARAMETER-DECISION-v0.1",
+  "status": "PROPOSED_NOT_AUTHORIZED_NOT_FREEZE_CANDIDATE",
+  "generated_at": "2026-09-01T06:40:00+08:00",
+  "project": "ALG1-Replan",
+  "purpose": "Resolve the dimensions, instances, stochastic seeds, FFE budget, restart, baseline roster and start policy that were explicitly left unfrozen by the accepted BM preparation gate. This candidate does not install packages, freeze the matrix, implement adapters or execute any FFE.",
+  "bound_authority": {"path":"governance/consolidated_author_decision_authorization_I3_CVGR_v0.1.json","sha256":"F07C3AD10EEE640108898C9D6607EEE9791A4B539A9789F687982A38A2EC04CB","decision":"BM=ACCEPT_MODERN_MATRIX_PREPARATION"},
+  "bound_identity_decision": {"path":"governance/external_baseline_modern_benchmark_decision_candidate_I3_CVGR_v0.1.json","sha256":"36FBDF42301DBB21B966067E28EF8EF02DE64E30DD6938ECE5036D3CB6C535FC"},
+  "prepared_artifacts": [
+    {"path":"artifacts/stage5_amendment/modern_matrix_amendment_I3_CVGR_v0.1.md","sha256":"F680E5ACDA96408E6A49E1D00B931F77ADED637C321A18EA8D165F61A9F95373","bytes":2474},
+    {"path":"artifacts/stage5_amendment/modern_benchmark_baseline_spec_I3_CVGR_v0.1.md","sha256":"144C656D169A139FE45ADBDF596E741E9F5D6C0DDD0AC82092F9771170E33179","bytes":1359},
+    {"path":"artifacts/stage5_amendment/modern_matrix_fixtures_I3_CVGR_v0.1.json","sha256":"FE9CCD8B3BC19EE47B5165E847E1FACE90AE595D35085F0B70B6C0025E7BDFE1","bytes":929},
+    {"path":"artifacts/stage5_amendment/proposed_red_tests/test_modern_matrix_expected_red_v0_1.py","sha256":"5281EBE56BF51B5FB26A199B6C1910F11EEBD4F1C5F5B7C98C2B22D48F0F82F4","bytes":582},
+    {"path":"governance/execution_resource_feasibility_audit_I3_CVGR_v0.1.json","sha256":"75AF22A8442CD627912B99D760F4DBA42D8FA6EB858B18021FD6CB528973BFB5","bytes":16672}
+  ],
+  "recommended": {
+    "code": "SELECT_BM_R1",
+    "dimensions": [5,10,20],
+    "instances": [1,2,3,4,5],
+    "stochastic_seeds": [0,1,2,3,4],
+    "budget": "10000D",
+    "restart": "NONE",
+    "m_ge_3_algorithms": ["I3","PARENT","RAY_STYLE","LSHADE44_IEPSILON","AL_CMA_ES"],
+    "m_eq_1_algorithms": ["I3","PARENT"],
+    "local_control": "COBYLA_ONE_DETERMINISTIC_RUN_PER_FUNCTION_DIMENSION_INSTANCE_NON_HEADLINE",
+    "start_policy": "COUNTED_COCO_FEASIBLE_START_COMMON_ROLE_PLUS_RUN_KEY_DETERMINISTIC_COMMON_POPULATION_PREFIX",
+    "run_packages": 19035,
+    "maximum_formal_ffe": 2220750000,
+    "reason": "Separates five stochastic seeds from five transformed instances, covers 5D-20D mechanism transfer, includes a strong constrained-DE peer and cross-family control, retains m=1 fallback, and avoids the unbounded 97.2B-FFE interpretation. Execution feasibility remains unknown and requires a later calibration/resource gate."
+  },
+  "alternatives": [
+    {"code":"REQUEST_BM_R1_REVISION","meaning":"Do not select the matrix; request an explicitly stated change to dimensions, instances, seeds, budget, restart, roster or start policy."},
+    {"code":"HOLD_MODERN_FAMILY","meaning":"Keep COCO and external baselines outside the confirmatory paper matrix; SA remains blocked until the claim scope is correspondingly narrowed."}
+  ],
+  "dependencies": {"NV_freeze":"required_before_final_BM_freeze","BM_parameter_selection":"required_before_BM_freeze_candidate","BM_freeze_restore":"required_before_SA_freeze_candidate"},
+  "not_authorized": ["package installation or download","production or analysis implementation","expected-red execution","benchmark/optimizer/evaluator calls","formal result access","formal FFE","performance, novelty or paper-readiness conclusions"],
+  "requested_author_decisions": {"BM":"SELECT_BM_R1","A":"AUTHORIZE_BM_R1_FREEZE_CANDIDATE_PREPARATION_ONLY","I":"DO_NOT_AUTHORIZE_PACKAGE_INSTALLATION_OR_DOWNLOAD","C":"DO_NOT_AUTHORIZE_PRODUCTION_OR_ANALYSIS_IMPLEMENTATION","E":"DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION","F":"KEEP_FORMAL_FFE_ZERO"},
+  "suggested_response": "我确认I3现代矩阵参数裁决候选v0.1，SHA-256为<CANDIDATE_SHA256>；BM=SELECT_BM_R1；A=AUTHORIZE_BM_R1_FREEZE_CANDIDATE_PREPARATION_ONLY；I=DO_NOT_AUTHORIZE_PACKAGE_INSTALLATION_OR_DOWNLOAD；C=DO_NOT_AUTHORIZE_PRODUCTION_OR_ANALYSIS_IMPLEMENTATION；E=DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION；F=KEEP_FORMAL_FFE_ZERO"
+}

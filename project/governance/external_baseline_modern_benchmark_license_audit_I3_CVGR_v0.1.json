@@ -1,0 +1,244 @@
+{
+  "schema": "alg1_replan.external_baseline_modern_benchmark_license_audit.v1",
+  "audit_id": "AUDIT-I3-EXTERNAL-BASELINE-MODERN-BENCHMARK-v0.1-20260831",
+  "generated_at": "2026-08-31T22:03:14+08:00",
+  "project": "ALG1-Replan",
+  "candidate_method": "I3-CVGR-SHADE",
+  "mode": "STATIC_EVIDENCE_AND_LICENSE_AUDIT_NO_DOWNLOAD_NO_PRODUCTION_CHANGE_NO_OPTIMIZER_NO_EVALUATOR_ZERO_FORMAL_FFE",
+  "verdict": "LICENSE_CLEAR_MODERN_SUITE_AVAILABLE_BUT_BENCHMARK_AND_BASELINE_MATRIX_NOT_AUTHORIZED_OR_FROZEN",
+  "confidence": 0.94,
+  "legal_boundary": "This is a technical provenance and license-locator audit, not legal advice.",
+  "scope_boundary": {
+    "production_files_edited": 0,
+    "tests_edited_or_executed": 0,
+    "packages_installed_or_downloaded": 0,
+    "optimizer_runs": 0,
+    "objective_or_constraint_evaluator_calls": 0,
+    "formal_ffe": 0,
+    "performance_claims_permitted": false
+  },
+  "bound_project_evidence": [
+    {
+      "path": "artifacts/stage2/benchmark_feasibility_v0.1.md",
+      "sha256": "477CBED4FA00B6C36C2577BED7822094D564F5F77BF2208D92BF4103602FD306",
+      "bytes": 3011,
+      "finding": "CEC2006 is pilot-fit but a modern license-closed suite is required for a full paper."
+    },
+    {
+      "path": "artifacts/stage2/benchmark_inventory_v0.1.json",
+      "sha256": "60AEC34464EC2BFB9CA27073D3BAAD526331DC05CBCAC91F2D777F5B90065EEC",
+      "bytes": 4227,
+      "finding": "CEC2006 has 16 m>=3 primary problems and 8 fallback problems; CEC2020-M4 redistribution permission is unresolved."
+    },
+    {
+      "path": "experiments/experiment_matrix.md",
+      "sha256": "AB6042BF4D463BCC3CFCBEB71E2ADE426CBF85EBA7530B0ACADA26B0CE64ECB8",
+      "bytes": 3492,
+      "finding": "The frozen-plan candidate explicitly blocks modern-suite expansion until identity, license, amendment and author authorization close."
+    }
+  ],
+  "local_literature_search": {
+    "required_order": [
+      "04_index/literature.db",
+      "03_notes",
+      "05_evidence",
+      "02_text",
+      "project artifacts"
+    ],
+    "cec2006_definition": {
+      "paper_id": "P00053",
+      "path": "../../02_text/P00053_tr_cec06.md",
+      "sha256": "E1C6434052323029F5ADF1A11634C5EBF028650655CA7F687724DC28457E594E",
+      "metadata_confidence": 0.42,
+      "use": "Local full-text evidence for the historical CEC2006 problem definitions only; bibliographic metadata remains partly unverified."
+    },
+    "lshade44_iepsilon_lead": {
+      "paper_id": "P01838",
+      "path": "../../02_text/P01838_面向昂贵约束优化问题的代理...助差分进化算法研究及其应用_袁彬.md",
+      "sha256": "D8EE15894F098D4992AFA08E0F3A8CC85554B9B5A9FEDA169F30065ECA8CA9C3",
+      "metadata_confidence": 0.45,
+      "use": "Local bibliography identifies the 2018 LSHADE44-IEpsilon paper; the primary paper was checked online before using its algorithm contract."
+    },
+    "interpretation": "The local corpus supports candidate discovery, but incomplete metadata and absent software-license records prevent it from closing external baseline or benchmark identity by itself."
+  },
+  "modern_benchmark_candidates": [
+    {
+      "code": "B1_COCO_BBOB_CONSTRAINED_2_8_2",
+      "recommendation": "RECOMMENDED_FOR_AMENDMENT_PREPARATION",
+      "name": "COCO bbob-constrained",
+      "package": "coco-experiment 2.8.2",
+      "package_release_date": "2025-11-27",
+      "package_locator": "https://pypi.org/project/coco-experiment/2.8.2/",
+      "package_license": "BSD-3-Clause",
+      "license_locator": "https://raw.githubusercontent.com/numbbo/coco/master/LICENSE",
+      "suite_locator": "https://coco-platform.org/testsuites/bbob-constrained",
+      "definitions_locator": "https://numbbo.github.io/coco-doc/bbob-constrained/functions.pdf",
+      "implementation_locator": "https://github.com/numbbo/coco-experiment",
+      "official_data_archive": "https://coco-platform.org/testsuites/bbob-constrained/data-archive.html",
+      "identity_facts": {
+        "single_objective_functions": 54,
+        "objective_families": 9,
+        "constraint_regimes_per_objective": 6,
+        "dimensions": [2, 3, 5, 10, 20, 40],
+        "default_instances": "1-15",
+        "constraint_counts": ["1", "3", "9", "9+floor(3D/4)", "9+floor(3D/2)", "9+floor(9D/2)"],
+        "cvgr_m_ge_3_function_ids_per_dimension": 45,
+        "separate_constraint_vector_available": true,
+        "known_optimum": true,
+        "feasible_initial_solution_available": true
+      },
+      "fit_for_I3": "FIT_WITH_REQUIRED_PROTOCOL_AMENDMENT",
+      "strengths": [
+        "Modern, scalable and license-clear single-objective constrained suite.",
+        "Forty-five of 54 functions per dimension have m>=3 and can exercise the graph mechanism; nine m=1 functions are natural fallback controls.",
+        "The API exposes individual constraint values and an official result archive with cross-family comparators.",
+        "Using the package as a pinned dependency avoids copying the benchmark implementation into the project."
+      ],
+      "required_protocol_resolutions": [
+        "Bind a package artifact hash and environment before any evaluator call.",
+        "Define a paired oracle call that obtains one objective value and one full constraint vector for the same x; require objective-call count == constraint-call count == project formal FFE.",
+        "Prevent hidden feasibility checks, target-hit probes or recommendations from consuming unledgered calls.",
+        "Freeze whether the provided feasible initial solution is inserted and how remaining population members are generated identically across stochastic algorithms.",
+        "Freeze dimensions, instances, algorithm seeds, budget, restart policy and problem-level inferential unit before execution.",
+        "Keep CEC2006 and COCO analyses in separately declared families; do not retroactively merge them into the existing preregistration."
+      ]
+    },
+    {
+      "code": "B2_CEC2020_RW57_VIA_ENOPPY_0_1_1",
+      "recommendation": "SUPPLEMENT_ONLY_NOT_PRIMARY_MODERN_SUITE",
+      "name": "CEC2020 real-world 57-problem suite through ENOPPY 0.1.1",
+      "paper_doi": "10.1016/j.swevo.2020.100693",
+      "official_repo": "https://github.com/P-N-Suganthan/2020-RW-Constrained-Optimisation",
+      "official_repo_license_status": "NO_REPOSITORY_LICENSE_OBSERVED",
+      "enoppy_locator": "https://pypi.org/project/enoppy/0.1.1/",
+      "enoppy_license": "GPL-3.0",
+      "enoppy_license_locator": "https://github.com/thieu1995/enoppy/blob/8c5ffca/LICENSE",
+      "existing_project_identity_evidence": "RC15, RC16 and RC19 have an independent ENOPPY cross-check in the predecessor project; RC24 is not usable through ENOPPY 0.1.1.",
+      "fit_for_I3": "NOT_YET_FIT_FOR_SUITE_WIDE_CONFIRMATORY_USE",
+      "reason": "The GPL implementation resolves redistribution for ENOPPY itself, but suite-wide formula identity, discrete-variable policy, constraint sign/order and all 57 problem interfaces are not validated. The official repository remains unlicensed for redistribution."
+    },
+    {
+      "code": "B3_CEC2017_OFFICIAL",
+      "recommendation": "HOLD",
+      "name": "CEC2017 constrained real-parameter suite",
+      "official_repo": "https://github.com/P-N-Suganthan/CEC2017",
+      "official_repo_license_status": "NO_REPOSITORY_LICENSE_OBSERVED",
+      "fit_for_I3": "IDENTITY_AVAILABLE_PERMISSION_UNRESOLVED",
+      "reason": "Official benchmark files are available, but repository availability is not redistribution permission. It cannot close the requested license gate without permission or a licensed independent implementation."
+    }
+  ],
+  "external_baseline_candidates": [
+    {
+      "code": "A1_LSHADE44_IEPSILON_CLEAN_ROOM",
+      "role": "PRIMARY_CONSTRAINED_DE_COMPARATOR",
+      "recommendation": "RECOMMENDED_SUBJECT_TO_SEPARATE_SPEC_AND_RED_TEST_FREEZE",
+      "paper": "LSHADE44 with an Improved Epsilon Constraint-Handling Method for Solving Constrained Single-Objective Optimization Problems",
+      "year": 2018,
+      "primary_paper_locator": "https://eng.stu.edu.cn/__local/0/FB/F0/5755E58C67310A57BF27F773376_2DF9DC24_44AEA.pdf?e=.pdf",
+      "paper_contract_observed": [
+        "28 CEC2017 problems, D in {10,30,50,100}, 25 independent runs and MaxFEs=20000D",
+        "Nmax=5D, Nmin=5, H=10, K=4, p=0.2",
+        "IEpsilon parameters cp=2, theta=20%, Tc=0.8MaxFEs, alpha=0.5 and tau=0.1",
+        "The paper reports comparisons with CAL-SHADE, LSHADE44+IDE, LSHADE44 and UDE"
+      ],
+      "source_license_status": "NO_LICENSE_CLOSED_SOURCE_SELECTED",
+      "implementation_rule": "Do not copy CEC archives or unlicensed third-party source. Prepare an independently authored specification from the primary paper and its cited LSHADE44 definition, then expected-red conformance tests and an identity limitation statement.",
+      "fit_for_I3": "SCIENTIFICALLY_STRONG_BUT_IMPLEMENTATION_IDENTITY_NOT_CLOSED"
+    },
+    {
+      "code": "A2_PYCMA_AL_CMA_ES_4_4_4",
+      "role": "PRIMARY_CROSS_FAMILY_STOCHASTIC_COMPARATOR",
+      "recommendation": "RECOMMENDED",
+      "package": "cma 4.4.4",
+      "release_date": "2026-02-25",
+      "package_locator": "https://pypi.org/project/cma/4.4.4/",
+      "license": "BSD-3-Clause",
+      "license_locator": "https://github.com/CMA-ES/pycma/blob/development/LICENSE",
+      "api_locator": "https://cma-es.github.io/apidocs-pycma/cma.constraints_handler.ConstrainedFitnessAL.html",
+      "identity": "CMA-ES with adaptive augmented-Lagrangian constraint handling via ConstrainedFitnessAL",
+      "accounting_note": "Use which='best' to avoid the documented additional objective/constraint update evaluation, wrap every x in the common paired evaluator ledger, and hard-stop at the frozen budget.",
+      "equality_note": "For suites with equalities, freeze the two-inequality epsilon transformation and count it as one paired evaluator call, not as extra FFE.",
+      "fit_for_I3": "FIT_WITH_ADAPTER_AND_ACCOUNTING_TESTS"
+    },
+    {
+      "code": "A3_SCIPY_COBYLA_1_18_0",
+      "role": "DETERMINISTIC_LOCAL_SANITY_COMPARATOR",
+      "recommendation": "RECOMMENDED_AS_NON_HEADLINE_CONTROL",
+      "package": "scipy 1.18.0",
+      "local_identity": "Installed in the current Python environment; no solver was called.",
+      "license": "BSD-3-Clause with bundled-component notices",
+      "license_locator": "https://github.com/scipy/scipy",
+      "api_locator": "https://docs.scipy.org/doc/scipy/reference/optimize.minimize-cobyla.html",
+      "identity": "Pure-Python PRIMA COBYLA exposed by scipy.optimize.minimize",
+      "accounting_note": "The documented maxiter is the maximum number of function evaluations. A common memoizing paired evaluator must prevent separate objective and constraint callbacks at the same x from double-counting project FFE.",
+      "fit_for_I3": "FIT_AS_CROSS_PARADIGM_CONTROL_NOT_AS_A_STOCHASTIC_DE_PEER"
+    },
+    {
+      "code": "A4_PYGMO_CSTRS_SELF_ADAPTIVE_PLUS_SADE",
+      "role": "LICENSE_CLEAR_CONSTRAINED_DE_FALLBACK",
+      "recommendation": "NOT_RECOMMENDED_FOR_PRIMARY_MATRIX",
+      "package": "pygmo 2.19.8 / pagmo 2.19.1",
+      "license": "MPL-2.0 for PyGMO package metadata; GPL-3.0-or-later OR LGPL-3.0-or-later for Pagmo",
+      "api_locator": "https://esa.github.io/pygmo2/algorithms.html#pygmo.cstrs_self_adaptive",
+      "reason": "The official documentation states that an internal cache makes the final fitness-evaluation count somewhat unpredictable and that behavior depends strongly on the inner algorithm. This conflicts with the project's exact equal-FFE contract unless a separately validated cutoff adapter changes the execution semantics."
+    }
+  ],
+  "matrix_recommendation": {
+    "status": "PROPOSED_NOT_AUTHORIZED",
+    "benchmark": "B1_COCO_BBOB_CONSTRAINED_2_8_2",
+    "external_algorithms": [
+      "A1_LSHADE44_IEPSILON_CLEAN_ROOM",
+      "A2_PYCMA_AL_CMA_ES_4_4_4",
+      "A3_SCIPY_COBYLA_1_18_0"
+    ],
+    "existing_internal_controls_preserved": [
+      "selected project parent",
+      "degree-preserving rewiring",
+      "diversity-matched donor control",
+      "scalar aggregate-violation donor control",
+      "CVGR without stability gate"
+    ],
+    "rationale": "B1 closes modern-suite licensing and exposes the individual residual vector required by CVGR. A1 is the nearest strong constrained-DE peer but must be clean-room and conformance-gated; A2 supplies a strong stochastic cross-family comparator with permissive licensing; A3 is a deterministic local sanity control rather than a headline peer.",
+    "engineering_transfer": "Keep CEC2020-M4 as an independently authorized benchmark-level supplement only. It is neither a replacement for the modern suite nor physical validation.",
+    "inference_boundary": "No superiority, broad generalization or paper-readiness conclusion is permitted from this static shortlist."
+  },
+  "blocking_findings": [
+    {
+      "id": "EXT-MATRIX-01",
+      "severity": "BLOCKER",
+      "finding": "The modern benchmark and external comparator set are not part of the currently frozen plan or preregistration.",
+      "required_resolution": "Author selects an option and authorizes versioned amendment preparation; a later candidate must be frozen before implementation or execution."
+    },
+    {
+      "id": "COCO-FFE-02",
+      "severity": "BLOCKER",
+      "finding": "COCO counts objective and constraint evaluations separately while the project defines one combined objective-plus-full-constraint-vector evaluation as one formal FFE.",
+      "required_resolution": "Freeze paired-call semantics and prove objective_calls == constraint_calls == formal_ffe in additive red/green adapter tests."
+    },
+    {
+      "id": "COCO-INIT-03",
+      "severity": "MAJOR",
+      "finding": "COCO provides a feasible initial solution, whereas CVGR activation requires informative infeasible histories and the current plan assumes shared population initialization.",
+      "required_resolution": "Freeze a common initialization policy and report activation/fallback rates; do not tune initialization after observing performance."
+    },
+    {
+      "id": "LS44-ID-04",
+      "severity": "BLOCKER",
+      "finding": "LSHADE44-IEpsilon is scientifically relevant, but no license-closed source implementation has been selected and conformance to the paper is untested.",
+      "required_resolution": "Prepare a clean-room versioned specification and expected-red identity tests before production implementation."
+    },
+    {
+      "id": "BASELINE-FAIR-05",
+      "severity": "BLOCKER",
+      "finding": "External algorithms have different native population, restart, equality and initialization semantics.",
+      "required_resolution": "Preserve native mechanisms while freezing the same problem implementation, paired evaluation budget, seed/instance set, termination boundary and result comparator; report deviations explicitly."
+    },
+    {
+      "id": "CEC20-LICENSE-06",
+      "severity": "MAJOR",
+      "finding": "The official CEC2020 repository exposes software but no repository license was observed. ENOPPY is GPLv3 but suite-wide identity is unverified.",
+      "required_resolution": "Do not vendor official source; use only separately licensed dependencies or independent implementations with identity audits. Keep CEC2020-M4 supplemental."
+    }
+  ],
+  "next_safe_gate": "Author selection of benchmark/baseline route and authorization to prepare a versioned plan amendment plus additive specifications and expected-red adapter tests only. This audit itself does not authorize any package installation, production code, evaluator call, optimizer run or formal FFE."
+}

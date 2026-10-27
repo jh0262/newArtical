@@ -1,0 +1,19 @@
+{
+  "complexity": "complex",
+  "path_predictable": true,
+  "subtasks_independent": false,
+  "clear_evaluator": true,
+  "requirements_complete": true,
+  "user_decision_needed": true,
+  "action_kind": "local research design and candidate evidence preparation",
+  "remote_execution": false,
+  "paid_resource": false,
+  "estimated_cost_usd": 0,
+  "reversible": true,
+  "decision_question": "Which reviewed algorithm mechanism should be frozen for implementation?",
+  "human_checkpoints": [
+    "final algorithm selection before preregistration",
+    "high-cost full experiment activation",
+    "final evidence-package acceptance"
+  ]
+}

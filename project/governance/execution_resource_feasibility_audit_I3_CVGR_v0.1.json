@@ -1,0 +1,233 @@
+{
+  "schema": "alg1_replan.execution_resource_feasibility_audit.v1",
+  "audit_id": "I3-CVGR-EXECUTION-RESOURCE-FEASIBILITY-AUDIT-v0.1",
+  "status": "STATIC_RESOURCE_AUDIT_COMPLETE_NO_EXECUTION",
+  "generated_at": "2026-09-01T05:43:39.2979404+08:00",
+  "project": "ALG1-Replan",
+  "method_abbreviation": "CVGR-SHADE",
+  "purpose": "Determine whether the current workstation, dependency state, run counts, FFE envelope and artifact-storage evidence are sufficient to authorize paper-bearing experiments. This audit performs arithmetic and read-only environment inventory only; it does not install dependencies, call an evaluator, run an optimizer or estimate performance.",
+  "bound_state": {
+    "consolidated_author_packet": {
+      "path": "governance/consolidated_author_decision_packet_I3_CVGR_v0.1.json",
+      "sha256": "CC0AF083FCBEE8880AF39319790106D6624321F0828B65EBB0EABB9248305457",
+      "state": "PROPOSED_NOT_AUTHORIZED"
+    },
+    "environment_inventory": {
+      "path": "governance/local_execution_environment_inventory_I3_CVGR_v0.1.json",
+      "sha256": "3D93DA83047E33654D968080F57A69A438F19ED9A104E6A65056D70E60896291",
+      "bytes": 3212
+    },
+    "project_plan": {
+      "path": "PROJECT_PLAN.md",
+      "sha256": "D0B4B652B4FC52373A43C1929DC9718B265DEAED19FECF272D78F7F544DFB5F8"
+    },
+    "dependency_audit": {
+      "path": "governance/pending_author_gate_dependency_audit_I3_CVGR_v0.1.json",
+      "sha256": "BF93A906545780E556DEBACA59B01AC8CE03FC0BEDA04E8BE286583463BBF8A7"
+    },
+    "modern_benchmark_audit": {
+      "path": "governance/external_baseline_modern_benchmark_license_audit_I3_CVGR_v0.1.json",
+      "sha256": "6EE80F4DC59E1554F3CB18ECFFE17D10AA01FC16B15684068C7DB5453A3B2380"
+    },
+    "formal_optimizer_runs": 0,
+    "objective_or_constraint_evaluator_calls": 0,
+    "formal_run_packages": 0,
+    "formal_ffe": 0
+  },
+  "input_output_process": {
+    "input": [
+      "frozen and conditionally amended internal experiment matrices",
+      "Ray-control placement scenario from the pending novelty gate",
+      "official COCO suite dimensions/functions/instances recorded by the existing license audit",
+      "read-only local CPU, disk, Python, package and BLAS inventory"
+    ],
+    "output": [
+      "run-package and FFE envelopes",
+      "illustrative aggregate-throughput duration table",
+      "storage headroom conditions",
+      "dependency and environment blockers",
+      "future calibration and authorization sequence"
+    ],
+    "process": "bind plan and environment hashes -> expand runs by problems x variants x seeds -> sum dimension-weighted FFE -> calculate conditional modern-suite envelopes -> compare with installed dependencies and storage evidence -> define measurable future go/no-go criteria",
+    "flow_logic": "final matrix -> exact expected run keys -> exact planned FFE -> frozen environment -> bounded evaluator-bearing calibration -> throughput/package-size projection -> author resource decision -> separately authorized M -> mechanism gate -> separately authorized C1/F/modern"
+  },
+  "internal_experiment_envelopes": {
+    "frozen_current_without_Ray": {
+      "M": {"run_packages": 2520, "formal_ffe": 52920000},
+      "C1": {"run_packages": 1920, "formal_ffe": 190800000},
+      "F": {"run_packages": 480, "formal_ffe": 26400000},
+      "core_total": {"run_packages": 4920, "formal_ffe": 270120000},
+      "optional_C2": {"run_packages": 1440, "formal_ffe": 143100000},
+      "core_plus_C2": {"run_packages": 6360, "formal_ffe": 413220000},
+      "state": "HISTORICAL_FROZEN_ARITHMETIC_PENDING_MH_PRECEDENCE_FREEZE"
+    },
+    "recommended_claim_matrix_if_Ray_enters_M_and_C1": {
+      "assumption": "Ray-style control is required in both the synthetic mechanism comparison and CEC2006 performance comparison to support the narrowed graph-specific contribution. This placement is not yet authorized or frozen.",
+      "M": {"problems": 12, "variants": 8, "seeds": 30, "run_packages": 2880, "per_run_budget": "2,000D", "formal_ffe": 60480000},
+      "C1": {"problems": 16, "variants": 5, "seeds": 30, "run_packages": 2400, "per_run_budget": "10,000D", "formal_ffe": 238500000},
+      "F": {"problems": 8, "variants": 2, "seeds": 30, "run_packages": 480, "per_run_budget": "10,000D", "formal_ffe": 26400000},
+      "core_total": {"run_packages": 5760, "formal_ffe": 325380000},
+      "optional_C2": {"problems": 16, "additional_variants": 3, "seeds": 30, "run_packages": 1440, "formal_ffe": 143100000},
+      "core_plus_C2": {"run_packages": 7200, "formal_ffe": 468480000},
+      "delta_over_current_core": {"run_packages": 840, "formal_ffe": 55260000}
+    }
+  },
+  "modern_suite_conditional_envelopes": {
+    "known_suite_facts": {
+      "functions_per_dimension": 54,
+      "m_ge_3_functions_per_dimension": 45,
+      "m_eq_1_fallback_functions_per_dimension": 9,
+      "dimensions": [2, 3, 5, 10, 20, 40],
+      "dimension_sum": 80,
+      "default_instances": 15
+    },
+    "unfrozen_design_variables": [
+      "which dimensions",
+      "which instances",
+      "number and role of stochastic algorithm seeds",
+      "per-run FFE budget and restart policy",
+      "whether Ray-style control enters the modern family",
+      "whether fallback functions use every external baseline",
+      "statistical unit and family separation"
+    ],
+    "illustrative_lower_complexity_full_official_grid": {
+      "assumptions": "All 54 functions, all six official dimensions, all 15 default instances, five algorithms (CVGR, parent, LSHADE44-IEpsilon, AL-CMA-ES, COBYLA), one stochastic realization, fixed 10,000D budget, no restarts.",
+      "run_packages": 24300,
+      "formal_ffe": 3240000000,
+      "status": "ILLUSTRATIVE_NOT_SELECTED_NOT_AUTHORIZED"
+    },
+    "illustrative_same_grid_with_30_seeds": {
+      "run_packages": 729000,
+      "formal_ffe": 97200000000,
+      "status": "ILLUSTRATIVE_NOT_SELECTED_NOT_AUTHORIZED",
+      "interpretation": "Blindly copying the internal 30-seed rule onto every COCO instance multiplies the already large grid by 30 and is not resource-justified. Instances and algorithm seeds must receive separate roles in the estimand."
+    },
+    "Ray_control_effect_if_added_as_sixth_algorithm": {
+      "one_realization_run_packages": 29160,
+      "one_realization_formal_ffe": 3888000000,
+      "thirty_seed_run_packages": 874800,
+      "thirty_seed_formal_ffe": 116640000000,
+      "status": "ILLUSTRATIVE_NOT_SELECTED_NOT_AUTHORIZED"
+    },
+    "conclusion": "A modern-suite FFE total cannot be frozen from the current candidate. Dimensions, instances, seed role, budget, algorithm roster and restarts must be settled before the statistical amendment and before any dependency installation or execution authorization."
+  },
+  "illustrative_duration_table": {
+    "definition": "Wall time equals total FFE divided by measured aggregate valid FFE per second. Rates below are hypothetical capacity scenarios, not measurements of this code or host, and exclude 30-50 percent contingency.",
+    "rows": [
+      {"scope": "internal core with Ray", "formal_ffe": 325380000, "at_100_ffe_per_second": "37.66 days", "at_1000_ffe_per_second": "3.77 days", "at_10000_ffe_per_second": "9.04 hours"},
+      {"scope": "internal core plus optional C2", "formal_ffe": 468480000, "at_100_ffe_per_second": "54.22 days", "at_1000_ffe_per_second": "5.42 days", "at_10000_ffe_per_second": "13.01 hours"},
+      {"scope": "illustrative COCO five-algorithm one-realization grid", "formal_ffe": 3240000000, "at_100_ffe_per_second": "375.00 days", "at_1000_ffe_per_second": "37.50 days", "at_10000_ffe_per_second": "3.75 days"},
+      {"scope": "illustrative COCO five-algorithm 30-seed grid", "formal_ffe": 97200000000, "at_100_ffe_per_second": "11250.00 days", "at_1000_ffe_per_second": "1125.00 days", "at_10000_ffe_per_second": "112.50 days"}
+    ],
+    "use_boundary": "Do not quote any row as a forecast. Replace the rate with a separately authorized, measured aggregate throughput after implementation is frozen."
+  },
+  "storage_envelope": {
+    "host_free_gib_snapshot": 945.45,
+    "illustrative_30_percent_reserve": {
+      "usable_gib": 661.82,
+      "maximum_mean_package_size_internal_7200_runs_mib": 94.12,
+      "maximum_mean_package_size_COCO_24300_runs_mib": 27.89,
+      "maximum_mean_package_size_COCO_729000_runs_mib": 0.93
+    },
+    "boundary": "The reserve ratio is an illustrative planning margin, not a frozen quota. No formal package writer exists and no measured package-size distribution exists, so storage feasibility is UNKNOWN despite ample current free space.",
+    "required_future_measurement": "After a separately authorized evaluator-bearing calibration, report median and 95th-percentile closed-package bytes including checkpoints, events, stdout/stderr and failure artifacts; project required storage as expected run keys x p95 bytes x authorized contingency."
+  },
+  "findings": [
+    {
+      "id": "RF-01",
+      "severity": "CRITICAL",
+      "title": "No measured aggregate throughput exists for hundreds of millions to billions of planned FFE",
+      "evidence": "The current implementation has no complete optimizer/evaluator path and the authorization boundary prohibits evaluator calls. Existing 46/46 tests are deterministic contracts, not runtime calibration.",
+      "consequence": "Wall-clock duration and feasible worker count cannot be inferred from CPU identity or hypothetical FFE/s rows.",
+      "required_resolution": "After all relevant implementations and environments are frozen, obtain a separate budget-specific S6-E0-X0 calibration authorization. Count every real evaluator call as formal FFE, blind performance outputs, measure throughput/overhead/failure/package size, and require an author resource decision before M."
+    },
+    {
+      "id": "RF-02",
+      "severity": "CRITICAL",
+      "title": "The modern COCO experiment matrix is not resource-identifiable",
+      "evidence": "The suite identity is known, but dimensions, instances, seed role/count, budget, restart policy, Ray placement and statistical unit are explicitly unfrozen.",
+      "consequence": "Plausible interpretations range from 24,300 runs and 3.24 billion FFE to 729,000 runs and 97.2 billion FFE before adding Ray as a sixth algorithm.",
+      "required_resolution": "Freeze a scientifically justified modern matrix before statistical analysis and resource authorization. Do not shrink it merely to fit; instead state the target inference population and choose dimensions/instances/seeds that support it, then secure adequate resources or narrow the claim explicitly."
+    },
+    {
+      "id": "RF-03",
+      "severity": "CRITICAL",
+      "title": "Required modern benchmark and baseline packages are absent and installation is not authorized",
+      "evidence": "coco-experiment and cma/pycma are not installed; pyproject declares only NumPy. The consolidated packet remains unconfirmed and explicitly prohibits installation/download.",
+      "consequence": "Modern benchmark adapters and baseline identity tests cannot currently be implemented or executed on this environment.",
+      "required_resolution": "After BM selection/amendment freeze, prepare a separate dependency lock and installation authorization for an isolated environment. Verify package/version/Python compatibility and hashes before code or evaluator-bearing tests."
+    },
+    {
+      "id": "RF-04",
+      "severity": "MAJOR",
+      "title": "BLAS and process parallelism are not locked and can oversubscribe the workstation",
+      "evidence": "The host exposes 24 logical processors; NumPy OpenBLAS also permits 24 threads, while OMP/MKL/OPENBLAS/NUMEXPR thread variables are unset.",
+      "consequence": "Multiple run workers can each spawn many numeric threads, corrupting timing comparisons and potentially reducing throughput.",
+      "required_resolution": "Freeze per-process numeric-library threads, worker count, CPU affinity policy if available, warm-up and timer scope. Calibrate a bounded worker grid and select the highest stable aggregate throughput subject to reproducibility and memory constraints."
+    },
+    {
+      "id": "RF-05",
+      "severity": "MAJOR",
+      "title": "Memory, project quota and run-package size are unverified",
+      "evidence": "Physical memory and volume metadata were access-restricted; no project quota exists; S6-I4 deliberately creates zero run packages.",
+      "consequence": "Free disk alone does not prove that 7,200 to hundreds of thousands of immutable packages can be stored, hashed and resumed safely.",
+      "required_resolution": "Obtain memory visibility or conservative worker limits, set a project quota, measure p95 package bytes in the authorized calibration and verify atomic closure/resume on the target filesystem."
+    },
+    {
+      "id": "RF-06",
+      "severity": "MAJOR",
+      "title": "The active Python environment is not a frozen reproducible environment",
+      "evidence": "Python 3.14.7, NumPy 2.5.2, SciPy 1.18.0 and pytest 9.1.1 are observed, but pyproject only bounds Python>=3.11 and NumPy>=2.0; no environment lock exists and PYTHONHASHSEED is unset.",
+      "consequence": "Future package resolution or another machine can change numerical and statistical behavior; package compatibility with Python 3.14 has not been tested.",
+      "required_resolution": "Create an isolated, hash-bound environment lock after dependency authorization; record Python, wheels, BLAS, OS, CPU, threads and PYTHONHASHSEED, then rerun the authorized complete contract suite."
+    },
+    {
+      "id": "RF-07",
+      "severity": "MAJOR",
+      "title": "The current internal budget has no 30-50 percent operational contingency contract",
+      "evidence": "Fixed FFE is correctly not extended for favorable results, but execution planning does not separately budget disk, wall time, checksum, one retry, failed-attempt retention and analysis rebuild overhead.",
+      "consequence": "Operational overruns can pressure unauthorized run deletion, seed replacement or budget changes.",
+      "required_resolution": "Keep scientific FFE fixed while separately reserving a declared operational time/storage contingency. Contingency may cover immutable retries and processing but must never create unregistered replacement seeds or extra performance runs."
+    }
+  ],
+  "future_resource_gate": {
+    "state": "PLANNED_NOT_AUTHORIZED",
+    "prerequisites": [
+      "consolidated author packet confirmed",
+      "all required scientific amendments separately frozen and restored",
+      "complete optimizer/evaluator/run-package implementation frozen and green",
+      "dependency environment separately authorized, locked and verified",
+      "non-confirmatory calibration fixtures/seeds and blinded output policy frozen"
+    ],
+    "measurements": [
+      "single-worker and bounded multi-worker aggregate valid FFE/s",
+      "CVGR graph overhead and parent baseline throughput",
+      "peak resident memory per worker",
+      "median and p95 closed-package bytes",
+      "checksum/close/resume time",
+      "failure and retry artifact sizes",
+      "deterministic duplicate-run hash agreement"
+    ],
+    "go_no_go_formula": [
+      "projected_wall_time = planned_formal_ffe / measured_aggregate_valid_ffe_per_second x authorized_contingency",
+      "projected_storage = expected_run_keys x measured_p95_closed_package_bytes x authorized_contingency",
+      "GO only if the author explicitly accepts the projected time/storage/cost envelope and all integrity gates pass"
+    ],
+    "boundary": "A calibration with a real objective/constraint evaluator consumes counted FFE and requires explicit authorization. It cannot be relabeled as a zero-FFE test."
+  },
+  "verdict": {
+    "code": "INTERNAL_RUN_COUNTS_ARE_ARITHMETICALLY_KNOWN_BUT_EXECUTION_RESOURCE_FEASIBILITY_IS_UNVERIFIED",
+    "paper_readiness": "NOT_READY",
+    "s6_e0_release": "HOLD",
+    "dependency_installation": "NOT_AUTHORIZED",
+    "formal_ffe": 0,
+    "next_safe_action": "Keep the consolidated author decision packet as the current gate. After its confirmation and ordered amendment work, prepare a separately hash-bound dependency/environment and S6-E0-X0 resource-calibration authorization candidate."
+  },
+  "actions_not_taken": [
+    "No package was installed, downloaded, imported for execution or upgraded.",
+    "No optimizer, benchmark adapter, objective, constraint or evaluator was called.",
+    "No formal run package, performance value or timing measurement was created.",
+    "No frozen plan, implementation snapshot, source or test byte was edited.",
+    "No resource scenario was selected or treated as an author decision."
+  ]
+}

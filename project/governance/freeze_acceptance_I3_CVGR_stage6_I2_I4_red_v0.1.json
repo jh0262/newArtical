@@ -1,0 +1,84 @@
+{
+  "schema": "alg1_replan.stage6_red_freeze_acceptance.v1",
+  "authorization_id": "AUTH-I3-FREEZE-STAGE6-I2-I4-RED-20260831T144255+0800",
+  "authorization_record": {
+    "path": "governance/freeze_authorization_I3_CVGR_stage6_I2_I4_red_v0.1.json",
+    "sha256": "F689C9F63B037993899138A1B1E92AA007A7BCA36E290C0B3ECD1309AB914E88"
+  },
+  "actor": "user",
+  "accepted_at": "2026-08-31T14:42:55.0264014+08:00",
+  "confirmation_mode": "CONTEXTUAL_CONFIRMATION_OF_IMMEDIATELY_PRECEDING_UNIQUE_PENDING_DECISION",
+  "decision": {
+    "P": "FREEZE_RED_BASELINE",
+    "C": "DO_NOT_AUTHORIZE_I2_I4_PRODUCTION_IMPLEMENTATION",
+    "E": "DO_NOT_AUTHORIZE_OPTIMIZER_EXECUTION",
+    "F": "KEEP_FORMAL_FFE_ZERO"
+  },
+  "accepted_candidate": {
+    "path": "governance/freeze_candidate_I3_CVGR_stage6_I2_I4_red_v0.1.json",
+    "sha256": "0144EE7F892CB3957532D32A432A0F81C2352E599F35A66861680090B07D6921",
+    "user_repeated_sha256": false,
+    "context_bound_sha256_recomputed_and_matched": true,
+    "candidate_bound_files": 11,
+    "candidate_hash_or_byte_mismatches_before_acceptance": 0
+  },
+  "immutable_snapshot": {
+    "source_commit": "5430a09064c4e764711bdfb9931c4d8ffe45af46",
+    "directory": "governance/frozen/I3_CVGR_stage6_I2_I4_red_v0.1_0144EE7F_snapshot",
+    "manifest": "governance/frozen/I3_CVGR_stage6_I2_I4_red_v0.1_0144EE7F_snapshot/FREEZE_MANIFEST.json",
+    "manifest_sha256": "7FF2C2BA2C9B7F218FD2E9AF3F2AD647BF578974A39415D34ABEE0366881B6A8",
+    "manifest_bound_files": 246,
+    "files_including_manifest": 247,
+    "manifest_hash_mismatch_count": 0,
+    "archive": "governance/frozen/I3_CVGR_stage6_I2_I4_red_v0.1_0144EE7F_snapshot.zip",
+    "archive_sha256": "981B210CFF1E967CBD8C78E5132105551DBC2747B7533C865F4881DD9F469878",
+    "archive_bytes": 739545,
+    "contains": "Complete tracked dependency closure at the authorization-record commit, including S6-I1 green evidence and S6-I2/I3/I4 red contracts, without their production modules."
+  },
+  "independent_restore_verification": {
+    "path": "governance/freeze_restore_verification_I3_CVGR_stage6_I2_I4_red_v0.1.md",
+    "sha256": "FE4C1B9D2B8D8F545739FE7B66F55A0367C306B568E7F3F39F4FF346AFA60D7B",
+    "restored_bound_file_hashes_matched": "246/246",
+    "missing_or_unexpected_files": 0,
+    "s6_i1_frozen_tests": "29/29 passed",
+    "s6_i1_direct_pytest_exit_code": 0,
+    "s6_i2_i4_collection_errors": 4,
+    "expected_missing_module_root_causes": 4,
+    "unexpected_passes_or_failures": 0,
+    "s6_i2_i4_direct_pytest_exit_code": 2,
+    "verdict": "STRUCTURAL_PASS_CORE_GREEN_EXPECTED_RED"
+  },
+  "freeze_effect": {
+    "state": "FROZEN_STAGE6_I2_I4_RED_v0.1",
+    "newly_frozen_scope": [
+      "S6-I2 parent SHADE specification, deterministic fixture and two red tests",
+      "S6-I3 online CVGR state specification, deterministic fixture and red test",
+      "S6-I4 evaluator-forbidden dry-run specification, deterministic fixture and red test",
+      "red-phase receipt and its disclosed import-order refinement provenance"
+    ],
+    "preserved_scope": "The earlier frozen plan, additive TDD baseline and S6-I1 green implementation evidence remain authoritative and byte-preserved in the snapshot.",
+    "amendment_rule": "Any change to one of the 11 frozen red-baseline artifacts requires a new version, preservation of this snapshot and separately hash-bound author authorization before use."
+  },
+  "explicitly_not_authorized": [
+    "implementation of alg1_replan.selection",
+    "implementation of alg1_replan.shade_kernel",
+    "implementation of alg1_replan.online_state",
+    "implementation of alg1_replan.experiment_contracts",
+    "turning any S6-I2/I3/I4 red test green",
+    "optimizer, benchmark, simulation, pilot, M, C1, F, C2, Stage B or TCAC execution",
+    "objective or constraint evaluation or formal FFE",
+    "dependency installation, network access, remote execution, public release or submission",
+    "performance, superiority, novelty, convergence, robustness or physical-validation conclusions"
+  ],
+  "scientific_state_at_freeze": {
+    "s6_i1_state": "DETERMINISTIC_CORE_CONTRACT_GREEN_29_OF_29",
+    "s6_i2_i4_state": "EXPECTED_RED_FROZEN",
+    "formal_optimizer_runs": 0,
+    "objective_or_constraint_evaluations": 0,
+    "formal_ffe": 0,
+    "performance_evidence": "NONE",
+    "objective_novelty": "UNKNOWN",
+    "paper_readiness": "NOT_READY"
+  },
+  "next_state": "WAITING_FOR_SEPARATE_HASH_BOUND_S6_I2_I4_PRODUCTION_IMPLEMENTATION_AUTHORIZATION"
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "alg1_replan.name_provenance_amendment_freeze_candidate.v1",
+  "candidate_id": "I3-CVGR-NAME-PROVENANCE-AMENDMENT-FREEZE-v0.1",
+  "status": "PROPOSED_NOT_FROZEN",
+  "generated_at": "2026-09-01T06:26:23.8592106+08:00",
+  "project": "ALG1-Replan",
+  "preparation_authority": {"path":"governance/consolidated_author_decision_authorization_I3_CVGR_v0.1.json","sha256":"F07C3AD10EEE640108898C9D6607EEE9791A4B539A9789F687982A38A2EC04CB","decision":"NS=ACCEPT_NAME_PROVENANCE_PREPARATION"},
+  "canonical_name": {"full":"Co-Violation Graph Recombination SHADE","abbreviation":"CVGR-SHADE","zh":"共违反图重组 SHADE","superseded_machine_expansion":"Constraint-Violation Graph Representation SHADE"},
+  "artifacts": [
+    {"path":"governance/method_name_provenance_decision_candidate_I3_CVGR_v0.1.json","sha256":"9370A070C955AEAB8BDF2F3FCA338E449215DE931DF10E1AE66BC2513433D61F","bytes":7144},
+    {"path":"artifacts/stage5_amendment/method_name_provenance_amendment_I3_CVGR_v0.1.md","sha256":"30A5B72D2E3A8DC6A20B608CB6F2714C20635705BFD5A06FFB1CFABC40251789","bytes":1605},
+    {"path":"artifacts/stage5_amendment/method_lock_candidate_I3_CVGR_v0.2.yaml","sha256":"9041F97E1D1C32DB6D3979810DAE803C4092A4368A23C9B9653BEE2A4889045D","bytes":1037},
+    {"path":"artifacts/stage5_amendment/glossary_candidate_I3_CVGR_v0.2.yaml","sha256":"DC3A490C783D1FE08339A777883398EDA68AC44AD7D2B7BB1D0827E03A0C5484","bytes":1094},
+    {"path":"artifacts/stage5_amendment/runtime_authority_manifest_candidate_I3_CVGR_v0.1.json","sha256":"EACDAA21775B5C7198CE61FCD90883ED759B6A2F16D7926D7104C57E83633CC2","bytes":2969},
+    {"path":"governance/freeze_acceptance_I3_CVGR_plan_consistency_amendment_v0.1.json","sha256":"3A413ACC393987DAD48F19C8DE2C196C0B3788EF9C9A98288A0B7C13F19AE290","bytes":4000}
+  ],
+  "artifact_count": 6,
+  "activation_state": "RUNTIME_AUTHORITY_HELD_UNTIL_ALL_DEPENDENCIES_SEPARATELY_FROZEN",
+  "static_state": {"historical_locks_edited":0,"active_locks_edited":0,"production_files_edited":0,"optimizer_or_evaluator_calls":0,"formal_ffe":0},
+  "freeze_procedure_if_authorized": {"copy_rule":"Copy exactly the manifest-bound files plus candidate and verification receipt.","restore_rule":"Empty-directory exact path/hash/byte restore plus JSON/YAML/static checks.","activation_rule":"Do not activate the candidate locks or runtime manifest; operative runtime authority is a later, last gate."},
+  "requested_author_decisions": {"N":"FREEZE_NAME_PROVENANCE_AMENDMENT_v0.1","R":"AUTHORIZE_EMPTY_DIRECTORY_RESTORE_AND_STATIC_VERIFICATION","A":"KEEP_RUNTIME_AUTHORITY_NONOPERATIVE","C":"DO_NOT_AUTHORIZE_PRODUCTION_OR_ANALYSIS_IMPLEMENTATION","E":"DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION","F":"KEEP_FORMAL_FFE_ZERO"},
+  "suggested_response": "我确认冻结I3名称与来源修订候选v0.1，SHA-256为<CANDIDATE_SHA256>；N=FREEZE_NAME_PROVENANCE_AMENDMENT_v0.1；R=AUTHORIZE_EMPTY_DIRECTORY_RESTORE_AND_STATIC_VERIFICATION；A=KEEP_RUNTIME_AUTHORITY_NONOPERATIVE；C=DO_NOT_AUTHORIZE_PRODUCTION_OR_ANALYSIS_IMPLEMENTATION；E=DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION；F=KEEP_FORMAL_FFE_ZERO"
+}

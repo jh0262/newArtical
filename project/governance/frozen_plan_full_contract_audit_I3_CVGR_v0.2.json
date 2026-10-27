@@ -1,0 +1,191 @@
+{
+  "schema": "alg1_replan.frozen_plan_full_contract_audit.v2",
+  "project": "ALG1-Replan",
+  "candidate": "I3-CVGR-SHADE",
+  "generated_at": "2026-08-31T20:51:05.0957699+08:00",
+  "mode": "STATIC_READ_ONLY_NO_OPTIMIZER_NO_EVALUATOR_ZERO_FORMAL_FFE",
+  "verdict": "FAIL_HOLD_PENDING_AUTHOR_RESOLUTION",
+  "purpose": "Audit the complete frozen execution contract before S6-E0 red-contract preparation so that budget, endpoint, method identity and machine provenance cannot silently diverge.",
+  "bound_frozen_plan": {
+    "acceptance_path": "governance/freeze_acceptance_I3_CVGR_v0.1.json",
+    "acceptance_sha256": "803123E861A6E0C7ADCDBCB56A9345E9E1D3AB6ADD809A6C40BB8AEBC1F2B5B8",
+    "accepted_candidate_sha256": "79F23915AAE5853B01EFFB095AA6448CE1C7A5F7F0A3D0166DBE0A119AA684B3",
+    "snapshot_archive_sha256": "6AC43CB831B5965CC5EB408E45C6D790859A74A6E10DFBB1091C13E9DC5E8F45",
+    "preservation_rule": "The original frozen snapshot is immutable historical evidence. Every resolution must be additive, versioned, hash-bound and separately frozen before confirmatory use."
+  },
+  "supersedes_for_decision_completeness": {
+    "findings_path": "governance/frozen_plan_consistency_findings_I3_CVGR_v0.1.json",
+    "findings_sha256": "A8AEA7A9A2CF29C9721F5E9F8BB30D4EA40DFCCD8324B98429FE41485A510AEC",
+    "decision_candidate_path": "governance/frozen_plan_consistency_decision_candidate_I3_CVGR_v0.1.json",
+    "decision_candidate_sha256": "8B1539AC32286673B5809772AB4AAF93C8242E1D819BAC414217134BE2D88EC6",
+    "reason": "The earlier audit found two scientific conflicts. The full audit additionally found a method-identity conflict and post-freeze machine-provenance drift, so one consolidated author gate is safer than sequential partial gates."
+  },
+  "structural_gate_recheck": {
+    "plan_lint": {
+      "status": "PASS_WITH_WARNING",
+      "exit_code": 0,
+      "rows": 11,
+      "score": "95/100 heuristic",
+      "warning": "The linter detects a three-row multiplicity family and does not itself verify the frozen Holm strategy or statistical power."
+    },
+    "target_chain": {
+      "status": "PASS",
+      "exit_code": 0,
+      "boundary": "Structural PASS does not resolve conflicting endpoint definitions or update historical authorization fields."
+    },
+    "failure_tree": {
+      "status": "PASS",
+      "exit_code": 0,
+      "boundary": "Structural PASS confirms branch completeness, not cross-artifact semantic consistency."
+    },
+    "research_package_final": {
+      "status": "FAIL",
+      "exit_code": 1,
+      "reasons": [
+        "HANDOFF_AUTHORIZATION_GAP",
+        "HANDOFF_AUTHORIZATION_DATE_GAP"
+      ],
+      "interpretation": "The manifest still records its pre-freeze preparation state even though later hash-bound freeze and implementation authorizations exist. This is a machine-provenance gap, not evidence that an optimizer may run."
+    }
+  },
+  "critical_scientific_conflicts": [
+    {
+      "id": "C-M-BUDGET",
+      "fact": "Mechanism-stage per-run FFE budget",
+      "majority_value": "2,000D",
+      "majority_locators": [
+        "PROJECT_PLAN.md:97",
+        "preregistration_candidate_v0.1.md:61",
+        ".light/failure_tree_I3_CVGR_v0.1.json:H1/primary_endpoint/timepoint",
+        ".light/failure_tree_I3_CVGR_v0.1.json:stopping/limit"
+      ],
+      "conflicting_value": "10,000D",
+      "conflicting_locator": "artifacts/stage5/synthetic_problem_suite_spec_v0.1.md:80",
+      "quantified_impact": {
+        "sum_dimension_over_12_tasks": 126,
+        "variants": 7,
+        "seeds": 30,
+        "M_ffe_if_2000D": 52920000,
+        "M_ffe_if_10000D": 264600000,
+        "additional_ffe_if_10000D": 211680000,
+        "core_M_C1_F_if_2000D": 270120000,
+        "core_M_C1_F_if_10000D": 481800000
+      },
+      "severity": "critical",
+      "required_resolution": "Author selects one budget before any S6-E0 config, run ID, checkpoint or red contract is prepared."
+    },
+    {
+      "id": "C-H1-ENDPOINT",
+      "fact": "Primary H1 graph-recovery timing and aggregation",
+      "majority_value": "NMI at 25/50/75/100 percent fixed-budget checkpoints with problem-level median; inactive checkpoints equal zero",
+      "majority_locators": [
+        "PROJECT_PLAN.md:60",
+        "preregistration_candidate_v0.1.md:72",
+        "experiments/experiment_matrix.md:7",
+        ".light/target_chain_I3_CVGR_v0.1.json:13-38",
+        ".light/failure_tree_I3_CVGR_v0.1.json:H1/primary_endpoint"
+      ],
+      "conflicting_value": "NMI at first valid activation and time-weighted median over later valid graphs",
+      "conflicting_locator": "artifacts/stage5/synthetic_problem_suite_spec_v0.1.md:82",
+      "severity": "critical",
+      "impact": "The same immutable runs can produce different H1 values and success/failure/inconclusive branches under the two definitions.",
+      "required_resolution": "Author selects one endpoint before checkpoint fields, analysis code or red contracts are prepared."
+    },
+    {
+      "id": "C-METHOD-FULL-NAME",
+      "fact": "Canonical expansion of CVGR-SHADE",
+      "majority_value": "Co-Violation Graph Recombination SHADE",
+      "majority_locators": [
+        "artifacts/stage3/candidates_v0.1.json",
+        "artifacts/stage3/idea_genealogy_v0.1.json",
+        "artifacts/stage3/innovation_engine_v0.1.json",
+        "artifacts/stage4/citation_graph_screening_I3_CVGR_v0.1.md:5",
+        "artifacts/stage5/method_spec_I3_CVGR_v0.1.md:4",
+        "governance/author_decision_packet_v0.2.json",
+        ".light/terminology.md:10"
+      ],
+      "conflicting_value": "Constraint-Violation Graph Representation SHADE",
+      "conflicting_locators": [
+        ".light/consistency/method_lock.yaml:11-13",
+        ".light/consistency/glossary.yaml:16"
+      ],
+      "severity": "critical",
+      "impact": "The conflict changes the declared method identity used in manuscript first use, code metadata, search/deduplication and cross-material consistency checks.",
+      "required_resolution": "Author selects the canonical full name; the abbreviation CVGR-SHADE alone is insufficient to resolve the conflict."
+    }
+  ],
+  "post_freeze_machine_provenance_findings": [
+    {
+      "id": "P-LIVE-REGISTRY-DRIFT",
+      "severity": "high",
+      "finding": "Three active consistency files no longer match the accepted freeze manifest.",
+      "files": [
+        {
+          "path": ".light/consistency/method_lock.yaml",
+          "frozen_sha256": "EB7600AB3634C804A7BF51045BDC89CF0CDB67FD8D9159F43C30AE6768B15255",
+          "live_sha256": "7DE1C6F5AA3080DDCC62D30427116C3699FAB92F144EB662510816582C6D4C59"
+        },
+        {
+          "path": ".light/consistency/glossary.yaml",
+          "frozen_sha256": "D16324C69877DFF48DFA8D2FAC18C280B8A56BF48D0FBFE034AD0B694C4A7C3B",
+          "live_sha256": "BE591C43981E18795622DC0A7DA17040BCBE8419B50810E352892F127F36C645"
+        },
+        {
+          "path": ".light/terminology.md",
+          "frozen_sha256": "3754F5A4C5018B463CC2673AAD2B15089C260D0367406B24AB8AE5ED20114D0B",
+          "live_sha256": "95CFF37E2ADD8B5837508EB0A7C2314F0EE5F9D3A94528345801F562FAA6167E"
+        }
+      ],
+      "observed_change_scope": "The active copies were updated from pre-freeze status wording to post-freeze status wording, but the update was not represented as a separately frozen versioned binding.",
+      "required_resolution": "Preserve both the immutable snapshot and current bytes; create an additive versioned runtime authority manifest instead of treating either active path as silently canonical."
+    },
+    {
+      "id": "P-HISTORICAL-AUTH-FIELDS",
+      "severity": "high",
+      "finding": "Machine-readable plan artifacts retain their preparation-time states: target_chain plan_state=PROPOSED with an old preparation authorization and blank plan_sha256; failure_tree plan_state=DRAFT with a blank plan_sha256; plan_package handoff.user_authorized=false.",
+      "later_authority": "governance/freeze_acceptance_I3_CVGR_v0.1.json and later hash-bound implementation acceptances are authoritative later events, but no additive machine binding resolves them for downstream consumers.",
+      "observed_gate_effect": "research_package_gate --final exits 1 for missing handoff authorization/date.",
+      "required_resolution": "Create a post-freeze provenance binding that points to the accepted plan and subsequent implementation authorizations without editing the historical frozen artifacts or expanding execution authority."
+    }
+  ],
+  "verified_consistent_contracts": [
+    "The synthetic task family has 12 instances and sum(D)=126.",
+    "The fixture records exactly 30 ordered common-random-number seeds.",
+    "The mechanism matrix has seven registered variants: CVGR, PARENT, DEG_REWIRE, DIV_MATCH, LABEL_PERM, SCALAR_CV and NO_STABILITY.",
+    "At 2,000D, 12 tasks x 7 variants x 30 seeds x sum(D)=126 yields exactly 52,920,000 M FFE.",
+    "C1 and F arithmetic matches 190,800,000 and 26,400,000 FFE; optional C2 is 143,100,000 FFE.",
+    "CEC2006 inventory contains 24 problems partitioned into 16 m>=3 eligible and 8 m<3 fallback problems.",
+    "H2, H3 and H4 definitions, thresholds and branch actions are materially aligned across plan, preregistration, matrix, target chain and failure tree.",
+    "The 46 frozen deterministic contract tests and static import checks remain implementation-contract evidence only; they do not create performance evidence or formal FFE."
+  ],
+  "nonconflicting_future_completion_gates": [
+    {
+      "id": "F-PARENT-IDENTITY",
+      "state": "OPEN",
+      "requirement": "Bind the exact parent FR-SHADE source/version/hash/license and conformance traces before evaluator-bearing implementation or fair comparison."
+    },
+    {
+      "id": "F-EXTERNAL-BASELINES",
+      "state": "OPEN_FOR_FULL_PAPER",
+      "requirement": "The frozen C1 compares the candidate with its parent and mechanism controls, not contemporary external constrained optimizers. A full SCI performance claim will require a separately audited external-baseline/modern-benchmark phase or a deliberately narrower mechanism-paper claim."
+    },
+    {
+      "id": "F-MODERN-BENCHMARK",
+      "state": "OPEN",
+      "requirement": "CEC2020-M4 redistribution permission and full-paper representativeness remain unresolved; benchmark transfer is not physical validation."
+    }
+  ],
+  "required_route": [
+    "Use one consolidated hash-bound author decision for M budget, H1 endpoint, canonical full name and additive post-freeze provenance binding.",
+    "If authorized, prepare an additive amendment package and deviation entry; do not edit the original frozen snapshot or auto-freeze the amendment.",
+    "After the amendment is separately frozen and independently restored, issue a new S6-E0 red-phase authorization candidate bound to the resolved runtime authority manifest.",
+    "Keep optimizer/evaluator execution, formal run packages and formal FFE prohibited until a later budget-specific authorization."
+  ],
+  "actions_not_taken": [
+    "No original frozen artifact or snapshot byte was edited.",
+    "No canonical value was auto-selected.",
+    "No S6-E0 specification, fixture, red test or production module was created.",
+    "No optimizer, evaluator, benchmark, simulation, objective/constraint call, formal run package or formal FFE was executed.",
+    "No performance, superiority, convergence, robustness, novelty, physical-validation or paper-readiness conclusion was formed."
+  ]
+}

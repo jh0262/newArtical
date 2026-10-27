@@ -1,0 +1,32 @@
+{
+  "schema": "alg1_replan.implementation_authorization.v2",
+  "authorization_id": "AUTH-I3-STAGE6-PHASED-IMPLEMENTATION-20260831T071006+0800",
+  "actor": "user",
+  "authorized_at": "2026-08-31T07:10:06.7694203+08:00",
+  "bound_candidate": {
+    "path": "governance/implementation_authorization_candidate_I3_CVGR_v0.2.json",
+    "sha256": "40495201F5846B83D7871BB5FBFBB665B51A48398E51153D1706920FE0234A8F",
+    "hash_verified_before_action": true
+  },
+  "decisions": {
+    "I1": "AUTHORIZE_DETERMINISTIC_CORE_IMPLEMENTATION",
+    "R234": "AUTHORIZE_SPEC_AND_RED_TEST_PREPARATION_ONLY",
+    "T1": "AUTHORIZE_FROZEN_CORE_GREEN_TESTS",
+    "T234": "AUTHORIZE_RED_PHASE_ONLY",
+    "G": "AUTHORIZE_LOCAL_GIT_INIT_NO_REMOTE",
+    "E": "DO_NOT_AUTHORIZE_OPTIMIZER_EXECUTION",
+    "F": "KEEP_FORMAL_FFE_ZERO"
+  },
+  "execution_boundaries": {
+    "S6_I1_production": "AUTHORIZED_ALLOWLIST_ONLY",
+    "S6_I2_I4_spec_fixture_red_tests": "AUTHORIZED_ALLOWLIST_ONLY",
+    "S6_I2_I4_production": "NOT_AUTHORIZED",
+    "optimizer_execution": "NOT_AUTHORIZED",
+    "objective_or_constraint_evaluations": 0,
+    "formal_ffe": 0,
+    "network_downloads": "NOT_AUTHORIZED",
+    "remote_or_paid_execution": "NOT_AUTHORIZED",
+    "public_release_or_submission": "NOT_AUTHORIZED"
+  },
+  "required_stop": "After the S6-I2/I3/I4 expected-red package and its freeze candidate are verified, stop for a new author hash confirmation before implementing those slices."
+}

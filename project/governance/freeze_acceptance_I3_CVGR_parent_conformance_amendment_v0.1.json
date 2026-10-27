@@ -1,0 +1,70 @@
+{
+  "schema": "alg1_replan.parent_conformance_amendment_freeze_acceptance.v1",
+  "acceptance_id": "I3-CVGR-PARENT-CONFORMANCE-AMENDMENT-FREEZE-ACCEPTANCE-v0.1",
+  "status": "FROZEN_RESTORED_STATIC_PASS",
+  "accepted_at": "2026-09-01T07:12:50.9838528+08:00",
+  "project": "ALG1-Replan",
+  "candidate": {
+    "path": "governance/freeze_candidate_I3_CVGR_parent_conformance_amendment_v0.1.json",
+    "sha256": "97B19E4F84076A8556FB624A0BE071DB50C9D6C6EBABC3213A8D2729CD9326E3",
+    "bytes": 3196
+  },
+  "authorization": {
+    "path": "governance/freeze_authorization_I3_CVGR_parent_conformance_amendment_v0.1.json",
+    "sha256": "D8E18A46BA16D4B5CDD240A3CFDA2050C29BCEB4F6C4083C9D4967204986F35E",
+    "bytes": 2465
+  },
+  "snapshot": {
+    "directory": "governance/frozen/I3_CVGR_parent_conformance_amendment_v0.1_97B19E4F_snapshot",
+    "manifest_path": "governance/frozen/I3_CVGR_parent_conformance_amendment_v0.1_97B19E4F_snapshot/FREEZE_MANIFEST.json",
+    "manifest_sha256": "02443BB8F3181051D810EBDD1009D97EE9FF22A860779A733719A3571CFE1EA4",
+    "manifest_bytes": 2624,
+    "payload_files": 8,
+    "total_files": 9
+  },
+  "archive": {
+    "path": "governance/frozen/I3_CVGR_parent_conformance_amendment_v0.1_97B19E4F_snapshot.zip",
+    "sha256": "498AD4B63EAC0E50FEBEE843D7E1A44E0EC20D02064C4A127E47C24D73893977",
+    "bytes": 14950,
+    "deterministic_regeneration_match": true
+  },
+  "restore_verification": {
+    "path": "governance/freeze_restore_verification_I3_CVGR_parent_conformance_amendment_v0.1.md",
+    "sha256": "4B7DE3AC1ED6505C6B971B5C682FBE127DB793C9856C0CEF33249C42C74B589F",
+    "bytes": 2811,
+    "new_empty_directory": true,
+    "path_set_match": "9/9",
+    "hash_and_byte_match": "9/9",
+    "json_parse": "5/5",
+    "python_ast_parse": "1/1",
+    "static_parent_checks": "8/8",
+    "expected_red_tests_executed": 0
+  },
+  "frozen_effect": {
+    "parent_code": "PARENT",
+    "parent_identity": "Project composite of SHADE 1.1.1 mechanics and the Deb-2000 feasibility-first constraint layer",
+    "standard_FR_SHADE_claim_allowed": false,
+    "clean_room_required": true,
+    "operative_implementation_authority": false
+  },
+  "scientific_state": {
+    "formal_optimizer_runs": 0,
+    "objective_or_constraint_evaluator_calls": 0,
+    "formal_run_packages": 0,
+    "formal_ffe": 0,
+    "performance_evidence": "NONE",
+    "objective_novelty": "UNKNOWN",
+    "paper_readiness": "NOT_ESTABLISHED"
+  },
+  "remaining_holds": [
+    "Expected-red execution and parent green implementation require later separate hash-bound authorization.",
+    "MI, NS, NV, BM and SA are not frozen by this acceptance.",
+    "S6-E0, optimizer/evaluator execution, result access and formal FFE remain forbidden.",
+    "Operative runtime authority remains last and non-operative."
+  ],
+  "next_gate": {
+    "candidate": "governance/freeze_candidate_I3_CVGR_mechanism_integrity_amendment_v0.1.json",
+    "sha256": "D1B16C10ED5ACA5264A32543CFF30874A3026B7301647FB7B0906856A116E0A3",
+    "action": "REQUEST_SEPARATE_MI_FREEZE_CONFIRMATION"
+  }
+}

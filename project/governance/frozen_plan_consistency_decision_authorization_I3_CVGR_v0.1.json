@@ -1,0 +1,44 @@
+{
+  "schema": "alg1_replan.frozen_plan_consistency_decision_authorization.v1",
+  "authorization_id": "AUTH-I3-FROZEN-PLAN-CONSISTENCY-v0.1-20260831T210506+0800",
+  "actor": "user",
+  "authorized_at": "2026-08-31T21:05:06.9740604+08:00",
+  "bound_candidate": {
+    "path": "governance/frozen_plan_consistency_decision_candidate_I3_CVGR_v0.1.json",
+    "sha256": "8B1539AC32286673B5809772AB4AAF93C8242E1D819BAC414217134BE2D88EC6",
+    "hash_verified_before_action": true
+  },
+  "decisions": {
+    "B": "SELECT_M_2000D",
+    "H": "SELECT_H1_FIXED_CHECKPOINT_MEDIAN",
+    "A": "AUTHORIZE_VERSIONED_PLAN_AMENDMENT_PREPARATION_ONLY",
+    "R": "HOLD_S6_E0_RED_PHASE_UNTIL_AMENDMENT_FROZEN",
+    "G": "AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE",
+    "E": "DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION",
+    "F": "KEEP_FORMAL_FFE_ZERO"
+  },
+  "scope_interpretation": {
+    "parent_plan_state": "FROZEN_PLAN_v0.1",
+    "authorized": [
+      "Prepare an additive versioned amendment that resolves only the mechanism-stage M budget as 2,000D.",
+      "Prepare an additive versioned amendment that resolves only the H1 endpoint as the median of NMI at fixed 25/50/75/100 percent budget checkpoints, with inactive checkpoints recorded as zero.",
+      "Append the deviation ledger, prepare a hash-bound freeze candidate and verification receipt, and create local Git provenance without a remote."
+    ],
+    "not_authorized": [
+      "Editing or replacing any original frozen artifact or snapshot byte.",
+      "Automatically freezing or restoring the amendment candidate.",
+      "Resolving the method-full-name conflict or post-freeze machine-provenance findings introduced in the later v0.2 decision candidate.",
+      "Creating S6-E0 specifications, fixtures, red tests or production implementation.",
+      "Executing an optimizer, evaluator, benchmark, simulation, pilot, M, C1, F or C2.",
+      "Creating a formal run package or consuming any formal FFE.",
+      "Public release, preregistration-platform submission, manuscript submission or any performance, superiority, novelty, physical-validation or paper-readiness conclusion."
+    ]
+  },
+  "relationship_to_later_candidate": {
+    "later_candidate_path": "governance/frozen_plan_consistency_decision_candidate_I3_CVGR_v0.2.json",
+    "later_candidate_sha256": "0659DAF6D3918C400D5764F59D16A5FA87EE71C11EE9FBD9F8DB330F2D0662D6",
+    "state": "NOT_AUTHORIZED_BY_THIS_DECISION",
+    "interpretation": "The user's exact v0.1 hash authorizes the v0.1 B/H subset despite the later proposal. No v0.2 N/S decision is inferred or imported."
+  },
+  "required_stop": "Stop after the additive M/H amendment freeze candidate and verification receipt are prepared. Keep S6-E0 on hold until the amendment is separately frozen and independently restored; later full-contract conflicts remain unresolved."
+}

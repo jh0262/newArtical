@@ -1,0 +1,168 @@
+{
+  "schema": "alg1_replan.modern_matrix_parameter_integration_preflight.v1",
+  "audit_id": "I3-CVGR-MODERN-MATRIX-PARAMETER-INTEGRATION-PREFLIGHT-v0.1",
+  "status": "READ_ONLY_PREFLIGHT_COMPLETE_AUTHOR_PARAMETER_SELECTION_ALLOWED_GLOBAL_HOLD",
+  "generated_at": "2026-09-01T23:39:11.8290978+08:00",
+  "project": "ALG1-Replan",
+  "method": "I3-CVGR-SHADE",
+  "purpose": "Verify the live BM-R1 candidate, independently recompute its run-package and maximum-FFE arithmetic, and identify cross-artifact identity risks before asking the author to select parameters. This audit does not choose parameters, amend a frozen artifact, prepare or freeze the BM package, execute an expected-red test, install a package, call an optimizer/evaluator or consume formal FFE.",
+  "bound_state": {
+    "git_commit": "bc44dde47e9c6b880b39bb0e325565206093d064",
+    "worktree_before_audit": "CLEAN",
+    "bm_parameter_candidate": {
+      "path": "governance/modern_matrix_parameter_decision_candidate_I3_CVGR_v0.1.json",
+      "sha256": "96BB6B6ED0EDDA695B3DC93BF1D3FE621675914E450B34E9FF628344F54A6FE3",
+      "bytes": 4375,
+      "status": "PROPOSED_NOT_AUTHORIZED_NOT_FREEZE_CANDIDATE"
+    },
+    "nv_freeze_acceptance": {
+      "path": "governance/freeze_acceptance_I3_CVGR_novelty_control_amendment_v0.1.json",
+      "sha256": "427327494D91BFB7A421EDE45FA7474A7A5AC9CCB2EA97017BF8104FFBE40C7D",
+      "bytes": 4325,
+      "status": "FROZEN_RESTORED_STATIC_PASS"
+    },
+    "resource_audit": {
+      "path": "governance/execution_resource_feasibility_audit_I3_CVGR_v0.1.json",
+      "sha256": "75AF22A8442CD627912B99D760F4DBA42D8FA6EB858B18021FD6CB528973BFB5",
+      "bytes": 16672
+    },
+    "consolidated_preparation_authority": {
+      "path": "governance/consolidated_author_decision_authorization_I3_CVGR_v0.1.json",
+      "sha256": "F07C3AD10EEE640108898C9D6607EEE9791A4B539A9789F687982A38A2EC04CB",
+      "bytes": 3730,
+      "decision": "BM=ACCEPT_MODERN_MATRIX_PREPARATION"
+    }
+  },
+  "verification": {
+    "candidate_hash_and_bytes": "PASS",
+    "bound_authority_and_identity_hashes": "PASS",
+    "prepared_artifact_hashes_and_bytes": "PASS_5_OF_5",
+    "nv_dependency_hash_and_status": "PASS",
+    "expected_red_python_ast": "PASS_1_OF_1",
+    "expected_red_functions_static_presence": "PASS_2_OF_2",
+    "expected_red_tests_executed": 0,
+    "independent_arithmetic": {
+      "m_ge_3": {
+        "functions": 45,
+        "dimensions": 3,
+        "instances": 5,
+        "stochastic_seeds": 5,
+        "algorithms": 5,
+        "run_packages": 16875,
+        "maximum_formal_ffe": 1968750000
+      },
+      "m_eq_1_fallback": {
+        "functions": 9,
+        "dimensions": 3,
+        "instances": 5,
+        "stochastic_seeds": 5,
+        "algorithms": 2,
+        "run_packages": 1350,
+        "maximum_formal_ffe": 157500000
+      },
+      "cobyla_non_headline": {
+        "functions": 54,
+        "dimensions": 3,
+        "instances": 5,
+        "deterministic_runs_per_key": 1,
+        "run_packages": 810,
+        "maximum_formal_ffe": 94500000
+      },
+      "total": {
+        "run_packages": 19035,
+        "maximum_formal_ffe": 2220750000,
+        "candidate_and_fixture_match": "PASS"
+      }
+    }
+  },
+  "consistency_scan": {
+    "scope": "Active live governance, preregistration, plan specification, Stage-5 amendment artifacts, Stage-6 readiness/authorization candidates and .light consistency registries; frozen snapshot copies and ZIP payloads excluded from lexical duplicate counting.",
+    "coverage": "FOCUSED_FULL_TEXT_FOR_LABEL_PERM_AND_RANDOM_LABEL",
+    "finding": {
+      "id": "BM-PF-01",
+      "severity": "CRITICAL_FOR_SA_AND_S6_E0_NONBLOCKING_FOR_BM_PARAMETER_SELECTION",
+      "classification": "UNRESOLVED_CONTROL_IDENTITY_AND_SEMANTICS",
+      "current_evidence": [
+        {
+          "source": "preregistration_candidate_v0.1.md",
+          "locator": "lines 45 and 72",
+          "fact": "LABEL_PERM permutes graph-node labels while preserving graph statistics and is a preregistered H1 comparator."
+        },
+        {
+          "source": ".light/plan_spec_I3_CVGR_v0.1.json",
+          "locator": "line 15",
+          "fact": "LABEL_PERM is a registered fairness control."
+        },
+        {
+          "source": "governance/frozen_plan_full_contract_audit_I3_CVGR_v0.2.json",
+          "locator": "line 154",
+          "fact": "The original mechanism matrix contains seven variants including LABEL_PERM."
+        },
+        {
+          "source": "governance/freeze_acceptance_I3_CVGR_novelty_control_amendment_v0.1.json",
+          "locator": "line 71",
+          "fact": "The frozen NV amendment mandates RAY_STYLE, DIV_MATCH, DEG_REWIRE and RANDOM_LABEL."
+        },
+        {
+          "source": "artifacts/stage5_amendment/novelty_control_amendment_I3_CVGR_v0.1.md",
+          "locator": "line 23",
+          "fact": "RANDOM_LABEL randomizes community identity while preserving activation frequency and group-size distribution."
+        },
+        {
+          "source": "artifacts/stage5_amendment/ray_style_control_spec_I3_CVGR_v0.1.md",
+          "locator": "line 28",
+          "fact": "RANDOM_LABEL is declared distinct from I3, RAY_STYLE, DIV_MATCH and DEG_REWIRE, but no relation to LABEL_PERM is declared."
+        },
+        {
+          "source": ".light/consistency/glossary.yaml and .light/consistency/method_lock.yaml",
+          "locator": "complete-file focused scan",
+          "fact": "Neither registry defines LABEL_PERM, RANDOM_LABEL or an alias/replacement relation between them."
+        }
+      ],
+      "negative_result_boundary": "The focused scan found no explicit author-confirmed statement that LABEL_PERM and RANDOM_LABEL are aliases, that one replaces the other, or that both must coexist. Absence of such a statement is a governance gap, not proof that the mechanisms are mathematically different.",
+      "downstream_consequences": [
+        "If they are aliases, adding RAY_STYLE to the original seven-variant matrix gives eight variants.",
+        "If RANDOM_LABEL replaces LABEL_PERM, the matrix can also remain at eight variants after adding RAY_STYLE, but the H1 comparator wording and result-schema identity require a versioned amendment.",
+        "If they are distinct and coexist, the internal mechanism matrix has nine variants, invalidating the current eight-variant M/C1 resource arithmetic and requiring new run-package/FFE totals.",
+        "The H1 comparison identity, S6-E0 adapters, result schema and statistical-analysis contract cannot be finalized without an author decision."
+      ],
+      "author_decision_required_before": [
+        "SA_FREEZE_CANDIDATE",
+        "S6_E0_RED_OR_PRODUCTION_RELEASE",
+        "OPERATIVE_RUNTIME_AUTHORITY"
+      ],
+      "allowed_now": [
+        "AUTHOR_SELECTION_OF_BM_R1",
+        "PREPARATION_AND_LATER_SEPARATE_FREEZE_OF_THE_BM_R1_MODERN_MATRIX_IF_AUTHORIZED"
+      ],
+      "not_resolved_by_this_audit": [
+        "LABEL_PERM_EQUALS_RANDOM_LABEL",
+        "LABEL_PERM_IS_REPLACED_BY_RANDOM_LABEL",
+        "LABEL_PERM_AND_RANDOM_LABEL_COEXIST"
+      ]
+    }
+  },
+  "resource_gate": {
+    "open_critical_findings": ["RF-01", "RF-02", "RF-03"],
+    "interpretation": "Selecting BM-R1 resolves the proposed modern-matrix dimensions, instances, seeds, budget, restart, roster and start policy. It does not measure throughput, authorize dependency installation or establish an execution GO.",
+    "execution_feasibility": "UNKNOWN",
+    "s6_e0_release": "HOLD"
+  },
+  "verdict": {
+    "code": "PASS_FOR_AUTHOR_BM_R1_PARAMETER_SELECTION_ONLY_NOT_EXECUTION_GO",
+    "bm_freeze_candidate_preparation": "REQUIRES_AUTHOR_HASH_BOUND_SELECTION",
+    "statistical_analysis_freeze_candidate": "HOLD_PENDING_BM_FREEZE_AND_CONTROL_IDENTITY_DECISION",
+    "performance_evidence": "NONE",
+    "objective_novelty": "UNKNOWN",
+    "formal_ffe": 0
+  },
+  "actions_not_taken": [
+    "No frozen, candidate, source, test or analysis byte was edited by the consistency scan.",
+    "No control alias, replacement or coexistence relation was selected.",
+    "No expected-red test was executed.",
+    "No package was installed or downloaded.",
+    "No optimizer, evaluator, benchmark, objective or constraint function was called.",
+    "No formal result was read, generated or analyzed.",
+    "No performance, superiority, convergence, robustness, objective-novelty or paper-readiness conclusion was formed."
+  ]
+}

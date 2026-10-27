@@ -1,0 +1,23 @@
+{
+  "schema": "alg1_replan.red_freeze_authorization.v1",
+  "authorization_id": "AUTH-I3-FREEZE-STAGE6-I2-I4-RED-20260831T144255+0800",
+  "actor": "user",
+  "authorized_at": "2026-08-31T14:42:55.0264014+08:00",
+  "confirmation_mode": "CONTEXTUAL_CONFIRMATION_OF_IMMEDIATELY_PRECEDING_UNIQUE_PENDING_DECISION",
+  "user_repeated_candidate_hash": false,
+  "context_bound_candidate": {
+    "path": "governance/freeze_candidate_I3_CVGR_stage6_I2_I4_red_v0.1.json",
+    "sha256": "0144EE7F892CB3957532D32A432A0F81C2352E599F35A66861680090B07D6921",
+    "status_before_acceptance": "PROPOSED_NOT_FROZEN",
+    "live_sha256_recomputed_and_matched": true,
+    "unique_pending_acceptance_candidate": true
+  },
+  "decision": {
+    "P": "FREEZE_RED_BASELINE",
+    "C": "DO_NOT_AUTHORIZE_I2_I4_PRODUCTION_IMPLEMENTATION",
+    "E": "DO_NOT_AUTHORIZE_OPTIMIZER_EXECUTION",
+    "F": "KEEP_FORMAL_FFE_ZERO"
+  },
+  "scope_interpretation": "The user's confirmation accepts only the freeze decision requested immediately before it. It does not authorize any production implementation, evaluator, optimizer, benchmark, simulation, FFE, publication or submission action.",
+  "next_gate": "Create and verify an immutable complete-dependency snapshot, then prepare a separate production-implementation authorization candidate for author review."
+}

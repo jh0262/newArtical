@@ -1,0 +1,38 @@
+{
+  "key": "P08",
+  "root": "04_核心已实现待实验_P08_CVGR_SHADE",
+  "title": "I3-CVGR-SHADE重规划分支",
+  "branch": "I3-CVGR-SHADE重规划分支",
+  "include": [
+    "src",
+    "tests",
+    "experiments",
+    "pyproject.toml",
+    "README.md",
+    "PROJECT_PLAN.md",
+    "reproducibility-checklist.md",
+    "governance",
+    "artifacts/stage5_amendment",
+    "data"
+  ],
+  "status": "Frozen computational primitives and contract tests; the full optimizer and formal performance experiments are not completed.",
+  "entry": "Python package: pyproject.toml, src/alg1_replan and tests/. Read governance/remaining_gate_dependency_closure_audit_I3_CVGR_v0.1_verification.md for the actual stage.",
+  "exclude": [
+    "frozen",
+    "restored",
+    "restore",
+    "archive"
+  ],
+  "data": [
+    "data",
+    "artifacts"
+  ],
+  "snapshot_date": "2026-10-28",
+  "resource_files": 162,
+  "original_bytes": 749717,
+  "bundles": 1,
+  "omitted_large_files": [],
+  "secret_pattern_findings": [],
+  "source_files_modified": false,
+  "experiments_run_for_publication": false
+}

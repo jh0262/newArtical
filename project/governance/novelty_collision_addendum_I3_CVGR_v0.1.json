@@ -1,0 +1,198 @@
+{
+  "schema": "alg1_replan.novelty_collision_addendum.v1",
+  "artifact_id": "I3-CVGR-NOVELTY-COLLISION-ADDENDUM-v0.1",
+  "status": "STATIC_AUDIT_COMPLETE_NOT_A_NOVELTY_CERTIFICATE",
+  "as_of": "2026-08-31",
+  "project": "ALG1-Replan",
+  "method": "I3-CVGR-SHADE",
+  "purpose": "Additive, source-bounded collision audit of the frozen I3 mechanism after the discovery of previously missed constraint-relationship and complementary-mating precursors. This file does not edit the frozen Stage 4 evidence, freeze a claim, authorize code or tests, or create performance evidence.",
+  "bound_prior_state": {
+    "novelty_evidence": {
+      "path": "artifacts/stage4/novelty_evidence_I3_CVGR_v0.2.json",
+      "sha256": "4E3DFE1B9990F291CF6B8A53336823A6646D3FADE140190C38F8622FB3C7F1DD",
+      "bytes": 9597,
+      "recorded_novelty": "UNKNOWN",
+      "recorded_verdict": "REVISE"
+    },
+    "author_acceptance": {
+      "path": "governance/author_acceptance_v0.2.json",
+      "sha256": "2E8590966A47A4A3AE511D6DA84C4DE1E0E8D3BF8F06A2591C952567FBC9BCED",
+      "bytes": 1519,
+      "author_decision": "REVIEWED_AND_AGREE_DIFFERENTIATED",
+      "interpretation": "Author domain review allowed I3 freeze preparation; it did not establish objective novelty."
+    },
+    "author_decision_packet": {
+      "path": "governance/author_decision_packet_v0.2.json",
+      "sha256": "DEA87E5647D1844CFF03150BCAE07D14149DBD4559CFA51E3C829396E56F031E",
+      "bytes": 5662
+    }
+  },
+  "target_equivalence_test": {
+    "all_required": true,
+    "conditions": [
+      "The method represents individual constraints as graph nodes and derives constraint-constraint edges or communities online from population co-violation information.",
+      "The graph or community output directly changes complementary DE/SHADE difference-donor pairing or recombination topology.",
+      "The intervention is evaluated as a constrained continuous black-box evolutionary optimizer rather than only as landscape characterization, problem decomposition, repair or objective-constraint correlation."
+    ],
+    "scope_note": "Failure to meet the three-way intersection means not target-equivalent under this project test; it does not mean irrelevant prior art or prove novelty."
+  },
+  "search_protocol": {
+    "local_priority_order": [
+      "04_index/literature.db",
+      "03_notes/*.md",
+      "05_evidence/*.md",
+      "02_text/*.md"
+    ],
+    "local_result": "No target-equivalent record was found by the added structured-index, note/evidence and lexical full-text queries. A broad chunk query requiring constraint, graph and differential evolution terms returned five irrelevant papers (P00133, P00745, P00777, P00922, P01838). The prior 120-position semantic screen remains the strongest local ranked evidence.",
+    "online_channel": "Public scholarly web search plus primary/public full text and bibliographic records; no Web of Science, Scopus or CNKI subscription search was performed.",
+    "online_queries": [
+      "constraint co-violation graph evolutionary optimization",
+      "constraint violation graph donor selection differential evolution",
+      "constraint relationship graph differential evolution constrained optimization",
+      "constraint community mating evolutionary algorithm",
+      "complementary constraints parent selection evolutionary algorithm",
+      "non-overlapping constraint satisfaction mating evolutionary algorithm",
+      "constraint satisfaction pattern partner selection genetic algorithm",
+      "pairwise constraint relationship evolutionary many-constraint optimization",
+      "constraint correlation donor selection differential evolution",
+      "constraint coupling differential evolution mutation",
+      "graph-based mating constrained evolutionary optimization",
+      "direct mating constrained MOEA/D hybrid mating",
+      "constraint interaction network evolutionary optimization",
+      "co-violation network optimization constraints"
+    ],
+    "coverage_limit": "The search is reproducible and source-bounded but not exhaustive. Absence of a retrieved exact collision cannot support a global first claim."
+  },
+  "new_precursors": [
+    {
+      "prior_art_id": "RAY-TAI-SEOW-2000",
+      "citation": "Tapabrata Ray, Tai Kang and Seow Kian Chye, An Evolutionary Algorithm for Constrained Optimization, GECCO 2000, pp. 771-777.",
+      "primary_locator": "https://gpbib.pmacs.upenn.edu/gecco2000/ES004.pdf",
+      "source_evidence": "The public paper describes a vector of individual constraint satisfaction/violation and, for infeasible candidate mates, selection using minimum overlap in the constraints satisfied with the first parent; the paper calls this non-overlapping constraint satisfaction and complementary partner selection.",
+      "target_relation": "HIGH_RISK_ADJACENT_PRECURSOR_NOT_EXACT_UNDER_THREE_WAY_TEST",
+      "target_features": {
+        "constraint_nodes_online_covio_graph": false,
+        "graph_communities": false,
+        "complementary_constraint_signature_mating": true,
+        "de_difference_donor_topology": false,
+        "continuous_constrained_evolutionary_optimization": true
+      },
+      "mechanism_delta": "Ray et al. use set overlap of per-solution constraint satisfaction to choose a complementary mate in an evolutionary algorithm. I3 proposes online constraint-constraint co-violation communities that alter complementary SHADE difference-donor topology.",
+      "collision_consequence": "Prohibits claims that I3 is the first method to use individual constraint patterns, non-overlap or complementary constraint satisfaction for evolutionary mating. It creates a mandatory clean-room, equal-FFE set-overlap control before a graph-specific contribution can be defended."
+    },
+    {
+      "prior_art_id": "MING-WANG-ZHANG-2021",
+      "citation": "Mengjun Ming, Rui Wang and Tao Zhang, Investigating Constraint Relationship in Evolutionary Many-Constraint Optimization, 2021 IEEE Congress on Evolutionary Computation, pp. 1179-1184; public preprint arXiv:2010.04445.",
+      "primary_locator": "https://arxiv.org/abs/2010.04445",
+      "source_evidence": "The paper explicitly studies pairwise constraint relationships classified as conflicting, harmonious or independent, proposes identification using constraint-value comparisons, Pareto dominance and gradients, and discusses relationship-based simplification/grouping.",
+      "target_relation": "CONCEPTUAL_PRECURSOR_NOT_EXACT_UNDER_THREE_WAY_TEST",
+      "target_features": {
+        "pairwise_constraint_relationship_model": true,
+        "constraint_nodes_online_covio_graph": false,
+        "graph_communities": false,
+        "de_difference_donor_topology": false,
+        "relationship_characterization_or_grouping": true
+      },
+      "mechanism_delta": "Ming et al. characterize and identify pairwise relationships among constraints, while I3 uses a population-conditioned co-violation community signal as an intervention on DE donor topology.",
+      "collision_consequence": "Prohibits claims that I3 is the first to model, identify, group or exploit relationships among constraints without a narrower intervention-specific qualifier."
+    }
+  ],
+  "additional_neighbours": [
+    {
+      "prior_art_id": "MMDE-EKT-ANM-2024",
+      "locator": "https://arxiv.org/abs/2407.00386",
+      "target_relation": "DIFFERENT",
+      "mechanism_delta": "Uses domain constraint coupling to construct tasks and adaptive-neighborhood DE mutation; the retrieved source does not describe an online constraint-node co-violation graph controlling complementary difference donors."
+    },
+    {
+      "prior_art_id": "CORRELATION-DYNAMIC-FFE-2023",
+      "locator": "https://doi.org/10.1109/TEVC.2023.3302897",
+      "target_relation": "DIFFERENT",
+      "mechanism_delta": "Uses objective-constraint correlation for dynamic allocation of evaluations or priority criteria, not a constraint-constraint community graph for donor pairing."
+    },
+    {
+      "prior_art_id": "DIRECT-MATING-CMOEAD-2024",
+      "locator": "https://doi.org/10.1007/s00521-024-10908-6",
+      "target_relation": "DIFFERENT",
+      "mechanism_delta": "Uses direct/local mating strategies in constrained MOEA/D, but the retrieved description does not derive mates from per-constraint co-violation communities or control DE difference-vector topology."
+    },
+    {
+      "prior_art_id": "PFRL-CONSTRAINED-MOO-2025",
+      "locator": "https://doi.org/10.1016/j.ins.2025.121985",
+      "target_relation": "DIFFERENT_WITH_RELEVANT_MOTIVATION",
+      "mechanism_delta": "Uses reinforcement learning to search a constrained Pareto front and motivates complex associations among constraints; it is not the frozen I3 graph-conditioned SHADE donor mechanism."
+    }
+  ],
+  "claim_boundary": {
+    "prohibited": [
+      "first use of individual constraint satisfaction or violation patterns for mating",
+      "first complementary constraint-based parent selection",
+      "first use of non-overlapping constraint satisfaction in evolutionary search",
+      "first model, identification, grouping or exploitation of pairwise constraint relationships",
+      "first graph-based constraint handling method",
+      "objective novelty is established"
+    ],
+    "candidate_narrow_claim": "I3 investigates whether a population-conditioned constraint co-violation community signal can improve a constrained SHADE difference-donor topology beyond both non-graph complementary constraint-signature mating and diversity-matched controls, with exact base-RNG fallback when inactive.",
+    "claim_status": "CONDITIONAL_HYPOTHESIS_ONLY"
+  },
+  "mandatory_controls_if_later_authorized_and_frozen": [
+    {
+      "control_id": "RAY_STYLE_SET_OVERLAP",
+      "description": "Clean-room project implementation of a set-overlap complementary-mating control based only on the public mathematical mechanism in Ray et al. 2000, embedded in the selected parent algorithm with identical initialization, selection, stopping and FFE accounting.",
+      "purpose": "Separates a graph/community contribution from the older complementary constraint-signature mating principle."
+    },
+    {
+      "control_id": "DEGREE_PRESERVING_REWIRING",
+      "description": "Rewire the learned constraint graph while preserving degree information before community-conditioned donor selection.",
+      "purpose": "Tests whether specific co-violation topology matters."
+    },
+    {
+      "control_id": "DIVERSITY_MATCHED_NON_GRAPH_SELECTOR",
+      "description": "Match donor-space diversity or distance without using graph communities.",
+      "purpose": "Tests whether gains are generic diversity effects."
+    },
+    {
+      "control_id": "RANDOM_COMMUNITY_LABELS",
+      "description": "Preserve activation frequency and group-size distribution while randomizing community identity.",
+      "purpose": "Tests whether the learned constraint grouping carries information beyond stochastic partitioning."
+    }
+  ],
+  "reviewer_rejection_rehearsal": [
+    {
+      "rank": 1,
+      "objection": "Ray et al. 2000 already use per-constraint satisfaction patterns and non-overlap to select complementary mates; I3 may be graph ornamentation.",
+      "rebuttal_evidence_required": "Under identical parent mechanics and FFE, I3 must be compared against a clean-room Ray-style set-overlap selector, and graph-specific endpoints must support an added effect. No such evidence exists yet.",
+      "current_disposition": "UNRESOLVED_FATAL_RISK"
+    },
+    {
+      "rank": 2,
+      "objection": "Ming et al. 2021 already formalized pairwise constraint relationships and grouping; I3 may only change the representation.",
+      "rebuttal_evidence_required": "The manuscript must claim only the intervention on DE donor topology and show that the learned community structure, not relationship discovery alone, changes prespecified mechanism endpoints. No such evidence exists yet.",
+      "current_disposition": "UNRESOLVED_HIGH_RISK"
+    },
+    {
+      "rank": 3,
+      "objection": "Any effect may be generic diversity, random partitioning or noise rather than constraint co-violation topology.",
+      "rebuttal_evidence_required": "Degree-preserving rewiring, diversity-matched selection, random labels, exact fallback and graph stability/activation analyses must jointly falsify simpler explanations. No such evidence exists yet.",
+      "current_disposition": "UNRESOLVED_FATAL_RISK"
+    }
+  ],
+  "verdict": {
+    "code": "REVISE_HIGH_RISK_PRECURSOR_FOUND_NO_EXACT_COLLISION_WITHIN_SEARCHED_SOURCES_NOVELTY_UNKNOWN",
+    "objective_novelty": "UNKNOWN",
+    "exact_collision_within_searched_sources": false,
+    "high_risk_precursor_found": true,
+    "paper_readiness": "NOT_READY_FOR_RESULTS_OR_NOVELTY_CLAIMS",
+    "rationale": "The three-part frozen target was not found verbatim in the searched sources, but Ray et al. 2000 materially overlaps the complementary per-constraint mating principle and Ming et al. 2021 overlaps pairwise constraint-relationship modeling. The defensible delta is therefore narrower and requires new graph-specific negative controls before any novelty or performance conclusion."
+  },
+  "governance_effect": {
+    "historical_frozen_artifacts_edited": 0,
+    "production_or_test_files_edited": 0,
+    "dependencies_installed_or_downloaded": 0,
+    "optimizer_runs": 0,
+    "objective_or_constraint_evaluator_calls": 0,
+    "formal_run_packages": 0,
+    "formal_ffe": 0,
+    "next_gate": "Independent author decision on preparation of a versioned novelty-control amendment and additive specification/expected-red tests."
+  }
+}

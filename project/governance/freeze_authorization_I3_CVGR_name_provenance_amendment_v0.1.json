@@ -1,0 +1,88 @@
+{
+  "schema": "alg1_replan.name_provenance_amendment_freeze_authorization.v1",
+  "authorization_id": "AUTH-I3-CVGR-NAME-PROVENANCE-FREEZE-v0.1-20260901T072700+0800",
+  "actor": "user",
+  "authorized_at": "2026-09-01T07:27:00.3327065+08:00",
+  "project": "ALG1-Replan",
+  "bound_candidate": {
+    "path": "governance/freeze_candidate_I3_CVGR_name_provenance_amendment_v0.1.json",
+    "sha256": "FD54D6E7A8A850B4CA7BF03FFF6F2DA551F59FB39164A32EEA62E32370409ACD",
+    "bytes": 3127,
+    "user_repeated_sha256": true,
+    "hash_verified_before_action": true,
+    "artifact_hashes_verified": "6/6"
+  },
+  "ordered_prerequisites": [
+    {
+      "role": "PA_FREEZE_RESTORE",
+      "path": "governance/freeze_acceptance_I3_CVGR_parent_conformance_amendment_v0.1.json",
+      "sha256": "E117680193FDB35962E62D346C23DC2388AD3F1A71B7369FD6D485F88E11EE6B",
+      "bytes": 3041,
+      "status": "FROZEN_RESTORED_STATIC_PASS",
+      "included_in_candidate_payload": false
+    },
+    {
+      "role": "MI_FREEZE_RESTORE",
+      "path": "governance/freeze_acceptance_I3_CVGR_mechanism_integrity_amendment_v0.1.json",
+      "sha256": "8B36F8386B20116E5A7AC632179DD323D3DDB72BFFF600EB51F66996ABBA45FA",
+      "bytes": 3378,
+      "status": "FROZEN_RESTORED_STATIC_PASS",
+      "included_in_candidate_payload": false
+    }
+  ],
+  "active_lock_preservation_baseline": [
+    {
+      "path": ".light/terminology.md",
+      "sha256": "95CFF37E2ADD8B5837508EB0A7C2314F0EE5F9D3A94528345801F562FAA6167E",
+      "bytes": 1986
+    },
+    {
+      "path": ".light/consistency/method_lock.yaml",
+      "sha256": "7DE1C6F5AA3080DDCC62D30427116C3699FAB92F144EB662510816582C6D4C59",
+      "bytes": 1777
+    },
+    {
+      "path": ".light/consistency/glossary.yaml",
+      "sha256": "BE591C43981E18795622DC0A7DA17040BCBE8419B50810E352892F127F36C645",
+      "bytes": 2672
+    }
+  ],
+  "decisions": {
+    "N": "FREEZE_NAME_PROVENANCE_AMENDMENT_v0.1",
+    "R": "AUTHORIZE_EMPTY_DIRECTORY_RESTORE_AND_STATIC_VERIFICATION",
+    "A": "KEEP_RUNTIME_AUTHORITY_NONOPERATIVE",
+    "C": "DO_NOT_AUTHORIZE_PRODUCTION_OR_ANALYSIS_IMPLEMENTATION",
+    "E": "DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION",
+    "F": "KEEP_FORMAL_FFE_ZERO"
+  },
+  "authorized_actions": [
+    "Create one non-recursive immutable snapshot containing exactly the six candidate-bound artifacts, the candidate and its verification receipt.",
+    "Create a sorted fixed-timestamp ZIP and SHA-256 manifest.",
+    "Restore into a newly created empty temporary directory and verify exact path set, bytes and SHA-256.",
+    "Parse the five JSON and two YAML files and perform name, status and runtime-authority static checks only.",
+    "Verify that the three active terminology and consistency locks remain byte-identical to the recorded baseline.",
+    "Create an acceptance record only if every authorized static check passes.",
+    "Create a local Git commit without a remote."
+  ],
+  "not_authorized": [
+    "Editing or activating .light/terminology.md or either active consistency lock.",
+    "Activating the candidate consistency locks or runtime-authority manifest.",
+    "Executing tests or importing production, analysis, optimizer or evaluator modules.",
+    "Changing production, analysis or existing test implementation.",
+    "Installing or downloading packages or source.",
+    "Calling an objective, constraint, benchmark, optimizer or evaluator.",
+    "Reading or analyzing formal result packages.",
+    "Executing S6-E0, M, C1, F, C2, Stage B or formal FFE.",
+    "Freezing NV, BM or SA by inference.",
+    "Forming performance, novelty, robustness or paper-readiness conclusions.",
+    "Remote push, public release or submission."
+  ],
+  "scientific_state_at_authorization": {
+    "formal_optimizer_runs": 0,
+    "objective_or_constraint_evaluator_calls": 0,
+    "formal_run_packages": 0,
+    "formal_ffe": 0,
+    "performance_evidence": "NONE",
+    "objective_novelty": "UNKNOWN"
+  }
+}

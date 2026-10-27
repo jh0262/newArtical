@@ -1,0 +1,993 @@
+[
+  {
+    "path": "project/src/alg1_replan/__init__.py",
+    "bytes": 385,
+    "sha256": "6438e5f54823f1243bffc150bb299e968d488569932864c5b938364c006fa66d",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/src/alg1_replan/__init__.py"
+  },
+  {
+    "path": "project/src/alg1_replan/accounting.py",
+    "bytes": 2200,
+    "sha256": "32f7862a818261c1be353bb5dea211bfbaf45b6de55fd17da903a84ddfa01eb2",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/src/alg1_replan/accounting.py"
+  },
+  {
+    "path": "project/src/alg1_replan/cvgr_donor.py",
+    "bytes": 7758,
+    "sha256": "0b42ea92426694386571070b0a5372aad73f6ce51281a67178af2edf1fee1b72",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/src/alg1_replan/cvgr_donor.py"
+  },
+  {
+    "path": "project/src/alg1_replan/cvgr_graph.py",
+    "bytes": 10576,
+    "sha256": "9a8b1a0c52fdacb68e7768c62abe93e33992a77f49685da576c3214fc0e75b77",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/src/alg1_replan/cvgr_graph.py"
+  },
+  {
+    "path": "project/src/alg1_replan/experiment_contracts.py",
+    "bytes": 9640,
+    "sha256": "a8762ada78e16481391cff6d530c3fdca136d5aa022cd3975e4db8a16cd44727",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/src/alg1_replan/experiment_contracts.py"
+  },
+  {
+    "path": "project/src/alg1_replan/online_state.py",
+    "bytes": 10274,
+    "sha256": "726be34a65660bcf0df937c35369740017f7568d27b42718f0c291f52cd30c0d",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/src/alg1_replan/online_state.py"
+  },
+  {
+    "path": "project/src/alg1_replan/randomness.py",
+    "bytes": 739,
+    "sha256": "0e88c9bb5924f34cd765ee79aad7a120b9e5b5c20a043900180c69ed6305d64e",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/src/alg1_replan/randomness.py"
+  },
+  {
+    "path": "project/src/alg1_replan/selection.py",
+    "bytes": 3697,
+    "sha256": "a64bea7975fad5decf24c93a105d6430d390fa609ddaa9606c1555d53333ec78",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/src/alg1_replan/selection.py"
+  },
+  {
+    "path": "project/src/alg1_replan/shade_kernel.py",
+    "bytes": 11171,
+    "sha256": "beb8aaa0bec2821fc206683a6c8f94c59223a2ee7e5d6eef13f8b91992014331",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/src/alg1_replan/shade_kernel.py"
+  },
+  {
+    "path": "project/tests/conftest.py",
+    "bytes": 215,
+    "sha256": "991bb5036b51422cd396534880f8cc498c96ea2775b982af2758867ef0a10adc",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/tests/conftest.py"
+  },
+  {
+    "path": "project/tests/test_activation_fallback_contract_v0_2.py",
+    "bytes": 4019,
+    "sha256": "6660c918eb2ebd314d6a8614840c5b1ad7cd69bc0d7a8d318f74d6ce0fce39ad",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/tests/test_activation_fallback_contract_v0_2.py"
+  },
+  {
+    "path": "project/tests/test_donor_contract.py",
+    "bytes": 2210,
+    "sha256": "644a543a6b0e41062f76051ab2346202f766c9714cd850f797000b00d48feacd",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/tests/test_donor_contract.py"
+  },
+  {
+    "path": "project/tests/test_exact_fallback_contract_v0_2.py",
+    "bytes": 5230,
+    "sha256": "96af4660acbb59bad255868599304dfcdbd541e0e30bfe248af88e7458ca5762",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/tests/test_exact_fallback_contract_v0_2.py"
+  },
+  {
+    "path": "project/tests/test_experiment_dry_run_contract_v0_1.py",
+    "bytes": 2401,
+    "sha256": "7e707c80f09c250c4f30337dba9963501345ce3fcf82e9164f820aeca83fbb05",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/tests/test_experiment_dry_run_contract_v0_1.py"
+  },
+  {
+    "path": "project/tests/test_fallback_rng_contract.py",
+    "bytes": 1629,
+    "sha256": "da8568d11bc06ea0ddd03ad8a8eda978ace7fc38a50744554309f6582f000192",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/tests/test_fallback_rng_contract.py"
+  },
+  {
+    "path": "project/tests/test_ffe_contract.py",
+    "bytes": 1638,
+    "sha256": "35bb251a001c73cf376ada1e4f78fcce6eee03306795efa993165781196ebb36",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/tests/test_ffe_contract.py"
+  },
+  {
+    "path": "project/tests/test_graph_contract.py",
+    "bytes": 4200,
+    "sha256": "7aff658d0bfcb809fcef6443b6de2875249b8cae835310ba7dc11eed9ed60afa",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/tests/test_graph_contract.py"
+  },
+  {
+    "path": "project/tests/test_online_cvgr_state_contract_v0_1.py",
+    "bytes": 3233,
+    "sha256": "cce5b7ecea9d3f3865811c2a00390a2b60631304bca2ae5f3ac19dcd84a0209b",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/tests/test_online_cvgr_state_contract_v0_1.py"
+  },
+  {
+    "path": "project/tests/test_parent_shade_kernel_contract_v0_1.py",
+    "bytes": 2826,
+    "sha256": "ff7555a6ed4017ae80fcf1ec9b311f6a2e7088280fde0651da6ec70b46b516a5",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/tests/test_parent_shade_kernel_contract_v0_1.py"
+  },
+  {
+    "path": "project/tests/test_violation_selection_contract_v0_1.py",
+    "bytes": 1638,
+    "sha256": "ab4cb92be47138e094d54817963902350f14e01876b5a6cf248c72ef264f143e",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/tests/test_violation_selection_contract_v0_1.py"
+  },
+  {
+    "path": "project/experiments/capture_openalex_citation_graph.py",
+    "bytes": 5686,
+    "sha256": "761a54d095590ac15cfed70c4c7b19ddbead5287aa8fb74fe4c6c34263008324",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/experiments/capture_openalex_citation_graph.py"
+  },
+  {
+    "path": "project/experiments/capture_semantic_novelty.py",
+    "bytes": 3755,
+    "sha256": "74aabd8adb83722703cc9011a6f47a53244381b51f4aad403b912503487c9c23",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/experiments/capture_semantic_novelty.py"
+  },
+  {
+    "path": "project/experiments/experiment_matrix.md",
+    "bytes": 3492,
+    "sha256": "ab6042bf4d463bcc3cfcbeb71e2ade426cbf85eba7530b0acada26b0ce64ecb8",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/experiments/experiment_matrix.md"
+  },
+  {
+    "path": "project/pyproject.toml",
+    "bytes": 439,
+    "sha256": "435c993755532fea6fd1ce1f690b3cb6dce503df2ad7f516f85d03bfcaea1972",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/pyproject.toml"
+  },
+  {
+    "path": "project/README.md",
+    "bytes": 1558,
+    "sha256": "fcdb708d8bc82d3a23dee7d3f29c4febf30575a9b1e809338df3a8b49954b55b",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/README.md"
+  },
+  {
+    "path": "project/PROJECT_PLAN.md",
+    "bytes": 10869,
+    "sha256": "d0b4b652b4fc52373a43c1929dc9718b265deaed19fecf272d78f7f544dfb5f8",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/PROJECT_PLAN.md"
+  },
+  {
+    "path": "project/reproducibility-checklist.md",
+    "bytes": 3040,
+    "sha256": "e83f5607e6cf206fffefd23f38e99053ef59e353c7ebbf68ad2b910669a14b68",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/reproducibility-checklist.md"
+  },
+  {
+    "path": "project/governance/author_acceptance_v0.2.json",
+    "bytes": 1519,
+    "sha256": "2e8590966a47a4a3ae511d6da84c4de1e0e8d3bf8f06a2591c952567fbc9bced",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/author_acceptance_v0.2.json"
+  },
+  {
+    "path": "project/governance/author_decision_packet_v0.1.json",
+    "bytes": 3889,
+    "sha256": "5ccef96a206786c13b0a04b2833e45b05e4e1c3af20d2d31cb2da8c4518c0c1d",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/author_decision_packet_v0.1.json"
+  },
+  {
+    "path": "project/governance/author_decision_packet_v0.2.json",
+    "bytes": 5662,
+    "sha256": "dea87e5647d1844cff03150bcae07d14149dbd4559cfa51e3c829396e56f031e",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/author_decision_packet_v0.2.json"
+  },
+  {
+    "path": "project/governance/author_decision_packet_v0.2_verification.md",
+    "bytes": 744,
+    "sha256": "ea2b911978fff7f14c2832c136655a5cd753dba29d6eec9a208d063110b7b969",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/author_decision_packet_v0.2_verification.md"
+  },
+  {
+    "path": "project/governance/author_decision_packet_verification_v0.1.json",
+    "bytes": 592,
+    "sha256": "8668be971dcfa5ec8a69ae8f5081bbd96e50f6abd18ed206b20fd7fa6e54bb02",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/author_decision_packet_verification_v0.1.json"
+  },
+  {
+    "path": "project/governance/consolidated_author_decision_authorization_I3_CVGR_v0.1.json",
+    "bytes": 3730,
+    "sha256": "f07c3ad10eee640108898c9d6607eee9791a4b539a9789f687982a38a2ec04cb",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/consolidated_author_decision_authorization_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/consolidated_author_decision_packet_I3_CVGR_v0.1.json",
+    "bytes": 13994,
+    "sha256": "cc0af083fcbee8880af39319790106d6624321f0828b65ebb0eabb9248305457",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/consolidated_author_decision_packet_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/control_identity_semantics_audit_I3_CVGR_v0.1.json",
+    "bytes": 14495,
+    "sha256": "b0448fca07a71ac6a58df98eeb1bff9c58a4a106196e35c22c23990e24010b4c",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/control_identity_semantics_audit_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/control_identity_semantics_decision_candidate_I3_CVGR_v0.1.json",
+    "bytes": 10173,
+    "sha256": "acfc5953c4e30061d023f8f8f69bb0b5135b338f974350d3a05f07ba5a695ffb",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/control_identity_semantics_decision_candidate_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/control_identity_semantics_decision_candidate_I3_CVGR_v0.1_verification.md",
+    "bytes": 2774,
+    "sha256": "86fa5ca7ecc9ac045cf9c0f6355298e552df1cdf3f96f39c5d11148bcddb4380",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/control_identity_semantics_decision_candidate_I3_CVGR_v0.1_verification.md"
+  },
+  {
+    "path": "project/governance/execution_resource_feasibility_audit_I3_CVGR_v0.1.json",
+    "bytes": 16672,
+    "sha256": "75af22a8442cd627912b99d760f4dba42d8fa6eb858b18021fd6cb528973bfb5",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/execution_resource_feasibility_audit_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/execution_resource_feasibility_audit_I3_CVGR_v0.1.md",
+    "bytes": 4285,
+    "sha256": "a14b34dce3f5064fc2337d9eaad41ef2900d2e59a0ad5787643a652752f4e36c",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/execution_resource_feasibility_audit_I3_CVGR_v0.1.md"
+  },
+  {
+    "path": "project/governance/external_baseline_modern_benchmark_decision_candidate_I3_CVGR_v0.1.json",
+    "bytes": 9230,
+    "sha256": "36fbdf42301dbb21b966067e28ef8ef02de64e30dd6938ece5036d3cb6c535fc",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/external_baseline_modern_benchmark_decision_candidate_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/external_baseline_modern_benchmark_decision_candidate_I3_CVGR_v0.1_verification.md",
+    "bytes": 2532,
+    "sha256": "ccd4ca7b12296bdb0296bc025ef81bbe76e8a8fd246c9125461c98beea74aa15",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/external_baseline_modern_benchmark_decision_candidate_I3_CVGR_v0.1_verification.md"
+  },
+  {
+    "path": "project/governance/external_baseline_modern_benchmark_license_audit_I3_CVGR_v0.1.json",
+    "bytes": 15630,
+    "sha256": "6ee80f4dc59e1554f3cb18ecffe17d10aa01fc16b15684068c7db5453a3b2380",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/external_baseline_modern_benchmark_license_audit_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/external_baseline_modern_benchmark_license_audit_I3_CVGR_v0.1.md",
+    "bytes": 5854,
+    "sha256": "4f7719d6fb159f865f40e2669468f97822beceb38daad044ef1b99d30a979c8d",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/external_baseline_modern_benchmark_license_audit_I3_CVGR_v0.1.md"
+  },
+  {
+    "path": "project/governance/freeze_acceptance_I3_CVGR_mechanism_integrity_amendment_v0.1.json",
+    "bytes": 3378,
+    "sha256": "8b36f8386b20116e5a7ac632179dd323d3ddb72bfff600eb51f66996abba45fa",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_acceptance_I3_CVGR_mechanism_integrity_amendment_v0.1.json"
+  },
+  {
+    "path": "project/governance/freeze_acceptance_I3_CVGR_name_provenance_amendment_v0.1.json",
+    "bytes": 3913,
+    "sha256": "8dd7898e1536973e9cc48987124d2870389e3bc24426e71917665fc9144aa040",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_acceptance_I3_CVGR_name_provenance_amendment_v0.1.json"
+  },
+  {
+    "path": "project/governance/freeze_acceptance_I3_CVGR_novelty_control_amendment_v0.1.json",
+    "bytes": 4325,
+    "sha256": "427327494d91bfb7a421ede45fa7474a7a5ac9ccb2ea97017bf8104ffbe40c7d",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_acceptance_I3_CVGR_novelty_control_amendment_v0.1.json"
+  },
+  {
+    "path": "project/governance/freeze_acceptance_I3_CVGR_parent_conformance_amendment_v0.1.json",
+    "bytes": 3041,
+    "sha256": "e117680193fdb35962e62d346c23dc2388ad3f1a71b7369fd6d485f88e11ee6b",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_acceptance_I3_CVGR_parent_conformance_amendment_v0.1.json"
+  },
+  {
+    "path": "project/governance/freeze_acceptance_I3_CVGR_plan_consistency_amendment_v0.1.json",
+    "bytes": 4000,
+    "sha256": "3a413acc393987dad48f19c8de2c196c0b3788ef9c9a98288a0b7c13f19ae290",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_acceptance_I3_CVGR_plan_consistency_amendment_v0.1.json"
+  },
+  {
+    "path": "project/governance/freeze_acceptance_I3_CVGR_stage6_I2_I4_implementation_v0.1.json",
+    "bytes": 4938,
+    "sha256": "9708b351a122b4795fc78058cfc80d6d3223708106ce3739b9c85f4a98c95057",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_acceptance_I3_CVGR_stage6_I2_I4_implementation_v0.1.json"
+  },
+  {
+    "path": "project/governance/freeze_acceptance_I3_CVGR_stage6_I2_I4_red_v0.1.json",
+    "bytes": 4463,
+    "sha256": "fb6d4d77a1e95743ab78fe9325960d0e265c1e4fe66e4a7fec1610fadddfff5b",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_acceptance_I3_CVGR_stage6_I2_I4_red_v0.1.json"
+  },
+  {
+    "path": "project/governance/freeze_acceptance_I3_CVGR_stage6_I2_I4_red_v0.1_verification.md",
+    "bytes": 1914,
+    "sha256": "9131c42bcb271fb9f26cde7c8c7f5ea4c858a3234cdc34965e63910333c885b1",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_acceptance_I3_CVGR_stage6_I2_I4_red_v0.1_verification.md"
+  },
+  {
+    "path": "project/governance/freeze_acceptance_I3_CVGR_v0.1.json",
+    "bytes": 2640,
+    "sha256": "803123e861a6e0c7adcdbcb56a9345e9e1d3ab6add809a6c40bb8aebc1f2b5b8",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_acceptance_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/freeze_acceptance_I3_CVGR_v0.1_verification.md",
+    "bytes": 2233,
+    "sha256": "d3841d57d2bd39bfc128b34321108e5bbe167c523a2c27d2f0116db63a35f82b",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_acceptance_I3_CVGR_v0.1_verification.md"
+  },
+  {
+    "path": "project/governance/freeze_acceptance_I3_CVGR_v0.2.json",
+    "bytes": 4457,
+    "sha256": "21ce295d9bd6cfeaf209d787e178b72b6e71e43b5b238d37bbc3822ca94ab563",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_acceptance_I3_CVGR_v0.2.json"
+  },
+  {
+    "path": "project/governance/freeze_acceptance_I3_CVGR_v0.2_verification.md",
+    "bytes": 2689,
+    "sha256": "09d585f54f67ee2060268b413b30f60ea692ddafa626742573b2a8b208149c2a",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_acceptance_I3_CVGR_v0.2_verification.md"
+  },
+  {
+    "path": "project/governance/freeze_authorization_I3_CVGR_mechanism_integrity_amendment_v0.1.json",
+    "bytes": 2925,
+    "sha256": "1fdf6fe693ec1f88a41cc281ec1e398b06a1d01c59138ee030ac17925d321aa9",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_authorization_I3_CVGR_mechanism_integrity_amendment_v0.1.json"
+  },
+  {
+    "path": "project/governance/freeze_authorization_I3_CVGR_name_provenance_amendment_v0.1.json",
+    "bytes": 3931,
+    "sha256": "77cdaf642229f4c0a5d7c45987dac37c1ac5844a5e6a007097822a4b791e8c4a",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_authorization_I3_CVGR_name_provenance_amendment_v0.1.json"
+  },
+  {
+    "path": "project/governance/freeze_authorization_I3_CVGR_novelty_control_amendment_v0.1.json",
+    "bytes": 3989,
+    "sha256": "804e0b60f15760cb5cc0458c8d0beddac7c354d098d683bf50ce33878ef56432",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_authorization_I3_CVGR_novelty_control_amendment_v0.1.json"
+  },
+  {
+    "path": "project/governance/freeze_authorization_I3_CVGR_parent_conformance_amendment_v0.1.json",
+    "bytes": 2465,
+    "sha256": "d8e18a46ba16d4b5cdd240a3cfda2050c29bceb4f6c4083c9d4967204986f35e",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_authorization_I3_CVGR_parent_conformance_amendment_v0.1.json"
+  },
+  {
+    "path": "project/governance/freeze_authorization_I3_CVGR_stage6_I2_I4_implementation_v0.1.json",
+    "bytes": 2725,
+    "sha256": "648eef3c2051c3d04c4feace5d0d1d920b7ba5ef6198e45a31d643a667c22c68",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_authorization_I3_CVGR_stage6_I2_I4_implementation_v0.1.json"
+  },
+  {
+    "path": "project/governance/freeze_authorization_I3_CVGR_stage6_I2_I4_red_v0.1.json",
+    "bytes": 1321,
+    "sha256": "f689c9f63b037993899138a1b1e92aa007a7bca36e290c0b3ecd1309ab914e88",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_authorization_I3_CVGR_stage6_I2_I4_red_v0.1.json"
+  },
+  {
+    "path": "project/governance/freeze_candidate_I3_CVGR_mechanism_integrity_amendment_v0.1.json",
+    "bytes": 3099,
+    "sha256": "d1b16c10ed5aca5264a32543cff30874a3026b7301647fb7b0906856a116e0a3",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_candidate_I3_CVGR_mechanism_integrity_amendment_v0.1.json"
+  },
+  {
+    "path": "project/governance/freeze_candidate_I3_CVGR_mechanism_integrity_amendment_v0.1_verification.md",
+    "bytes": 689,
+    "sha256": "04433b7af8d4f8d21fed38c13cc29631686bec458f77e2a15414bf0558b6c8c0",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_candidate_I3_CVGR_mechanism_integrity_amendment_v0.1_verification.md"
+  },
+  {
+    "path": "project/governance/freeze_candidate_I3_CVGR_name_provenance_amendment_v0.1.json",
+    "bytes": 3127,
+    "sha256": "fd54d6e7a8a850b4ca7bf03fff6f2da551f59fb39164a32eea62e32370409acd",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_candidate_I3_CVGR_name_provenance_amendment_v0.1.json"
+  },
+  {
+    "path": "project/governance/freeze_candidate_I3_CVGR_name_provenance_amendment_v0.1_verification.md",
+    "bytes": 781,
+    "sha256": "9ab3e9efdd5b4f8695ad5bf34ab15dcd2c73b1aa6cb8ee4f895339d3877ba5ed",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_candidate_I3_CVGR_name_provenance_amendment_v0.1_verification.md"
+  },
+  {
+    "path": "project/governance/freeze_candidate_I3_CVGR_novelty_control_amendment_v0.1.json",
+    "bytes": 3023,
+    "sha256": "e7d05f958c18b7bc84051ada4f910988ef1a747117feba833def28d6d9bb69ed",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_candidate_I3_CVGR_novelty_control_amendment_v0.1.json"
+  },
+  {
+    "path": "project/governance/freeze_candidate_I3_CVGR_novelty_control_amendment_v0.1_verification.md",
+    "bytes": 769,
+    "sha256": "3ec6ecb34f39610067dba4b706d3be8d14be077701d5865fd435e8fcbb1e5857",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_candidate_I3_CVGR_novelty_control_amendment_v0.1_verification.md"
+  },
+  {
+    "path": "project/governance/freeze_candidate_I3_CVGR_parent_conformance_amendment_v0.1.json",
+    "bytes": 3196,
+    "sha256": "97b19e4f84076a8556fb624a0be071db50c9d6c6ebabc3213a8d2729cd9326e3",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_candidate_I3_CVGR_parent_conformance_amendment_v0.1.json"
+  },
+  {
+    "path": "project/governance/freeze_candidate_I3_CVGR_parent_conformance_amendment_v0.1_verification.md",
+    "bytes": 625,
+    "sha256": "a6b31800a4713cad4fb6951c38139c2c8efc6fbf056270341bf22bb457c32275",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_candidate_I3_CVGR_parent_conformance_amendment_v0.1_verification.md"
+  },
+  {
+    "path": "project/governance/freeze_candidate_I3_CVGR_plan_consistency_amendment_v0.1.json",
+    "bytes": 7375,
+    "sha256": "e6903de9d31fb41f52abff43f1b8baf0fb9d1275977c4a6b90b7d28ea0d954d7",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_candidate_I3_CVGR_plan_consistency_amendment_v0.1.json"
+  },
+  {
+    "path": "project/governance/freeze_candidate_I3_CVGR_plan_consistency_amendment_v0.1_verification.md",
+    "bytes": 2259,
+    "sha256": "738af7bc21c858217331403d111fdbcf4adc7ab51a53ecd7ca181408856f6703",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_candidate_I3_CVGR_plan_consistency_amendment_v0.1_verification.md"
+  },
+  {
+    "path": "project/governance/freeze_candidate_I3_CVGR_stage6_I2_I4_implementation_v0.1.json",
+    "bytes": 9232,
+    "sha256": "5d6c8f48845fe1c9bd1ab455708e8dec80ef5bce3e4e6c1f7128e64fe09bbbaf",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_candidate_I3_CVGR_stage6_I2_I4_implementation_v0.1.json"
+  },
+  {
+    "path": "project/governance/freeze_candidate_I3_CVGR_stage6_I2_I4_implementation_v0.1_verification.md",
+    "bytes": 3063,
+    "sha256": "f05df590142eeb11bbe8218003158dd09b60eb8b5de91cc89196a636f94e00d0",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_candidate_I3_CVGR_stage6_I2_I4_implementation_v0.1_verification.md"
+  },
+  {
+    "path": "project/governance/freeze_candidate_I3_CVGR_stage6_I2_I4_red_v0.1.json",
+    "bytes": 5873,
+    "sha256": "0144ee7f892cb3957532d32a432a0f81c2352e599f35a66861680090b07d6921",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_candidate_I3_CVGR_stage6_I2_I4_red_v0.1.json"
+  },
+  {
+    "path": "project/governance/freeze_candidate_I3_CVGR_stage6_I2_I4_red_v0.1_verification.md",
+    "bytes": 1252,
+    "sha256": "622159cfb643992d57864e66ead3761c464a99fb3216c2b2e4e2e66359c0eff1",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_candidate_I3_CVGR_stage6_I2_I4_red_v0.1_verification.md"
+  },
+  {
+    "path": "project/governance/freeze_candidate_I3_CVGR_v0.1.json",
+    "bytes": 9829,
+    "sha256": "79f23915aae5853b01effb095aa6448ce1c7a5f7f0a3d0166dbe0a119aa684b3",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_candidate_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/freeze_candidate_I3_CVGR_v0.1_verification.md",
+    "bytes": 1382,
+    "sha256": "56828e3ae1564bb4b3d5ca1d4e514309747bc48f6b026216e4a619b719ab97b6",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_candidate_I3_CVGR_v0.1_verification.md"
+  },
+  {
+    "path": "project/governance/freeze_candidate_I3_CVGR_v0.2.json",
+    "bytes": 5826,
+    "sha256": "345afba8f403a6240977de2b2eb8b11e09fdf7b29c4c5b54cfa4a19b9cff5988",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_candidate_I3_CVGR_v0.2.json"
+  },
+  {
+    "path": "project/governance/freeze_candidate_I3_CVGR_v0.2_verification.md",
+    "bytes": 3101,
+    "sha256": "6329e48077d7d91502670ea9f62ca277bdfe4b2ea628a93a635622ebc6f4d932",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_candidate_I3_CVGR_v0.2_verification.md"
+  },
+  {
+    "path": "project/governance/freeze_restore_verification_I3_CVGR_mechanism_integrity_amendment_v0.1.md",
+    "bytes": 2834,
+    "sha256": "89eba6457119814636d4cde3015d7a2d3b148561da90834f6035b24eb701be98",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_restore_verification_I3_CVGR_mechanism_integrity_amendment_v0.1.md"
+  },
+  {
+    "path": "project/governance/freeze_restore_verification_I3_CVGR_name_provenance_amendment_v0.1.md",
+    "bytes": 3698,
+    "sha256": "6faeb3c45a27f89f8e14e2ea561deb04f6c1107dd0b2a3ef35d35eae8888695f",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_restore_verification_I3_CVGR_name_provenance_amendment_v0.1.md"
+  },
+  {
+    "path": "project/governance/freeze_restore_verification_I3_CVGR_novelty_control_amendment_v0.1.md",
+    "bytes": 3163,
+    "sha256": "3903e3a099465eb8ea223aec1adce8b1caa89efebcfc4b983cf1706c217d5895",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_restore_verification_I3_CVGR_novelty_control_amendment_v0.1.md"
+  },
+  {
+    "path": "project/governance/freeze_restore_verification_I3_CVGR_parent_conformance_amendment_v0.1.md",
+    "bytes": 2811,
+    "sha256": "4b7de3ac1ed6505c6b971b5c682fbe127db793c9856c0cef33249c42c74b589f",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_restore_verification_I3_CVGR_parent_conformance_amendment_v0.1.md"
+  },
+  {
+    "path": "project/governance/freeze_restore_verification_I3_CVGR_plan_consistency_amendment_v0.1.md",
+    "bytes": 3383,
+    "sha256": "4664e0643b6161bbd82f772c6be62229c2f9a9542e92afc2f9a84bb56ad2628a",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_restore_verification_I3_CVGR_plan_consistency_amendment_v0.1.md"
+  },
+  {
+    "path": "project/governance/freeze_restore_verification_I3_CVGR_stage6_I2_I4_implementation_v0.1.md",
+    "bytes": 3551,
+    "sha256": "aa8ec20c11a1e27e7a6de82db0a3342790c7e03642ee5414fe30ff99f5656c3d",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_restore_verification_I3_CVGR_stage6_I2_I4_implementation_v0.1.md"
+  },
+  {
+    "path": "project/governance/freeze_restore_verification_I3_CVGR_stage6_I2_I4_red_v0.1.md",
+    "bytes": 3078,
+    "sha256": "fe4c1b9d2b8d8f545739fe7b66f55a0367c306b568e7f3f39f4ff346afa60d7b",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_restore_verification_I3_CVGR_stage6_I2_I4_red_v0.1.md"
+  },
+  {
+    "path": "project/governance/freeze_restore_verification_I3_CVGR_v0.2.md",
+    "bytes": 2812,
+    "sha256": "6d212529270e8177e1e1ead4cf24361091fe98623b45c80d26e56ea7130e3d0e",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/freeze_restore_verification_I3_CVGR_v0.2.md"
+  },
+  {
+    "path": "project/governance/frozen_plan_consistency_decision_authorization_I3_CVGR_v0.1.json",
+    "bytes": 2841,
+    "sha256": "9c0a23a95e7cc2a28127de05458cefd81aba4eee2f5c7fdad73db37a3656cc2c",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/frozen_plan_consistency_decision_authorization_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/frozen_plan_consistency_decision_candidate_I3_CVGR_v0.1.json",
+    "bytes": 7484,
+    "sha256": "8b1539ac32286673b5809772ab4aaf93c8242e1d819bac414217134be2d88ec6",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/frozen_plan_consistency_decision_candidate_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/frozen_plan_consistency_decision_candidate_I3_CVGR_v0.1_verification.md",
+    "bytes": 3708,
+    "sha256": "ed70b2d0119f0a5f61da1966e71d0db63ca00fe9e860ad19c72c5e0fbf9ccade",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/frozen_plan_consistency_decision_candidate_I3_CVGR_v0.1_verification.md"
+  },
+  {
+    "path": "project/governance/frozen_plan_consistency_decision_candidate_I3_CVGR_v0.2.json",
+    "bytes": 10507,
+    "sha256": "0659daf6d3918c400d5764f59d16a5fa87ee71c11ee9fbd9f8db330f2d0662d6",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/frozen_plan_consistency_decision_candidate_I3_CVGR_v0.2.json"
+  },
+  {
+    "path": "project/governance/frozen_plan_consistency_decision_candidate_I3_CVGR_v0.2_verification.md",
+    "bytes": 2644,
+    "sha256": "1a2597ba4942d7689950d4701c11c2da0f6cd807690299c46d107f7d0a092448",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/frozen_plan_consistency_decision_candidate_I3_CVGR_v0.2_verification.md"
+  },
+  {
+    "path": "project/governance/frozen_plan_consistency_findings_I3_CVGR_v0.1.json",
+    "bytes": 5963,
+    "sha256": "a8aea7a9a2cf29c9721f5e9f8bb30d4ea40dfccd8324b98429fe41485a510aec",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/frozen_plan_consistency_findings_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/frozen_plan_full_contract_audit_I3_CVGR_v0.2.json",
+    "bytes": 11459,
+    "sha256": "80ba3f3592d10e82f93e1c1daaa379b24bac326fceec0d61f42078f1f207c29d",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/frozen_plan_full_contract_audit_I3_CVGR_v0.2.json"
+  },
+  {
+    "path": "project/governance/full_algorithm_traceability_audit_I3_CVGR_v0.1.json",
+    "bytes": 10657,
+    "sha256": "baef8b837ccd2288af8ec08af4d63f6d9379ac9623cfdcfe84fd225da6b752d6",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/full_algorithm_traceability_audit_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/full_algorithm_traceability_audit_I3_CVGR_v0.1.md",
+    "bytes": 1765,
+    "sha256": "a0557d958e5a77d5b94fd9e4836dbc8de79131b29c19977c3774b13286722654",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/full_algorithm_traceability_audit_I3_CVGR_v0.1.md"
+  },
+  {
+    "path": "project/governance/human_domain_review_I3_CVGR_v0.1.md",
+    "bytes": 4430,
+    "sha256": "09e879f74d51a47975e068d5344123a82bba41df2e2904c38b8d7daf68e5e3f4",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/human_domain_review_I3_CVGR_v0.1.md"
+  },
+  {
+    "path": "project/governance/implementation_authorization_I3_CVGR_v0.2.json",
+    "bytes": 1442,
+    "sha256": "fb119470c6f5a88e4f4e93b5a0e6cc3234b28f41a34de5222da86af30b45874c",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/implementation_authorization_I3_CVGR_v0.2.json"
+  },
+  {
+    "path": "project/governance/implementation_authorization_candidate_I3_CVGR_v0.1.json",
+    "bytes": 7654,
+    "sha256": "da8fd2a9cce6b72bf52d6b0d9ec3480b9247749b6a541bf445311dd2686c57a6",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/implementation_authorization_candidate_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/implementation_authorization_candidate_I3_CVGR_v0.1_verification.md",
+    "bytes": 2430,
+    "sha256": "c9c3714ffd33d76ad9ebec11aeb44331a6cf8f2904ca3907cf988ee61dfcacdb",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/implementation_authorization_candidate_I3_CVGR_v0.1_verification.md"
+  },
+  {
+    "path": "project/governance/implementation_authorization_candidate_I3_CVGR_v0.2.json",
+    "bytes": 9527,
+    "sha256": "40495201f5846b83d7871bb5fbfbb665b51a48398e51153d1706920fe0234a8f",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/implementation_authorization_candidate_I3_CVGR_v0.2.json"
+  },
+  {
+    "path": "project/governance/implementation_authorization_candidate_I3_CVGR_v0.2_verification.md",
+    "bytes": 2407,
+    "sha256": "d3b10ee0927f652bd18dbdfbdc0f3fca3e4b5ce8bb7a87f4a2df8a6674884d14",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/implementation_authorization_candidate_I3_CVGR_v0.2_verification.md"
+  },
+  {
+    "path": "project/governance/implementation_preflight_I3_CVGR_v0.1.json",
+    "bytes": 5422,
+    "sha256": "bbfe88c8b6f86cc7b480e20fc59c072022ad89944262bf51aa5d295a02c7b8ab",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/implementation_preflight_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/local_execution_environment_inventory_I3_CVGR_v0.1.json",
+    "bytes": 3212,
+    "sha256": "3d93da83047e33654d968080f57a69a438f19ed9a104e6a65056d70e60896291",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/local_execution_environment_inventory_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/mechanism_integrity_amendment_decision_candidate_I3_CVGR_v0.1.json",
+    "bytes": 9828,
+    "sha256": "0f7872bb7375a7dce0016a915328698bc719feb5a660910d53c441576ce20457",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/mechanism_integrity_amendment_decision_candidate_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/mechanism_integrity_amendment_decision_candidate_I3_CVGR_v0.1_verification.md",
+    "bytes": 2114,
+    "sha256": "8b2b6622b9e8f607897882097511eb7836651d5076f9fc4e6b634a028b1c6f09",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/mechanism_integrity_amendment_decision_candidate_I3_CVGR_v0.1_verification.md"
+  },
+  {
+    "path": "project/governance/method_name_provenance_decision_candidate_I3_CVGR_v0.1.json",
+    "bytes": 7144,
+    "sha256": "9370a070c955aeab8bdf2f3fca338e449215de931df10e1ae66bc2513433d61f",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/method_name_provenance_decision_candidate_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/modern_matrix_parameter_decision_candidate_I3_CVGR_v0.1.json",
+    "bytes": 4375,
+    "sha256": "96bb6b6ed0edda695b3dc93bf1d3fe621675914e450b34e9ff628344f54a6fe3",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/modern_matrix_parameter_decision_candidate_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/modern_matrix_parameter_decision_candidate_I3_CVGR_v0.1_verification.md",
+    "bytes": 757,
+    "sha256": "eb13471d4d5b962796ebb9d0d5e614791d7cd91f2a5087bec371af4cc9cb462d",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/modern_matrix_parameter_decision_candidate_I3_CVGR_v0.1_verification.md"
+  },
+  {
+    "path": "project/governance/modern_matrix_parameter_integration_preflight_I3_CVGR_v0.1.json",
+    "bytes": 8416,
+    "sha256": "a28536837e6163ec28974e0d60d1aee69e9444eed906f7c56a7de175f6b486f3",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/modern_matrix_parameter_integration_preflight_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/novelty_collision_addendum_I3_CVGR_v0.1.json",
+    "bytes": 13594,
+    "sha256": "938adf14ce663d59692bb3294c0930d9c60e6895f55bbfaee902ee8d07b95f1d",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/novelty_collision_addendum_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/novelty_collision_addendum_I3_CVGR_v0.1.md",
+    "bytes": 6862,
+    "sha256": "741896dea62e4a84609805e5d06e8c74fa6e9ae1362d7c3a8083238d20113f4f",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/novelty_collision_addendum_I3_CVGR_v0.1.md"
+  },
+  {
+    "path": "project/governance/novelty_control_amendment_decision_candidate_I3_CVGR_v0.1.json",
+    "bytes": 8622,
+    "sha256": "16857c240f9db26d0b79bdc1faadbdf279f3aea07e7ac149ebbafb4dda357c73",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/novelty_control_amendment_decision_candidate_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/novelty_control_amendment_decision_candidate_I3_CVGR_v0.1_verification.md",
+    "bytes": 1961,
+    "sha256": "a71dad098b8d4b6962d52b56314046aa10844858602a4da70e28ef8998004d1d",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/novelty_control_amendment_decision_candidate_I3_CVGR_v0.1_verification.md"
+  },
+  {
+    "path": "project/governance/parent_algorithm_identity_and_conformance_audit_I3_CVGR_v0.1.json",
+    "bytes": 10455,
+    "sha256": "9399bf38c2f56a351e7d52abb33637b59521ab38eb5a3d4421367c5c2f808d64",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/parent_algorithm_identity_and_conformance_audit_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/parent_algorithm_identity_and_conformance_audit_I3_CVGR_v0.1.md",
+    "bytes": 4191,
+    "sha256": "be4ea669e67918c4f3f07af6981cd53efeb180a8c49bd7fdf582ac834d3b871e",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/parent_algorithm_identity_and_conformance_audit_I3_CVGR_v0.1.md"
+  },
+  {
+    "path": "project/governance/parent_algorithm_identity_decision_candidate_I3_CVGR_v0.1.json",
+    "bytes": 7028,
+    "sha256": "ec7a0594602cbe2c17235f0b6e26712adaf49dafdf2fca2145db09207c27bde5",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/parent_algorithm_identity_decision_candidate_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/parent_algorithm_identity_decision_candidate_I3_CVGR_v0.1_verification.md",
+    "bytes": 2408,
+    "sha256": "341df95f725dae264671c5dcea71be88c8c42056fc248733292558d39a519da8",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/parent_algorithm_identity_decision_candidate_I3_CVGR_v0.1_verification.md"
+  },
+  {
+    "path": "project/governance/pending_author_gate_dependency_audit_I3_CVGR_v0.1.json",
+    "bytes": 12876,
+    "sha256": "bf93a906545780e556debaca59b01ac8ce03fc0beda04e8be286583463bbf8a7",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/pending_author_gate_dependency_audit_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/pending_author_gate_dependency_audit_I3_CVGR_v0.1.md",
+    "bytes": 3534,
+    "sha256": "21eaa56cae05833fee671bdc1d48ad9e0fc2b337d5937ec7b6f7774b2ae47b3c",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/pending_author_gate_dependency_audit_I3_CVGR_v0.1.md"
+  },
+  {
+    "path": "project/governance/production_implementation_authorization_I3_CVGR_stage6_I2_I4_v0.1.json",
+    "bytes": 2502,
+    "sha256": "ed98db534635caab9d9dc28b3d9be2216496f441f2f0a5bd72fafbed43d71977",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/production_implementation_authorization_I3_CVGR_stage6_I2_I4_v0.1.json"
+  },
+  {
+    "path": "project/governance/production_implementation_authorization_candidate_I3_CVGR_stage6_I2_I4_v0.1.json",
+    "bytes": 9259,
+    "sha256": "3115b9a52561c915747d8abab776af3fe91ee94e8a648700a726b4c33550a154",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/production_implementation_authorization_candidate_I3_CVGR_stage6_I2_I4_v0.1.json"
+  },
+  {
+    "path": "project/governance/production_implementation_authorization_candidate_I3_CVGR_stage6_I2_I4_v0.1_verification.md",
+    "bytes": 1795,
+    "sha256": "e3449b811d06e889d0fc083958749b793f942a58b56bac19109af1b7457c9906",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/production_implementation_authorization_candidate_I3_CVGR_stage6_I2_I4_v0.1_verification.md"
+  },
+  {
+    "path": "project/governance/remaining_gate_dependency_closure_audit_I3_CVGR_v0.1.json",
+    "bytes": 10159,
+    "sha256": "49802b695f516d7aebb70ea0e843baa0dee5017f4e0b3987d1e4f889984ccd76",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/remaining_gate_dependency_closure_audit_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/remaining_gate_dependency_closure_audit_I3_CVGR_v0.1_verification.md",
+    "bytes": 1918,
+    "sha256": "a431d53fac527b87c1cc51e04b864a4ee7060e31935173ca7c1f2cdadbc775d9",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/remaining_gate_dependency_closure_audit_I3_CVGR_v0.1_verification.md"
+  },
+  {
+    "path": "project/governance/s6_e0_frozen_plan_fact_bindings_v0.1.json",
+    "bytes": 4844,
+    "sha256": "2f42aaecfde45ede16eff01b85ec5c1373d3fab98f27d9f0ed3799e96407d8ba",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/s6_e0_frozen_plan_fact_bindings_v0.1.json"
+  },
+  {
+    "path": "project/governance/s6_e0_readiness_audit_I3_CVGR_v0.1.json",
+    "bytes": 10960,
+    "sha256": "52a0f1189e87f33c4956073262dc09fd045f9427821cc63c422ff4b72bb1229a",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/s6_e0_readiness_audit_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/s6_e0_red_phase_authorization_candidate_I3_CVGR_v0.1.json",
+    "bytes": 9989,
+    "sha256": "b344aa5be00a0e12c6596ff477ac5e29740f9392d15237c3cac969572906f649",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/s6_e0_red_phase_authorization_candidate_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/s6_e0_red_phase_authorization_candidate_I3_CVGR_v0.1_verification.md",
+    "bytes": 3525,
+    "sha256": "2f1bc797d88c550ad61ff94ea68403577485c81eb2841b6c1562e63ba760984d",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/s6_e0_red_phase_authorization_candidate_I3_CVGR_v0.1_verification.md"
+  },
+  {
+    "path": "project/governance/s6_i1_i4_mathematical_contract_gap_audit_I3_CVGR_v0.1.json",
+    "bytes": 16275,
+    "sha256": "674f1ceba11fe2693b96b4be88b30397b38ea4455aa162b52c108351cf93b6e4",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/s6_i1_i4_mathematical_contract_gap_audit_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/s6_i1_i4_mathematical_contract_gap_audit_I3_CVGR_v0.1.md",
+    "bytes": 4891,
+    "sha256": "27649fb40695a86150c2a8f193fc7e6b0c245e9bbff85b3bcad6e2c70a9bb311",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/s6_i1_i4_mathematical_contract_gap_audit_I3_CVGR_v0.1.md"
+  },
+  {
+    "path": "project/governance/statistical_analysis_amendment_decision_candidate_I3_CVGR_v0.1.json",
+    "bytes": 13599,
+    "sha256": "4d932f063e072dad63a0c648ba41c97e3cb78dac15173224d3ed07f90479d32e",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/statistical_analysis_amendment_decision_candidate_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/statistical_analysis_contract_gap_audit_I3_CVGR_v0.1.json",
+    "bytes": 18031,
+    "sha256": "290957b89e8a6718a8b463f14ebff07c892b1944e06bcfb96f3962a9d9620c06",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/statistical_analysis_contract_gap_audit_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/statistical_analysis_contract_gap_audit_I3_CVGR_v0.1.md",
+    "bytes": 4793,
+    "sha256": "fea940752f622baf48e774e3d756438bc7c4f8d497c65e32bb5a684c0d041d18",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/statistical_analysis_contract_gap_audit_I3_CVGR_v0.1.md"
+  },
+  {
+    "path": "project/governance/task_profile_design_v0.1.json",
+    "bytes": 632,
+    "sha256": "deb2f3bb4395cb9e5d13d361dc2343b9a876cadbb08285e47889286f5ccd8418",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/task_profile_design_v0.1.json"
+  },
+  {
+    "path": "project/governance/tdd_coverage_amendment_authorization_candidate_I3_CVGR_v0.1.json",
+    "bytes": 5675,
+    "sha256": "b6adcff7b3181114bfaf77e9d15dd310030e816f90c640abe9a15c56f389923a",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/tdd_coverage_amendment_authorization_candidate_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/tdd_coverage_amendment_authorization_candidate_I3_CVGR_v0.1_verification.md",
+    "bytes": 1575,
+    "sha256": "588544bfa8676e7f8520e0c06d933d1cf6fb32ba4f2300c1cf36824e50fe5d56",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/tdd_coverage_amendment_authorization_candidate_I3_CVGR_v0.1_verification.md"
+  },
+  {
+    "path": "project/governance/tdd_coverage_audit_I3_CVGR_v0.1.json",
+    "bytes": 7044,
+    "sha256": "a7395617bee4de85bb447870a20618586bfb041d226f50aac08559127ea2ccbb",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/tdd_coverage_audit_I3_CVGR_v0.1.json"
+  },
+  {
+    "path": "project/governance/tdd_coverage_audit_I3_CVGR_v0.1.md",
+    "bytes": 1632,
+    "sha256": "2214b6dab830f2edd8b1543f57f4e20947286f81e047ae00ec3308021f060d8e",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/governance/tdd_coverage_audit_I3_CVGR_v0.1.md"
+  },
+  {
+    "path": "project/artifacts/stage5_amendment/frozen_plan_consistency_amendment_I3_CVGR_v0.1.md",
+    "bytes": 4305,
+    "sha256": "507ab8e5df2b44807583d6de0b8f0ce308ebbb2fc465f6d36c40a4d4227ea33a",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/artifacts/stage5_amendment/frozen_plan_consistency_amendment_I3_CVGR_v0.1.md",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/artifacts/stage5_amendment/glossary_candidate_I3_CVGR_v0.2.yaml",
+    "bytes": 1094,
+    "sha256": "dc3a490c783d1fe08339a777883398eda68ac44ad7d2b7bb1d0827e03a0c5484",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/artifacts/stage5_amendment/glossary_candidate_I3_CVGR_v0.2.yaml",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/artifacts/stage5_amendment/mechanism_integrity_amendment_I3_CVGR_v0.1.md",
+    "bytes": 3438,
+    "sha256": "9a68f6c9bb1f2138af6f439bbef214f8f9869d1c0d4b431464d9eff3da6761ef",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/artifacts/stage5_amendment/mechanism_integrity_amendment_I3_CVGR_v0.1.md",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/artifacts/stage5_amendment/mechanism_integrity_fixtures_I3_CVGR_v0.1.json",
+    "bytes": 1455,
+    "sha256": "986f60780f0d3d3761416983ce8d2792bfe04bc1276527fb58f50510dcba0b2d",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/artifacts/stage5_amendment/mechanism_integrity_fixtures_I3_CVGR_v0.1.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/artifacts/stage5_amendment/method_lock_candidate_I3_CVGR_v0.2.yaml",
+    "bytes": 1037,
+    "sha256": "9041f97e1d1c32db6d3979810dae803c4092a4368a23c9b9653bee2a4889045d",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/artifacts/stage5_amendment/method_lock_candidate_I3_CVGR_v0.2.yaml",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/artifacts/stage5_amendment/method_name_provenance_amendment_I3_CVGR_v0.1.md",
+    "bytes": 1605,
+    "sha256": "30a5b72d2e3a8dc6a20b608cb6f2714c20635705bfd5a06ffb1cfabc40251789",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/artifacts/stage5_amendment/method_name_provenance_amendment_I3_CVGR_v0.1.md",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/artifacts/stage5_amendment/modern_benchmark_baseline_spec_I3_CVGR_v0.1.md",
+    "bytes": 1359,
+    "sha256": "144c656d169a139fe45adbdf596e741e9f5d6c0ddd0ac82092f9771170e33179",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/artifacts/stage5_amendment/modern_benchmark_baseline_spec_I3_CVGR_v0.1.md",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/artifacts/stage5_amendment/modern_matrix_amendment_I3_CVGR_v0.1.md",
+    "bytes": 2474,
+    "sha256": "f680e5acda96408e6a49e1d00b931f77aded637c321a18ea8d165f61a9f95373",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/artifacts/stage5_amendment/modern_matrix_amendment_I3_CVGR_v0.1.md",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/artifacts/stage5_amendment/modern_matrix_fixtures_I3_CVGR_v0.1.json",
+    "bytes": 929,
+    "sha256": "fe9ccd8b3bc19ee47b5165e847e1face90ae595d35085f0b70b6c0025e7bdfe1",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/artifacts/stage5_amendment/modern_matrix_fixtures_I3_CVGR_v0.1.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/artifacts/stage5_amendment/novelty_control_amendment_I3_CVGR_v0.1.md",
+    "bytes": 1879,
+    "sha256": "061b48a53954ffe71e5a4dbf05925326f50513cc3d59073eafdffe7d2837a42d",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/artifacts/stage5_amendment/novelty_control_amendment_I3_CVGR_v0.1.md",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/artifacts/stage5_amendment/novelty_control_fixtures_I3_CVGR_v0.1.json",
+    "bytes": 1087,
+    "sha256": "ab43d28073bf4fa32e3e3e66cc3215fd916905bb223d865a66797ceec6285d3c",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/artifacts/stage5_amendment/novelty_control_fixtures_I3_CVGR_v0.1.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/artifacts/stage5_amendment/parent_conformance_fixtures_I3_CVGR_v0.1.json",
+    "bytes": 1913,
+    "sha256": "679dbf54c838aef3640be4e9ef8e36af497566717d89e953255aa775b0ea4890",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/artifacts/stage5_amendment/parent_conformance_fixtures_I3_CVGR_v0.1.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/artifacts/stage5_amendment/parent_conformance_spec_I3_CVGR_v0.1.md",
+    "bytes": 2037,
+    "sha256": "b796be3da1886cce17a78fb26fb2c2ed6f8e7e90611b3920296157dee2b0be89",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/artifacts/stage5_amendment/parent_conformance_spec_I3_CVGR_v0.1.md",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/artifacts/stage5_amendment/parent_identity_conformance_amendment_I3_CVGR_v0.1.md",
+    "bytes": 3885,
+    "sha256": "41c94df47c24b9d0d8e39a2bde679f0a9beae238b93b56260522576fdcbd9c3a",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/artifacts/stage5_amendment/parent_identity_conformance_amendment_I3_CVGR_v0.1.md",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/artifacts/stage5_amendment/ray_style_control_spec_I3_CVGR_v0.1.md",
+    "bytes": 1544,
+    "sha256": "19d1e28a667050bb2c464c299a0b9774c69bc5bafe23ebe21636297e4e8dd759",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/artifacts/stage5_amendment/ray_style_control_spec_I3_CVGR_v0.1.md",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/artifacts/stage5_amendment/runtime_authority_manifest_candidate_I3_CVGR_v0.1.json",
+    "bytes": 2969,
+    "sha256": "eacdaa21775b5c7198ce61fcd90883ed759b6a2f16d7926d7104c57e83633cc2",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/artifacts/stage5_amendment/runtime_authority_manifest_candidate_I3_CVGR_v0.1.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/artifacts/stage5_amendment/synthetic_fallback_fixtures_I3_CVGR_v0.1.json",
+    "bytes": 5650,
+    "sha256": "b6050ee86fc0165231011c798e2c82bb52eb37972c0aa7fb9b3e63b02675c932",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/artifacts/stage5_amendment/synthetic_fallback_fixtures_I3_CVGR_v0.1.json",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/artifacts/stage5_amendment/tdd_fallback_contract_amendment_I3_CVGR_v0.1.md",
+    "bytes": 3867,
+    "sha256": "b0264e47fb0ab077e3f3bd5b62a88e3559dadafb53bdc30dd18cebb4cbad30d2",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/artifacts/stage5_amendment/tdd_fallback_contract_amendment_I3_CVGR_v0.1.md",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/artifacts/stage5_amendment/tdd_red_receipt_I3_CVGR_v0.2.md",
+    "bytes": 2737,
+    "sha256": "f77b6648938701d8d55bd39cc1e5cd8728b6f5daca84f4b975494c610830af0d",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/artifacts/stage5_amendment/tdd_red_receipt_I3_CVGR_v0.2.md",
+    "bundle": "resources/part-001.zip"
+  },
+  {
+    "path": "project/artifacts/stage5_amendment/proposed_red_tests/test_mechanism_integrity_expected_red_v0_1.py",
+    "bytes": 418,
+    "sha256": "a2c88013e478def42ffede88e03f095becf352c2d2aebf26ae41b9d66fadb6fa",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/artifacts/stage5_amendment/proposed_red_tests/test_mechanism_integrity_expected_red_v0_1.py"
+  },
+  {
+    "path": "project/artifacts/stage5_amendment/proposed_red_tests/test_modern_matrix_expected_red_v0_1.py",
+    "bytes": 582,
+    "sha256": "5281ebe56bf51b5fb26a199b6c1910f11eebd4f1c5f5b7c98c2b22d48f0f82f4",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/artifacts/stage5_amendment/proposed_red_tests/test_modern_matrix_expected_red_v0_1.py"
+  },
+  {
+    "path": "project/artifacts/stage5_amendment/proposed_red_tests/test_novelty_controls_expected_red_v0_1.py",
+    "bytes": 496,
+    "sha256": "e7b7758826175008ee81d71a738d1219361ff9e266036462fc77d61adb3a2720",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/artifacts/stage5_amendment/proposed_red_tests/test_novelty_controls_expected_red_v0_1.py"
+  },
+  {
+    "path": "project/artifacts/stage5_amendment/proposed_red_tests/test_parent_conformance_expected_red_v0_1.py",
+    "bytes": 671,
+    "sha256": "465f8662931be9f89ebee642613423cf44f5d6b2fbee1596826b69107437abc2",
+    "source": "04_核心已实现待实验_P08_CVGR_SHADE/artifacts/stage5_amendment/proposed_red_tests/test_parent_conformance_expected_red_v0_1.py"
+  }
+]

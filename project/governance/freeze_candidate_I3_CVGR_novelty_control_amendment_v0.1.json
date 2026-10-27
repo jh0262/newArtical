@@ -1,0 +1,24 @@
+{
+  "schema": "alg1_replan.novelty_control_amendment_freeze_candidate.v1",
+  "candidate_id": "I3-CVGR-NOVELTY-CONTROL-AMENDMENT-FREEZE-v0.1",
+  "status": "PROPOSED_NOT_FROZEN",
+  "generated_at": "2026-09-01T06:40:00+08:00",
+  "project": "ALG1-Replan",
+  "preparation_authority": {"path":"governance/consolidated_author_decision_authorization_I3_CVGR_v0.1.json","sha256":"F07C3AD10EEE640108898C9D6607EEE9791A4B539A9789F687982A38A2EC04CB","decision":"NV=ACCEPT_NOVELTY_CONTROL_PREPARATION"},
+  "claim_status": "CONDITIONAL_HYPOTHESIS_ONLY_NOVELTY_UNKNOWN",
+  "required_controls": ["RAY_STYLE","DIV_MATCH","DEG_REWIRE","RANDOM_LABEL"],
+  "artifacts": [
+    {"path":"governance/novelty_control_amendment_decision_candidate_I3_CVGR_v0.1.json","sha256":"16857C240F9DB26D0B79BDC1FAADBDF279F3AEA07E7AC149EBBAFB4DDA357C73","bytes":8622},
+    {"path":"artifacts/stage5_amendment/novelty_control_amendment_I3_CVGR_v0.1.md","sha256":"061B48A53954FFE71E5A4DBF05925326F50513CC3D59073EAFDFFE7D2837A42D","bytes":1879},
+    {"path":"artifacts/stage5_amendment/ray_style_control_spec_I3_CVGR_v0.1.md","sha256":"19D1E28A667050BB2C464C299A0B9774C69BC5BAFE23EBE21636297E4E8DD759","bytes":1544},
+    {"path":"artifacts/stage5_amendment/novelty_control_fixtures_I3_CVGR_v0.1.json","sha256":"AB43D28073BF4FA32E3E3E66CC3215FD916905BB223D865A66797CEEC6285D3C","bytes":1087},
+    {"path":"artifacts/stage5_amendment/proposed_red_tests/test_novelty_controls_expected_red_v0_1.py","sha256":"E7B7758826175008EE81D71A738D1219361FF9E266036462FC77D61ADB3A2720","bytes":496},
+    {"path":"governance/freeze_acceptance_I3_CVGR_plan_consistency_amendment_v0.1.json","sha256":"3A413ACC393987DAD48F19C8DE2C196C0B3788EF9C9A98288A0B7C13F19AE290","bytes":4000},
+    {"path":"governance/freeze_candidate_I3_CVGR_parent_conformance_amendment_v0.1.json","sha256":"97B19E4F84076A8556FB624A0BE071DB50C9D6C6EBABC3213A8D2729CD9326E3","bytes":3196}
+  ],
+  "artifact_count": 7,
+  "static_state": {"expected_red_tests":"PREPARED_NOT_EXECUTED","production_files_edited":0,"optimizer_or_evaluator_calls":0,"formal_ffe":0,"objective_novelty":"UNKNOWN"},
+  "freeze_procedure_if_authorized": {"restore_rule":"Empty-directory exact path/hash/byte restore plus JSON and Python-AST parsing only.","activation_rule":"Freeze does not implement controls, execute tests or establish novelty."},
+  "requested_author_decisions": {"N":"FREEZE_NOVELTY_CONTROL_AMENDMENT_v0.1","R":"AUTHORIZE_EMPTY_DIRECTORY_RESTORE_AND_STATIC_VERIFICATION","T":"DO_NOT_EXECUTE_EXPECTED_RED_TESTS","C":"DO_NOT_AUTHORIZE_PRODUCTION_IMPLEMENTATION","E":"DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION","F":"KEEP_FORMAL_FFE_ZERO"},
+  "suggested_response": "我确认冻结I3新颖性控制修订候选v0.1，SHA-256为<CANDIDATE_SHA256>；N=FREEZE_NOVELTY_CONTROL_AMENDMENT_v0.1；R=AUTHORIZE_EMPTY_DIRECTORY_RESTORE_AND_STATIC_VERIFICATION；T=DO_NOT_EXECUTE_EXPECTED_RED_TESTS；C=DO_NOT_AUTHORIZE_PRODUCTION_IMPLEMENTATION；E=DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION；F=KEEP_FORMAL_FFE_ZERO"
+}

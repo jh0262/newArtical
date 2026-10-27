@@ -1,0 +1,61 @@
+{
+  "schema": "alg1_replan.freeze_acceptance.v1",
+  "authorization_id": "AUTH-I3-FREEZE-PLAN-20260830T105305+0800",
+  "actor": "user",
+  "accepted_at": "2026-08-30T10:53:05+08:00",
+  "decision": {
+    "P": "FREEZE_PLAN",
+    "C": "DO_NOT_AUTHORIZE_IMPLEMENTATION",
+    "E": "DO_NOT_AUTHORIZE_EXECUTION"
+  },
+  "accepted_candidate": {
+    "path": "governance/freeze_candidate_I3_CVGR_v0.1.json",
+    "sha256": "79F23915AAE5853B01EFFB095AA6448CE1C7A5F7F0A3D0166DBE0A119AA684B3",
+    "artifact_count": 36,
+    "hash_verified_before_acceptance": true,
+    "artifact_mismatch_count_before_acceptance": 0
+  },
+  "immutable_snapshot": {
+    "directory": "governance/frozen/I3_CVGR_plan_v0.1_79F23915_snapshot",
+    "archive": "governance/frozen/I3_CVGR_plan_v0.1_79F23915_snapshot.zip",
+    "archive_sha256": "6AC43CB831B5965CC5EB408E45C6D790859A74A6E10DFBB1091C13E9DC5E8F45",
+    "archive_bytes": 72643,
+    "copied_files": 38,
+    "copy_mismatch_count": 0,
+    "contains": "The 36 manifest-bound artifacts, the accepted candidate manifest, and its pre-acceptance verification receipt."
+  },
+  "freeze_effect": {
+    "plan_state": "FROZEN",
+    "frozen_scope": [
+      "CVGR-SHADE method specification v0.1",
+      "synthetic falsification fixtures and problem-suite specification v0.1",
+      "research question, estimands, hypotheses, primary endpoints and falsifiers",
+      "experiment matrix, baselines, ablations, fixed seeds and planned FFE budgets",
+      "success, failure, inconclusive and kill criteria",
+      "preregistration candidate v0.1 and reproducibility/ethics boundaries",
+      "TDD red-test contracts"
+    ],
+    "amendment_rule": "Any change to a frozen artifact is a new version, must preserve this snapshot, must be entered in .light/deviations.md, and requires a new author authorization before confirmatory use."
+  },
+  "explicitly_not_authorized": [
+    "production implementation",
+    "turning TDD red tests green",
+    "optimizer pilot or smoke run",
+    "any formal fitness function evaluation",
+    "mechanism stage M",
+    "confirmatory stage C1",
+    "fallback stage F",
+    "optional stage C2",
+    "Stage B or full TCAC",
+    "public release, preregistration-platform submission, manuscript submission or publication",
+    "performance, superiority, objective-novelty, causal, physical-validation or industrial-validation conclusions"
+  ],
+  "scientific_state_at_freeze": {
+    "formal_optimizer_runs": 0,
+    "formal_ffe": 0,
+    "performance_evidence": "NONE",
+    "objective_novelty": "UNKNOWN",
+    "tdd_state": "EXPECTED_RED",
+    "next_state": "WAITING_FOR_SEPARATE_IMPLEMENTATION_AUTHORIZATION"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schema": "alg1_replan.stage6_implementation_freeze_authorization.v1",
+  "authorization_id": "AUTH-I3-FREEZE-STAGE6-I1-I4-IMPLEMENTATION-20260831T161910+0800",
+  "actor": "user",
+  "authorized_at": "2026-08-31T16:19:10.1246312+08:00",
+  "accepted_candidate": {
+    "path": "governance/freeze_candidate_I3_CVGR_stage6_I2_I4_implementation_v0.1.json",
+    "sha256": "5D6C8F48845FE1C9BD1AB455708E8DEC80EF5BCE3E4E6C1F7128E64FE09BBBAF",
+    "user_repeated_sha256": true,
+    "live_sha256_recomputed_and_matched": true
+  },
+  "decision": {
+    "P": "FREEZE_IMPLEMENTATION_PACKAGE",
+    "R": "AUTHORIZE_EMPTY_DIRECTORY_RESTORE_AND_46_CONTRACT_TESTS",
+    "E": "DO_NOT_AUTHORIZE_OPTIMIZER_EXECUTION",
+    "F": "KEEP_FORMAL_FFE_ZERO"
+  },
+  "preauthorization_verification": {
+    "candidate_commit": "9785db346e07304bc02740ed6151769102a19e07",
+    "bound_implementation_commit": "2c12dae6b74bdfb357e67ab0b66cf48caf09c9ab",
+    "git_worktree": "CLEAN",
+    "git_remote_count": 0,
+    "production_source_hash_mismatches": 0,
+    "frozen_red_baseline_hash_mismatches": 0,
+    "implementation_evidence_hash_mismatches": 0,
+    "historical_snapshot_archive_hash_mismatches": 0,
+    "formal_ffe": 0
+  },
+  "authorized_actions": [
+    "Create one new non-recursive immutable implementation snapshot directory, per-file manifest and ZIP from the authorization-record commit, excluding governance/frozen/** historical snapshots.",
+    "Recompute and preserve the three separately bound historical snapshot ZIP hashes.",
+    "Restore the new ZIP into a newly created empty directory and verify the exact file set, bytes and SHA-256 values.",
+    "Run only the 46 frozen deterministic contract tests and AST/source-path-scoped import checks inside the restored package.",
+    "Create local acceptance and restore-verification evidence and local Git commits with no remote."
+  ],
+  "hard_boundaries": {
+    "optimizer_runs": 0,
+    "benchmark_or_simulation_runs": 0,
+    "objective_or_constraint_evaluations": 0,
+    "formal_run_package_count": 0,
+    "formal_ffe": 0,
+    "dependency_installations": 0,
+    "network_or_remote_git": false,
+    "production_source_edits": false,
+    "frozen_contract_edits": false,
+    "performance_or_paper_claims_authorized": false
+  },
+  "explicitly_not_authorized": [
+    "S6-E0 production implementation or execution",
+    "optimizer, benchmark, simulation, pilot, M, C1, F, C2, Stage B or TCAC execution",
+    "objective or constraint evaluation, formal run package or formal FFE",
+    "dependency installation, network access, remote Git, public release or submission",
+    "performance, superiority, convergence, robustness, objective-novelty, physical-validation or paper-readiness conclusions"
+  ]
+}

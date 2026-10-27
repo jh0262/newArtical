@@ -1,0 +1,56 @@
+{
+  "schema": "alg1_replan.stage6_production_implementation_authorization.v1",
+  "authorization_id": "AUTH-I3-STAGE6-I2-I4-SEQUENTIAL-PRODUCTION-20260831T155046+0800",
+  "actor": "user",
+  "authorized_at": "2026-08-31T15:50:46.5014012+08:00",
+  "accepted_candidate": {
+    "path": "governance/production_implementation_authorization_candidate_I3_CVGR_stage6_I2_I4_v0.1.json",
+    "sha256": "3115B9A52561C915747D8ABAB776AF3FE91EE94E8A648700A726B4C33550A154",
+    "user_repeated_sha256": true,
+    "live_sha256_recomputed_and_matched": true
+  },
+  "bound_red_freeze": {
+    "candidate_path": "governance/freeze_candidate_I3_CVGR_stage6_I2_I4_red_v0.1.json",
+    "candidate_sha256": "0144EE7F892CB3957532D32A432A0F81C2352E599F35A66861680090B07D6921",
+    "acceptance_path": "governance/freeze_acceptance_I3_CVGR_stage6_I2_I4_red_v0.1.json",
+    "acceptance_sha256": "FB6D4D77A1E95743AB78FE9325960D0E265C1E4FE66E4A7FEC1610FADDDFFF5B",
+    "frozen_artifact_hashes_matched_before_implementation": "11/11"
+  },
+  "decision": {
+    "I2": "AUTHORIZE_PARENT_SHADE_PRODUCTION_IMPLEMENTATION",
+    "I3": "AUTHORIZE_ONLINE_CVGR_PRODUCTION_IMPLEMENTATION_AFTER_I2_GREEN",
+    "I4": "AUTHORIZE_EVALUATOR_FORBIDDEN_DRY_RUN_INFRASTRUCTURE_AFTER_I3_GREEN",
+    "T": "AUTHORIZE_FROZEN_GREEN_TESTS_AND_STATIC_CHECKS",
+    "G": "AUTHORIZE_LOCAL_GIT_COMMITS_NO_REMOTE",
+    "E": "DO_NOT_AUTHORIZE_OPTIMIZER_EXECUTION",
+    "F": "KEEP_FORMAL_FFE_ZERO"
+  },
+  "sequential_gate": [
+    "S6-I2 must pass its 10 frozen tests and the 29-test S6-I1 regression before S6-I3 production implementation begins.",
+    "S6-I3 must pass its 4 frozen tests and all prior frozen tests before S6-I4 production implementation begins.",
+    "S6-I4 must pass its 3 frozen tests and the complete 46-test frozen suite."
+  ],
+  "permitted_production_files": [
+    "src/alg1_replan/selection.py",
+    "src/alg1_replan/shade_kernel.py",
+    "src/alg1_replan/online_state.py",
+    "src/alg1_replan/experiment_contracts.py"
+  ],
+  "hard_boundaries": {
+    "optimizer_runs": 0,
+    "benchmark_or_simulation_runs": 0,
+    "objective_or_constraint_evaluations": 0,
+    "formal_ffe": 0,
+    "formal_run_packages": 0,
+    "network_or_remote_git": false,
+    "frozen_baseline_edits": false,
+    "performance_or_paper_claims_authorized": false
+  },
+  "entry_state": {
+    "git_head": "9140057b5605e1c46d12bb40193e5f12977f7dff",
+    "git_worktree": "CLEAN",
+    "git_remote_count": 0,
+    "authorized_production_modules_present": 0,
+    "formal_ffe": 0
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "schema": "alg1_replan.implementation_authorization_candidate.v2",
+  "project": "ALG1-Replan",
+  "candidate": "I3-CVGR-SHADE",
+  "created_at": "2026-08-31T06:57:21.4915938+08:00",
+  "status": "PROPOSED_NOT_AUTHORIZED",
+  "decision_id": "DEC-I3-STAGE6-PHASED-IMPLEMENTATION-v0.2",
+  "purpose": "Request a TDD-preserving phased authorization: implement only the frozen S6-I1 deterministic core, while preparing specifications and expected-red tests for S6-I2 through S6-I4 without implementing those later slices or executing an optimizer.",
+  "supersedes": {
+    "path": "governance/implementation_authorization_candidate_I3_CVGR_v0.1.json",
+    "sha256": "DA8FD2A9CCE6B72BF52D6B0D9EC3480B9247749B6A541BF445311DD2686C57A6",
+    "disposition": "HOLD_SUPERSEDED_BY_v0.2",
+    "reason": "v0.1 predated the frozen additive fallback contracts and covered only four tests."
+  },
+  "bound_frozen_tdd_baseline": {
+    "freeze_candidate_path": "governance/freeze_candidate_I3_CVGR_v0.2.json",
+    "freeze_candidate_sha256": "345AFBA8F403A6240977DE2B2EB8B11E09FDF7B29C4C5B54CFA4A19B9CFF5988",
+    "freeze_acceptance_path": "governance/freeze_acceptance_I3_CVGR_v0.2.json",
+    "freeze_acceptance_sha256": "21CE295D9BD6CFEAF209D787E178B72B6E71E43B5B238D37BBC3822CA94AB563",
+    "freeze_acceptance_verification_sha256": "09D585F54F67EE2060268B413B30F60EA692DDAFA626742573B2A8B208149C2A",
+    "snapshot_manifest_sha256": "68687981517461111996122B86A2257600DF6F5C5CB6859EF035E5053280139A",
+    "snapshot_archive_sha256": "CBFBC21E2CD664B870D81C826858853372A2918BFD8137FB4EBE941EF986C98F",
+    "restore_verification_sha256": "6D212529270E8177E1E1EAD4CF24361091FE98623B45C80D26E56EA7130E3D0E",
+    "frozen_test_files": 6,
+    "frozen_additive_artifacts": 5,
+    "amendment_rule": "No frozen v0.1 or v0.2 byte may be changed. Any contract change requires a new version and a separately hash-bound author freeze before confirmatory use."
+  },
+  "bound_design_evidence": {
+    "method_spec_sha256": "5D7ED359841510E3FE5EAEDEB18F68D18430D75534FC891BE46CCEAF89702870",
+    "tdd_coverage_audit_sha256": "A7395617BEE4DE85BB447870A20618586BFB041D226F50AAC08559127EA2CCBB",
+    "full_algorithm_traceability_audit_sha256": "BAEF8B837CCD2288AF8EC08AF4D63F6D9379AC9623CFDCFE84FD225DA6B752D6",
+    "traceability_verdict": "CORE_SLICE_ONLY_NOT_COMPLETE_ALGORITHM"
+  },
+  "carried_provenance_warning": {
+    "id": "RED_RECEIPT_EXIT_CODE_METADATA",
+    "frozen_recorded_value": 1,
+    "direct_live_and_restore_value": 2,
+    "collection_error_count_and_root_causes_matched": true,
+    "required_disposition": "Preserve the frozen bytes, disclose the warning in every implementation receipt and use direct process exit codes for new evidence."
+  },
+  "requested_decisions": {
+    "I1": {
+      "recommended": "AUTHORIZE_DETERMINISTIC_CORE_IMPLEMENTATION",
+      "meaning": "Create only the allowlisted deterministic graph, donor, RNG and FFE-accounting source needed to satisfy the six frozen tests."
+    },
+    "R234": {
+      "recommended": "AUTHORIZE_SPEC_AND_RED_TEST_PREPARATION_ONLY",
+      "meaning": "For parent SHADE, online CVGR integration and the dry-run experiment system, create versioned specifications, fixtures and expected-red tests only; do not create their production implementations."
+    },
+    "T1": {
+      "recommended": "AUTHORIZE_FROZEN_CORE_GREEN_TESTS",
+      "meaning": "Run the six frozen deterministic tests and non-optimizer static/import checks while implementing S6-I1."
+    },
+    "T234": {
+      "recommended": "AUTHORIZE_RED_PHASE_ONLY",
+      "meaning": "Run only the new S6-I2/I3/I4 contract tests to confirm their expected missing-implementation red state, then stop for a new freeze."
+    },
+    "G": {
+      "recommended": "AUTHORIZE_LOCAL_GIT_INIT_NO_REMOTE",
+      "meaning": "Initialize local Git only for provenance, preserving all existing files; do not configure a remote, push, publish, rewrite history or delete user work."
+    },
+    "E": {
+      "recommended": "DO_NOT_AUTHORIZE_OPTIMIZER_EXECUTION",
+      "meaning": "Do not construct or execute an optimizer run, pilot, benchmark, M/C1/F/C2, Stage B or TCAC workflow."
+    },
+    "F": {
+      "recommended": "KEEP_FORMAL_FFE_ZERO",
+      "meaning": "No objective or constraint evaluator may be called and formal FFE must remain zero."
+    }
+  },
+  "scope_if_authorized": {
+    "phase_A_S6_I1_production": {
+      "permitted_source_files": [
+        "src/alg1_replan/__init__.py",
+        "src/alg1_replan/accounting.py",
+        "src/alg1_replan/randomness.py",
+        "src/alg1_replan/cvgr_graph.py",
+        "src/alg1_replan/cvgr_donor.py",
+        "pyproject.toml"
+      ],
+      "permitted_test_execution": [
+        "tests/test_graph_contract.py",
+        "tests/test_donor_contract.py",
+        "tests/test_fallback_rng_contract.py",
+        "tests/test_ffe_contract.py",
+        "tests/test_activation_fallback_contract_v0_2.py",
+        "tests/test_exact_fallback_contract_v0_2.py"
+      ],
+      "required_exit_gate": "All six frozen tests pass without editing a frozen byte; source, environment, command and direct process-exit evidence are hash-bound; optimizer runs and formal FFE remain zero."
+    },
+    "phase_B_S6_I2_I4_red_preparation": {
+      "permitted_new_specifications": [
+        "artifacts/stage6_preimplementation/parent_shade_contract_I3_CVGR_v0.1.md",
+        "artifacts/stage6_preimplementation/online_cvgr_state_contract_I3_CVGR_v0.1.md",
+        "artifacts/stage6_preimplementation/dry_run_experiment_contract_I3_CVGR_v0.1.md"
+      ],
+      "permitted_new_fixtures": [
+        "artifacts/stage6_preimplementation/parent_shade_fixtures_I3_CVGR_v0.1.json",
+        "artifacts/stage6_preimplementation/online_state_fixtures_I3_CVGR_v0.1.json",
+        "artifacts/stage6_preimplementation/dry_run_artifact_fixtures_I3_CVGR_v0.1.json"
+      ],
+      "permitted_new_tests": [
+        "tests/test_violation_selection_contract_v0_1.py",
+        "tests/test_parent_shade_kernel_contract_v0_1.py",
+        "tests/test_online_cvgr_state_contract_v0_1.py",
+        "tests/test_experiment_dry_run_contract_v0_1.py"
+      ],
+      "permitted_evidence": [
+        "artifacts/stage6_preimplementation/red_phase_receipt_I3_CVGR_v0.1.md",
+        "governance/freeze_candidate_I3_CVGR_stage6_I2_I4_red_v0.1.json",
+        "governance/freeze_candidate_I3_CVGR_stage6_I2_I4_red_v0.1_verification.md"
+      ],
+      "required_exit_gate": "New tests fail only for the deliberately absent S6-I2/I3/I4 production APIs; candidate is hash-verified; stop for author freeze before implementing those APIs."
+    },
+    "permitted_evidence_files": [
+      "artifacts/stage6/implementation_manifest_I3_CVGR_v0.2.json",
+      "artifacts/stage6/tdd_green_receipt_I3_CVGR_v0.2.md",
+      "artifacts/stage6/environment_I3_CVGR_v0.2.json",
+      ".light/stage6_implementation_findings_I3_CVGR_v0.2.json",
+      ".light/stage6_code_hash_manifest_I3_CVGR_v0.2.json"
+    ],
+    "formal_optimizer_runs_authorized": 0,
+    "objective_or_constraint_evaluations_authorized": 0,
+    "formal_ffe_authorized": 0,
+    "network_downloads_authorized": false,
+    "remote_execution_authorized": false,
+    "paid_resources_authorized": false
+  },
+  "hard_stop_conditions": [
+    "Any frozen plan, fixture, test, method, preregistration, seed, endpoint, budget or kill-criterion byte changes.",
+    "Any need to install a dependency, access the network, alter the Python environment or write outside the allowlist without a new authorization.",
+    "Any objective or constraint evaluator call, optimizer generation loop, benchmark adapter evaluation or formal FFE.",
+    "Any attempt to implement S6-I2, S6-I3 or S6-I4 production APIs before their red contracts are separately frozen by the author.",
+    "Any frozen core test failure after the minimal S6-I1 implementation, nondeterministic trace, fallback/base-RNG mismatch, FFE-accounting mismatch or silent NaN/Inf handling.",
+    "Any interpretation of unit-test or dry-run results as algorithm performance, objective novelty, superiority, physical validation or paper readiness."
+  ],
+  "explicitly_not_authorized": [
+    "S6-I2 parent SHADE production implementation",
+    "S6-I3 online CVGR state-machine production implementation",
+    "S6-I4 executable optimizer or benchmark system",
+    "S6-E0 optimizer execution, pilot, smoke run, benchmark, M, C1, F, C2, Stage B or TCAC",
+    "any formal objective or constraint evaluation or FFE",
+    "parameter tuning, performance analysis or claims",
+    "network dependency installation, remote/HPC/cloud execution or paid services",
+    "remote repository, push, public release, preregistration-platform action, preprint or submission"
+  ],
+  "completion_boundary": {
+    "S6_I1_green_means": "The frozen deterministic mechanism-core contracts are satisfied in the recorded environment.",
+    "S6_I1_green_does_not_mean": "The parent optimizer, online integration, experiment system or paper evidence is complete.",
+    "next_gate": "Freeze the S6-I2/I3/I4 specifications and red tests, then obtain a new production-implementation authorization before writing those modules."
+  },
+  "suggested_response": "我确认I3 Stage6分阶段实施授权候选v0.2，SHA-256为<CANDIDATE_SHA256>；I1=AUTHORIZE_DETERMINISTIC_CORE_IMPLEMENTATION；R234=AUTHORIZE_SPEC_AND_RED_TEST_PREPARATION_ONLY；T1=AUTHORIZE_FROZEN_CORE_GREEN_TESTS；T234=AUTHORIZE_RED_PHASE_ONLY；G=AUTHORIZE_LOCAL_GIT_INIT_NO_REMOTE；E=DO_NOT_AUTHORIZE_OPTIMIZER_EXECUTION；F=KEEP_FORMAL_FFE_ZERO"
+}

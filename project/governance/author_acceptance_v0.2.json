@@ -1,0 +1,36 @@
+{
+  "schema": "alg1_replan.author_acceptance.v1",
+  "project": "ALG1-Replan",
+  "recorded_at": "2026-08-30T10:01:41+08:00",
+  "authorization_id": "AUTH-I3-FREEZE-PREP-20260830T100141+0800",
+  "accepted_packet": {
+    "path": "governance/author_decision_packet_v0.2.json",
+    "sha256": "DEA87E5647D1844CFF03150BCAE07D14149DBD4559CFA51E3C829396E56F031E",
+    "hash_verified_before_recording": true
+  },
+  "decisions": {
+    "S": "SELECT_I3",
+    "H": "REVIEWED_AND_AGREE_DIFFERENTIATED",
+    "F": "AUTHORIZE_FREEZE_PREPARATION"
+  },
+  "interpretation": {
+    "selected_candidate": "I3-CVGR",
+    "human_domain_judgment": "The author reviewed the bound target-equivalence decomposition and agrees that I3 is sufficiently differentiated to continue. This is not proof of objective novelty.",
+    "permitted": [
+      "mathematical method specification candidate",
+      "deterministic synthetic falsification fixtures without optimizer evaluation",
+      "TDD red tests for graph, donor, fallback and FFE-accounting contracts",
+      "equal-FFE experiment and statistical preregistration candidate",
+      "new hash-bound PROPOSED_NOT_FROZEN packet"
+    ],
+    "not_permitted": [
+      "final freezing without a new explicit hash confirmation",
+      "pilot or full benchmark optimizer runs",
+      "any formal FFE",
+      "performance, superiority, novelty or causal-effect conclusions",
+      "public release, submission or publication"
+    ]
+  },
+  "formal_optimizer_runs_authorized": 0,
+  "formal_ffe_authorized": 0
+}

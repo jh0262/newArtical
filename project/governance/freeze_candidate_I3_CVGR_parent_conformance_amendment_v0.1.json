@@ -1,0 +1,36 @@
+{
+  "schema": "alg1_replan.parent_conformance_amendment_freeze_candidate.v1",
+  "candidate_id": "I3-CVGR-PARENT-CONFORMANCE-AMENDMENT-FREEZE-v0.1",
+  "status": "PROPOSED_NOT_FROZEN",
+  "generated_at": "2026-09-01T06:26:23.8592106+08:00",
+  "project": "ALG1-Replan",
+  "preparation_authority": {
+    "path": "governance/consolidated_author_decision_authorization_I3_CVGR_v0.1.json",
+    "sha256": "F07C3AD10EEE640108898C9D6607EEE9791A4B539A9789F687982A38A2EC04CB",
+    "decision": "PA=ACCEPT_PARENT_COMPOSITE_PREPARATION"
+  },
+  "selected_parent": {
+    "code": "PARENT",
+    "identity": "Project composite of SHADE 1.1.1 mechanics and the Deb-2000 feasibility-first constraint layer",
+    "standard_FR_SHADE_claim_allowed": false,
+    "clean_room_required": true
+  },
+  "artifacts": [
+    {"path":"governance/parent_algorithm_identity_decision_candidate_I3_CVGR_v0.1.json","sha256":"EC7A0594602CBE2C17235F0B6E26712ADAF49DAFDF2FCA2145DB09207C27BDE5","bytes":7028},
+    {"path":"artifacts/stage5_amendment/parent_identity_conformance_amendment_I3_CVGR_v0.1.md","sha256":"41C94DF47C24B9D0D8E39A2BDE679F0A9BEAE238B93B56260522576FDCBD9C3A","bytes":3885},
+    {"path":"artifacts/stage5_amendment/parent_conformance_spec_I3_CVGR_v0.1.md","sha256":"B796BE3DA1886CCE17A78FB26FB2C2ED6F8E7E90611B3920296157DEE2B0BE89","bytes":2037},
+    {"path":"artifacts/stage5_amendment/parent_conformance_fixtures_I3_CVGR_v0.1.json","sha256":"679DBF54C838AEF3640BE4E9EF8E36AF497566717D89E953255AA775B0EA4890","bytes":1913},
+    {"path":"artifacts/stage5_amendment/proposed_red_tests/test_parent_conformance_expected_red_v0_1.py","sha256":"465F8662931BE9F89EBEE642613423CF44F5D6B2FBEE1596826B69107437ABC2","bytes":671},
+    {"path":"governance/freeze_acceptance_I3_CVGR_plan_consistency_amendment_v0.1.json","sha256":"3A413ACC393987DAD48F19C8DE2C196C0B3788EF9C9A98288A0B7C13F19AE290","bytes":4000}
+  ],
+  "artifact_count": 6,
+  "static_state": {"expected_red_tests":"PREPARED_NOT_EXECUTED","production_files_edited":0,"optimizer_or_evaluator_calls":0,"formal_ffe":0},
+  "freeze_procedure_if_authorized": {
+    "copy_rule": "Copy exactly the manifest-bound files plus this candidate and its verification receipt into a new namespaced snapshot.",
+    "restore_rule": "Restore into a new empty directory and require exact path, byte and SHA-256 equality; parse JSON and Python AST only.",
+    "activation_rule": "A freeze preserves the specification but does not authorize red-test execution or green implementation."
+  },
+  "requested_author_decisions": {"P":"FREEZE_PARENT_CONFORMANCE_AMENDMENT_v0.1","R":"AUTHORIZE_EMPTY_DIRECTORY_RESTORE_AND_STATIC_VERIFICATION","T":"DO_NOT_EXECUTE_EXPECTED_RED_TESTS","C":"DO_NOT_AUTHORIZE_PRODUCTION_IMPLEMENTATION","E":"DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION","F":"KEEP_FORMAL_FFE_ZERO"},
+  "suggested_response": "我确认冻结I3父算法一致性修订候选v0.1，SHA-256为<CANDIDATE_SHA256>；P=FREEZE_PARENT_CONFORMANCE_AMENDMENT_v0.1；R=AUTHORIZE_EMPTY_DIRECTORY_RESTORE_AND_STATIC_VERIFICATION；T=DO_NOT_EXECUTE_EXPECTED_RED_TESTS；C=DO_NOT_AUTHORIZE_PRODUCTION_IMPLEMENTATION；E=DO_NOT_AUTHORIZE_OPTIMIZER_OR_EVALUATOR_EXECUTION；F=KEEP_FORMAL_FFE_ZERO"
+}
+

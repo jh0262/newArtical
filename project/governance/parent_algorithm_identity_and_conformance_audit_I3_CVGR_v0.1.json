@@ -1,0 +1,184 @@
+{
+  "schema": "alg1_replan.parent_algorithm_identity_conformance_audit.v1",
+  "audit_id": "AUDIT-I3-PARENT-IDENTITY-CONFORMANCE-v0.1-20260831",
+  "generated_at": "2026-08-31T21:37:02.6601641+08:00",
+  "project": "ALG1-Replan",
+  "candidate_method": "I3-CVGR-SHADE",
+  "mode": "STATIC_EVIDENCE_AUDIT_NO_PRODUCTION_CHANGE_NO_OPTIMIZER_NO_EVALUATOR_ZERO_FORMAL_FFE",
+  "verdict": "PARENT_IDENTITY_UNRESOLVED_AND_CURRENT_KERNEL_NOT_FULLY_CONFORMANT",
+  "confidence": 0.96,
+  "scope_boundary": {
+    "production_files_edited": 0,
+    "tests_edited_or_executed": 0,
+    "optimizer_runs": 0,
+    "objective_or_constraint_evaluator_calls": 0,
+    "formal_ffe": 0,
+    "performance_claims_permitted": false
+  },
+  "local_literature_search": {
+    "required_order": [
+      "04_index/papers.csv and 04_index/literature.db",
+      "03_notes",
+      "05_evidence",
+      "02_text",
+      "project artifacts and source"
+    ],
+    "exact_fr_shade_result": "NO_NONPROJECT_EXACT_MATCH_OBSERVED",
+    "interpretation": "The scoped search did not establish FR-SHADE as a uniquely published standard algorithm name. This is absence of confirming evidence, not proof that no publication anywhere uses the string.",
+    "sha_de_source": {
+      "paper_id": "P00115",
+      "path": "../../02_text/P00115_多策略改进差分进化算法研究_李珍珍.md",
+      "sha256": "56109A597C3E51027F641DA252F382E2992DF59FFF07DD475B8599880C48C04E",
+      "evidence": "References identify Tanabe and Fukunaga's 2013 SHADE paper and the 2014 L-SHADE paper; metadata in the local index remains incomplete and is not the sole bibliographic authority."
+    },
+    "feasibility_rule_source": {
+      "paper_id": "P01838",
+      "path": "../../02_text/P01838_面向昂贵约束优化问题的代理...助差分进化算法研究及其应用_袁彬.md",
+      "sha256": "D8EE15894F098D4992AFA08E0F3A8CC85554B9B5A9FEDA169F30065ECA8CA9C3",
+      "evidence": "The text describes the three feasibility rules and attributes them to Deb 2000; its in-text citation number is offset from the bibliography, so the bibliography metadata was independently checked."
+    }
+  },
+  "primary_external_evidence": [
+    {
+      "role": "SHADE_2013_PUBLICATION_RECORD",
+      "title": "Success-History Based Parameter Adaptation for Differential Evolution",
+      "authors": ["Ryoji Tanabe", "Alex Fukunaga"],
+      "venue": "2013 IEEE Congress on Evolutionary Computation",
+      "pages": "71-78",
+      "doi": "10.1109/CEC.2013.6557555",
+      "url": "https://doi.org/10.1109/CEC.2013.6557555",
+      "checked_at": "2026-08-31"
+    },
+    {
+      "role": "SHADE_2013_ALGORITHM_DESCRIPTION",
+      "title": "Evaluating the performance of SHADE on CEC 2013 benchmark problems",
+      "authors": ["Ryoji Tanabe", "Alex Fukunaga"],
+      "doi": "10.1109/CEC.2013.6557798",
+      "url": "https://ryojitanabe.github.io/pdf/tf-cec2013-compe.pdf",
+      "checked_at": "2026-08-31",
+      "observed_contract": [
+        "M_CR and M_F initialize at 0.5 and are sampled through normal and Cauchy distributions respectively",
+        "current-to-pbest/1 mutation, binomial crossover, midpoint bounds correction and an external archive are part of SHADE",
+        "the paper uses weighted arithmetic mean for successful CR and weighted Lehmer mean for successful F",
+        "the paper's archive capacity is the population size and overflow deletion is random"
+      ]
+    },
+    {
+      "role": "AUTHOR_REFERENCE_IMPLEMENTATION_SNAPSHOT",
+      "name": "SHADE 1.1.1 C++ for CEC2014",
+      "url": "https://ryojitanabe.github.io/code/SHADE1.1.1_CEC2014_c%2B%2B.zip",
+      "downloaded_to_temporary_directory_only": true,
+      "archive_sha256": "12D444A5B37D8E2C0A00514713B4584BD4AA00FA4D154D0227E381F874E13491",
+      "archive_bytes": 3002926,
+      "internal_readme_sha256": "9B2146EA0715C068A5373ED607D047E689B1E39382B553AB248F7C3E39B70479",
+      "internal_shade_cc_sha256": "87836651B263E512E6EC0ECDD81FD157BD33F78AA13028EEE9E91F04F806E758",
+      "checked_at": "2026-08-31",
+      "license_status": "NO_LICENSE_TEXT_OBSERVED_IN_ARCHIVE",
+      "redistribution_rule": "Do not vendor, copy or redistribute the source. Use only the public paper and independently specified behavior for a clean-room implementation unless permission or a license is obtained.",
+      "observed_version_specific_contract": [
+        "fixed population size 100, memory size D, p-best rate 0.1 and archive capacity 2N in the shipped main configuration",
+        "normal CR and Cauchy F sampling",
+        "weighted Lehmer updates for both CR and F, which differs from the 2013 paper's CR arithmetic mean",
+        "r1 excludes only the target and r2 excludes target and r1; p-best is not excluded from those donor domains",
+        "archive overflow replacement is random",
+        "the README states that 1.1.1 fixes an archive-update bug in 1.1.0"
+      ]
+    },
+    {
+      "role": "FEASIBILITY_RULE_PUBLICATION",
+      "title": "An Efficient Constraint Handling Method for Genetic Algorithms",
+      "authors": ["Kalyanmoy Deb"],
+      "journal": "Computer Methods in Applied Mechanics and Engineering",
+      "year": 2000,
+      "volume": "186",
+      "pages": "311-338",
+      "doi": "10.1016/S0045-7825(99)00389-8",
+      "url": "https://doi.org/10.1016/S0045-7825(99)00389-8",
+      "checked_at": "2026-08-31",
+      "interpretation": "Deb's rule is a separate constraint-handling layer; combining it with SHADE creates a project-defined composite unless an exact published algorithm and version are separately identified."
+    }
+  ],
+  "bound_project_artifacts": [
+    {
+      "path": "artifacts/stage5/method_spec_I3_CVGR_v0.1.md",
+      "sha256": "5D7ED359841510E3FE5EAEDEB18F68D18430D75534FC891BE46CCEAF89702870",
+      "bytes": 11166
+    },
+    {
+      "path": "artifacts/stage6_preimplementation/parent_shade_contract_I3_CVGR_v0.1.md",
+      "sha256": "86073DBD0B3FBC026C29FDC2E77B3D3232BBF596F536133262FCE5D86AB2493C",
+      "bytes": 4355
+    },
+    {
+      "path": "src/alg1_replan/selection.py",
+      "sha256": "A64BEA7975FAD5DECF24C93A105D6430D390FA609DDAA9606C1555D53333EC78",
+      "bytes": 3697
+    },
+    {
+      "path": "src/alg1_replan/shade_kernel.py",
+      "sha256": "BEB8AAA0BEC2821FC206683A6C8F94C59223A2EE7E5D6EEF13F8B91992014331",
+      "bytes": 11171
+    },
+    {
+      "path": "src/alg1_replan/cvgr_donor.py",
+      "sha256": "0B42EA92426694386571070B0A5372AAD73F6CE51281A67178AF2EDF1FEE1B72",
+      "bytes": 7758
+    }
+  ],
+  "conformance_findings": [
+    {
+      "id": "PARENT-ID-01",
+      "severity": "BLOCKER",
+      "finding": "FR-SHADE is not bound to a verified publication, version, source hash or license and must not be presented as a standard external algorithm name.",
+      "required_resolution": "Select and freeze an explicit project composite identity and citation pair."
+    },
+    {
+      "id": "PARENT-COMPLETE-02",
+      "severity": "BLOCKER",
+      "finding": "The current parent kernel is a pre-evaluated state-transition contract, not a complete SHADE optimizer: initialization, parameter sampling, p-best selection, mutation, crossover, evaluation and stopping loop are absent by design.",
+      "required_resolution": "Prepare and freeze additive full-parent red contracts before any complete optimizer implementation."
+    },
+    {
+      "id": "PARENT-DONOR-03",
+      "severity": "BLOCKER",
+      "finding": "select_shade_donors excludes p-best from r1 and r2, while the inspected SHADE 1.1.1 reference implementation excludes r1 only from the target and r2 from target and r1.",
+      "required_resolution": "Either amend the frozen parent distinctness contract to the selected reference or rename and disclose the project-specific deviation; exact SHADE fallback cannot be claimed meanwhile."
+    },
+    {
+      "id": "PARENT-ARCHIVE-04",
+      "severity": "BLOCKER",
+      "finding": "The frozen parent contract and current kernel use deterministic oldest-first archive eviction, whereas the 2013 paper and inspected 1.1.1 source use random archive removal/replacement.",
+      "required_resolution": "Bind archive capacity and stochastic eviction to the selected parent identity and base_rng, or explicitly register a project deviation."
+    },
+    {
+      "id": "PARENT-MEMORY-05",
+      "severity": "MAJOR",
+      "finding": "The current kernel applies weighted Lehmer means to both F and CR. This matches the inspected 1.1.1 source but not the 2013 paper, which specifies weighted arithmetic CR and weighted Lehmer F.",
+      "required_resolution": "The parent version decision must precede any claim of conformance."
+    },
+    {
+      "id": "PARENT-ARCHIVE-VECTOR-06",
+      "severity": "BLOCKER",
+      "finding": "The pre-evaluated ParentShadeState archives CandidateRecord objects but does not require retained vectors for archive members; a complete current-to-pbest/1 mutation cannot draw an archive vector from this state alone.",
+      "required_resolution": "Add an archive-vector invariant and red tests before full optimizer implementation."
+    },
+    {
+      "id": "PARENT-FR-07",
+      "severity": "MAJOR",
+      "finding": "The current comparator is a deterministic project extension of feasibility-first ordering because it adds objective and stable-ID tie breaks and allows an evaluator-supplied aggregate violation.",
+      "required_resolution": "Freeze the exact aggregate-violation normalization, equality tolerance and tie semantics as the project constraint layer."
+    },
+    {
+      "id": "PARENT-LICENSE-08",
+      "severity": "MAJOR",
+      "finding": "No license text was observed in the author source archive.",
+      "required_resolution": "Use clean-room implementation from the frozen specification and papers; do not vendor the downloaded source without permission or a verified license."
+    }
+  ],
+  "scientific_consequence": {
+    "exact_fallback_claim_status": "NOT_CURRENTLY_SUPPORTABLE_AGAINST_A_NAMED_EXTERNAL_SHADE_VERSION",
+    "current_test_status_interpretation": "The 46 green contract tests demonstrate only the already frozen project contracts; they do not establish conformance to SHADE 2013, SHADE 1.1.1 or a published FR-SHADE algorithm.",
+    "paper_readiness": "NOT_READY_FOR_ALGORITHM_EXPERIMENT_EXECUTION",
+    "next_safe_gate": "Author selection of the parent identity, followed by a versioned additive parent-conformance specification and red-test amendment; no production change or optimizer execution."
+  }
+}

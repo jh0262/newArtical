@@ -1,0 +1,13 @@
+{
+  "schema": "alg1_replan.author_decision_packet_verification.v1",
+  "verified_at": "2026-08-30",
+  "packet_path": "governance/author_decision_packet_v0.1.json",
+  "packet_sha256": "5CCEF96A206786C13B0A04B2833E45B05E4E1C3AF20D2D31CB2DA8C4518C0C1D",
+  "json_parse": "PASS",
+  "bound_evidence_count": 8,
+  "bound_evidence_all_match": true,
+  "formal_optimizer_runs": 0,
+  "formal_ffe": 0,
+  "status": "READY_FOR_AUTHOR_DECISION",
+  "claim_boundary": "Verification proves byte identity and scope consistency only; it does not prove novelty, algorithm effectiveness or publication readiness."
+}

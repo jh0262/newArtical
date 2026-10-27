@@ -1,0 +1,108 @@
+{
+  "schema": "light.findings.v1",
+  "producer": "consistency",
+  "target": "S6-E0-frozen-plan-pre-red",
+  "verdict": "fail",
+  "summary": "Two author-owned frozen-plan facts are internally inconsistent: the M per-run budget is 2,000D in four governing locations but 10,000D in the synthetic-suite specification, and the H1 graph-recovery endpoint is fixed-checkpoint median NMI in four governing locations but first-activation/time-weighted NMI in the synthetic-suite specification.",
+  "fresh_evidence": true,
+  "generated_at": "2026-08-31T20:26:52.9295468+08:00",
+  "evidence": {
+    "fact_bindings_path": "governance/s6_e0_frozen_plan_fact_bindings_v0.1.json",
+    "fact_bindings_sha256": "2F42AAECFDE45EDE16EFF01B85EC5C1373D3FAB98F27D9F0ED3799E96407D8BA",
+    "fact_consistency_command": "python light-consistency/scripts/fact_consistency.py --input governance/s6_e0_frozen_plan_fact_bindings_v0.1.json",
+    "fact_consistency_exit_code": 1,
+    "fact_consistency_status": "FAIL",
+    "general_scan_path": ".light/consistency_findings_S6_E0_pre_red_v0.1.json",
+    "general_scan_sha256": "198E1E15734BFEB4A44B7412D9BB8FE27BA6181028D7F93F17C174AA1F4D9EEA",
+    "general_scan_status": "WARN_7_FINDINGS_AUTHORITY_PARTIAL"
+  },
+  "gates": [
+    {
+      "gate": "frozen_mechanism_budget_consistency",
+      "status": "fail",
+      "severity": "critical",
+      "findings": [
+        {
+          "kind": "FACT_VALUE_MISMATCH",
+          "fact_id": "i3.m.mechanism_budget_per_run",
+          "majority_candidate": "2,000D",
+          "majority_locators": [
+            "PROJECT_PLAN.md:97",
+            "preregistration_candidate_v0.1.md:61",
+            ".light/failure_tree_I3_CVGR_v0.1.json:H1/primary_endpoint/timepoint",
+            ".light/failure_tree_I3_CVGR_v0.1.json:stopping/limit"
+          ],
+          "conflicting_value": "10,000D",
+          "conflicting_locator": "artifacts/stage5/synthetic_problem_suite_spec_v0.1.md:80",
+          "impact": {
+            "sum_dimension_over_12_tasks": 126,
+            "variants": 7,
+            "seeds": 30,
+            "M_ffe_if_2000D": 52920000,
+            "M_ffe_if_10000D": 264600000,
+            "additional_ffe_if_10000D": 211680000,
+            "core_M_C1_F_if_2000D": 270120000,
+            "core_M_C1_F_if_10000D": 481800000
+          },
+          "required_decision": "Author must choose the governing M per-run budget before any optimizer/config/red contract is prepared."
+        }
+      ]
+    },
+    {
+      "gate": "frozen_H1_endpoint_consistency",
+      "status": "fail",
+      "severity": "critical",
+      "findings": [
+        {
+          "kind": "FACT_VALUE_MISMATCH",
+          "fact_id": "i3.h1.graph_recovery_endpoint",
+          "majority_candidate": "NMI at fixed 25/50/75/100 percent budget checkpoints; problem-level median",
+          "majority_locators": [
+            "PROJECT_PLAN.md:60",
+            "preregistration_candidate_v0.1.md:72",
+            "experiments/experiment_matrix.md:7",
+            ".light/failure_tree_I3_CVGR_v0.1.json:H1/primary_endpoint"
+          ],
+          "conflicting_value": "NMI at first valid activation and time-weighted median over later valid graphs",
+          "conflicting_locator": "artifacts/stage5/synthetic_problem_suite_spec_v0.1.md:82",
+          "impact": "The two definitions observe different times and apply different aggregation, so they can produce different H1 values and branch decisions from the same runs.",
+          "required_decision": "Author must choose the governing H1 endpoint before analysis/run-bundle fields or red contracts are prepared."
+        }
+      ]
+    },
+    {
+      "gate": "canonical_authority",
+      "status": "warn",
+      "severity": "warning",
+      "findings": [
+        {
+          "kind": "CANONICAL_UNCONFIRMED",
+          "detail": "The 2,000D and fixed-checkpoint formulations are majority candidates, not an author-confirmed resolution. Consistency tooling must not auto-select them."
+        },
+        {
+          "kind": "AUTHORITY_COVERAGE",
+          "detail": "The current .light consistency registry does not register budget or H1 timing/aggregation as canonical semantic objects, so the general text scan returned WARN rather than detecting these numeric/definition conflicts."
+        }
+      ]
+    }
+  ],
+  "recommended_author_choice": {
+    "mechanism_budget": "2,000D",
+    "rationale": "It is repeated in the plan, preregistration and failure tree, and exactly reproduces the frozen 52,920,000 M-FFE and 270,120,000 core total. Choosing 10,000D would increase M by 211,680,000 FFE and require recomputing the frozen totals.",
+    "H1_endpoint": "fixed 25/50/75/100 percent checkpoints with problem-level median NMI",
+    "rationale_H1": "It is repeated in the plan, preregistration, experiment matrix and failure tree and is directly tied to the frozen success/failure analysis."
+  },
+  "blocked_artifact": {
+    "path": "governance/s6_e0_red_phase_authorization_candidate_I3_CVGR_v0.1.json",
+    "sha256": "B344AA5BE00A0E12C6596FF477AC5E29740F9392D15237C3CAC969572906F649",
+    "state": "HOLD_SUPERSEDED_IN_SEQUENCE_PENDING_FROZEN_PLAN_CONSISTENCY_DECISION",
+    "reason": "Its proposed red contracts cannot be specified unambiguously until the M budget and H1 endpoint are author-resolved and frozen through a versioned amendment."
+  },
+  "required_route": "Prepare a hash-bound author decision candidate for the two conflicts; after author selection, create a versioned amendment candidate, preserve the original frozen snapshot, freeze the amendment under a separate acceptance, then issue a new S6-E0 red-phase authorization candidate bound to the amended plan.",
+  "actions_not_taken": [
+    "No frozen artifact was edited.",
+    "No canonical value was auto-selected or written to .light/consistency.",
+    "No S6-E0 specification, fixture, test or production module was created.",
+    "No optimizer, evaluator, benchmark, simulation or formal FFE was executed."
+  ]
+}

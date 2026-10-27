@@ -1,0 +1,473 @@
+{
+  "version": "PADE-FE-v4.0",
+  "workers": 6,
+  "runs": 30,
+  "seeds": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010,
+    1011,
+    1012,
+    1013,
+    1014,
+    1015,
+    1016,
+    1017,
+    1018,
+    1019,
+    1020,
+    1021,
+    1022,
+    1023,
+    1024,
+    1025,
+    1026,
+    1027,
+    1028,
+    1029,
+    1030
+  ],
+  "problems": [
+    {
+      "id": "F01",
+      "index": 1,
+      "N": 30,
+      "maxFE": 30030,
+      "variants": [
+        "G0P0J0",
+        "G0P1J0",
+        "G1P0J0",
+        "G1P1J0",
+        "G2P0J0",
+        "G2P1J0",
+        "CLASSIC_DE"
+      ],
+      "runs": 30
+    },
+    {
+      "id": "F02",
+      "index": 2,
+      "N": 30,
+      "maxFE": 30030,
+      "variants": [
+        "G0P0J0",
+        "G0P1J0",
+        "G1P0J0",
+        "G1P1J0",
+        "G2P0J0",
+        "G2P1J0",
+        "CLASSIC_DE"
+      ],
+      "runs": 30
+    },
+    {
+      "id": "F03",
+      "index": 3,
+      "N": 30,
+      "maxFE": 30030,
+      "variants": [
+        "G0P0J0",
+        "G0P1J0",
+        "G1P0J0",
+        "G1P1J0",
+        "G2P0J0",
+        "G2P1J0",
+        "CLASSIC_DE"
+      ],
+      "runs": 30
+    },
+    {
+      "id": "F04",
+      "index": 4,
+      "N": 30,
+      "maxFE": 30030,
+      "variants": [
+        "G0P0J0",
+        "G0P1J0",
+        "G1P0J0",
+        "G1P1J0",
+        "G2P0J0",
+        "G2P1J0",
+        "CLASSIC_DE"
+      ],
+      "runs": 30
+    },
+    {
+      "id": "F05",
+      "index": 5,
+      "N": 30,
+      "maxFE": 30030,
+      "variants": [
+        "G0P0J0",
+        "G0P1J0",
+        "G1P0J0",
+        "G1P1J0",
+        "G2P0J0",
+        "G2P1J0",
+        "CLASSIC_DE"
+      ],
+      "runs": 30
+    },
+    {
+      "id": "F06",
+      "index": 6,
+      "N": 30,
+      "maxFE": 30030,
+      "variants": [
+        "G0P0J0",
+        "G0P1J0",
+        "G1P0J0",
+        "G1P1J0",
+        "G2P0J0",
+        "G2P1J0",
+        "CLASSIC_DE"
+      ],
+      "runs": 30
+    },
+    {
+      "id": "F07",
+      "index": 7,
+      "N": 30,
+      "maxFE": 30030,
+      "variants": [
+        "G0P0J0",
+        "G0P1J0",
+        "G1P0J0",
+        "G1P1J0",
+        "G2P0J0",
+        "G2P1J0",
+        "CLASSIC_DE"
+      ],
+      "runs": 30
+    },
+    {
+      "id": "F08",
+      "index": 8,
+      "N": 30,
+      "maxFE": 30030,
+      "variants": [
+        "G0P0J0",
+        "G0P1J0",
+        "G1P0J0",
+        "G1P1J0",
+        "G2P0J0",
+        "G2P1J0",
+        "CLASSIC_DE"
+      ],
+      "runs": 30
+    },
+    {
+      "id": "F09",
+      "index": 9,
+      "N": 30,
+      "maxFE": 30030,
+      "variants": [
+        "G0P0J0",
+        "G0P1J0",
+        "G1P0J0",
+        "G1P1J0",
+        "G2P0J0",
+        "G2P1J0",
+        "CLASSIC_DE"
+      ],
+      "runs": 30
+    },
+    {
+      "id": "F10",
+      "index": 10,
+      "N": 30,
+      "maxFE": 30030,
+      "variants": [
+        "G0P0J0",
+        "G0P1J0",
+        "G1P0J0",
+        "G1P1J0",
+        "G2P0J0",
+        "G2P1J0",
+        "CLASSIC_DE"
+      ],
+      "runs": 30
+    },
+    {
+      "id": "F11",
+      "index": 11,
+      "N": 30,
+      "maxFE": 30030,
+      "variants": [
+        "G0P0J0",
+        "G0P1J0",
+        "G1P0J0",
+        "G1P1J0",
+        "G2P0J0",
+        "G2P1J0",
+        "CLASSIC_DE"
+      ],
+      "runs": 30
+    },
+    {
+      "id": "F12",
+      "index": 12,
+      "N": 30,
+      "maxFE": 30030,
+      "variants": [
+        "G0P0J0",
+        "G0P1J0",
+        "G1P0J0",
+        "G1P1J0",
+        "G2P0J0",
+        "G2P1J0",
+        "CLASSIC_DE"
+      ],
+      "runs": 30
+    },
+    {
+      "id": "F13",
+      "index": 13,
+      "N": 30,
+      "maxFE": 30030,
+      "variants": [
+        "G0P0J0",
+        "G0P1J0",
+        "G1P0J0",
+        "G1P1J0",
+        "G2P0J0",
+        "G2P1J0",
+        "CLASSIC_DE"
+      ],
+      "runs": 30
+    },
+    {
+      "id": "F14",
+      "index": 14,
+      "N": 30,
+      "maxFE": 15030,
+      "variants": [
+        "G0P0J0",
+        "G0P1J0",
+        "G1P0J0",
+        "G1P1J0",
+        "G2P0J0",
+        "G2P1J0",
+        "CLASSIC_DE"
+      ],
+      "runs": 30
+    },
+    {
+      "id": "F15",
+      "index": 15,
+      "N": 30,
+      "maxFE": 15030,
+      "variants": [
+        "G0P0J0",
+        "G0P1J0",
+        "G1P0J0",
+        "G1P1J0",
+        "G2P0J0",
+        "G2P1J0",
+        "CLASSIC_DE"
+      ],
+      "runs": 30
+    },
+    {
+      "id": "F16",
+      "index": 16,
+      "N": 30,
+      "maxFE": 15030,
+      "variants": [
+        "G0P0J0",
+        "G0P1J0",
+        "G1P0J0",
+        "G1P1J0",
+        "G2P0J0",
+        "G2P1J0",
+        "CLASSIC_DE"
+      ],
+      "runs": 30
+    },
+    {
+      "id": "F17",
+      "index": 17,
+      "N": 30,
+      "maxFE": 15030,
+      "variants": [
+        "G0P0J0",
+        "G0P1J0",
+        "G1P0J0",
+        "G1P1J0",
+        "G2P0J0",
+        "G2P1J0",
+        "CLASSIC_DE"
+      ],
+      "runs": 30
+    },
+    {
+      "id": "F18",
+      "index": 18,
+      "N": 30,
+      "maxFE": 15030,
+      "variants": [
+        "G0P0J0",
+        "G0P1J0",
+        "G1P0J0",
+        "G1P1J0",
+        "G2P0J0",
+        "G2P1J0",
+        "CLASSIC_DE"
+      ],
+      "runs": 30
+    },
+    {
+      "id": "F19",
+      "index": 19,
+      "N": 30,
+      "maxFE": 15030,
+      "variants": [
+        "G0P0J0",
+        "G0P1J0",
+        "G1P0J0",
+        "G1P1J0",
+        "G2P0J0",
+        "G2P1J0",
+        "CLASSIC_DE"
+      ],
+      "runs": 30
+    },
+    {
+      "id": "F20",
+      "index": 20,
+      "N": 30,
+      "maxFE": 15030,
+      "variants": [
+        "G0P0J0",
+        "G0P1J0",
+        "G1P0J0",
+        "G1P1J0",
+        "G2P0J0",
+        "G2P1J0",
+        "CLASSIC_DE"
+      ],
+      "runs": 30
+    },
+    {
+      "id": "F21",
+      "index": 21,
+      "N": 30,
+      "maxFE": 15030,
+      "variants": [
+        "G0P0J0",
+        "G0P1J0",
+        "G1P0J0",
+        "G1P1J0",
+        "G2P0J0",
+        "G2P1J0",
+        "CLASSIC_DE"
+      ],
+      "runs": 30
+    },
+    {
+      "id": "F22",
+      "index": 22,
+      "N": 30,
+      "maxFE": 15030,
+      "variants": [
+        "G0P0J0",
+        "G0P1J0",
+        "G1P0J0",
+        "G1P1J0",
+        "G2P0J0",
+        "G2P1J0",
+        "CLASSIC_DE"
+      ],
+      "runs": 30
+    },
+    {
+      "id": "F23",
+      "index": 23,
+      "N": 30,
+      "maxFE": 15030,
+      "variants": [
+        "G0P0J0",
+        "G0P1J0",
+        "G1P0J0",
+        "G1P1J0",
+        "G2P0J0",
+        "G2P1J0",
+        "CLASSIC_DE"
+      ],
+      "runs": 30
+    },
+    {
+      "id": "WB",
+      "index": 24,
+      "N": 40,
+      "maxFE": 100040,
+      "variants": [
+        "G0P0J0",
+        "G0P1J0",
+        "G1P0J0",
+        "G1P1J0",
+        "G2P0J0",
+        "G2P1J0",
+        "CLASSIC_DE"
+      ],
+      "runs": 30
+    },
+    {
+      "id": "CB",
+      "index": 25,
+      "N": 40,
+      "maxFE": 100040,
+      "variants": [
+        "G0P0J0",
+        "G0P1J0",
+        "G1P0J0",
+        "G1P1J0",
+        "G2P0J0",
+        "G2P1J0",
+        "CLASSIC_DE"
+      ],
+      "runs": 30
+    },
+    {
+      "id": "PV",
+      "index": 26,
+      "N": 40,
+      "maxFE": 100040,
+      "variants": [
+        "G0P0J0",
+        "G0P0J1",
+        "G0P1J0",
+        "G0P1J1",
+        "G1P0J0",
+        "G1P0J1",
+        "G1P1J0",
+        "G1P1J1",
+        "G2P0J0",
+        "G2P0J1",
+        "G2P1J0",
+        "G2P1J1",
+        "CLASSIC_DE"
+      ],
+      "runs": 30
+    }
+  ],
+  "clock": "consumed FE / total FE",
+  "cv_tolerance": 0,
+  "primary_alpha": 0.05,
+  "pBestRate": 0.15,
+  "warmupRatio": 0.1,
+  "pulseEndRatio": 0.9,
+  "gamma": 0.25,
+  "betaCrit": 2.8,
+  "stagnationLimit": 15,
+  "rotation_threshold": 0.2,
+  "total_runs": 5640,
+  "total_search_FE": 194577300
+}

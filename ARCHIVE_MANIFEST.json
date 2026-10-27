@@ -1,0 +1,44 @@
+[
+  {
+    "path": "resources/part-001.zip",
+    "name": "part-001.zip",
+    "bytes": 49398868,
+    "sha256": "eebb3613e12a4430388c8d5136d6665e4e80f1ad57c29dcb6a684d010d9c55ce",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-PADE-FE-20261028/part-001.zip"
+  },
+  {
+    "path": "resources/part-002.zip",
+    "name": "part-002.zip",
+    "bytes": 49737245,
+    "sha256": "741116ab1ec2edad44a8032eefd920a3f9ff365f3c81ad295bf222db74dcd913",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-PADE-FE-20261028/part-002.zip"
+  },
+  {
+    "path": "resources/part-003.zip",
+    "name": "part-003.zip",
+    "bytes": 49036203,
+    "sha256": "2a22b32f3e67e0f6e34b607ca2e93091cd9bf3b07b4ee5fad77f0464a7ee348d",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-PADE-FE-20261028/part-003.zip"
+  },
+  {
+    "path": "resources/part-004.zip",
+    "name": "part-004.zip",
+    "bytes": 28526795,
+    "sha256": "00ccaef313ed6e3e5c6a82e3c69b6390e8a18410550f93ada4bee53fe8ad6829",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-PADE-FE-20261028/part-004.zip"
+  },
+  {
+    "path": "resources/part-005.zip",
+    "name": "part-005.zip",
+    "bytes": 377384,
+    "sha256": "8c753b261587b11a2bcbad209b4bff994058b094b792270c01f80ea7c6c813df",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-PADE-FE-20261028/part-005.zip"
+  },
+  {
+    "path": "resources/part-006.zip",
+    "name": "part-006.zip",
+    "bytes": 423052362,
+    "sha256": "be952f5451a8a2d2866ffbdde1766b3136b6e110fb43bae10ffcff584ebd9a02",
+    "url": "https://github.com/jh0262/newArtical/releases/download/resources-PADE-FE-20261028/part-006.zip"
+  }
+]

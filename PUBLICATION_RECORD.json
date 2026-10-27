@@ -1,0 +1,50 @@
+{
+  "key": "PADE-FE",
+  "root": "新论文/补充实验_20261015",
+  "title": "PADE-FE-v4同父等评价预算比较与机制消融",
+  "branch": "PADE-FE-v4同父等评价预算比较与机制消融",
+  "include": [
+    "code",
+    "analysis",
+    "raw",
+    "results",
+    "figures",
+    "qa",
+    "failures",
+    "README.md",
+    "PROTOCOL.md",
+    "CONFIG.json",
+    "comparisons.csv",
+    "FROZEN_MANIFEST.json",
+    "INPUT_MANIFEST.json"
+  ],
+  "status": "Separate PADE-FE v4 implementation: 5640 completed runs. Its results do not replace the original PADE paper. See the correction at the beginning of the original README.",
+  "entry": "MATLAB saved-data analysis commands are in project/README.md. pade_reproduce can launch missing runs, so use the listed postprocessing-only commands when only rechecking results.",
+  "exclude": [],
+  "data": [
+    "raw",
+    "results",
+    "figures",
+    "qa",
+    "failures"
+  ],
+  "snapshot_date": "2026-10-28",
+  "resource_files": 6772,
+  "original_bytes": 625255877,
+  "bundles": 6,
+  "omitted_large_files": [],
+  "secret_pattern_findings": [],
+  "source_files_modified": false,
+  "experiments_run_for_publication": false,
+  "editorial_files_excluded": [
+    {
+      "path": "project/analysis/V4方法与设置替换稿.md",
+      "sha256": "54088d9c5c425c898d3e7bbe3cec94e1e7eba5d46a11d26e787c70199fa994de"
+    },
+    {
+      "path": "project/qa/scope_correction/analysis__V4方法与设置替换稿.md",
+      "sha256": "32a7ed3689fcf8af96580b09875d6ebb32a06eb0241b16e1883c6a8f6e8087ff"
+    }
+  ],
+  "release_resource_completion_files": 1
+}

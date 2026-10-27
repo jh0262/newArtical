@@ -1,0 +1,20 @@
+{
+  "version": "PADE-FE-v4.0",
+  "frozen_at_utc": "2026-10-14T23:38:39.973260+00:00",
+  "code_hash": "6e47bf404b4e4b5079007d161a7d84c5fe1a1502cce7f6b1c360585a33875da1",
+  "problem_hash": "1139cdaa62119c8b82f611ee259c31dd4b19d43f966e055200eaf10803db72f9",
+  "config_hash": "f005043fc8ba936600b1f33d6b59fe3f72a884727e91ea0df15e99a390ce3278",
+  "code_files": {
+    "pade_solve_fe.m": "2d05fb3e24709aeaea3891f388b27690377ac872cbbcc51503ad2e75c886b1ca",
+    "pade_problems.m": "1139cdaa62119c8b82f611ee259c31dd4b19d43f966e055200eaf10803db72f9",
+    "pade_defaults.m": "ce2800ebb6747f696e10a8b82ee913d6107025a52fa2677cc061108d7904221d",
+    "pade_variants.m": "a49efe238b59a7f7024112ed241ffb8a83402b44f2488f8885ca942ca4c7cba1",
+    "pade_worker.m": "c042f459b4a40cde467dd917d71b2312c6e0d357745cd3b841d48dda8fbd5466"
+  },
+  "protocol_files": {
+    "CONFIG.json": "10430b4a4656adbd9ed89e7611061ed22f2d3868451fe5ffa426678707ca7cd8",
+    "PROTOCOL.md": "6c54dcfce1c8dc41dbbd1d6d0becfe7a2af8c36c60eb959e9e5db8b13e0951dd",
+    "comparisons.csv": "114fd14a148a5146eca6f63fcc84b9b3adeedf7255fdfe35cfe09d5d41df080b"
+  },
+  "diagnostics": true
+}

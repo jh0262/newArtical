@@ -1,0 +1,215 @@
+﻿type	index	paraId	body_xml_index	style_or_shape	text
+P	1	7A232CFC	1	Title	面向机械约束优化的主轴投影与构型熵双锁差分进化算法
+P	2	7A232CFE	2	Subtitle	A Principal-Axis Projection and Configuration-Entropy Double-Locked Differential Evolution Algorithm for Mechanical Constrained Optimization
+P	3	7A232D00	3	Normal	摘要
+P	4	7A232D02	4	Normal	机械结构约束优化中的变量耦合、狭窄可行通道与离散制造规格，使群体搜索同时面临方向适配和后期搜索活性维持问题。从演化动力学与局部微分几何出发，分析差分进化中可能出现的四类内在失配：逐坐标交叉与局部相关方向失配、标量调节与方向尺度需求失配、差分信息收缩与停滞诊断失配，以及连续小步变异与离散网格跃迁失配。提出主轴投影与构型熵双锁差分进化算法（PADE）。在精英引导、外部归档和参数自适应的差分进化框架上，利用收缩加权协方差建立经验主轴坐标，以谱尺度调节不同方向的扰动；结合高斯近似构型微分熵与连续停滞状态，在双锁条件满足时向低方差子空间施加定向扰动，并通过离散邻域抖动维持网格跃迁能力。采用状态门控限制干预，给出新增算子关闭时恢复底层自适应差分进化生成映射的条件。23个测试问题结果中，相较固定参数DE，PADE在15项问题上占优、2项落后、4项未检出显著差异，另2项检验未定义；30维问题的13项均占优。焊接梁与悬臂梁的目标值分别达到1.724852和1.339956，30次运行标准差分别为1.129×10⁻¹⁵和4.517×10⁻¹⁶。压力容器的最佳、平均及最差成本分别为6059.714335、6143.699569和6410.086760，标准差为140.9，说明算法能够到达优良离散设计，但跨次运行仍存在分支波动。结果表明，将经验几何适配与状态触发的有限干预结合，是改善所测机械约束优化搜索性能的有效途径。
+P	5	7A232D04	5	Normal	关键词：差分进化；机械约束优化；主轴坐标映射；局部几何适配；构型微分熵；双锁门控；混合整数优化
+P	6	7A232D06	6	Normal	Abstract
+P	7	7A232D08	7	Normal	Variable coupling, narrow feasible corridors, and discrete manufacturing specifications in mechanical design require population-based search to adapt its directions while maintaining activity during later evolutionary stages. From evolutionary-dynamics and local differential-geometric perspectives, four potential mismatches in differential evolution (DE) are examined: coordinate-wise crossover versus locally correlated directions, scalar adjustment versus directional scale requirements, contracting difference information versus stagnation diagnosis, and small continuous mutations versus discrete grid transitions. A principal-axis projection and configuration-entropy double-locked DE algorithm, termed PADE, is proposed. Built on an adaptive DE framework with elite guidance and an external archive, PADE constructs empirical principal-axis coordinates using a shrinkage-regularized weighted covariance matrix and adjusts perturbations through its spectrum. A Gaussian approximation to configuration differential entropy is combined with consecutive stagnation to trigger directed perturbations within a low-variance subspace. Discrete neighborhood jitter maintains opportunities for transitions between manufacturing grids. State-dependent gates limit intervention, and conditions are specified under which disabling the added operators recovers the trial-generation mapping of the underlying adaptive DE. Across 23 test problems, PADE yields 15 favorable outcomes, two unfavorable outcomes, four nonsignificant comparisons, and two undefined tests against fixed-parameter DE; all 13 comparisons in 30 dimensions favor PADE. The welded-beam and cantilever-beam objective values reach 1.724852 and 1.339956, respectively, with standard deviations of 1.129×10⁻¹⁵ and 4.517×10⁻¹⁶ over 30 runs. For the pressure vessel, the best, mean, and worst costs are 6059.714335, 6143.699569, and 6410.086760, respectively, with a standard deviation of 140.9. These results demonstrate access to a high-quality discrete design while revealing variability among design branches. Combining empirical geometric adaptation with state-triggered, limited intervention provides an effective approach to improving search performance on the mechanical constrained optimization problems considered.
+P	8	7A232D0A	8	Normal	Keywords: differential evolution; mechanical constrained optimization; principal-axis mapping; local geometric adaptation; configuration differential entropy; double-lock gating; mixed-integer optimization
+P	9	7A232D0C	9	2	1 引言
+P	10	7A232D0E	10	3	1.1 机械约束优化中的局部几何与演化搜索问题
+P	11	7A232D10	11	Normal	机械结构优化需要在承载、刚度、变形及制造要求下协调多个设计变量。截面尺寸、杆件尺度与板材厚度的变化会同时影响目标函数和若干约束，使设计改进呈现明显的方向差异：沿某些组合方向可以较大幅度调整，沿另一些方向的微小变化就可能触及应力或变形边界。对于包含公称厚度等离散规格的问题，连续几何变量还要与制造网格共同确定可行设计。由此，求解难点既涉及目标值的下降，也涉及搜索方向、步长尺度和可行性之间的协调。
+P	12	7A232D12	12	Normal	这一现象可通过局部几何描述。设可行域由不等式约束定义，在约束可微且活动约束满足适当正则性条件时，其光滑边界可在局部用切空间近似；当多个边界共同限制设计时，优良解附近可能形成狭窄通道。可行域整体仍可能具有内部、角点和不连通分支，本文据此采用局部光滑近似。对于含离散变量的设计，局部连续几何仅描述给定离散分支附近的变化，分支之间则需要显式的网格跃迁。本文据此使用“局部几何适配”：借助群体的统计分布近似识别可探索方向，在适当条件下把这种信息转化为试验向量的方向与尺度调整。
+P	13	7A232D14	13	Normal	差分进化依靠个体差向量形成搜索扰动，适合将目标评价与搜索算子相分离的工程优化流程[1]。但群体分布同时是搜索结果和后续扰动的信息来源，方向选择、尺度收缩与选择反馈因而相互影响。本文关注的问题是：能否从这些内部反馈中识别与机械约束结构相关的失配，以有限、可关闭的干预改善搜索，而不是始终施加强旋转或全空间重置？
+P	14	7A232D16	14	3	1.2 差分进化中四类可能出现的内在失配
+P	15	7A232D18	15	Normal	第一类是逐坐标交叉与局部相关方向失配。二项式交叉可写为 u=x+M(v-x)，其中 M 为坐标选择的对角掩码。一般正交变换下，坐标掩码与旋转运算不能交换，因此同一差分信息在不同坐标系中可能形成不同的试验分布。当优良解沿倾斜狭谷或相关变量组合聚集时，逐维保留、替换可能拆散已形成的方向联系，增加离开通道或越过约束边界的概率。其本质是交叉对坐标表示的依赖，可表现为有效搜索受阻。在完全交叉、轴向适配或相关性较弱等条件下，这种失配可以减弱。
+P	16	7A232D1A	16	Normal	第二类是标量调节与方向尺度需求失配。差分变异本身会继承群体的各向异性。以独立同分布抽样作近似，若群体协方差为 C，则差向量扰动满足 Cov[F(xᵣ₁−xᵣ₂)]≈2F²C，即差分分布已经具有样本各向异性。问题在于，同一标量 F 只能整体缩放已有差分分布，不能独立调节各方向的比例。当当前分布与局部敏感性不匹配时，整体减小步长可能同时削弱通道方向的推进，增大步长又可能放大受限方向的越界。本文通过协方差主轴和特征值比例提供额外的方向调节自由度。该谱描述群体分布宽度，作为局部有效曲率与容许步长的经验代理；它不等同于目标Hessian或约束曲面的主曲率。
+P	17	7A232D1C	17	Normal	第三类是差分信息收缩与停滞诊断失配。若参与变异的种群和归档点在部分方向上趋于集中，相应差分分量随之缩小，搜索可能难以重新展开。对无约束最小化，贪婪选择保证所接受个体的目标值不增，却不保证群体协方差或其行列式逐代下降；采用可行性优先规则时，不可行阶段还可能为降低约束违反度而接受更大的目标值。因此，体积收缩是一种可能出现的演化状态，而不是普遍的单调耗散定律。仅以若干代最优值未变触发重置，难以区分仍保有搜索宽度的平台期和差分信息已经明显退化的状态。本文把最优值停滞与分布收缩联合诊断，以减少单一指标触发的无效干预。
+P	18	7A232D1E	18	Normal	第四类是连续小步变异与离散网格跃迁失配。对网格间距为 Δ_j 的离散变量，若个体位于网格点，新增连续分量不足以跨过取整阈值，修复后的离散坐标便可能保持不变。当差分尺度持续低于该阈值时，同一规格分支会被反复访问。该现象与连续方向的局部收敛并不等价，需要直接提供相邻网格的访问机会。本文采用状态相关的离散邻域抖动，使规格调整不必完全依赖连续差分的剩余幅度。
+P	19	7A232D20	19	Normal	上述四类失配分别对应坐标、尺度、状态和离散表示之间的关系，其出现程度取决于问题结构、DE策略、种群状态及约束处理方式。本文不将其设定为所有DE变体在所有问题上必然发生的缺陷，而是据此建立可检验的机制设计逻辑。
+P	20	7A232D22	20	3	1.3 相关方法与本文的研究切入点
+P	21	7A232D24	21	Normal	既有研究已从多个方面改善DE的适应能力。参数自适应减少了对固定控制参数的依赖[2]；JADE通过current-to-pbest变异、可选外部归档和参数自适应协调方向引导与差分信息利用[3]；SHADE进一步利用成功历史调节控制参数[4]。这些成果构成本文的算法基础。PADE的原坐标轨道采用精英引导、归档和参数学习，构成JADE风格的自适应DE基底；第3节的固定参数DE/rand/1/bin用于整体性能对照。
+P	22	7A232D26	22	Normal	坐标旋转和协方差学习为利用变量相关性提供了直接路径。Guo和Yang的特征向量交叉方法已经利用个体协方差的特征基建立替代坐标系[5]，CMA-ES则通过协方差自适应调节搜索分布[6]。本文进一步研究主轴信息何时介入、介入后如何调节尺度，以及如何与后期搜索状态协同。样本相关性既可能反映局部通道，也可能受到抽样、选择和变量尺度影响；旋转的收益应由具体状态决定。本文采用对角目标线性收缩与正定正则化缓解经验矩阵的不稳定，并以非对角相关指标和成功反馈控制两条轨道的使用。该指标衡量当前坐标下的统计相关程度，不直接等同于力学耦合强度。
+P	23	7A232D28	23	Normal	在多样性维持方面，外部归档、重置和其他扰动策略分别扩大了差分信息来源或重新分配搜索点[3,7]；SCAHGM结合采蜜机制改善了正余弦搜索，并给出了机械设计对照结果[8]。本文进一步把“是否需要恢复搜索活性”与“恢复哪些方向”联系起来：使用构型熵和停滞双锁确定触发状态，再优先向低方差方向补充扰动。这一设计在利用已有统计结构的同时补充新的探索方向。
+P	24	7A232D2A	24	Normal	本文由此将研究重点落在三个相互关联的问题上：局部几何信息如何转化为可操作的坐标和尺度；分布收缩何时足以支持有限干预；新增机制在何种条件下关闭并恢复底层生成规则。基准函数用于考察不同地形下的整体表现，机械约束算例用于考察可行设计搜索，文献结果则提供外部性能位置的参照。
+P	25	7A232D2C	25	3	1.4 本文方法与主要贡献
+P	26	7A232D2E	26	Normal	本文提出PADE，将四类失配对应到主轴映射、谱尺度调节、熵—停滞双锁和离散邻域抖动，并以有限干预贯穿这些机制。主要工作如下。
+P	27	7A232D30	27	Normal	（1）建立经验主轴坐标中的几何适配方法。对收缩加权协方差进行谱分解 Creg=VΛVᵀ，通过 z=Vᵀ(x−x̄) 和 x=x̄+Vz 表示坐标映射，在该坐标内完成尺度调节与交叉。全维映射保持维数，不是把个体投影到真实约束流形上；单个主轴坐标是相应方向上的正交投影分量。若精英样本能够描述局部通道，这些主轴可作为切向和横向变化的统计近似。结合耦合状态门控与轨道成功反馈，使几何适配按需参与搜索。
+P	28	7A232D32	28	Normal	（2）建立构型熵双锁与低方差子空间定向干预。以 H=½ln[(2πe)ᴰdet(Creg)] 描述高斯近似下的分布尺度，并与连续停滞联合触发。固定坐标与尺度后，相对初始熵的变化反映正则化体积的变化，不将其解释为机械系统的热力学熵。将阈值以下特征值所对应方向组成 V₀，其正交投影矩阵为 P₀=V₀V₀ᵀ。单独的连续扰动 V₀ξ 与其余主轴正交，保留参考最优点在互补子空间中的投影；这一性质支持统计结构的选择性保留，不等同于机械承载能力守恒。离散调整和边界修复后的完整候选解仍须重新进行约束评价。
+P	29	7A232D34	29	Normal	（3）建立离散跃迁与条件退化的统一说明。通过相邻规格抖动补充连续差分难以产生的网格变化，以触发时段、作用个体和作用子空间限制干预范围。旋转关闭、脉冲关闭且离散抖动关闭时，在相同种群、归档、自适应参数与随机输入下，新增项为零，试验生成恢复底层JADE风格自适应DE的映射。该条件恢复不要求对角协方差的各特征值相等，也不由问题可分离或未停滞中的任一条件单独推出。
+P	30	7A232D36	30	Normal	（4）形成基准、机械算例和文献参照的评价链。以23个测试问题考察整体性能，以焊接梁、悬臂梁及压力容器检验连续和混合整数约束搜索，并分别解释最佳值、平均值和波动。评价同时保留优势与不利结果，用于界定PADE所体现的精细搜索能力及尚未消除的离散分支敏感性。
+P	31	7A232D38	31	3	1.5 与近邻方法的机制区别
+P	32	7A232D3A	32	Normal	特征坐标本身已有明确先例。CoBiDE将协方差学习与双峰参数分布相结合[9]；ACoS在原坐标与特征坐标之间进行自适应选择[10]；较新的特征向量交叉研究还通过秩一更新降低相关计算代价[11]。本文进一步采用采用加权精英协方差及对角目标收缩，在相关性门槛和成功反馈下启用主轴交叉，同时通过特征值比例调节各方向步长。
+P	33	7A232D3C	33	Normal	与本文更接近的PCM-DE已经将协方差停滞指标与扰动机制结合[12]。2025年的HCDE也采用熵度量触发混合扰动和重启[13]。PADE进一步把正则化对数体积指标、Deb改善停滞计数及时间窗联合为触发条件，把连续脉冲限制在低方差主轴和部分个体，并将离散规格跃迁纳入同一状态控制框架。本文的创新重点是这一诊断、定向干预与可关闭机制的联动及其条件退化性质。
+P	34	7A232D3E	34	2	2 PADE的机理分析与算法构建
+P	35	7A232D40	35	Normal	本文将四类搜索病灶具体化为坐标交叉、方向尺度、收缩停滞与离散表示的失配，并逐项建立算子联系。局部微分几何用于解释活动约束附近的切向与横向变化；群体协方差提供其经验近似。以下统一将个体写为列向量，源码中的行向量运算为等价转置实现。主轴“投影”指计算正交方向上的分量并进行全维映射，不执行非线性约束流形的最近点投影或测地线积分。
+P	36	7A232D42	36	3	2.1 自适应DE基底与约束选择
+P	37	7A232D44	37	Normal	PADE继承JADE风格的current-to-pbest/1变异、外部归档及成功参数学习[3]。令x_pbest来自排名前max(2,round(pN))的集合，p=0.15；r1来自当前种群，r2来自当前种群与归档的并集，并依源码排除重复索引。基底差分与交叉可写为
+P	38	7A232D46	38	Normal	di=(xpbest-xi)+(xr1-xr2),  ui=xi+Fi Mi di
+P	39	7A232D48	39	Normal	Mᵢ为二项式交叉的对角0–1掩码，至少一个维度强制取1。Fᵢ从位置参数μF、尺度0.1的柯西分布抽取至正值后截断于1；CRᵢ由均值μCR、标准差0.1的正态分布抽样并截断至[0,1]。两均值初值均为0.5，非空成功集合下按下式更新：
+P	40	7A232D4A	40	Normal	μF+=0.9μF+0.1succFi2succFi,  μCR+=0.9μCR+0.1meansuccCRi
+P	41	7A232D4C	41	Normal	最终候选采用Deb可行性优先选择[14]：可行解优于不可行解；两者均可行时比较目标值；均不可行时比较总约束违反度CV。CV按各基准给定残差的正部之和计算，属于本次模型规定的数值比较量。越界变量以父代与对应边界的中点修复；指定离散维度随后按网格取整。成功候选替换父代，被替换父代进入容量为N的归档。
+P	42	7A232D4E	42	Normal	显式精英导向分量Fᵢ(x_pbest−xᵢ)与精英方向的内积为Fᵢ‖x_pbest−xᵢ‖²≥0，构成定向推进来源。这一能力由自适应DE基底继承；随机差分、交叉和约束共同决定实际改善，不能由该内积推出全部候选必为下降方向。
+P	43	7A232D50	43	3	2.2 主轴投影与谱尺度调节
+P	44	7A232D52	44	4	2.2.1 加权精英协方差与收缩估计
+P	45	7A232D54	45	Normal	采用S(x)=10⁸CV(x)+f(x)排序，选取μ=max(4,⌊N/2⌋)个精英，以对数递减权重计算中心与协方差。该排序是构建样本的数值规则，个体接受仍严格使用前述Deb比较；对于任意量纲和目标尺度，它并不自动等价于Deb字典序。
+P	46	147ACA5F	46	a0	wk=lnμ+0.5-lnkj=1μlnμ+0.5-lnj, k=1,2,…,μ
+P	47	63F1F4BD	47	a0	Csamplet=k=1μwkxkt-xwtxkt-xwtT∈RD×D
+P	48	7A232D56	48	Normal	式中x̄w=Σwₖxₖ且Σwₖ=1。对于高维小样本，采用借鉴线性收缩思想[15]的对角目标估计，避免把经验协方差的低秩性直接解释为真实几何维数：
+P	49	4CF6F490	49	a0	Cregt=1-αtCsamplet+αtTt+ϵID
+P	50	5FAD0B6F	50	a0	αt=DN+D
+P	51	7A232D58	51	Normal	其中T=diag(Csample)，ε=10⁻¹²，α=D/(N+D)。该维数相关强度为本文给定规则，未采用Ledoit–Wolf最优收缩强度估计器。对角目标保留各变量样本方差并减弱非对角项；其效果依赖变量尺度和坐标表示。
+P	52	7A232D5A	52	4	2.2.2 交叉的坐标失配及主轴表达
+P	53	7A232D5C	53	Normal	设局部走廊法向为n，差分方向d满足nᵀd=0。原坐标交叉一般仍有nᵀMd≠0；即便差向量沿通道，掩码也可能产生法向分量。这说明逐维交叉对坐标表示的依赖，是本文所指的几何交叉病灶。令正则化协方差谱分解为
+P	54	5AF76407	54	a0	Cregt=VtΛtVtT
+P	55	7A232D5E	55	Normal	Λ=diag(λ₁,…,λD)，λ₁≥…≥λD>0，V的列为正交特征向量。z=Vᵀ(x−x̄w)为主轴分量，x=x̄w+Vz为逆映射。若经验主轴与局部切向、法向子空间对齐，在该坐标内实施掩码不会混合两个子空间；实际对齐程度由样本决定。
+P	56	7A232D60	56	4	2.2.3 方向尺度调节与双轨门控
+P	57	7A232D62	57	Normal	DE差分本身继承种群各向异性，标量F的限制在于无法独立改变各方向的相对尺度。本文引入S=diag(s₁,…,sD)，在经验主轴中补充方向调节自由度：
+P	58	713D6FCF	58	a0	sjt=λjtλmaxtγ, j=1,2,…,D
+P	59	7A232D64	59	Normal	取γ=0.25，最大方差方向s₁=1，较小方差方向0<sⱼ≤1。该规则收缩相对狭窄方向，不把协方差特征值直接当作Hessian特征值或真实主曲率。主轴候选与当前坐标下的相关指标为
+P	60	7A232D66	60	Normal	uirot=xi+Fi V Mi S VT di
+P	61	6B5741B1	61	a0	ρcouplet=∥Cregt-diagCregt∥F∥Cregt∥F+10-14
+P	62	7A232D68	62	Normal	ρ为非对角Frobenius范数与总范数之比，分母附加10⁻¹⁴。仅当t>t_warmup、ρ>0.20且均匀随机数小于P_rot时启用主轴分支，否则使用原坐标基底。P_rot初值0.2，有主轴尝试时以0.9P_rot+0.1r_rot更新，r_rot为主轴尝试的接受比例，再截断于[0.05,0.85]。这一状态门与成功反馈共同避免无条件全量旋转。
+P	63	7A232D6A	63	3	2.3 构型熵与停滞双锁
+P	64	7A232D6C	64	Normal	差分信息的收缩可能削弱后续搜索，但贪婪选择并不保证协方差行列式逐代下降。为同时观察分布尺度与实际进展，以高斯近似下的构型微分熵作为体积代理[16]：
+P	65	2D72486E	65	a0	Ht=-RD​pxlnpxdx=12ln2πeDdetCregt
+P	66	13ECA350	66	a0	Ht=12j=1Dlnmaxλjt,ϵ0+D2ln2πe
+P	67	7A232D6E	67	Normal	式中ε₀=10⁻²⁵。固定变量单位和坐标后，H的变化用于比较样本分布尺度，不表示机械系统的热力学熵或能量。实现中H₀由初始全种群协方差加10⁻¹²I计算，后续H由加权精英收缩矩阵计算；阈值含样本规则的变化，按下式作为经验触发量使用：
+P	68	1C105504	68	a0	Hcrit=H0-βcrit⋅D
+P	69	7A232D70	69	Normal	取βcrit=2.8。W在每代开始依据记录最优解是否按Deb规则改善而清零或递增，包括不可行阶段违反度的改善：
+P	70	7A232D72	70	Normal	Wt=0 if DebImproved;   Wt=Wt-1+1 otherwise
+P	71	7A232D74	71	Normal	Φlock(t)=I(twarmup<t<0.9Tmax)I(Ht≤ Hcrit,Wt≥ Wmax)
+P	72	7A232D76	72	Normal	I表示括号内条件同时成立时取1、否则取0。t_warmup=round(0.1Tmax)，Wmax=15。双锁要求熵低于阈值且连续停滞，时间窗另限制脉冲只在冷启动后至总代数前90%可用。仍有微小Deb改善时，停滞锁保持关闭；这限制脉冲干预，不意味着所有其他附加算子也同时关闭。
+P	73	7A232D78	73	3	2.4 低方差子空间脉冲与离散跃迁
+P	74	7A232D7A	74	4	2.4.1 子空间选择及连续脉冲
+P	75	06AF70D3	75	a0	Mnull={j∈{1,2,…,D}∣λjt<10-4⋅λmaxt}
+P	76	7A232D7C	76	Normal	将该索引集记为𝒩，其补集记为𝒜，V𝒩与V𝒜分别由对应主轴组成。正则化后不存在严格的代数零特征值，故称低方差子空间。其投影矩阵为P𝒩=V𝒩V𝒩ᵀ，且ℝᴰ=span(V𝒜)⊕span(V𝒩)。双锁开启且𝒩非空时，对排名末尾max(1,round(0.2N))个体提出
+P	77	7A232D7E	77	Normal	y=xbest+σ VNξ,  ξ∼ N(0,I),  σ=0.15λmax
+P	78	7A232D80	78	Normal	VAT(y-xbest)=0
+P	79	7A232D82	79	Normal	该恒等式说明连续脉冲保留的是参考最优点在互补主轴上的投影，保持已有统计方向结构；不是冻结被替换个体的坐标，也不直接证明承载能力不变。混合离散问题还对指定离散维度提出一步±hⱼ的调整，随后裁剪边界并投影到网格，再经Deb比较决定接受。离散调整和边界修复后不一般继续满足上述正交恒等式。执行一次脉冲批次后，W减5并下限截断于0。
+P	80	7A232D84	80	4	2.4.2 连续小步的取整冻结与邻域抖动
+P	81	7A232D86	81	Normal	当当前离散坐标xⱼ=khⱼ且连续增量绝对值小于hⱼ/2时，最近取整会返回原规格。为提供独立于剩余差分幅度的相邻规格提案，采用
+P	82	063CEC83	82	a0	Pjittert=Pmax⋅min1, WtWmax
+P	83	7A232D88	83	Normal	pⱼ(t)=0.25min(1,W/max(1,Wmax))。源码在无离散变量或pⱼ≤0.02时直接返回；否则每个指定离散维度以该概率选择±hⱼ，边界内裁剪并再次网格化。此机制提供非零跨格机会，可行性和改进性由后续评价与选择决定。连续尺度收缩与离散邻域跃迁因而由不同但相互衔接的机制处理。
+P	84	7A232D8A	84	3	2.5 有限干预与条件退化定理
+P	85	7A232D8C	85	Normal	定义G₀为关闭主轴分支、脉冲和抖动后的自适应DE基底，保留current-to-pbest/1、归档、F/CR学习、边界修复、离散投影及Deb选择。它属于DE算法族，但不同于第3节用作实验对照的固定参数DE/rand/1/bin。条件退化的目标是严格恢复实际继承基底的转移规则。
+P	86	7A232D8E	86	Normal	令𝒮t包含本代停滞更新后、脉冲前的种群、目标和违反度、归档、最优记录、学习参数及停滞记录；ω表示匹配的索引、参数、掩码和归档替换随机量。记B为越界中点修复，Q为离散投影，则基底候选可写为
+P	87	7A232D90	87	Normal	G0,i(St,ω)=QQBxi(xi+FiMidi)
+P	88	7A232D92	88	Normal	两个Q保留源码抖动前后的执行顺序；对于本文边界与网格对齐的压力容器变量，Q²=Q。完整PADE包含变异前脉冲、候选变换与修复后抖动，应视为顺序复合映射。令Δᵢ=GPADE,ᵢ−G₀,ᵢ；修复后两候选均在设计盒中，故‖Δᵢ‖₂≤‖ub−lb‖₂，但原始高斯脉冲没有确定的有限幅值上界。
+P	89	7A232D94	89	Normal	定理1 状态门控下的精确条件退化。对相同输入状态𝒮t及匹配随机驱动ω，若本代同时满足下列三项，则PADE与G₀的全部候选、Deb选择、归档及继承参数更新相同。
+P	90	7A232D96	90	Normal	（a）主轴门关闭：t≤t_warmup或ρt≤0.20。
+P	91	7A232D98	91	Normal	（b）脉冲门关闭：t≤t_warmup、t≥0.9Tmax、Ht>Hcrit、Wt<Wmax或𝒩为空，至少一项成立。
+P	92	7A232D9A	92	Normal	（c）抖动门关闭：不存在离散变量，或pⱼ(t)≤0.02。
+P	93	7A232D9C	93	Normal	证明。条件（b）排除变异前的脉冲和相应W回调，保证进入个体循环时状态一致。条件（a）使每个个体均执行原坐标分支，同一参数、索引和掩码产生同一xᵢ+FᵢMᵢdᵢ；此处无需假定V=I或所有谱尺度均为1。相同边界修复及离散投影产生相同中间候选，条件（c）使抖动函数不执行任何跳步。按个体顺序归纳，相同候选产生相同评价和选择，匹配归档替换随机量保持归档一致，成功参数集合亦相同，故代末继承参数更新一致。证毕。
+P	94	7A232D9E	94	Normal	ρt≤0.20且Wt=0是同时适用于连续和混合离散问题的可核验充分条件；纯连续问题可放宽为ρt≤0.20且Wt<Wmax。如果初态相同、采用共同随机驱动且条件各代持续成立，由代际归纳得到同轨迹。只在某一代满足条件，则只能保证从该相同状态出发的一代转移相同，不能消除之前干预造成的状态差异；相同随机种子也不足以替代分支随机消耗的匹配条件。
+P	95	7A232DA0	95	Normal	有限干预具体体现在触发时段、作用个体、作用子空间与概率四个方面。对一次候选生成，比较同一个体循环入口完整状态𝒮t,ᵢ上的两映射；设脉冲关闭、离散维数为m，aₜ为主轴状态门可用的0–1指标，qₜ=pⱼ(t)·1[pⱼ(t)>0.02]，则在共同随机耦合下由并集界可得
+P	96	7A232DA2	96	Normal	Pr(GPADE,i≠ G0,i∣St,i)≤min(1,atProt(t)+m qt)
+P	97	7A232DA4	97	Normal	该上界描述附加机制改变候选的机会。本文的理论性质是明确状态区域中的精确回退及修复后候选的有限偏离，不要求原始高斯幅值有界，也不据此推出无条件渐近收敛或普遍性能优越。
+P	98	7A232DA6	98	3	2.6 执行流程与计算代价
+P	99	7A232DA8	99	Normal	图1给出顺序流程。先初始化并评价，计算H₀和阈值；每代更新W、精英矩阵、谱和Ht，按双锁对部分个体提出低方差脉冲；随后逐个体采样F、CR及索引，选择主轴或原坐标轨道，依次完成修复、网格投影、抖动和再投影；评价后按Deb规则选择并更新归档，代末更新参数和主轴概率。停止时输出最优设计、目标、违反度及运行历史。
+P	100	7A232DAA	100	Normal	
+P	101	7A232DAD	101	Normal	图1 PADE的状态诊断、定向干预与候选选择流程
+P	102	7A232DAF	102	Normal	每代精英协方差构建约需O(ND²)，完整特征分解约需O(D³)，个体主轴变换最多O(ND²)，其余搜索操作主要为O(ND)。相同种群和代数下，初始化及普通试验合计包含N(Tmax+1)次目标评价；若共执行K次脉冲批次，额外评价数为K·max(1,round(0.2N))。因此，本文实验设置为同种群、同最大代数，不能仅据此称为严格相同目标评价次数。
+P	103	7A232DB1	103	2	3 基准函数测试与性能分析
+P	104	7A232DB3	104	3	3.1 测试设置与比较目的
+P	105	7A232DB5	105	Normal	本节采用原实验的23个基准问题，考察PADE对平滑收敛、病态狭谷、多峰停滞和固定维多谷搜索的适应性。测试平台为AMD Ryzen 7处理器、32 GB内存、Windows 11及MATLAB R2021b。F1—F7为30维单峰问题，F8—F13为30维多峰问题，F14—F23为2—6维固定维问题。对照算法为DE/rand/1/bin，固定F=0.5、CR=0.9。种群规模均为30，30维问题运行1000代，固定维问题运行500代，每项进行30次重复试验，记录Best、Mean和Std。
+P	106	7A232DB7	106	Normal	这一对照回答PADE整体方案相对固定参数经典DE的改善程度。PADE同时包含精英引导、参数自适应、归档及定向干预，故整体差异不能全部归于某一个新增模块。本文分别报告数值结果及与设计机制一致的解释；有限干预和条件退化的依据见第2节，不以低维结果接近替代其条件分析。
+P	107	7A232DB9	107	Normal	F15按实际运行常数标为“Kowalik型拟合（本文数据）”，其a向量为(0.1957,0.1947,0.1735,0.1600,0.1472,0.1392,0.1320,0.1287,0.1235,0.1190,0.1180)，b向量为(4,2,1,1/2,1/4,1/6,1/8,1/10,1/12,1/14,1/16)。其目标为各数据点拟合残差的平方和，具体表达式见随文Benchmark_23_Functions.m。该版本不与其他Kowalik常数版本的理论极值混用。F7含随机噪声，其Std同时反映运行与随机评价波动。
+P	108	7A232DBB	108	Normal	显著性水平为0.05。表1保留原报告的p值，并按提供实现中的双尾Wilcoxon秩和检验命名；“+”表示原报告PADE占优，“−”表示DE占优，“=”表示未检出显著差异，NA表示检验未定义。Best、Mean与Std均为最小化目标统计；完整原始表值另随数据表提供。
+P	109	7A232DBD	109	3	3.2 全部问题的终值结果
+P	110	7A232DBF	110	Normal	表1保留各函数的30次统计结果与原报告p值。按有效检验分类，PADE相对固定参数DE为15项占优、2项落后、4项未检出显著差异，另2项检验未定义，其中F1—F13均归为PADE占优。优势覆盖平滑单峰、病态谷、多峰及带惩罚项地形，说明整体方案的收益并不局限于单一函数。F17、F19的原报告p值为NaN，表中记为NA；未显著和未定义均不表示算法等价。
+P	111	7A232DC1	111	Normal	表1 23个测试问题的30次运行统计及原报告检验结果
+T	1		112	24x8	表1 23个测试问题的30次运行统计及原报告检验结果 | 问题DPADE MeanPADE StdDE MeanDE Stdp值判决F1301.9546e-201.06e-193.3000e01.18e13.02e-11+F2303.0701e-101.33e-94.1414e-32.09e-23.02e-11+F3304.8486e14.66e11.8575e21.74e26.53e-7+F4304.9336e01.99e02.3418e16.23e03.02e-11+F5303.2053e12.65e16.7567e32.22e41.78e-10+
+P	112	7A233003	113	Normal	注：e表示10的幂，Mean和Std沿用原运行报值；各函数名称与Best完整值见附表CSV。F15使用本文拟合数据版本。NA共2项，未并入未显著比较。
+P	113	7A233005	114	Normal	同类问题内部仍需区分精度和稳健性。F6中两算法最好值均为0，但PADE均值0.16667，明显低于DE的18.733，优势主要体现在重复试验更少停留于较差阶梯。F3、F4虽有改善，PADE均值仍为48.486、4.9336，说明高维非光滑或累积耦合地形尚未被普遍求至参考极值。F12中最好值已很小，而Mean=3.4556×10⁻³、Std=1.89×10⁻²，反映其运行结果仍有离散；F13的Mean=2.3149×10⁻¹⁸则呈现更充分的精化。对这些差别的保留使“高维十三项占优”具有具体含义：它是本组比较中的相对改善，并非十三项均达到理论最优。
+P	114	7A233007	115	Normal	低维结果呈现更明确的问题依赖性。PADE在F20、F23上占优，在F15、F21上落后；F21的均值为−9.3989，劣于DE的−9.5674，虽然两者最好值均接近−10.153。F15中PADE最好值较小，但均值7.0757×10⁻³高于DE的6.3651×10⁻³，说明最好一次的精度不能替代重复运行表现。F15采用第3.1节给定拟合数据，其运行离散性与F21共同体现方法的问题依赖性。
+P	115	7A233009	116	3	3.3 典型地形的终值统计与机制解释
+P	116	7A23300B	117	Normal	图2直接采用表1中F1、F5、F8、F9、F11、F23的Mean绘制终值对比，正值函数采用对数坐标，负值函数采用线性坐标。F1中，PADE均值为1.9546×10⁻²⁰，DE为3.3000；这一结果说明PADE整体配置在平滑地形上仍保持较强的精化能力。F5中，PADE将Rosenbrock均值由6756.7降至32.053，约降低211倍，标准差由2.22×10⁴降至26.5。其长处不仅是最好一次更优，而且明显减小了重复运行中较差结果的影响。利用精英分布调整采样方向和尺度，与狭谷中减少无效横向扰动的设计目的相符；这一解释仍应与模块的独立增益区分。
+P	117	7A23300D	118	Normal	F8中，PADE均值为−12427，优于DE的−9560.7，最好值为−1.2569×10⁴。由于目标为负，采用距参考值−12569.48的差更便于解释：按表中舍入均值，平均差约由3008.78缩小至142.48。该结果体现出对欺骗性多谷地形的较强搜索能力。双锁仅在分布收缩和停滞条件共同满足时介入，其作用方向是为已缩小的搜索分布提供有限的再探索机会；终值改善与这一设计目的相符，而脉冲的具体贡献需由对应活动记录或同父算法消融识别。
+P	118	7A23300F	119	Normal	F9中，PADE均值3.4772×10⁻⁴，DE为48.836，约相差1.40×10⁵倍，构成本组对照最突出的结果之一。F11中，两者均值分别为7.0376×10⁻³和9.5639×10⁻²；PADE虽有单次达到0，整体均值仍非0，体现出较高精度和较小离散程度。F23中，PADE均值−10.536、Std=1.68×10⁻¹⁵，而DE均值−10.266、Std=1.48，支持PADE较稳定地达到参考最优附近。该低维结果与F21的负结果共同表明，维数本身不足以决定干预收益。相应的机制关闭区域由定理1给出。
+P	119	7A233011	120	Normal	
+P	120	7A233014	121	Normal	图2 六个代表性问题的30次运行平均终值比较
+P	121	7A233016	122	Normal	注：数据取自表1，正值函数采用对数纵轴，负值函数采用线性纵轴；各项Best及Std见附表。本图显示终值统计。
+P	122	7A233018	123	3	3.4 文献报值的横向参照
+P	123	7A23301A	124	Normal	表2保留SCA、GWO、HPSO及SCAHGM的文献均值，以观察PADE在代表性问题上的相对位置。文献报值用于外部参照，相同种群和代数不自动等于全部目标评价次数相同，故本表不另作跨文献显著性推断。
+P	124	7A23301C	125	Normal	表2 代表性函数的文献均值参照
+T	2		126	10x7	表2 代表性函数的文献均值参照 | 问题参考极值SCAGWOHPSOSCAHGMPADEF10.01.36e-13.14e-140.00e00.00e01.95e-20F50.01.85e32.68e12.68e12.65e13.21e1F8-12569.48-3.91e3-6.12e3-8.94e3-1.14e4-1.24e4F90.04.21e15.23e-10.00e00.00e03.48e-4F110.01.89e-14.21e-30.00e00.00e07.04e-3F120.02.56e04.32e-21.45e-21
+P	125	7A2330F0	127	Normal	注：外部结果采用文献报值[8,17,18,19]，用于性能位置参照；各研究的预算及模型版本不据本表自动视为相同。
+P	126	7A2330F2	128	Normal	PADE在F8、F12、F13、F20、F23上取得有竞争力的报值：F12均值3.46×10⁻³，小于SCAHGM的1.11×10⁻²；F13为2.31×10⁻¹⁸，相比表中SCAHGM的1.34具有明显数值差距。F12、F13是带罚项的标量目标，这些结果说明PADE适应该类目标地形，不能单独归为Deb约束处理的效果。另一方面，F5中PADE均值32.053高于SCAHGM的约26.5；F1、F9、F11中HPSO或SCAHGM已报0，PADE也未形成全面优势。整体来看，PADE的突出表现集中于部分多谷、强振荡及带罚地形，其优势具有条件性。
+P	127	7A2330F4	129	2	4 典型机械结构约束优化算例
+P	128	7A2330F6	130	Normal	采用三个经典解析设计基准，分别覆盖耦合连续约束、已知解析最优边界和混合离散规格。工程代码设N=40、Tmax=2500，各算例运行30次；以下保留实际运行统计，文献行沿用来源报值。长度、载荷、应力的基准单位按模型给定，成本系数携带相应组合单位，不在不同单位制间直接套用。
+P	129	7A2330F8	131	3	4.1 焊接梁制造成本优化
+P	130	7A2330FA	132	Normal	设计变量x=(h,l,t,b)，分别为焊缝厚度、焊缝长度、梁截面高度及宽度。采用英制基准：P=6000 lbf，L=14 in，E=30×10⁶ psi，G=12×10⁶ psi，允许剪应力13600 psi、弯曲应力30000 psi及挠度0.25 in[20,21]。
+P	131	64B3A187	133	a0	minfx=1.10471x12x2+0.04811x3x414.0+x2
+P	132	7A2330FC	134	Normal	约束gₖ≤0为下列七项，其中包括应力、挠度、屈曲及几何和成本限制：
+P	133	2EDD4815	135	a0	g1x=τx-13600≤0
+P	134	7A231FD2	136	FirstParagraph	g2x=σx-30000≤0
+P	135	3088C575	137	FirstParagraph	g3x=x1-x4≤0
+P	136	0A0BF140	138	FirstParagraph	g4x=0.10471x12+0.04811x3x414.0+x2-5.0≤0
+P	137	0732CC44	139	FirstParagraph	g5x=0.125-x1≤0
+P	138	42D30007	140	FirstParagraph	g6x=δx-0.25≤0
+P	139	33B4F6A4	141	FirstParagraph	g7x=6000-Pcx≤0
+P	140	7A2330FE	142	Normal	0.1≤h,b≤2，0.1≤l,t≤10，单位均为in。为使力学模型可复算，所用中间量为
+P	141	7A233100	143	Normal	M=P(L+l/2),  R=l2/4+(h+t)2/4
+P	142	7A233102	144	Normal	J=22hl[l2/12+(h+t)2/4]
+P	143	7A233104	145	Normal	τ1=P2hl, τ2=MRJ, τ=τ12+τ1τ2 l/R+τ22
+P	144	7A233106	146	Normal	σ=6PLbt2, δ=4PL3Ebt3
+P	145	7A233108	147	Normal	Pc=4.013Et2b6/36L21-t2LE4G
+P	146	7A23310A	148	Normal	表3中，PADE显示向量为(0.205730，3.470489，9.036624，0.205730)，Best与Mean均报1.724852，Std=1.129×10⁻¹⁵。显示点回代满足约束，且剪应力、弯曲应力和屈曲载荷接近允许边界，h=b，说明解位于多个限制共同作用的边界邻域。很小的目标标准差体现本次实现中的运行重复性，可作为连续约束求解的优点。主轴采样与尺度收缩为边界附近精细搜索提供了合理解释，但设计变量协方差主轴本身不等于结构承载方向，小Std也不直接对应制造尺寸精度。
+P	147	7A23310C	149	Normal	表3 焊接梁目标统计与文献参照
+T	3		150	8x4	表3 焊接梁目标统计与文献参照 | 算法BestMeanStdCoello (2000, GA)1.74331.77760.1122Deb (2000, 改进 GA)1.74101.7774-Ray & Liew (2003)1.73121.73910.0190CPSO (He 2007)1.72801.74880.0129HPSO (He 2007)1.7248521.7248526.7e-6SCA (Mirjalili 2016)1.75121.82140.0890PADE (本文算法)1.7248521.7248521.12
+P	148	7A23316E	151	Normal	注：PADE设计向量按六位小数显示，目标统计采用未舍入运行报值；文献设计向量与完整原表保存在随附数据中，文献成本采用来源报告值。
+P	149	7A233170	152	3	4.2 悬臂梁规范化质量指标优化
+P	150	7A233172	153	Normal	采用五段悬臂梁解析设计基准[8,22]，五个正连续尺寸为x₁,…,x₅，质量型目标与归一化挠度约束为
+P	151	19A015DC	154	a0	minfx=0.0624i=15xi
+P	152	2D7350F8	155	FirstParagraph	gx=61.0x13+37.0x23+19.0x33+7.0x43+1.0x53-1.0≤0
+P	153	7A233174	156	Normal	变量界限0.01≤xᵢ≤100，i=1,…,5。系数0.0624及各约束系数按给定基准使用，未给定其完整物理单位换算时，以规范化质量指标解释目标。模型包含一项由五个变量三次倒数组成的挠度约束。
+P	154	7A233176	157	Normal	该问题具有已知解析最优，适合检验数值求解是否逼近正确结果。
+P	155	7A233178	158	Normal	a=(61,37,19,7,1),  S=i=15ai1/4
+P	156	7A23317A	159	Normal	xi*=S1/3ai1/4,  f*=0.0624S4/3≈1.3399563605990747
+P	157	7A23317C	160	Normal	表4中，PADE向量为(6.016016，5.309174，4.494330，3.501475，2.152665)，目标1.339956，Std=4.517×10⁻¹⁶，与解析最优一致到所列显示精度。显示点回代得到目标1.339956384、约束残差−5.239×10⁻⁸，支持该显示点可行且接近解析解。该算例体现了通用搜索框架对活动约束边界的准确逼近和数值稳定性；SCAHGM的1.33996在其报告精度下同样接近解析最优。
+P	158	7A23317E	161	Normal	表4 悬臂梁目标值及PADE重复运行稳定性
+T	4		162	8x3	表4 悬臂梁目标值及PADE重复运行稳定性 | 算法目标值原报告稳定性CONLIN1.3400未列定量统计MMA1.3400未列定量统计CS (布谷鸟)1.33999未列定量统计SCA (正余弦)1.3400未列定量统计m-SCA1.33999未列定量统计SCAHGM (王联国 2021)1.33996未列定量统计PADE (本文算法)1.339956Std = 4.517e-16
+P	159	7A2331C8	163	Normal	注：来源目标按其报告位数保留；不同显示位数不构成制造收益。外部设计向量保存在附表，主表仅比较报值。
+P	160	7A2331CA	164	3	4.3 压力容器混合整数成本优化
+P	161	7A2331CC	165	Normal	四变量为筒体厚度Tₛ、封头厚度Tₕ、内半径R和圆柱段长度L，单位为in[8,23,24]。两项厚度按本基准取0.0625 in的整数倍；R、L连续。采用实际运行的封头系数0.0095，模型为
+P	162	11575FE9	166	a0	minfx=0.6224x1x3x4+1.7781x2x32+3.1661x12x4+19.84x12x3
+P	163	6007259D	167	FirstParagraph	g1x=0.0193x3-x1≤0
+P	164	0D3AEC2D	168	FirstParagraph	g2x=0.0095x3-x2≤0
+P	165	288342A8	169	FirstParagraph	g3x=-πx32x4-43πx33+1296000.0≤0
+P	166	4EA0E55F	170	FirstParagraph	g4x=x4-240.0≤0
+P	167	7A2331CE	171	Normal	Tₛ,Tₕ∈0.0625k:k=1,…,99，10≤R,L≤200。由于L上界已为200，L≤240在本域中冗余。体积式πR²L+4πR³/3对应半径定义，最低容积为1296000 in³。离散规格与系数均为本次数值基准设定，不泛化为规范对所有容器的统一制造要求。
+P	168	7A2331D0	172	Normal	PADE的Best为6059.714335，Mean为6143.699569，Worst为6410.086760，Std为140.9。最好一次达到参考最优附近，表明该方案具备求得高质量离散设计的能力；均值和最差值同时表明，30次运行并未全部命中这一最优。相较文献SCAHGM的Mean=6088.8570、Std=62.5397及HPSO的6099.9323、86.2022，PADE本组整体稳定性尚不占优，最佳解能力和重复运行稳定性呈现不同的评价结果。
+P	169	7A2331D2	173	Normal	无网格抖动版本的均值为6172.94，完整PADE为6143.699569，下降29.240431，约0.47%。这是一条支持离散局部干预有实际作用的已有消融线索。其解释与连续步长缩小后难以改变离散取整结果相符；现有统计以平均成本评价这一改进。离散网格仍是限制稳定性的关键环节，为进一步明确干预幅度和触发条件提供了具体方向。
+P	170	7A2331D4	174	Normal	表5 压力容器的运行统计与文献参照
+T	5		175	10x5	表5 压力容器的运行统计与文献参照 | 算法BestMeanWorstStdSandgren (1990)8129.1036---Kannan & Kramer (1994)7198.0428---Deb (1997, 遗传算法)6410.3811---Coello (2000, 遗传算法)6288.74456293.84326308.14977.4133Coello & Montes (2002)6059.94636177.25336469.3220130.9297CPSO (He 2007)6061.07776147.133263
+P	171	7A23326C	176	Normal	注：文献可能采用不同封头系数或变量边界，表中沿用原报告成本，不据其Best相近推断模型及全体运行状态完全相同。
+P	172	7A23326E	177	3	4.4 工程目标统计与结果综合
+P	173	7A233270	178	Normal	图3以表3—5的目标统计作分图比较，压力容器显示Mean及原报告Std，以直接呈现重复运行表现。三项算例形成互补评价：焊接梁展示耦合约束边界附近的求解重复性；悬臂梁以解析最优完成数值核验；压力容器同时展示最优搜索能力与多次运行稳定性的差别。Std表示样本标准差而非均值置信区间，不由图中误差棒推导显著性。
+P	174	7A233272	179	Normal	由此，四类搜索困难与机制的联系可表述为：主轴旋转及尺度调节面向方向和步长失配，双锁及低方差方向扰动面向收缩后的停滞，局部网格抖动面向离散变量停更；门控约束干预范围，在条件满足时关闭相应附加操作。现有实验提供了整体改善及问题依赖性的数值支持，其中连续问题表现较稳定，混合整数问题仍存在运行差异。这一结果支持将PADE作为有明确干预目标的结构约束优化方法继续研究。
+P	175	7A233274	180	Normal	从工程使用角度看，最好成本用于评价方案能达到的设计水平，均值和标准差用于衡量重复求解的可预期程度，两者应同时进入方法评价。连续算例已显示高度一致的目标终值，压力容器最好值与平均值之间的差距，使提高重复求解的稳定性成为明确改进目标。这种差异使后续改进目标具体化为降低离散问题的较差运行比例。
+P	176	7A233276	181	Normal	
+P	177	7A233279	182	Normal	图3 三个结构设计基准的同指标目标统计比较
+P	178	7A23327B	183	Normal	注：数据取自表3—5；焊接梁与悬臂梁比较Best，压力容器比较Mean，误差棒为原报告Std，不表示置信区间。
+P	179	7A23327D	184	2	5 结论
+P	180	7A23327F	185	Normal	本文从演化动力学与局部微分几何出发，将机械约束优化中可能出现的搜索受阻归纳为坐标、尺度、状态诊断和离散表示四类失配，提出主轴投影与构型熵双锁差分进化算法PADE。该方法在JADE风格自适应DE基础上，通过经验主轴中的尺度与交叉调整改善方向适配，以分布收缩和最优值停滞联合确定干预时机，再通过低方差子空间扰动和离散邻域抖动恢复搜索机会，形成按状态介入、在规定条件下关闭的统一机制。
+P	181	7A233281	186	Normal	主轴坐标提供了对局部搜索形状的可计算描述。协方差谱能够用于经验尺度调节，其作用来自群体统计信息对当前地形的近似，而非对真实曲率或测地线的直接求解。连续定向扰动分量在叠加离散调整及边界修复前保留参考点的互补主轴投影，使干预具有明确的方向边界。全部新增操作关闭时，同一状态上的试验生成恢复底层自适应DE规则，说明方法具有条件恢复的一致性；该性质不等同于无条件收敛保证。
+P	182	7A233283	187	Normal	表1中，PADE相较固定参数DE在15项问题上占优、2项落后、4项未检出显著差异，另2项检验未定义；30维问题的13项均占优。Rosenbrock均值由DE的6.7567×10³降至3.2053×10¹，Penalized 2均值达到2.3149×10⁻¹⁸，体现出所测病态谷和多峰地形上的精细搜索能力。F15和F21的不利结果说明这种增益依赖具体地形。文献对照中，PADE在F8、F12、F13及部分固定维函数上具有较好表现，SCAHGM等算法在F5、F9和F11的表列均值仍有优势，PADE的价值在于其适用条件下的性能改善和机制可解释性。
+P	183	7A233285	188	Normal	机械算例中，焊接梁的最佳与平均成本均为1.724852，悬臂梁目标值为1.339956，两者30次运行标准差分别为1.129×10⁻¹⁵和4.517×10⁻¹⁶。这表明终值在当前数值精度下高度一致；极小标准差衡量重复性，不单独证明全局最优或物理模型精度。压力容器的最佳成本6059.714335与表列优良参考结果相近，但平均成本6143.699569、最差成本6410.086760及标准差140.9显示不同运行仍可能停留于不同规格分支。其均值与波动尚未优于SCAHGM的6088.8570和62.5397，离散抖动增加了跨网格搜索机会，而分支选择仍影响重复运行表现。
+P	184	7A233287	189	Normal	总体结果支持经验几何适配与状态触发有限干预相结合的设计思路。后续工作可围绕离散分支识别、几何估计对变量尺度的敏感性及底层自适应DE之上的独立机制增益展开，以进一步明确方法的适用范围与计算代价。
+P	185	7A233289	190	2	参考文献
+P	186	7A23328B	191	Normal	[1] STORN R, PRICE K. Differential evolution–a simple and efficient heuristic for global optimization over continuous spaces[J]. Journal of Global Optimization, 1997, 11(4): 341-359.
+P	187	7A23328D	192	Normal	[2] BREST J, GREINER S, BOSKOVIC B, et al. Self-adapting control parameters in differential evolution: A comparative study on numerical benchmark problems[J]. IEEE Transactions on Evolutionary Computation, 2006, 10(6): 646-657.
+P	188	7A23328F	193	Normal	[3] ZHANG J, SANDERSON A C. JADE: adaptive differential evolution with optional external archive[J]. IEEE Transactions on Evolutionary Computation, 2009, 13(5): 945-958.
+P	189	7A233291	194	Normal	[4] TANABE R, FUKUNAGA A S. Success-history based parameter adaptation for differential evolution[C]//2013 IEEE Congress on Evolutionary Computation. IEEE, 2013: 71-78.
+P	190	7A233293	195	Normal	[5] GUO S M, YANG C C. Enhancing differential evolution utilizing eigenvector-based crossover operator[J]. IEEE Transactions on Evolutionary Computation, 2015, 19(1): 31-49.
+P	191	7A233295	196	Normal	[6] HANSEN N, OSTERMEIER A. Completely derandomized self-adaptation in evolution strategies[J]. Evolutionary Computation, 2001, 9(2): 159-195.
+P	192	7A233297	197	Normal	[7] KARABOGA D, BASTURK B. A powerful and efficient algorithm for numerical function optimization: artificial bee colony (ABC) algorithm[J]. Journal of Global Optimization, 2007, 39(3): 459-471.
+P	193	7A233299	198	Normal	[8] 王联国, 刘小娟. 基于采蜜机制的正弦余弦算法及其在机械优化设计中的应用[J]. 中国机械工程, 2021, 32(21): 2577-2589.
+P	194	7A23329B	199	Normal	[9] WANG Y, LI H X, HUANG T, et al. Differential evolution based on covariance matrix learning and bimodal distribution parameter setting[J]. Applied Soft Computing, 2014, 18: 232–247. DOI: 10.1016/j.asoc.2014.01.038.
+P	195	7A23329D	200	Normal	[10] LIU Z Z, WANG Y, YANG S, et al. An adaptive framework to tune the coordinate systems in nature-inspired optimization algorithms[J]. IEEE Transactions on Cybernetics, 2019, 49(4): 1403–1416. DOI: 10.1109/TCYB.2018.2802912.
+P	196	7A23329F	201	Normal	[11] CHOI T J. An efficient eigenvector-based crossover for differential evolution: Simplifying with rank-one updates[J]. AIMS Mathematics, 2025, 10(2): 3500–3522. DOI: 10.3934/math.2025162.
+P	197	7A2332A1	202	Normal	[12] SONG Z, REN C, MENG Z. Differential evolution with perturbation mechanism and covariance matrix based stagnation indicator for numerical optimization[J]. Swarm and Evolutionary Computation, 2024, 84: 101447. DOI: 10.1016/j.swevo.2023.101447.
+P	198	7A2332A3	203	Normal	[13] SUN L, SONG Z, LIU J, et al. Hierarchically controlled differential evolution algorithm[J]. Expert Systems with Applications, 2025, 290: 128383. DOI: 10.1016/j.eswa.2025.128383.
+P	199	7A2332A5	204	Normal	[14] DEB K. An efficient constraint handling method for genetic algorithms[J]. Computer Methods in Applied Mechanics and Engineering, 2000, 186(2-4): 311-338.
+P	200	7A2332A7	205	Normal	[15] LEDOIT O, WOLF M. A well-conditioned estimator for large-dimensional covariance matrices[J]. Journal of Multivariate Analysis, 2004, 88(2): 365-411.
+P	201	7A2332A9	206	Normal	[16] COVER T M, THOMAS J A. Elements of Information Theory[M]. John Wiley & Sons, 2012.
+P	202	7A2332AB	207	Normal	[17] HE Q, WANG L. An effective co-evolutionary particle swarm optimization for constrained engineering design problems[J]. Engineering Applications of Artificial Intelligence, 2007, 20(1): 89-99.
+P	203	7A2332AD	208	Normal	[18] HE Q, WANG L. A hybrid particle swarm optimization with a feasibility-based rule for constrained optimization[J]. Applied Mathematics and Computation, 2007, 186(2): 1407-1422.
+P	204	7A2332AF	209	Normal	[19] MIRJALILI S. SCA: a sine cosine algorithm for solving optimization problems[J]. Knowledge-Based Systems, 2016, 96: 120-133.
+P	205	7A2332B1	210	Normal	[20] RAGSDELL K M, PHILLIPS D T. Optimal design of a class of welded structures using geometric programming[J]. Journal of Engineering for Industry, 1976, 98(3): 1021-1025.
+P	206	7A2332B3	211	Normal	[21] COELLO C A C. Use of a self-adaptive penalty approach for engineering optimization problems[J]. Computers in Industry, 2000, 41(2): 113-127.
+P	207	7A2332B5	212	Normal	[22] YANG X S, HUYCK C, KARAMANOGLU M, et al. True global optimality of the pressure vessel design problem: a benchmark for bio-inspired optimisation algorithms[J]. International Journal of Bio-Inspired Computation, 2013, 5(6): 329–335. DOI: 10.1504/IJBIC.2013.058910.
+P	208	7A2332B7	213	Normal	[23] KANNAN B K, KRAMER S N. An augmented Lagrange multiplier based method for mixed integer discrete continuous optimization and its applications to mechanical design[J]. Journal of Mechanical Design, 1994, 116(2): 405-411.
+P	209	7A2332B9	214	Normal	[24] SANDGREN E. Nonlinear integer and discrete programming in mechanical design optimization[J]. Journal of Mechanical Design, 1990, 112(2): 223-229.

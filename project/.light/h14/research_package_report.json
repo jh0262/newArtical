@@ -1,0 +1,25 @@
+{
+  "schema": "light.research_plan_package_gate.v1",
+  "project": "TA_TPDE_Benchmark_V0_1-H14",
+  "mode": "final",
+  "verdict": "WARN",
+  "issues": [
+    {
+      "severity": "warn",
+      "code": "MATRIX_LINT_WARNING",
+      "loc": "experiment_matrix.md",
+      "message": "多重比较族 K=4（4 行做显著性检验）：种子/重复数应在校正后 α 上反推，否则 result-analysis 做 BH-FDR 后整盘静默欠功效。跑 `python scripts/power_check.py --effect <d> --n-comparisons 4 --correction bh` 取校正后 min_n。",
+      "fix": "若暂不修复，必须在 manifest.warning_decisions 记录处理/降 claim/用户授权。"
+    }
+  ],
+  "artifacts": {
+    "research_plan": "PROJECT_PLAN.md",
+    "experiment_matrix": "experiment_matrix.md",
+    "target_chain_report": "target_chain_report.json",
+    "failure_tree_report": "failure_tree_report.json",
+    "plan_findings": "plan_findings.json",
+    "preregistration": "preregistration.md",
+    "reproducibility_checklist": "reproducibility-checklist.md"
+  },
+  "honesty": "本门只核计划包完整性、既有机器门报告、失败树/guardrail、预注册/复现字段、warning 决策与用户授权；PASS 不证明领域设计最优、因果识别成立、IRB/伦理/统计专家已批准。"
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "light.findings.v1",
+  "producer": "research-plan",
+  "target": "TA_TPDE_Benchmark_V0_1-H14",
+  "verdict": "pass",
+  "summary": "research-plan 方案门:对照公平 + 可证伪(critical)+ 消融隔离 + 统计功效(warn)→ 对照不公平/不可证伪 → run_checkpoint --stage 5 exit 1(在 stage 5 内修复,无出边);research-plan 是 7→5/13→5 回炉落点。",
+  "fresh_evidence": true,
+  "gates": [
+    {
+      "gate": "fair_baseline",
+      "status": "pass",
+      "severity": "info",
+      "findings": [],
+      "note": "对照公平性已声明(同数据/等量调参/最强可得);终判仍需人/领域复核。"
+    },
+    {
+      "gate": "falsifiable",
+      "status": "pass",
+      "severity": "info",
+      "findings": [],
+      "note": "每条假设均有可量化反证条件(可被推翻);终判仍需人/领域复核。"
+    },
+    {
+      "gate": "ablation_isolation",
+      "status": "pass",
+      "severity": "info",
+      "findings": [],
+      "note": "消融覆盖 + 负对照齐(plan_lint 严谨性 95/100)。"
+    },
+    {
+      "gate": "statistical_power",
+      "status": "pass",
+      "severity": "info",
+      "findings": [],
+      "note": "每组 16 次达 power=0.8414≥0.8(功效充足)。"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "mdt.h14-formal-bundle-audit.v0.1",
+  "audited_at": "2026-09-01T05:47:59.2014026+08:00",
+  "output_dir": "runs/H14_CONTROLLED/formal-rc2-b",
+  "status": "PASS",
+  "batch_status": "COMPLETE_FORMAL",
+  "expected_runs": 6720,
+  "completed_runs": 6720,
+  "failed_runs": 0,
+  "formal_performance_run": true,
+  "result_rows": 6720,
+  "unique_result_run_ids": 6720,
+  "duplicate_result_run_id_groups": 0,
+  "bad_status_rows": 0,
+  "bad_nfe_rows": 0,
+  "truth_firewall_violations": 0,
+  "nonformal_rows": 0,
+  "nonfinite_metric_rows": 0,
+  "manifests_audited": 6720,
+  "unique_manifest_run_ids": 6720,
+  "hash_records_audited": 161280,
+  "manifest_hash_errors": 0,
+  "failure_files": 0,
+  "hashes": {
+    "h14_results_csv": "6cf88be96b61ce7329325b76e57dd92b3858a740c83c757472099358acd7dc61",
+    "batch_manifest_json": "5970bccee698cdcab4e7a6dc7dc5067a9081100d0a436fa8eb9349440c61a25e",
+    "run_matrix_csv": "f7159f89317cf02a018d67809d98b8a8d10fea1dc1af8a8145e68fa8f7175945",
+    "source_manifest_json": "4247ccefb8d9d117f642206cdb691ff85bd24e2640d3f4b67e2623cf58d5cf5b"
+  },
+  "excluded_output": "runs/H14_CONTROLLED/formal-rc2-a",
+  "claim_boundary": "Integrity PASS permits frozen statistical analysis; it does not by itself establish algorithm superiority, mechanism, generality or engineering validity."
+}

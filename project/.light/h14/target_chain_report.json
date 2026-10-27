@@ -1,0 +1,6 @@
+{
+  "schema": "light.research_target_chain_report.v1",
+  "status": "PASS",
+  "issues": [],
+  "honesty": "本门核计划链、时序、变更与风险字段；PASS 不证明效应存在、样本充分或方法在真实数据上有效。"
+}

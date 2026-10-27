@@ -1,0 +1,33 @@
+{
+  "schema": "light.research_plan_package.v1",
+  "project": "TA_TPDE_Benchmark_V0_1-H14",
+  "artifacts": {
+    "research_plan": "PROJECT_PLAN.md",
+    "experiment_matrix": "experiment_matrix.md",
+    "target_chain_report": "target_chain_report.json",
+    "failure_tree_report": "failure_tree_report.json",
+    "plan_findings": "plan_findings.json",
+    "preregistration": "preregistration.md",
+    "reproducibility_checklist": "reproducibility-checklist.md"
+  },
+  "warning_decisions": [
+    {
+      "source": "matrix_lint",
+      "decision": "Retain n=16 landscapes because the declared d=1.2, K=3 Bonferroni normal approximation requires at least 15; treat this only as planning sensitivity and require landscape-cluster simulation-power audit before formal freeze. Compound rows retain FSCAUC as primary and HV only as a guardrail.",
+      "claim_impact": "The approximate power result is not evidence of adequate cluster-bootstrap precision; no mechanism claim is allowed from B1 or the L negative-control row alone.",
+      "authorized_by": "user-msg-2026-08-31-continue-recommended"
+    },
+    {
+      "source": "pre-data-H4-amendment",
+      "decision": "Treat H4 as a secondary Q=2 harm boundary outside the H1-H3 Holm family; classify lower-bound pass, upper-bound harm, or interval-spanning inconclusive without any equivalence claim. The matrix linter's K=4 warning is a documented heuristic false positive because H4 has no significance test or multiplicity-adjusted p value; the confirmatory family remains K=3.",
+      "claim_impact": "H4 can only support a bounded no-detected-harm statement or identify harm/inconclusiveness; it cannot support SparseLedger superiority.",
+      "authorized_by": "user-msg-2026-08-31-enter-next-stage"
+    }
+  ],
+  "handoff": {
+    "next_stage": "experiment-coding",
+    "user_authorized": true,
+    "authorized_at": "2026-08-31T16:30:00+08:00",
+    "claim_scope": "Authorized for pre-data H4 amendment, statistics TDD, synthetic validation and an analysis freeze candidate. Formal 6720-run performance execution remains unauthorized."
+  }
+}

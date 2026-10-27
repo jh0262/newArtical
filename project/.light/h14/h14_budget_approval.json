@@ -1,0 +1,11 @@
+{
+  "schema": "mdt.h14-budget-approval.v0.1",
+  "status": "APPROVED",
+  "approved_at": "2026-08-31T21:30:00+08:00",
+  "user_message": "批准",
+  "approved_budget_path": ".light/h14/h14_formal_resource_budget_v0_1.json",
+  "approved_budget_sha256": "3885fbc34cb7c0f35ed91941836aac60ed244af332fbf0b008499fb742889539",
+  "approved_scope": "Approve the proposed H14 compute, storage, monitoring, cancellation and resume limits, and authorize preparation and independent verification of a hash-bound formal-execution release candidate.",
+  "execution_start_authorized": false,
+  "excluded_authority": "This approval does not start the 6720-run formal batch and does not authorize changing the frozen scientific estimand, matrix, seeds, NFE, metrics, multiplicity family or result-analysis rules."
+}

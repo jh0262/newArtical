@@ -1,0 +1,51 @@
+{
+  "schema": "mdt.h14-analysis-freeze-candidate.v0.2",
+  "status": "READY_FOR_INDEPENDENT_RESTORE_AND_FORMAL_REVIEW",
+  "generated_at": "2026-08-31T20:38:02+08:00",
+  "formal_performance_authorized": false,
+  "authorization_sha256": "89f48b80c986a544df1d93e958cd248a03f28d62a4af764b2a7a1d39d3935f72",
+  "plan": [
+    {"path":".light/h14/PROJECT_PLAN.md","sha256":"6ff40a50450d139245aab82c709ff89e5c30e1912907f8af272ceb111251e048"},
+    {"path":".light/h14/experiment_matrix.md","sha256":"ed742fdeccc18cc3b7d6d77975a0f14d382ace85acd89f478268592862f10a0c"},
+    {"path":".light/h14/target-chain.json","sha256":"c401399bbf68734780a6975ffd357d646318290843720e7f63f17e0805cc42c3"},
+    {"path":".light/h14/failure-tree.json","sha256":"fdb4cd9f8db3cf0035f88716c42cb260004fb3f27c9247a2e2716a6fa0e73358"},
+    {"path":".light/h14/preregistration.md","sha256":"731dbb369de2351f1ba08b3389070543ac5bfed7b6a5ed4e4055814a5153a6a7"},
+    {"path":".light/h14/plan_findings.json","sha256":"7fb1aba1273eba04130b34841beea418c789062d1aec632ef8906c121e752bd3"},
+    {"path":".light/h14/failure_tree_report.json","sha256":"f82533628cdab06891d36fd2bd8db60520965cce449e9694520a4abc77f74ad3"},
+    {"path":".light/h14/research_package_report.json","sha256":"19c46365a1b3fc3972e0de8b89790df4dbc3637c941c720c407a4880242d3e1b"},
+    {"path":".light/h14/plan_package.json","sha256":"7289bb9f52c3f50bf977e6fff4c91fd78d23c2713a477e82a2b8bd811af887de"},
+    {"path":".light/h14/reproducibility-checklist.md","sha256":"d693a9b5f8e0b34dcff39a2b295f083faf2730180f7f29dacbfc1b3f6e6dce49"},
+    {"path":".light/h14/formal_execution_readiness.md","sha256":"d7207447d277b42f8a19689c9f9926af84f5030cf4e1a767a2a155db8f3b7b1c"},
+    {"path":".light/h14/h14_analysis_authorization.json","sha256":"89f48b80c986a544df1d93e958cd248a03f28d62a4af764b2a7a1d39d3935f72"}
+  ],
+  "execution_and_analysis": [
+    {"path":".light/h14/h14_formal_run_matrix.csv","sha256":"f7159f89317cf02a018d67809d98b8a8d10fea1dc1af8a8145e68fa8f7175945"},
+    {"path":"matlab/+mdt/runH14ControlledBatch.m","sha256":"8fd83f1102975d7192397c970a900c9348ddd8fee51a72801cd5cb55b2ec7146"},
+    {"path":"matlab/+mdt/computeH14Statistics.m","sha256":"2d09f122388b41ae450900ac5d913eb537679857a2f9c08405b5797a84db5f72"},
+    {"path":"matlab/+mdt/runH14ResultAnalysis.m","sha256":"c3e1fe4f09683278b2e7997d7a6439198a64be24c71a60fbde290939ca00335b"},
+    {"path":"matlab/+mdt/h14FormalPerformanceFlag.m","sha256":"f6e92b6f338ae8f4282eccc33800a3d6722438b82aa702fdd5dd4cfc36720a76"},
+    {"path":"tests/test_mdt_h14_statistics.m","sha256":"de95186d18d38327877edf1c41d0539a741e6da03016cad04193e7a761a70fae"},
+    {"path":"tests/test_mdt_h14_execution.m","sha256":"035210e0cc3dde8296aec9bd2083b914121ea8176243118ac31a2f3524d8c496"},
+    {"path":"evidence/h14_full_junit.xml","sha256":"6e372e99b5f4233a799f54247fb4db71b79d2b7604aa87496f784f2afcef964d"},
+    {"path":".light/h14/experiment_execution_contract_preflight.json","sha256":"4faf9e8682fc46dad7c33fbc8f0bb60b28e9f898f027d329c2b9b33dce6596ed"},
+    {"path":".light/h14/h14_preflight_repro_report.json","sha256":"b7061f1c0749984c4d35cb593b206c35599672a242730127c9a9bcd0847bfe49"},
+    {"path":".light/h14/tdd_statistics_red_evidence.md","sha256":"72b8c2ba0bd9d8a8cb7933ad4055a2f3b54477fcd38708308515573dd747378c"},
+    {"path":".light/h14/tdd_statistics_green_evidence.md","sha256":"1ef7cf345f4ef62816a88afef526dd9a839f7781bf198a22579b3cf44de4eb21"},
+    {"path":".light/h14/h14_statistics_synthetic_validation.md","sha256":"ddc8eac9a97a7ed4775dfd2dca71504fed77ebcb40cdde03a6cb748e3d99b1ec"}
+  ],
+  "preflight": {
+    "source_manifest_sha256": "3ebaad5d8e2a01250ca3e93e6eebb4dbf7f0b43abaa0ccdc9f7494a9b6edcec7",
+    "batch_a_manifest_sha256": "8b70e75594eead466eada7d0364f8c567d4f670691a19a54501a5fec70c3b326",
+    "batch_b_manifest_sha256": "82897228c938c8d9a15e2f0c76a5ed6e0260f4025b4840800b948091edc12886",
+    "artifact_manifests_valid": 42,
+    "same_seed_pairs_exact": 42,
+    "resume_runs_verified": 42
+  },
+  "verification": {
+    "h14_tests": "26/26 PASS",
+    "full_regression": "172/172 PASS",
+    "matlab_code_analyzer": "140 files, 0 messages",
+    "independent_empty_directory_restore": "PENDING"
+  },
+  "evidence_boundary": "This candidate freezes current hashes for review only. It is not an authoritative release, does not authorize formal execution, and contains no H14 formal performance results."
+}

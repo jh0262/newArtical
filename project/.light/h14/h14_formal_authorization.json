@@ -1,0 +1,31 @@
+{
+  "schema": "mdt.h14-formal-authorization.v0.1",
+  "status": "AUTHORIZED_FORMAL_START",
+  "prepared_at": "2026-08-31T21:36:00+08:00",
+  "start_authorized_at": "2026-08-31T22:01:20+08:00",
+  "user_message": "启动H14正式实验",
+  "budget_approved": true,
+  "execution_start_authorized": true,
+  "approved_scope": "Start and monitor the frozen 6720-run H14 formal batch under the approved resource, cancellation and evidence-integrity budget.",
+  "authorized_output": "runs/H14_CONTROLLED/formal-rc2-b",
+  "start_boundary": "Authorization is limited to the hash-bound RC2 implementation, 6720-row run matrix, formal-rc2-b output and repaired external watchdog listed below. formal-rc2-a is an aborted orchestration incident and is excluded from analysis.",
+  "bindings": [
+    {"path": ".light/h14/h14_budget_approval.json", "sha256": "9be5fe787594e000a304a302a7cd2c2b3188442825eaf58497b572449ac7bbb7"},
+    {"path": ".light/h14/h14_formal_resource_budget_v0_1.json", "sha256": "3885fbc34cb7c0f35ed91941836aac60ed244af332fbf0b008499fb742889539"},
+    {"path": ".light/h14/h14_formal_run_matrix.csv", "sha256": "f7159f89317cf02a018d67809d98b8a8d10fea1dc1af8a8145e68fa8f7175945"},
+    {"path": "releases/H14-Analysis-v0.2.0-rc1/H14-Analysis-v0.2.0-rc1-source-and-evidence.zip", "sha256": "e986c08ca7e96f09515c5cf478e4be20c296fc4b4214392dbf101273d8b58d19"},
+    {"path": "releases/H14-Formal-v0.3.0-rc2/H14-Formal-v0.3.0-rc2-source-and-evidence.zip", "sha256": "579830060e438b3b4e8c16d795b8db06005b5f1540b59ab958e4bb3e13469d96"},
+    {"path": "releases/H14-Formal-v0.3.0-rc2/H14_FORMAL_RC2_MANIFEST.json", "sha256": "4b799758ec0f8ef76cbd1b1cb20e56d5d4ad6872d4245c2e627c75df53f7cf85"},
+    {"path": ".light/h14/run_h14_formal_watchdog.ps1", "sha256": "4a0432c2d97d6e4eb5344892829c6ab51cb334b04e761ba01a4996465bb4788a"},
+    {"path": ".light/h14/test_h14_formal_watchdog.ps1", "sha256": "8ebba81b546daf94afe73c5437f6f2f3062689363e84827a6818eb64d3ce7b14"},
+    {"path": "matlab/+mdt/makeH14Design.m", "sha256": "8af063d80b661f887dbad3f2e669cd938bd76c28a433be4d8458defa49b8dc4e"},
+    {"path": "matlab/+mdt/runH14ControlledBatch.m", "sha256": "8d2a8576859b0a4ffdc384a8ec1b5fa92d341e761cdf14a00c46194716e2c33c"},
+    {"path": "matlab/+mdt/computeH14Statistics.m", "sha256": "2d09f122388b41ae450900ac5d913eb537679857a2f9c08405b5797a84db5f72"},
+    {"path": "matlab/+mdt/runH14ResultAnalysis.m", "sha256": "c3e1fe4f09683278b2e7997d7a6439198a64be24c71a60fbde290939ca00335b"},
+    {"path": "matlab/+mdt/evaluateH14ExecutionGuard.m", "sha256": "a16ee52b5c83373234ec45399a9c022db5bcba7bcd422dc98f4aec195e02943c"},
+    {"path": "matlab/+mdt/validateH14FormalAuthorization.m", "sha256": "4cbcc8a1f9d5bf9a45604c8db4fe23c3e3b2145efb3113c595e240e0e47c7427"},
+    {"path": "tests/test_mdt_h14_execution.m", "sha256": "30f7c2f0fafd9c0b812ec0281dc2ed0e821f1a06edb31a05066c49c417e3f607"},
+    {"path": "tests/test_mdt_h14_controlled_benchmark.m", "sha256": "768d628d5093a4174ec17246a2e4d009bc676f608e9f40fa5f6011bbdde3697f"}
+  ],
+  "evidence_boundary": "This authorizes execution only; it does not constitute a performance result. Claims require completed raw runs, integrity audit and frozen statistical analysis."
+}

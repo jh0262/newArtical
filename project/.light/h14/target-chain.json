@@ -1,0 +1,128 @@
+{
+  "schema": "light.research_target_chain.v1",
+  "plan_state": "PROPOSED",
+  "nodes": [
+    {
+      "node_id": "Q-H14",
+      "type": "QUESTION",
+      "statement": "When does least-visited SparseLedger targeting improve mixed-discrete feasible-state discovery beyond an equal-frequency uniform targeting control?"
+    },
+    {
+      "node_id": "E-H14",
+      "type": "ESTIMAND",
+      "timing": "PRE_DATA",
+      "statement": "Landscape-generalized paired algorithm effect on normalized feasible-state coverage AUC.",
+      "population": "Synthetic H14 landscapes generated from the frozen Q, layout and L factorial",
+      "treatment_or_exposure": "B5S least-visited targeting versus B5R uniform targeting and B1 no-injection baseline",
+      "outcome": "Feasible discrete-state coverage AUC over 0 to 10000 NFE",
+      "summary_measure": "Mean paired-seed difference per landscape followed by landscape-level location and 95% cluster-bootstrap CI",
+      "statistical_unit": "landscape instance",
+      "randomization_unit": "paired algorithm seed nested within landscape",
+      "analysis_unit": "landscape instance",
+      "unit_mismatch_rationale": "Algorithms share each seed within a landscape; seed-level pairs are averaged before inference so repeated stochastic runs are not counted as independent landscapes."
+    },
+    {
+      "node_id": "H-H14-M1",
+      "type": "HYPOTHESIS",
+      "statement": "At Q=4096 dispersed, B5S exceeds B5R by at least 0.01 FSCAUC without breaching the HV guardrail."
+    },
+    {
+      "node_id": "H-H14-M2",
+      "type": "HYPOTHESIS",
+      "statement": "At Q=4096 dispersed, B5S exceeds B1 by at least 0.01 FSCAUC without breaching the HV guardrail."
+    },
+    {
+      "node_id": "H-H14-M3",
+      "type": "HYPOTHESIS",
+      "statement": "The B5S-minus-B5R FSCAUC gain at Q=4096 exceeds that at Q=16 by at least 0.01."
+    },
+    {
+      "node_id": "P-H14",
+      "type": "PRIMARY_ENDPOINT",
+      "timing": "PRE_DATA",
+      "statement": "Normalized feasible discrete-state coverage AUC from all evaluated candidates.",
+      "measurement_instrument": "Post-evaluation H14 oracle observer at 100-NFE checkpoints",
+      "operational_definition": "Trapezoidal integral of cumulative unique feasible-state count divided by K and 10000 NFE, including origin (0,0)",
+      "unit": "absolute normalized AUC in [0,1]",
+      "minimally_meaningful_effect": "0.01 absolute FSCAUC",
+      "missingness_policy": "No silent exclusion; invalid or unrecoverable run causes the affected contrast to be incomplete and inconclusive."
+    },
+    {
+      "node_id": "A-H14",
+      "type": "ANALYSIS_FAMILY",
+      "timing": "PRE_DATA",
+      "statement": "Three landscape-level primary contrasts with paired seeds and cluster bootstrap.",
+      "method": "Average paired-seed differences and L={1,4} within each landscape; use the arithmetic mean across 16 landscapes, 20000 fixed-seed landscape bootstrap replicates for a two-sided 95% percentile CI, and an exact one-sided 2^16 sign-flip test of effect minus 0.01",
+      "assumptions": "Landscape seeds instantiate independent draws from the frozen generator; algorithm seeds are exchangeable stochastic repeats within landscape; run failures are not outcome-dependent exclusions",
+      "multiplicity": "Holm FWER 0.05 over H14-M1, H14-M2 and H14-M3; H4 is a secondary harm boundary outside this family",
+      "independence_assumption": "Only landscape instances are independent analysis units; the 10 algorithm seeds inside a landscape are paired repeats and never inflate n."
+    },
+    {
+      "node_id": "F-H14",
+      "type": "FALSIFIER",
+      "statement": "The mechanism claim is falsified or remains unsupported when coverage, multiplicity or quality conditions fail.",
+      "observation": "Landscape-level FSCAUC CI, Holm q and terminal normalized feasible-HV CI",
+      "threshold": "support requires FSCAUC or interaction CI lower >0.01, Holm q<0.05, and relevant HV CI lower >=-0.005; otherwise fail or report inconclusive"
+    },
+    {
+      "node_id": "ACT-H14",
+      "type": "ACTION",
+      "statement": "Choose the publication claim from the frozen success, failure and inconclusive branches.",
+      "if_supported": "Proceed to a bounded mechanism claim for the controlled high-Q dispersed benchmark family and retain engineering-validation exclusion.",
+      "if_falsified": "Do not claim SparseLedger-specific benefit; report boundary/failure and replan only in a newly authorized version."
+    }
+  ],
+  "edges": [
+    {"from": "Q-H14", "to": "E-H14"},
+    {"from": "E-H14", "to": "H-H14-M1"},
+    {"from": "E-H14", "to": "H-H14-M2"},
+    {"from": "E-H14", "to": "H-H14-M3"},
+    {"from": "H-H14-M1", "to": "P-H14"},
+    {"from": "H-H14-M2", "to": "P-H14"},
+    {"from": "H-H14-M3", "to": "P-H14"},
+    {"from": "P-H14", "to": "A-H14"},
+    {"from": "A-H14", "to": "F-H14"},
+    {"from": "F-H14", "to": "ACT-H14"}
+  ],
+  "amendments": [],
+  "risk_register": [
+    {
+      "risk_id": "R-H14-01",
+      "likelihood": "medium",
+      "severity": "high",
+      "mitigation": "Algorithm API receives benchmark evaluator and variableSpec only; oracle use is confined to post-evaluation metrics and audited.",
+      "owner": "research lead",
+      "trigger": "truthUsedByAlgorithm=true or oracle passed into generation/selection"
+    },
+    {
+      "risk_id": "R-H14-02",
+      "likelihood": "medium",
+      "severity": "medium",
+      "mitigation": "Use landscape-level inference and pre-specified inconclusive branch rather than counting seeds as independent samples.",
+      "owner": "analysis lead",
+      "trigger": "analysis table contains n=160 independent observations per cell"
+    },
+    {
+      "risk_id": "R-H14-03",
+      "likelihood": "low",
+      "severity": "high",
+      "mitigation": "Formal batch runner must reject execution until a separate formal authorization and source freeze exist.",
+      "owner": "experiment lead",
+      "trigger": "formalPerformanceAuthorized=false"
+    }
+  ],
+  "comparative_study": true,
+  "baseline_fairness": {
+    "data": "All algorithms use the identical generated landscape and evaluator for each paired run.",
+    "compute": "N=100, archive=100 and exactly 10000 evaluator calls for every algorithm.",
+    "tuning": "No H14 performance tuning; canonical frozen DE and novelty parameters are reused.",
+    "evaluation_protocol": "Identical checkpoints, oracle observer, metric definitions, failure rules and landscape-level analysis."
+  },
+  "authorization": {
+    "actor": "",
+    "authorization_id": "",
+    "scope": "",
+    "authorized_at": "",
+    "plan_sha256": ""
+  }
+}

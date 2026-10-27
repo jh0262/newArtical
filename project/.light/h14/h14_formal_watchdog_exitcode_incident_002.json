@@ -1,0 +1,18 @@
+{
+  "schema": "mdt.h14-watchdog-incident.v0.1",
+  "incident_id": "H14-WATCHDOG-002",
+  "classification": "POST_EXIT_FALSE_NEGATIVE",
+  "output_dir": "runs/H14_CONTROLLED/formal-rc2-b",
+  "watchdog_reported_state": "PROCESS_EXIT_INCOMPLETE",
+  "watchdog_reported_reason": "MATLAB_EXIT_OR_INCOMPLETE_BATCH",
+  "observed_matlab_exit_code": null,
+  "authoritative_batch_state": "COMPLETE_FORMAL",
+  "completed_runs": 6720,
+  "failed_runs": 0,
+  "root_cause": "After natural process exit, Windows PowerShell 5.1 did not expose a numeric ExitCode on the retained Start-Process object. The watchdog therefore failed its combined exit-code and batch-manifest condition.",
+  "impact": "Monitoring status only. MATLAB wrote a complete formal batch and all 161280 referenced artifact hashes passed independent read-only audit.",
+  "containment": "Do not use watchdog_status.json alone as the completion authority for this run; bind completion to batch_manifest.json and h14_formal_bundle_audit_v0_1.json.",
+  "frozen_source_changed_after_run": false,
+  "future_repair": "For a later release, test the post-exit decision under Windows PowerShell 5.1 and allow a validated COMPLETE_FORMAL batch manifest to resolve a null process ExitCode. Do not retrofit the frozen current evidence.",
+  "evidence_boundary": "This is an orchestration-reporting defect, not an algorithm or result-integrity failure."
+}

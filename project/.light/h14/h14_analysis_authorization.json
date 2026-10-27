@@ -1,0 +1,8 @@
+{
+  "schema": "mdt.h14-analysis-authorization.v0.1",
+  "status": "AUTHORIZED_PLAN_AMENDMENT_AND_STATISTICS_IMPLEMENTATION",
+  "authorized_at": "2026-08-31T16:30:00+08:00",
+  "user_message": "进入下一阶段",
+  "authorized_scope": "Pre-data H4 amendment, H14 statistics TDD, synthetic-fixture validation, plan gates and an analysis freeze candidate.",
+  "excluded_scope": "No 6720-run formal performance execution, no post-result tuning, no H13 reinterpretation, and no modification of B5-Ref-v1.0.1."
+}

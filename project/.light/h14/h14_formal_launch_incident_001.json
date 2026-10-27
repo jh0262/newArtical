@@ -1,0 +1,24 @@
+{
+  "schema": "mdt.h14-formal-launch-incident.v0.1",
+  "incident_id": "H14-LAUNCH-001",
+  "classification": "ORCHESTRATION_COMPATIBILITY_FAILURE",
+  "failed_output": "runs/H14_CONTROLLED/formal-rc2-a",
+  "failed_output_status": "ABORTED_EXCLUDED_FROM_ANALYSIS",
+  "observed_progress_rows": 18,
+  "observed_completed_manifests": 50,
+  "root_cause": "Windows PowerShell 5.1 does not accept Set-Content -Encoding utf8NoBOM.",
+  "containment": [
+    "Terminated the unmonitored MATLAB process.",
+    "Confirmed no MATLAB process remained.",
+    "Preserved the failed output directory as incident evidence.",
+    "Excluded every artifact under formal-rc2-a from formal analysis."
+  ],
+  "repair": [
+    "Replaced shell-specific JSON encoding with .NET UTF8Encoding(false).",
+    "Added a Windows PowerShell 5.1 atomic JSON regression test.",
+    "Added an explicit resume contract but selected a fresh output for evidence consistency."
+  ],
+  "restart_output": "runs/H14_CONTROLLED/formal-rc2-b",
+  "scientific_design_changed": false,
+  "evidence_boundary": "This incident contains no admissible H14 performance result."
+}

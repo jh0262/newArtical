@@ -1,0 +1,38 @@
+{
+  "key": "P07",
+  "root": "03_实验后待重构_P07_TA_TPDE_MVSI",
+  "title": "Evaluation-Balanced Mixed-Discrete Constrained Multiobjective Differential Evolution for Disconnected Feasible Regions",
+  "branch": "Evaluation-Balanced-Mixed-Discrete-Constrained-Multiobjective-Differential-Evolution-for-Disconnected-Feasible-Regions",
+  "include": [
+    "matlab",
+    "tests",
+    "run_tests.m",
+    "run_tests_with_evidence.m",
+    "README.md",
+    "docs",
+    "evidence",
+    "runs/H14_CONTROLLED/formal-rc2-a",
+    "runs/H14_CONTROLLED/formal-rc2-b",
+    ".light/h14/result-analysis",
+    ".light/h14/*.json",
+    ".light/h14/*.csv",
+    ".light/h14/*.md",
+    ".light/h15_theory/MVSI_STAGE_REPORT_v0_1.md"
+  ],
+  "status": "H14 completed 6720 formal runs; its main hypotheses were not supported. The later MVSI candidate has no formal performance evidence. The older project README and pre-run freeze documents retain their historical status.",
+  "entry": "MATLAB source is in matlab/+mdt. H14 saved-result analysis and evidence are under .light/h14/result-analysis. Read the original run matrices and frozen specifications before any rerun.",
+  "exclude": [],
+  "data": [
+    "runs",
+    "evidence",
+    ".light/h14/result-analysis"
+  ],
+  "snapshot_date": "2026-10-28",
+  "resource_files": 156255,
+  "original_bytes": 1862712166,
+  "bundles": 28,
+  "omitted_large_files": [],
+  "secret_pattern_findings": [],
+  "source_files_modified": false,
+  "experiments_run_for_publication": false
+}

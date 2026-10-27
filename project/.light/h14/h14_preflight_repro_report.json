@@ -1,0 +1,39 @@
+{
+  "schema": "mdt.h14-preflight-repro-report.v0.1",
+  "generated_at": "2026-08-31T20:38:02+08:00",
+  "scope": "Software execution, artifact integrity, resume and same-environment deterministic replay only; not algorithm-performance evidence.",
+  "checker": "C:/Users/hp/.codex/skills/light-experiment-coding/scripts/run_artifact_check.py",
+  "batch_a": {
+    "locator": "runs/H14_CONTROLLED/preflight-v5-a",
+    "expected_runs": 42,
+    "completed_runs": 42,
+    "failed_runs": 0,
+    "batch_manifest_sha256": "8b70e75594eead466eada7d0364f8c567d4f670691a19a54501a5fec70c3b326"
+  },
+  "batch_b": {
+    "locator": "runs/H14_CONTROLLED/preflight-v5-b",
+    "expected_runs": 42,
+    "completed_runs": 42,
+    "failed_runs": 0,
+    "batch_manifest_sha256": "82897228c938c8d9a15e2f0c76a5ed6e0260f4025b4840800b948091edc12886"
+  },
+  "artifact_validation": {
+    "manifests_checked": 42,
+    "valid": 42,
+    "failed": 0
+  },
+  "same_seed_reproduction": {
+    "pairs_checked": 42,
+    "exact": 42,
+    "failed": 0,
+    "compared_artifacts": ["raw_metrics", "predictions"],
+    "seed_role": "fixed_repro"
+  },
+  "resume_validation": {
+    "locator": "runs/H14_CONTROLLED/preflight-v5-a",
+    "completed_runs": 42,
+    "resumed_runs": 42,
+    "failed_runs": 0
+  },
+  "decision": "PASS_PREFLIGHT_ONLY"
+}

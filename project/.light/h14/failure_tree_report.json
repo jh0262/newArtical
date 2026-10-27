@@ -1,0 +1,8 @@
+{
+  "schema": "light.research_failure_tree_report.v1",
+  "status": "PASS",
+  "advancement": "ALLOW",
+  "project": "TA_TPDE_Benchmark_V0_1-H14",
+  "issues": [],
+  "honesty": "PASS 只表示成功/失败/无结论分支、guardrail、stopping 与 amendment policy 结构闭合；不证明阈值科学最优、伦理合规或领域专家已批准。"
+}

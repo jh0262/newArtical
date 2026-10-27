@@ -1,0 +1,147 @@
+{
+  "schema": "light.research_failure_tree.v1",
+  "project": "TA_TPDE_Benchmark_V0_1-H14",
+  "plan_state": "DRAFT",
+  "hypotheses": [
+    {
+      "id": "H1",
+      "claim": "At Q=4096 dispersed, least-visited SparseLedger targeting has a meaningful FSCAUC advantage over equal-frequency uniform targeting without terminal HV harm.",
+      "primary_endpoint": {
+        "metric": "B5S-minus-B5R landscape-level FSCAUC difference",
+        "unit": "absolute normalized AUC",
+        "timepoint": "fixed 10000-NFE H14 formal matrix"
+      },
+      "branches": {
+        "success": {
+          "condition": "FSCAUC 95% cluster-bootstrap CI lower >0.01, Holm q<0.05, and HV difference CI lower >=-0.005",
+          "action_kind": "PROCEED_CONFIRMATORY",
+          "claim_impact": "Allow a bounded SparseLedger-targeting mechanism claim for high-Q dispersed synthetic landscapes."
+        },
+        "failure": {
+          "condition": "FSCAUC CI upper <=0 or HV difference CI lower <-0.005",
+          "action_kind": "DOWNGRADE_CLAIM",
+          "claim_impact": "Reject the claimed benefit or record a quality-failure boundary; no superiority wording."
+        },
+        "inconclusive": {
+          "condition": "FSCAUC CI lower <=0.01 while CI upper >0, or Holm q>=0.05, with HV CI lower >=-0.005",
+          "action_kind": "REPORT_INCONCLUSIVE",
+          "claim_impact": "Report insufficient evidence/precision; do not treat non-significance as equivalence."
+        }
+      }
+    },
+    {
+      "id": "H2",
+      "claim": "At Q=4096 dispersed, B5S has a meaningful FSCAUC advantage over B1 without terminal HV harm.",
+      "primary_endpoint": {
+        "metric": "B5S-minus-B1 landscape-level FSCAUC difference",
+        "unit": "absolute normalized AUC",
+        "timepoint": "fixed 10000-NFE H14 formal matrix"
+      },
+      "branches": {
+        "success": {
+          "condition": "FSCAUC 95% cluster-bootstrap CI lower >0.01, Holm q<0.05, and HV difference CI lower >=-0.005",
+          "action_kind": "PROCEED_CONFIRMATORY",
+          "claim_impact": "Allow a bounded total-injection-effect claim in the controlled benchmark family."
+        },
+        "failure": {
+          "condition": "FSCAUC CI upper <=0 or HV difference CI lower <-0.005",
+          "action_kind": "DOWNGRADE_CLAIM",
+          "claim_impact": "No total-injection advantage claim; record failure or quality tradeoff."
+        },
+        "inconclusive": {
+          "condition": "FSCAUC CI lower <=0.01 while CI upper >0, or Holm q>=0.05, with HV CI lower >=-0.005",
+          "action_kind": "REPORT_INCONCLUSIVE",
+          "claim_impact": "Report no conclusion and preserve B1 comparison as non-attributive."
+        }
+      }
+    },
+    {
+      "id": "H3",
+      "claim": "SparseLedger targeting benefit increases materially with discrete cardinality under dispersed feasible states.",
+      "primary_endpoint": {
+        "metric": "Q4096-minus-Q16 interaction in the B5S-minus-B5R landscape-level FSCAUC difference",
+        "unit": "absolute normalized AUC",
+        "timepoint": "fixed 10000-NFE H14 formal matrix"
+      },
+      "branches": {
+        "success": {
+          "condition": "Interaction 95% cluster-bootstrap CI lower >0.01 and Holm q<0.05",
+          "action_kind": "PROCEED_CONFIRMATORY",
+          "claim_impact": "Allow a cardinality-dependent mechanism statement within the frozen generator."
+        },
+        "failure": {
+          "condition": "Interaction CI upper <=0",
+          "action_kind": "REPLAN",
+          "claim_impact": "Reject the claimed high-Q amplification; investigate non-cardinality explanations only in a new plan."
+        },
+        "inconclusive": {
+          "condition": "Interaction CI lower <=0.01 while CI upper >0 or Holm q>=0.05",
+          "action_kind": "REPORT_INCONCLUSIVE",
+          "claim_impact": "No cardinality-amplification claim; report precision and observed estimates only."
+        }
+      }
+    },
+    {
+      "id": "H4",
+      "claim": "The Q=2 boundary is a harm-detection control only: SparseLedger targeting must not cause a terminal feasible-HV loss beyond the project guardrail, and this row cannot establish equivalence or a high-cardinality coverage mechanism.",
+      "primary_endpoint": {
+        "metric": "B5S-minus-B5R and B5S-minus-B1 landscape-level terminal normalized feasible-HV differences",
+        "unit": "absolute normalized feasible hypervolume",
+        "timepoint": "fixed 10000-NFE H14 Q=2 boundary endpoint"
+      },
+      "branches": {
+        "success": {
+          "condition": "Both two-sided 95% landscape-bootstrap CI lower bounds are >=-0.005 and all truth/protocol guardrails pass",
+          "action_kind": "PROCEED_SECONDARY",
+          "claim_impact": "Report that no pre-specified harm boundary was detected in Q=2; do not claim equivalence, superiority or a SparseLedger targeting benefit."
+        },
+        "failure": {
+          "condition": "Either two-sided 95% landscape-bootstrap CI upper bound is <-0.005",
+          "action_kind": "DOWNGRADE_CLAIM",
+          "claim_impact": "Record a clear low-cardinality harm boundary and prohibit any unqualified benefit claim."
+        },
+        "inconclusive": {
+          "condition": "At least one HV CI spans -0.005, while no protocol guardrail invalidates the batch",
+          "action_kind": "REPORT_INCONCLUSIVE",
+          "claim_impact": "Precision is insufficient to classify the Q=2 harm boundary; report estimates and intervals only."
+        }
+      }
+    }
+  ],
+  "guardrails": [
+    {
+      "id": "G-H14-HV",
+      "metric": "terminal normalized feasible hypervolume difference",
+      "direction": ">=",
+      "threshold": "95% landscape-bootstrap CI lower >=-0.005",
+      "monitored_during": "H1 and H2 formal contrasts after the fixed 10000-NFE endpoint",
+      "kill_action": "Downgrade the corresponding coverage benefit to a quality-tradeoff/failure result and prohibit superiority language.",
+      "claim_impact": "A method cannot be called beneficial if coverage gain breaches the terminal-HV noninferiority guardrail."
+    },
+    {
+      "id": "G-H14-TRUTH",
+      "metric": "truth-use audit failures",
+      "direction": "<=",
+      "threshold": "0 runs with truthUsedByAlgorithm=true",
+      "monitored_during": "every preflight, smoke and formal run",
+      "kill_action": "Invalidate and stop the affected batch before analysis.",
+      "claim_impact": "Any oracle leakage voids all algorithm-performance and mechanism claims from the affected batch."
+    }
+  ],
+  "stopping": {
+    "rule": "fixed matrix with no significance-driven early stopping",
+    "limit": "6720 formal runs, each exactly 10000 NFE; current authorization limit is 0 formal performance runs",
+    "action_on_exhaustion": "Report incomplete/inconclusive; request a new authorization rather than changing NFE, seeds or exclusions."
+  },
+  "amendment_policy": {
+    "post_data_changes": "NEW_VERSION_ONLY",
+    "authorization_required": true,
+    "deviation_log": ".light/h14/deviations.md"
+  },
+  "authorization": {
+    "actor": "",
+    "authorization_id": "",
+    "authorized_at": "",
+    "plan_sha256": ""
+  }
+}

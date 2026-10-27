@@ -1,0 +1,111 @@
+{
+  "schema": "light.findings.v1",
+  "producer": "experiment-coding",
+  "target": "TA_TPDE_Benchmark_V0_1-H14-PREFLIGHT",
+  "verdict": "warn",
+  "summary": "experiment execution contract: frozen scope/evaluator/budget/DAG + run status/failure/resume + environment/cache + repro level + remote authorization",
+  "fresh_evidence": true,
+  "gates": [
+    {
+      "gate": "experiment_spec",
+      "status": "pass",
+      "severity": "info",
+      "findings": [],
+      "note": "experiment spec 已冻结且 DAG 可恢复。"
+    },
+    {
+      "gate": "run_status",
+      "status": "warn",
+      "severity": "major",
+      "findings": [
+        {
+          "loc": "TA_TPDE_Benchmark_V0_1-H14-PREFLIGHT:run_status.resources.walltime_minutes",
+          "issue": "resources.walltime_minutes 缺失",
+          "fix": "补资源/成本，供预算与复现实验估算",
+          "evidence": null,
+          "rule": "resources.metric_missing"
+        },
+        {
+          "loc": "TA_TPDE_Benchmark_V0_1-H14-PREFLIGHT:run_status.resources.cpu_hours",
+          "issue": "resources.cpu_hours 缺失",
+          "fix": "补资源/成本，供预算与复现实验估算",
+          "evidence": null,
+          "rule": "resources.metric_missing"
+        },
+        {
+          "loc": "TA_TPDE_Benchmark_V0_1-H14-PREFLIGHT:run_status.resources.memory_peak_gb",
+          "issue": "resources.memory_peak_gb 缺失",
+          "fix": "补资源/成本，供预算与复现实验估算",
+          "evidence": null,
+          "rule": "resources.metric_missing"
+        },
+        {
+          "loc": "TA_TPDE_Benchmark_V0_1-H14-PREFLIGHT:run_status.resources.storage_gb",
+          "issue": "resources.storage_gb 缺失",
+          "fix": "补资源/成本，供预算与复现实验估算",
+          "evidence": null,
+          "rule": "resources.metric_missing"
+        }
+      ],
+      "note": "运行可解释但资源/成本记录不足。"
+    },
+    {
+      "gate": "environment_cache",
+      "status": "warn",
+      "severity": "major",
+      "findings": [
+        {
+          "loc": "TA_TPDE_Benchmark_V0_1-H14-PREFLIGHT:cache",
+          "issue": "cache 未启用或未声明；若实际用了缓存，必须补 manifest",
+          "fix": "不用缓存写 enabled=false；用了就登记",
+          "evidence": null,
+          "rule": "cache.declaration_missing"
+        }
+      ],
+      "note": "环境可追溯，但 cache 声明需要确认。"
+    },
+    {
+      "gate": "repro_level",
+      "status": "warn",
+      "severity": "major",
+      "findings": [
+        {
+          "loc": "TA_TPDE_Benchmark_V0_1-H14-PREFLIGHT:reproducibility.levels.CLEAN_ENV_RERUN",
+          "issue": "CLEAN_ENV_RERUN=UNKNOWN；未验证更高复现层级",
+          "fix": "如不宣称该层级可保持 UNKNOWN，但下游不得写跨平台/独立复现",
+          "evidence": null,
+          "rule": "repro.higher_level_unknown"
+        },
+        {
+          "loc": "TA_TPDE_Benchmark_V0_1-H14-PREFLIGHT:reproducibility.levels.CROSS_PLATFORM",
+          "issue": "CROSS_PLATFORM=UNKNOWN；未验证更高复现层级",
+          "fix": "如不宣称该层级可保持 UNKNOWN，但下游不得写跨平台/独立复现",
+          "evidence": null,
+          "rule": "repro.higher_level_unknown"
+        },
+        {
+          "loc": "TA_TPDE_Benchmark_V0_1-H14-PREFLIGHT:reproducibility.levels.INDEPENDENT_REIMPLEMENTATION",
+          "issue": "INDEPENDENT_REIMPLEMENTATION=UNKNOWN；未验证更高复现层级",
+          "fix": "如不宣称该层级可保持 UNKNOWN，但下游不得写跨平台/独立复现",
+          "evidence": null,
+          "rule": "repro.higher_level_unknown"
+        }
+      ],
+      "note": "已满足请求层级，但更高层级未验证；不得过度宣称。"
+    },
+    {
+      "gate": "remote_execution_authorization",
+      "status": "pass",
+      "severity": "info",
+      "findings": [],
+      "note": "远程/付费执行授权状态与 decision 一致。"
+    },
+    {
+      "gate": "declared_decision",
+      "status": "pass",
+      "severity": "info",
+      "findings": [],
+      "note": "decision=RUN_WITH_LIMITATIONS 与前置 gate 一致。"
+    }
+  ]
+}

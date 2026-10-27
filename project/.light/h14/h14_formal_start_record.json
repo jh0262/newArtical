@@ -1,0 +1,41 @@
+{
+  "schema": "mdt.h14-formal-start-record.v0.1",
+  "authorized_at": "2026-08-31T22:01:20+08:00",
+  "user_instruction": "启动H14正式实验",
+  "status": "ABORTED_ORCHESTRATION_INCIDENT_EXCLUDED",
+  "project_root": "F:/暑假原始资料/06_projects/TA_TPDE_Benchmark_V0_1",
+  "output_dir": "runs/H14_CONTROLLED/formal-rc2-a",
+  "expected_runs": 6720,
+  "evaluation_budget_per_run": 10000,
+  "matlab_release": "R2025b",
+  "authorization": {
+    "path": ".light/h14/h14_formal_authorization.json",
+    "sha256": "2c9cb475d853f66c07db44050d3c444fd662c03c1c740b793269bf7dcd7383db",
+    "verified_bindings": 16,
+    "integrity_valid": true,
+    "execution_start_authorized": true
+  },
+  "release": {
+    "path": "releases/H14-Formal-v0.3.0-rc2/H14-Formal-v0.3.0-rc2-source-and-evidence.zip",
+    "sha256": "579830060e438b3b4e8c16d795b8db06005b5f1540b59ab958e4bb3e13469d96"
+  },
+  "run_matrix": {
+    "path": ".light/h14/h14_formal_run_matrix.csv",
+    "sha256": "f7159f89317cf02a018d67809d98b8a8d10fea1dc1af8a8145e68fa8f7175945"
+  },
+  "watchdog": {
+    "path": ".light/h14/run_h14_formal_watchdog.ps1",
+    "sha256": "5311c6ba9d89febabfc0d11ee5056c44a5af115c46a7e7d5a7c0f43457a13b29",
+    "test_path": ".light/h14/test_h14_formal_watchdog.ps1",
+    "test_sha256": "bba855a81598604a8f8dc77b9ef107b4d511d3231eb8fdc7482023b8d5274494",
+    "test_status": "PASS"
+  },
+  "prelaunch": {
+    "free_gib": 947.68,
+    "minimum_start_free_gib": 10,
+    "output_absent": true,
+    "watchdog_log_absent": true,
+    "other_matlab_processes": 0
+  },
+  "evidence_boundary": "The formal-rc2-a launch was terminated after its watchdog failed. All formal-rc2-a artifacts are excluded from performance analysis; see H14-LAUNCH-001."
+}

@@ -1,0 +1,44 @@
+{
+  "project": "TA_TPDE_Benchmark_V0_1-H14",
+  "matrix_file": ".light/h14/experiment_matrix.md",
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "At Q=4096 dispersed, B5S has higher landscape-level FSCAUC than B5R without violating the HV guardrail.",
+      "falsifier": "The 95% cluster-bootstrap CI lower bound for B5S-B5R FSCAUC is <=0.01, Holm q>=0.05, or the HV CI lower bound is <-0.005."
+    },
+    {
+      "id": "H2",
+      "statement": "At Q=4096 dispersed, B5S has higher landscape-level FSCAUC than B1 without violating the HV guardrail.",
+      "falsifier": "The 95% cluster-bootstrap CI lower bound for B5S-B1 FSCAUC is <=0.01, Holm q>=0.05, or the HV CI lower bound is <-0.005."
+    },
+    {
+      "id": "H3",
+      "statement": "The B5S-B5R FSCAUC gain is larger at Q=4096 than at Q=16.",
+      "falsifier": "The 95% cluster-bootstrap CI lower bound for the Q4096-minus-Q16 interaction is <=0.01 or Holm q>=0.05."
+    },
+    {
+      "id": "H4",
+      "statement": "At the Q=2 harm-detection boundary, B5S does not breach the -0.005 terminal normalized feasible-HV guardrail relative to B5R or B1.",
+      "falsifier": "Either B5S-minus-baseline landscape-bootstrap HV CI upper bound is <-0.005; a CI spanning -0.005 is inconclusive rather than evidence of equivalence."
+    }
+  ],
+  "baselines": [
+    {
+      "name": "B5R",
+      "fairness": "ok: identical evaluator, initial population, schedule seeds, DE parameters, injection count, selected rows, NFE and selection; only state targeting changes from least-visited to uniform random."
+    },
+    {
+      "name": "B1",
+      "fairness": "ok: identical evaluator, paired seeds, NFE, population, archive and DE parameters; no tuning budget, with absence of novelty injection declared as the treatment difference."
+    }
+  ],
+  "power": {
+    "effect_size": 1.2,
+    "n_seeds": 16,
+    "n_comparisons": 3,
+    "correction": "bonferroni",
+    "target_power": 0.8,
+    "alpha": 0.05
+  }
+}

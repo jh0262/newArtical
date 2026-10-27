@@ -1,0 +1,32 @@
+{
+  "schema": "mdt.h14-formal-restart-record.v0.1",
+  "incident_id": "H14-LAUNCH-001",
+  "user_instruction": "启动H14正式实验",
+  "status": "READY_TO_RESTART_FRESH",
+  "project_root": "F:/暑假原始资料/06_projects/TA_TPDE_Benchmark_V0_1",
+  "excluded_output": "runs/H14_CONTROLLED/formal-rc2-a",
+  "output_dir": "runs/H14_CONTROLLED/formal-rc2-b",
+  "expected_runs": 6720,
+  "evaluation_budget_per_run": 10000,
+  "scientific_design_changed": false,
+  "authorization": {
+    "path": ".light/h14/h14_formal_authorization.json",
+    "sha256": "939ec9f3927df542fb3da65540f7f3c1b5481b659a2cb19680e9ccc60cd8f918",
+    "verified_bindings": 16,
+    "execution_start_authorized": true
+  },
+  "watchdog": {
+    "path": ".light/h14/run_h14_formal_watchdog.ps1",
+    "sha256": "4a0432c2d97d6e4eb5344892829c6ab51cb334b04e761ba01a4996465bb4788a",
+    "test_path": ".light/h14/test_h14_formal_watchdog.ps1",
+    "test_sha256": "8ebba81b546daf94afe73c5437f6f2f3062689363e84827a6818eb64d3ce7b14",
+    "windows_powershell_5_1_test_status": "PASS"
+  },
+  "prelaunch": {
+    "free_gib": 947.667,
+    "output_absent": true,
+    "watchdog_log_absent": true,
+    "other_matlab_processes": 0
+  },
+  "evidence_boundary": "Only formal-rc2-b may enter the frozen H14 analysis."
+}

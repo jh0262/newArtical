@@ -1,0 +1,8 @@
+{
+  "schema": "mdt.h14-authorization.v0.1",
+  "status": "AUTHORIZED_PRECHECK_ONLY",
+  "authorized_at": "2026-08-31T14:40:00+08:00",
+  "user_message": "按推荐继续",
+  "interpreted_scope": "Develop the H14 controlled benchmark, B5R mechanism control, metrics contracts, plan package, unit tests and non-performance smoke checks.",
+  "excluded_authority": "No 6720-run formal performance batch, post-result tuning, H13 reinterpretation, or modification of B5-Ref-v1.0.1 is authorized."
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "mdt.h14-source-manifest.v0.1",
+  "status": "PRECHECK_CANDIDATE_NOT_FORMAL_FREEZE",
+  "generated_at": "2026-08-31T15:15:00+08:00",
+  "formal_performance_authorized": false,
+  "files": [
+    {"path": ".light/h14/PROJECT_PLAN.md", "sha256": "CB5E118ADD6B05C22B338CE3750CEA3218370334DC2A04AAE847569BB550EE43", "bytes": 6643},
+    {"path": ".light/h14/experiment_matrix.md", "sha256": "35EE6D83C810B569C9BAC2A98CA0FEDC3CDE28979718FC77DCCE0A25B625E243", "bytes": 2554},
+    {"path": ".light/h14/target-chain.json", "sha256": "DF5383A7D8DCACE75771CCA9E7548ED358A52E6910EF6F649B216A9887865742", "bytes": 6489},
+    {"path": ".light/h14/failure-tree.json", "sha256": "532B600EC22B93968E43C9605A18809E5D0C4CC2969580DCEF4A206E3768AF0F", "bytes": 5595},
+    {"path": ".light/h14/plan_spec.json", "sha256": "01096EC27AFD93BCCC7976013FE4961D1D6DFA7A8B5DDB5C51E36D1C0B7A1FA8", "bytes": 1609},
+    {"path": "matlab/+mdt/makeH14ControlledBenchmark.m", "sha256": "DBFFA98F212524551031CB417D6E42025B531381AA42F2231026E983C5BA25E6", "bytes": 7282},
+    {"path": "matlab/+mdt/labelH14Candidates.m", "sha256": "83FB99AE9FE9846764BB4A59B4448A631B653E3E92921D903D928AD9D04D02D4", "bytes": 1883},
+    {"path": "matlab/+mdt/makeH14Design.m", "sha256": "550AE0CA7752A11C3793EAFA120C23C359B0CA77B3F7AEC7538E8ACA6F2FF82C", "bytes": 2012},
+    {"path": "matlab/+mdt/injectRandomDiscreteStatesBlackBox.m", "sha256": "87C8B067A8F69119B56B31C10EB98A7905690FCD300BDEA4BA12440CB53F88DD", "bytes": 2055},
+    {"path": "matlab/+mdt/runB5RandomBlackBox.m", "sha256": "AF7AA1EE5138A39A61121A6D449D92DE070BC6C70708599494443E1F7F9D1D51", "bytes": 7152},
+    {"path": "matlab/+mdt/computeH14FeasibleStateCoverageAUC.m", "sha256": "DE2630C30B485F5BCD80C1DD4C0BE7DBF8CE5C833301C569A1D95CE8914D056B", "bytes": 1922},
+    {"path": "matlab/+mdt/runBlackBoxComparator.m", "sha256": "FDBF524255557153F5ED03F39E369D78E32CC7EDFF294376EEAE5E9000B15B84", "bytes": 6814},
+    {"path": "tests/test_mdt_h14_controlled_benchmark.m", "sha256": "8C7A3B3A3A5E004E19975BFAAC6870BA830F1B3C281C4B07F532494A3DB8431A", "bytes": 4187},
+    {"path": "tests/test_mdt_h14_b5r.m", "sha256": "5DCC39783E701B24A241074FAC6A073CD00F730D938CEBFB34E1686821DCC027", "bytes": 4137}
+  ],
+  "evidence_boundary": "Hashes identify the current precheck candidate only. They do not authorize or certify formal H14 performance runs."
+}

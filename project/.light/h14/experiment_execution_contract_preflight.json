@@ -1,0 +1,95 @@
+{
+  "schema": "light.experiment_execution_contract.v1",
+  "project": "TA_TPDE_Benchmark_V0_1-H14-PREFLIGHT",
+  "as_of": "2026-08-31T20:38:02+08:00",
+  "experiment_spec": {
+    "spec_id": "H14-PREFLIGHT-EXEC-v0.1",
+    "frozen_at": "2026-08-31T20:38:02+08:00",
+    "source_plan_locator": ".light/h14/PROJECT_PLAN.md",
+    "plan_sha256": "6ff40a50450d139245aab82c709ff89e5c30e1912907f8af272ceb111251e048",
+    "failure_tree": {
+      "report_locator": ".light/h14/failure_tree_report.json",
+      "report_sha256": "f82533628cdab06891d36fd2bd8db60520965cce449e9694520a4abc77f74ad3",
+      "status": "PASS",
+      "requires_guardrails": true
+    },
+    "question_id": "H14-Q-CONTROLLED-SPARSE-LEDGER",
+    "estimand_id": "H14-FSCAUC-PAIRED-LANDSCAPE-CONTRASTS",
+    "evaluator_id": "mdt.makeH14ControlledBenchmark-v0.1-black-box",
+    "scope_freeze_note": "Preflight execution only. H4 and the statistics implementation are closed as a candidate, but formal performance execution remains prohibited; metric, evaluator, budget, seeds or matrix changes require a research-plan amendment.",
+    "budget": {
+      "max_walltime_minutes": 20,
+      "max_compute_units": 1,
+      "max_cost_usd": 0
+    },
+    "matrix_rows": [
+      {"row_id":"H14-Q16-CONNECTED-L1","config_id":"Q16-CONNECTED-L1","dataset_id":"H14-synthetic-landscape-seed-814001","split_id":"not-applicable-synthetic","evaluator_id":"mdt.makeH14ControlledBenchmark-v0.1-black-box","expected_outputs":["raw_metrics","predictions","guardrails","test_evidence"],"failure_tree_refs":{"hypothesis_ids":["H3"],"branch_action_ids":["H3.success","H3.failure","H3.inconclusive"],"guardrail_ids":["G-H14-HV","G-H14-TRUTH"]}},
+      {"row_id":"H14-Q16-CONNECTED-L4","config_id":"Q16-CONNECTED-L4","dataset_id":"H14-synthetic-landscape-seed-814001","split_id":"not-applicable-synthetic","evaluator_id":"mdt.makeH14ControlledBenchmark-v0.1-black-box","expected_outputs":["raw_metrics","predictions","guardrails","test_evidence"],"failure_tree_refs":{"hypothesis_ids":["H3"],"branch_action_ids":["H3.success","H3.failure","H3.inconclusive"],"guardrail_ids":["G-H14-HV","G-H14-TRUTH"]}},
+      {"row_id":"H14-Q16-DISPERSED-L1","config_id":"Q16-DISPERSED-L1","dataset_id":"H14-synthetic-landscape-seed-814001","split_id":"not-applicable-synthetic","evaluator_id":"mdt.makeH14ControlledBenchmark-v0.1-black-box","expected_outputs":["raw_metrics","predictions","guardrails","test_evidence"],"failure_tree_refs":{"hypothesis_ids":["H3"],"branch_action_ids":["H3.success","H3.failure","H3.inconclusive"],"guardrail_ids":["G-H14-HV","G-H14-TRUTH"]}},
+      {"row_id":"H14-Q16-DISPERSED-L4","config_id":"Q16-DISPERSED-L4","dataset_id":"H14-synthetic-landscape-seed-814001","split_id":"not-applicable-synthetic","evaluator_id":"mdt.makeH14ControlledBenchmark-v0.1-black-box","expected_outputs":["raw_metrics","predictions","guardrails","test_evidence"],"failure_tree_refs":{"hypothesis_ids":["H3"],"branch_action_ids":["H3.success","H3.failure","H3.inconclusive"],"guardrail_ids":["G-H14-HV","G-H14-TRUTH"]}},
+      {"row_id":"H14-Q256-CONNECTED-L1","config_id":"Q256-CONNECTED-L1","dataset_id":"H14-synthetic-landscape-seed-814001","split_id":"not-applicable-synthetic","evaluator_id":"mdt.makeH14ControlledBenchmark-v0.1-black-box","expected_outputs":["raw_metrics","predictions","guardrails","test_evidence"],"failure_tree_refs":{"hypothesis_ids":["H3"],"branch_action_ids":["H3.success","H3.failure","H3.inconclusive"],"guardrail_ids":["G-H14-HV","G-H14-TRUTH"]}},
+      {"row_id":"H14-Q256-CONNECTED-L4","config_id":"Q256-CONNECTED-L4","dataset_id":"H14-synthetic-landscape-seed-814001","split_id":"not-applicable-synthetic","evaluator_id":"mdt.makeH14ControlledBenchmark-v0.1-black-box","expected_outputs":["raw_metrics","predictions","guardrails","test_evidence"],"failure_tree_refs":{"hypothesis_ids":["H3"],"branch_action_ids":["H3.success","H3.failure","H3.inconclusive"],"guardrail_ids":["G-H14-HV","G-H14-TRUTH"]}},
+      {"row_id":"H14-Q256-DISPERSED-L1","config_id":"Q256-DISPERSED-L1","dataset_id":"H14-synthetic-landscape-seed-814001","split_id":"not-applicable-synthetic","evaluator_id":"mdt.makeH14ControlledBenchmark-v0.1-black-box","expected_outputs":["raw_metrics","predictions","guardrails","test_evidence"],"failure_tree_refs":{"hypothesis_ids":["H3"],"branch_action_ids":["H3.success","H3.failure","H3.inconclusive"],"guardrail_ids":["G-H14-HV","G-H14-TRUTH"]}},
+      {"row_id":"H14-Q256-DISPERSED-L4","config_id":"Q256-DISPERSED-L4","dataset_id":"H14-synthetic-landscape-seed-814001","split_id":"not-applicable-synthetic","evaluator_id":"mdt.makeH14ControlledBenchmark-v0.1-black-box","expected_outputs":["raw_metrics","predictions","guardrails","test_evidence"],"failure_tree_refs":{"hypothesis_ids":["H3"],"branch_action_ids":["H3.success","H3.failure","H3.inconclusive"],"guardrail_ids":["G-H14-HV","G-H14-TRUTH"]}},
+      {"row_id":"H14-Q4096-CONNECTED-L1","config_id":"Q4096-CONNECTED-L1","dataset_id":"H14-synthetic-landscape-seed-814001","split_id":"not-applicable-synthetic","evaluator_id":"mdt.makeH14ControlledBenchmark-v0.1-black-box","expected_outputs":["raw_metrics","predictions","guardrails","test_evidence"],"failure_tree_refs":{"hypothesis_ids":["H1","H2","H3"],"branch_action_ids":["H1.success","H1.failure","H1.inconclusive","H2.success","H2.failure","H2.inconclusive","H3.success","H3.failure","H3.inconclusive"],"guardrail_ids":["G-H14-HV","G-H14-TRUTH"]}},
+      {"row_id":"H14-Q4096-CONNECTED-L4","config_id":"Q4096-CONNECTED-L4","dataset_id":"H14-synthetic-landscape-seed-814001","split_id":"not-applicable-synthetic","evaluator_id":"mdt.makeH14ControlledBenchmark-v0.1-black-box","expected_outputs":["raw_metrics","predictions","guardrails","test_evidence"],"failure_tree_refs":{"hypothesis_ids":["H1","H2","H3"],"branch_action_ids":["H1.success","H1.failure","H1.inconclusive","H2.success","H2.failure","H2.inconclusive","H3.success","H3.failure","H3.inconclusive"],"guardrail_ids":["G-H14-HV","G-H14-TRUTH"]}},
+      {"row_id":"H14-Q4096-DISPERSED-L1","config_id":"Q4096-DISPERSED-L1","dataset_id":"H14-synthetic-landscape-seed-814001","split_id":"not-applicable-synthetic","evaluator_id":"mdt.makeH14ControlledBenchmark-v0.1-black-box","expected_outputs":["raw_metrics","predictions","guardrails","test_evidence"],"failure_tree_refs":{"hypothesis_ids":["H1","H2","H3"],"branch_action_ids":["H1.success","H1.failure","H1.inconclusive","H2.success","H2.failure","H2.inconclusive","H3.success","H3.failure","H3.inconclusive"],"guardrail_ids":["G-H14-HV","G-H14-TRUTH"]}},
+      {"row_id":"H14-Q4096-DISPERSED-L4","config_id":"Q4096-DISPERSED-L4","dataset_id":"H14-synthetic-landscape-seed-814001","split_id":"not-applicable-synthetic","evaluator_id":"mdt.makeH14ControlledBenchmark-v0.1-black-box","expected_outputs":["raw_metrics","predictions","guardrails","test_evidence"],"failure_tree_refs":{"hypothesis_ids":["H1","H2","H3"],"branch_action_ids":["H1.success","H1.failure","H1.inconclusive","H2.success","H2.failure","H2.inconclusive","H3.success","H3.failure","H3.inconclusive"],"guardrail_ids":["G-H14-HV","G-H14-TRUTH"]}},
+      {"row_id":"H14-Q2-BOUNDARY-L1","config_id":"Q2-BOUNDARY-L1","dataset_id":"H14-synthetic-landscape-seed-814001","split_id":"not-applicable-synthetic","evaluator_id":"mdt.makeH14ControlledBenchmark-v0.1-black-box","expected_outputs":["raw_metrics","predictions","guardrails","test_evidence"],"failure_tree_refs":{"hypothesis_ids":["H4"],"branch_action_ids":["H4.success","H4.failure","H4.inconclusive"],"guardrail_ids":["G-H14-HV","G-H14-TRUTH"]}},
+      {"row_id":"H14-Q2-BOUNDARY-L4","config_id":"Q2-BOUNDARY-L4","dataset_id":"H14-synthetic-landscape-seed-814001","split_id":"not-applicable-synthetic","evaluator_id":"mdt.makeH14ControlledBenchmark-v0.1-black-box","expected_outputs":["raw_metrics","predictions","guardrails","test_evidence"],"failure_tree_refs":{"hypothesis_ids":["H4"],"branch_action_ids":["H4.success","H4.failure","H4.inconclusive"],"guardrail_ids":["G-H14-HV","G-H14-TRUTH"]}}
+    ],
+    "dag_nodes": [
+      {"node_id":"matrix","kind":"DATA_PREP","depends_on":[],"produces":["run_matrix","oracle_inputs"]},
+      {"node_id":"execute","kind":"TRAIN","depends_on":["matrix"],"command":["matlab","-batch","mdt.runH14ControlledBatch(outputDir,'preflight')"],"produces":["run_bundles","raw_metrics","predictions"]},
+      {"node_id":"validate","kind":"EVAL","depends_on":["execute"],"command":["python","run_artifact_check.py","--manifest","manifest.json"],"produces":["artifact_validation","same_seed_reproduction"]}
+    ]
+  },
+  "run_status": {
+    "run_id": "H14-PREFLIGHT-v5-a-42-RUN-BATCH",
+    "matrix_row_id": "H14-Q16-CONNECTED-L1",
+    "attempt": 1,
+    "status": "COMPLETED",
+    "termination": {"reason":"NATURAL_EXIT","exit_code":0},
+    "failure_class": "NONE",
+    "completion": {
+      "status": "PASS",
+      "evidence_artifacts": ["raw_metrics","predictions","test_evidence","guardrail_evidence","batch_manifest"],
+      "guardrail_evidence_artifacts": ["guardrails.json"]
+    },
+    "checkpoint": {"status":"NONE"},
+    "resume_semantics": {"safe_to_resume":false,"reason":"completed batch; subsequent invocation reused 42/42 immutable completed attempts"},
+    "resources": {
+      "walltime_minutes": null,
+      "cpu_hours": null,
+      "gpu_hours": 0,
+      "compute_units_used": 1,
+      "memory_peak_gb": null,
+      "storage_gb": null,
+      "cost_usd": 0
+    }
+  },
+  "environment": {
+    "code_commit": "source-manifest:3ebaad5d8e2a01250ca3e93e6eebb4dbf7f0b43abaa0ccdc9f7494a9b6edcec7",
+    "dirty": true,
+    "diff_sha256": "3ebaad5d8e2a01250ca3e93e6eebb4dbf7f0b43abaa0ccdc9f7494a9b6edcec7",
+    "env_lock_sha256": "86c41db5d204c6de6e9c95c8f34d1162ca8f10b80feb0557447325ceaf6600d7",
+    "package_lock_sha256": "3ebaad5d8e2a01250ca3e93e6eebb4dbf7f0b43abaa0ccdc9f7494a9b6edcec7",
+    "python": "not-used-for-algorithm-execution; MATLAB R2025b",
+    "os": "Windows",
+    "random_seed": 815001
+  },
+  "cache": {"enabled":false},
+  "reproducibility": {
+    "requested_level": "SAME_ENV_REPEAT",
+    "levels": {
+      "SAME_ENV_REPEAT": "PASS",
+      "CLEAN_ENV_RERUN": "UNKNOWN",
+      "CROSS_PLATFORM": "UNKNOWN",
+      "INDEPENDENT_REIMPLEMENTATION": "UNKNOWN"
+    },
+    "evidence": {"same_env_repeat":".light/h14/h14_preflight_repro_report.json"},
+    "same_seed_runs": [{"same_seed_exact":true,"comparison_locator":".light/h14/h14_preflight_repro_report.json"}]
+  },
+  "remote_execution": {"required":false,"paid":false,"user_authorization":{"status":"NOT_REQUIRED"}},
+  "decision": "RUN_WITH_LIMITATIONS"
+}

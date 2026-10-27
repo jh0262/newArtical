@@ -1,0 +1,96 @@
+{
+  "schema": "mdt.h14-formal-resource-budget.v0.1",
+  "status": "BUDGET_CANDIDATE_AWAITING_AUTHOR_APPROVAL",
+  "generated_at": "2026-08-31T21:19:26+08:00",
+  "formal_performance_authorized": false,
+  "execution_model": {
+    "runtime": "MATLAB R2025b",
+    "device": "CPU",
+    "parallel_execution": false,
+    "processes": 1,
+    "formal_runs": 6720,
+    "nfe_per_run": 10000,
+    "total_nfe": 67200000,
+    "population_size": 100,
+    "archive_capacity": 100
+  },
+  "measured_restore_preflight": {
+    "mode": "preflight only; not performance evidence",
+    "runs_per_batch": 42,
+    "nfe_per_run": 100,
+    "batch_a_process_wall_seconds": 17.182,
+    "batch_b_process_wall_seconds": 16.760,
+    "batch_a_resume_process_wall_seconds": 10.968,
+    "batch_a_bytes": 11348172,
+    "batch_b_bytes": 11348174,
+    "batch_a_files": 986,
+    "same_seed_pairs_exact": 42,
+    "content_hash_mismatches": 0,
+    "artifact_hash_failures": 0
+  },
+  "historical_timing_anchor": {
+    "source": "runs/H12_PUBLIC_COMPARISON/formal-a/batch_manifest.json",
+    "scope": "H13 public-comparison batch; method and output structure differ from H14",
+    "runs": 450,
+    "nfe_per_run": 20000,
+    "total_nfe": 9000000,
+    "wall_seconds": 646.0066986,
+    "storage_bytes": 37348415,
+    "use": "planning anchor only; not an H14 performance measurement"
+  },
+  "planning_envelope": {
+    "expected_wall_hours_low": 1.5,
+    "expected_wall_hours_high": 6.0,
+    "hard_wall_hours": 12.0,
+    "expected_output_gib_low": 2.0,
+    "expected_output_gib_high": 3.0,
+    "hard_output_gib": 5.0,
+    "minimum_free_space_before_start_gib": 10.0,
+    "direct_preflight_storage_scale_gib": 1.691,
+    "expected_file_count": "approximately 158000 plus progress and summary files",
+    "uncertainty": "The preflight uses N=20 and 100 NFE, whereas formal uses N=100 and 10000 NFE. The historical timing anchor uses different benchmark functions. Therefore the envelope is conservative and must be monitored, not treated as a measured completion time."
+  },
+  "monitoring_checkpoints": {
+    "progress_review_every_new_runs": 240,
+    "required_fields": [
+      "completedRuns",
+      "failedRuns",
+      "last progress timestamp",
+      "output bytes",
+      "free disk bytes",
+      "actualNfe",
+      "truthUsedByAlgorithm",
+      "formalPerformanceRun"
+    ]
+  },
+  "automatic_or_operator_stop_rules": [
+    {
+      "id": "STOP-H14-TIME",
+      "condition": "elapsed wall time exceeds 12 hours",
+      "action": "terminate the MATLAB process, retain completed bundles, classify the interrupted run as incomplete, and resume only after review"
+    },
+    {
+      "id": "STOP-H14-STORAGE",
+      "condition": "output exceeds 5 GiB or remaining free space falls below 5 GiB",
+      "action": "terminate before further runs and preserve all completed bundles"
+    },
+    {
+      "id": "STOP-H14-STALL",
+      "condition": "no progress-file update for 30 minutes",
+      "action": "inspect process, license, filesystem and current run; do not change scientific settings; resume unchanged only after root-cause classification"
+    },
+    {
+      "id": "STOP-H14-FAILURE",
+      "condition": "three consecutive failed runs or cumulative failed runs exceed 0.5 percent of attempted runs",
+      "action": "stop, retain failure bundles and diagnose before any resume"
+    },
+    {
+      "id": "STOP-H14-PROTOCOL",
+      "condition": "any source hash mismatch, actualNfe not equal to 10000, truthUsedByAlgorithm true, formalPerformanceRun false, NaN or Inf, or declared artifact hash failure",
+      "action": "immediate scientific stop; no affected output may enter result analysis"
+    }
+  ],
+  "resume_policy": "Resume only into the identical output directory with unchanged archive, matrix, source manifest, MATLAB release and authorization hashes. Completed hash-valid attempts are reused; incomplete or failed attempts are never overwritten.",
+  "analysis_release_gate": "Do not call runH14ResultAnalysis until 6720 unique completed formal rows pass coverage, NFE, truth-firewall, finite-value and artifact-integrity audits.",
+  "authorization_boundary": "This budget does not authorize formal execution. Formal mode remains blocked until the author approves this budget and a separate hash-bound formal authorization and design freeze are created."
+}

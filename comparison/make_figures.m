@@ -32,6 +32,7 @@ for k=1:numel(files)
   end
   boxes=findall(f,'-property','BoxFaceColor');for h=boxes',j=round(h.XData(1));if strcmp(name,'Fig2'),map=[1,3,4,5,6];j=map(j);end;if j>=1&&j<=6,h.BoxFaceColor=colors(j,:);if isprop(h,'MarkerColor'),h.MarkerColor=colors(j,:);end;end;end
  end
+ if strcmp(name,'Fig6'),style_figure6_jmst(f);end
  assert(isequaln(coords,coordinates(f)),'Figure coordinate data changed');
  checks(end+1)=struct('figure',name,'coordinatesUnchanged',true);
  exportgraphics(f,fullfile(out,[name,'.pdf']),'ContentType','vector');exportgraphics(f,fullfile(out,[name,'.png']),'Resolution',600,'BackgroundColor','white');close(f);

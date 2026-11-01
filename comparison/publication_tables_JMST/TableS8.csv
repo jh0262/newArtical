@@ -1,0 +1,6 @@
+﻿Published location,Implementation,Numerical handling
+Equations (6)–(9),MOCPO2025.branch,Four branches; normalized decisions; clipping
+"Equation (11), Algorithm 1 equation (12)",MOCPO2025.feedback,w=sₖ/(sᵤ+sₖ); q=w u+(1−w)xₖ; score floor in F
+Algorithm 1 equations (13)–(15),P4Core.select called by MOCPO2025.solve,Merge parents and final offspring; constraint-prioritized fronts and last-front crowding
+Algorithm 1 output,MOCPO2025.front,Final-population nondominated subset with objective deduplication
+Two evaluation stages per cycle,MOCPO2025.solve / evaluationStage,"100 initial + 125×200 = 25,100 evaluations"

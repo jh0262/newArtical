@@ -1,0 +1,8 @@
+﻿Prior method,Established operation,Specific MO-PACPO choice
+Original CPO [9],Four stochastic defense branches and cyclic population size,A fixed-size unified update; archive-based guidance and measured progress replace branch scheduling.
+Adalja MOCPO [11],"Nondominated sorting, crowding, and candidate information feedback",Objective-neighborhood guidance and decision-space spectral scales form offspring before common selection. Tested comparisons use the declared F/R reconstructions.
+Shi–Li MOCPO [12],External archive organized by objective-space reference-point association and selection,Decision-space covariance regulates routine noise and projected pulses. This is a structural comparison; its published algorithm was not run here.
+MO-CMA-ES [14]; RM-MEDA [15],Covariance/step-size adaptation; local PCA models for Pareto-set sampling,A sample covariance of the current nondominated decision archive is recomputed each generation and used within the guided differential update.
+DE [17]; CoBiDE [18]; CCDE [19],Differences and crossover; learned-coordinate crossover or covariance-based Gaussian candidates,F and CR remain fixed; objective-near archive guides and actual spectral scales share the same masked proposal.
+HV/progress monitoring [26–29],Set-quality or progress measures guide search assessment,"HV stagnation, strict-improvement reset, and a low-variance gate control 10% post-mask pulses scaled by the mean spectrum and the shared σ."
+Visvalingam–Whyatt [25],Repeated neighbor-area deletion and an effective-area hierarchy,"Fixed capacity, current areas, endpoint retention, floating-point area tolerance, and normalized L₁-span ties define the archive adaptation."

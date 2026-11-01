@@ -10,6 +10,16 @@
     "sha256": "e51f5bc51e22258128906e7e401925437e75eec6db35a1373023a18cca24dc9f"
   },
   {
+    "path": "CURRENT_FIGURE_TABLE_MAP.csv",
+    "bytes": 13918,
+    "sha256": "7d0a4a65fa07dc329053d24b2aa7f15d15ee10d7de2428dd408ea60503ac42a8"
+  },
+  {
+    "path": "CURRENT_PUBLICATION_MAP.md",
+    "bytes": 1901,
+    "sha256": "b018a4c4b8ba71298309af636a8b65a74f131076598e8a0b9dd7e06cb6076968"
+  },
+  {
     "path": "expected/MO_PACPO_Machines_P1联合对照修订_20261025/data/joint_exact_sensitivity.csv",
     "bytes": 6109,
     "sha256": "b91cd44059bdd9942dd4344f05397bebfb1ad1bac447833fa9f9b8af5699aee8"
@@ -200,6 +210,11 @@
     "sha256": "b40abd1e730f2ff63238880bafa631914e48313f555040d07866fa332eded9b1"
   },
   {
+    "path": "export_jmst_tables.m",
+    "bytes": 2029,
+    "sha256": "ee20412297e9328aae7f951d0e3772d9e9bc44190c60e2d213eae4270e60b335"
+  },
+  {
     "path": "figure_sources/Fig1.pdf",
     "bytes": 43560,
     "sha256": "fb8d8a6406ce74b4c50402e1afbecd5b66018bd713930e58835ec58cfcc7619e"
@@ -250,14 +265,49 @@
     "sha256": "1c28a70bdf3786bede4a4b6b52ab436ad8be4588428fa2b87d5324254f93d5fe"
   },
   {
+    "path": "figures/Fig6.pdf",
+    "bytes": 2934414,
+    "sha256": "a03f3550d90026cbe9e1f6dc4853efe2ae3a8d89b0d792dc0d990eecb0bdb533"
+  },
+  {
+    "path": "figures/Fig6.png",
+    "bytes": 1412313,
+    "sha256": "01e616634fcc7fe02bc700b024b25dcd50b9979c85ae91b6e06af1ef9d3967d8"
+  },
+  {
+    "path": "figures/Fig6_JMST_audit.json",
+    "bytes": 261,
+    "sha256": "cb85c7a34ffe010819c2edf9af893cf67ce62a0526b85a2aa2febccf4e691a8d"
+  },
+  {
+    "path": "figures/Fig6_removal_audit.json",
+    "bytes": 143,
+    "sha256": "bc90571ba6dabcb0889216f39e1ebae369e5f2cc320f143ecbf7984703498ac3"
+  },
+  {
+    "path": "historical_manifests/PACKAGE_MANIFEST_20261027.json",
+    "bytes": 2439590,
+    "sha256": "721159aafb93717a90455f9209d5dde3f3f7ba4608b2e03cb615ce4a687d2a7a"
+  },
+  {
+    "path": "JMST_REVISION_MANIFEST.json",
+    "bytes": 758,
+    "sha256": "d152cde2a95c94ed2d2dbfcc2ca64589fbe9a35c085b55e08eafc9a5389f2b8d"
+  },
+  {
     "path": "make_compact_mechanism.m",
     "bytes": 3130,
     "sha256": "30444a54b1a30ff6a41027e7ea0ce07e4d3f21c800eefed86161be18fb98f1b8"
   },
   {
+    "path": "make_figure6_jmst.m",
+    "bytes": 1997,
+    "sha256": "df0c9ce84178a7a5497d5911d8031f31942e111b1ff38d55f6fe620002dc1086"
+  },
+  {
     "path": "make_figures.m",
-    "bytes": 6520,
-    "sha256": "3f76b3cfedeaec29268490413698f8b27af1773921875bce24a89db370233725"
+    "bytes": 6571,
+    "sha256": "789fddf2640952be14fd1871918291d443cd6d02889dd245285e65ed240be0be"
   },
   {
     "path": "MO_PACPO_Machines_P1联合对照修订_20261025/analyze_joint.m",
@@ -58440,9 +58490,159 @@
     "sha256": "dfe7d3345029e118ec1160d42084516814cc9f32526567daa4cba06cc8db199e"
   },
   {
+    "path": "publication_tables_JMST/recomputed/Table5.csv",
+    "bytes": 552,
+    "sha256": "11ab5f8c96c8f7845ecd3d583dfa8323d99362e66b634ef80899476cb3afa664"
+  },
+  {
+    "path": "publication_tables_JMST/recomputed/Table5_verification.json",
+    "bytes": 239,
+    "sha256": "ba0b6035f9ceff15b5b63f3f4eb283f4c6749c51b52ac48d6e3eda7d592bd843"
+  },
+  {
+    "path": "publication_tables_JMST/Table1.csv",
+    "bytes": 1414,
+    "sha256": "7b6448df1138d89548d19ac213fe3e7e83d7c19aa5ed6d4dfcbcff37a5f31437"
+  },
+  {
+    "path": "publication_tables_JMST/Table10.csv",
+    "bytes": 284,
+    "sha256": "bed9657d842dd64e1722886bfe3c1a5c023f914970610bcdc0c57102224d6c60"
+  },
+  {
+    "path": "publication_tables_JMST/Table10.json",
+    "bytes": 343,
+    "sha256": "ba039c52012800085ff1123c085f46410808e943d305b2bc5ccc5606eb3370f4"
+  },
+  {
+    "path": "publication_tables_JMST/Table2.csv",
+    "bytes": 991,
+    "sha256": "5754ce61245e435ed5cda394863b7bf92383367d765f96c8e4c815f08f732e96"
+  },
+  {
+    "path": "publication_tables_JMST/Table3.csv",
+    "bytes": 387,
+    "sha256": "3a18882e79065c53e5f2c8c1d0b0561422a96709f3472d1c20596c289b104d38"
+  },
+  {
+    "path": "publication_tables_JMST/Table4.csv",
+    "bytes": 647,
+    "sha256": "470435612a6cc1c17581b7b5f2f19921be1af9bff2771f81764034febbc160da"
+  },
+  {
+    "path": "publication_tables_JMST/Table5.csv",
+    "bytes": 557,
+    "sha256": "e935ee0c3d04bf0add5fc7a352e19a2f6a31bdeb4770b0f5db8abfe382f84d33"
+  },
+  {
+    "path": "publication_tables_JMST/Table5.json",
+    "bytes": 674,
+    "sha256": "15b64bff1cc6209cfaea8b7c0db96ba93e556f83a80220694598da8ba1148860"
+  },
+  {
+    "path": "publication_tables_JMST/Table6.csv",
+    "bytes": 410,
+    "sha256": "eb24041f19804629cac53f9b7872d5acf79a0b0d226ad65d064295b43dcec7d8"
+  },
+  {
+    "path": "publication_tables_JMST/Table7.csv",
+    "bytes": 990,
+    "sha256": "de599093e3d2ec5851c2836fc08dfac7836f26de1b0a308155949a8598b1f6f0"
+  },
+  {
+    "path": "publication_tables_JMST/Table8.csv",
+    "bytes": 456,
+    "sha256": "59a3a75cbbf7cdaf9832306d96408a8dcc85638fa2d5a0aaede3a3f08e05496c"
+  },
+  {
+    "path": "publication_tables_JMST/Table9.csv",
+    "bytes": 610,
+    "sha256": "99d423b071f33cef35d487acf3e7629074110fee8028b72773d3d967bcb53cc0"
+  },
+  {
+    "path": "publication_tables_JMST/TableS1.csv",
+    "bytes": 1125,
+    "sha256": "92e7f3b868682be0307b515cb17c636262b61d534a3647a5f08e0aa1c05b38fc"
+  },
+  {
+    "path": "publication_tables_JMST/TableS10.csv",
+    "bytes": 529,
+    "sha256": "23463c84b3348c279c5cdec814047d71af5438b46d9b7fa6a95d387fcad0c9cd"
+  },
+  {
+    "path": "publication_tables_JMST/TableS11.csv",
+    "bytes": 612,
+    "sha256": "9a7e43f0e00ec8083107b97973f4280b781b60eab29da8668a8fead3f3fbb1d3"
+  },
+  {
+    "path": "publication_tables_JMST/TableS12.csv",
+    "bytes": 445,
+    "sha256": "f44ba96a9c8eb74983f9556b71b0482029c93a45831344807e40d44a391683e5"
+  },
+  {
+    "path": "publication_tables_JMST/TableS13.csv",
+    "bytes": 248,
+    "sha256": "b2ba5f8592547bda1bfcc67930ee5f8770776b2e5de3790adb48422a1bfa1b6e"
+  },
+  {
+    "path": "publication_tables_JMST/TableS14.csv",
+    "bytes": 378,
+    "sha256": "7d22e4488b66ba18efac346c361a6e7de2a7182cbc4936e8a039a48012d58ee4"
+  },
+  {
+    "path": "publication_tables_JMST/TableS15.csv",
+    "bytes": 474,
+    "sha256": "61b4911ec6fce7167c6c57be2129745a35662aab1fdda9855110e6e365f4ab74"
+  },
+  {
+    "path": "publication_tables_JMST/TableS16.csv",
+    "bytes": 162,
+    "sha256": "2ff1ef9a1eefae771e4bb65ec9f6e65a400cad72ca358135b671e84bc8277cd6"
+  },
+  {
+    "path": "publication_tables_JMST/TableS2.csv",
+    "bytes": 623,
+    "sha256": "b53710e0db907c5fe6c1b9ae453042a0d4ed872cfb39e926ebd94f46ef334b6e"
+  },
+  {
+    "path": "publication_tables_JMST/TableS3.csv",
+    "bytes": 176,
+    "sha256": "b6b83c8f0080181bac3e2d355770f5f5a9933e6f564fa83dc462cf8cf81ad40c"
+  },
+  {
+    "path": "publication_tables_JMST/TableS4.csv",
+    "bytes": 278,
+    "sha256": "dabc53e4dbb16533cc36f4fbfbecbe0ede086ed1d895070855fa7298de74e8ea"
+  },
+  {
+    "path": "publication_tables_JMST/TableS5.csv",
+    "bytes": 378,
+    "sha256": "154c7841569f5527d7eaa6709e42eed938e15fad1fbd5e7e2c73b3a47bc3b377"
+  },
+  {
+    "path": "publication_tables_JMST/TableS6.csv",
+    "bytes": 860,
+    "sha256": "3627c9c84df220598bfcc31ac6859e1df451557cc2bbf081e9633b2d19494e39"
+  },
+  {
+    "path": "publication_tables_JMST/TableS7.csv",
+    "bytes": 1488,
+    "sha256": "56f843df1fb10ce48618810ffcf0b625c20ab7c09df50f3db6ac5cf739b5c53f"
+  },
+  {
+    "path": "publication_tables_JMST/TableS8.csv",
+    "bytes": 639,
+    "sha256": "86711034ac2b8b342f960631a940af89caa11d6de6b044a8f5f0534bd629ea4f"
+  },
+  {
+    "path": "publication_tables_JMST/TableS9.csv",
+    "bytes": 1709,
+    "sha256": "dfe7d3345029e118ec1160d42084516814cc9f32526567daa4cba06cc8db199e"
+  },
+  {
     "path": "README_REPRODUCTION.md",
-    "bytes": 7605,
-    "sha256": "2d106a73c324e1fc20affe6518749083c5c9a7291144237f5debb8ae1b099387"
+    "bytes": 8056,
+    "sha256": "bbd08a6bc6e74833f22061aa114e29757c03bfbbbe87218bc86da5d7bc96a314"
   },
   {
     "path": "recompute_exact.m",
@@ -58451,8 +58651,8 @@
   },
   {
     "path": "reproduce_all.m",
-    "bytes": 1616,
-    "sha256": "e3cc298b47487aaab8cbd1121b8b5442642388c16a4a87d9233b1f6d31fb0494"
+    "bytes": 1637,
+    "sha256": "119e5475422401cbc5f997f8621d8e4e3a4b6eb82b13483c18948a7be9177eea"
   },
   {
     "path": "reproduce_review.m",
@@ -58528,5 +58728,10 @@
     "path": "strip_legacy_presentation.m",
     "bytes": 2840,
     "sha256": "84a3e03894788c55b1b1545d24c1499fc7e29828324659f98bb8737259c86b45"
+  },
+  {
+    "path": "style_figure6_jmst.m",
+    "bytes": 813,
+    "sha256": "2d07ef431eae3e00e2cf6150018ca2cf978a83b9898c7540088a27f9744ee294"
   }
 ]

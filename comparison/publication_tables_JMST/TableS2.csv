@@ -1,0 +1,9 @@
+﻿Batch,Configurations,Runs per combination,Runs
+Development,"Three rounds of mechanism, parameter, and ablation screening",5,600
+Earlier confirmation and ablations,5 problems × 10 configurations,30,1500
+Earlier extended benchmarks,3 problems × 10 configurations,30,900
+Earlier mechanism comparisons,"5 configurations, including 120 reused baseline runs",30,150
+Two-objective correction,5 problems × Full and 4 affected ablations,30,750
+Added GDE3,8 benchmarks + 1 mechanism,30,270
+Added mechanism noLock,1 mechanism × 1 ablation,30,30
+Mechanism principal-axis ablations,1 mechanism × Diagonal/noNoise,30,60

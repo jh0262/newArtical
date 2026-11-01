@@ -17,5 +17,6 @@ for i=1:numel(names)
 end
 fprintf('Verified %d reference tables (%d rows). Rendering figures.\n',checked,rows);make_figures;
 writelines(jsonencode(struct('status','pass','tables',checked,'rows',rows,'optimizerSearches',0,'MATLAB',version,'figures',11)),fullfile(base,'reproduction_verification.json'));
+export_jmst_tables;
 fprintf('Reproduction complete: figures/ and reproduction_verification.json\n');
 end

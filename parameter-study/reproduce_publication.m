@@ -6,6 +6,7 @@ cleanup=onCleanup(@()restoreEnvironment(savedPath,savedThreads)); %#ok<NASGU>
 addpath(root,fullfile(root,'scripts'));
 reproduce_derived();
 make_parameter_figure();
+export_jmst_parameter_tables();
 fprintf('Publication Figure 10 and original derived tables/figures regenerated.\n');
 end
 function restoreEnvironment(savedPath,savedThreads)

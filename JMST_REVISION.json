@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-01",
+  "parent_commit": "f3d2e4c34ab89197d3d438964f39552c2c2937b3",
+  "scope": "MO-PACPO JMST publication mappings and Figure 6 styling",
+  "scientific_records_unchanged": true,
+  "new_optimizer_runs": 0,
+  "checks": [
+    "Figure6 coordinates/TOPSIS values/legend order unchanged",
+    "Current Table5 regenerated from six-contrast statistics",
+    "Current Table10 regenerated from 90 engineering confirmation runs"
+  ],
+  "changes": [
+    "Current map for 10 main tables,16 supplementary tables,12 figures",
+    "Current display table snapshots",
+    "Supplement S1 area-method reference corrected to [25]",
+    "Six distinct Figure6 markers and enlarged legend",
+    "Root documentation and current checksums"
+  ]
+}
